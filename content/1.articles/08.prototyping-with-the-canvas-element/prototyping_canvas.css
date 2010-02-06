@@ -1,0 +1,79 @@
+body.articles {
+  background: #FFF url(prototyping_canvas01.png) top center repeat-x;
+}
+
+#content a:hover {
+  background-color: hsla(330,80%,60%, .15);
+}
+
+#content blockquote {
+  font-size: 14px;
+  padding-left: 40px;
+  font-style: italic;
+}
+
+#reasons {
+  clear: both;
+}
+
+#content pre {
+  clear: left;
+}
+
+#reasons .col4 {
+  position: relative;
+}
+
+#reasons .col4 span.num {
+  position: absolute;
+  display: block;
+  font-size: 120px;
+  line-height: 80px;
+  left: -20px;
+  width: 40px;
+  color: hsla(330,80%,60%,.1);
+  z-index: 100;
+}
+
+pre {margin-bottom: 40px;}
+
+/*-- Examples --*/
+
+#drop-ex {
+  background: url(dropshad-down03.png) bottom repeat-x;  
+  padding-bottom: 20px;
+}
+#drop-ex p { 
+  font-size: 16px;
+  padding: 20px;
+  margin: 0;
+
+  background: #E58;
+  color: #FFF;
+}
+
+#grads-cnvs { margin-bottom: 20px;}
+
+#diag-ex p {
+  background: #E58 url(comments_error02.png);
+  padding: 20px;
+  color: #FFF;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#grain-ex p {
+  background: url(grain03.png);
+  padding: 20px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+
+
+/*-- IE6 issues --*/
+
+* html #content { background-image: none; }
+
+* html #content .col4 span.num { display: none; }
+

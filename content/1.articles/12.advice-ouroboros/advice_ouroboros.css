@@ -1,0 +1,44 @@
+body.articles {
+	background: #D8D6D4 ;
+}
+
+#content {
+	color: #20282F;
+	padding-bottom: 40px;
+}
+
+#content h1 { 
+    position: absolute;
+    left: -9999em;
+    top: -9999em;
+}
+
+#content h1 a {
+    color: #FFF;
+}
+#content h1 a:hover {
+    color: #20282F;
+}
+
+#ouroboros {
+	position: relative;
+	width: 940px;
+	
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 20px;
+	clear: both;
+	font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
+	
+}
+#ouroboros p {
+	margin-bottom: 1.0em;
+}
+
+#ouroboros .experience {
+	font-size: 15px;
+}
+#ouroboros .advice {
+	font-size: 24px;
+}

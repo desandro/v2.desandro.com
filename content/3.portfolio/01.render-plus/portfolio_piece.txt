@@ -1,0 +1,8 @@
+title: Render Plus Systems
+-
+portfolio_piece: yes
+-
+skills: Identity &amp; Logo Design
+-
+header_deet:
+Render Plus Systems develops computer-aided design and graphics software. Their primary products are tools and plug-ins for Google SketchUp, a 3-D modeling application for architects and civil engineers. The identity uses basic flat shapes that represent the building blocks of 3-D modeling. Concept work.

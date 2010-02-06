@@ -1,0 +1,122 @@
+
+/**** Speech Bubble Icons *****/
+
+.spch-bub-inside,
+.spch-bub-outside {
+  text-decoration: none;
+  position: relative;
+}
+
+
+a.spch-bub-inside,
+a.spch-bub-outside {
+  color: #00F;
+}
+
+.spch-bub-inside em,
+.spch-bub-outside em {
+  font-style: normal;
+}
+
+.spch-bub-inside em {
+  background: #00F;
+  color: #FFF;
+  padding: 0 0.4em;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.25em;
+  position: relative;
+}
+
+.spch-bub-inside .point,
+.spch-bub-outside .point {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 1.1em;
+  left: 0.4em;
+  display: block;
+  border-left: 0.45em solid #00F; 
+  border-bottom: 0.45em solid #FFF; /* IE fix */
+  border-bottom: 0.45em solid rgba(0,0,0,0); 
+  overflow: hidden; /* IE fix */
+}
+
+.spch-bub-outside {
+ padding-left: 2.0em;
+}
+
+.spch-bub-outside .bubble {
+  top: 0;
+  left: 0;
+  display: block;
+  position: absolute;
+  height: 1.1em;
+  width: 1.8em;
+  background: #00F;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.25em;
+}
+a.spch-bub-inside:hover,
+a.spch-bub-outside:hover {
+  color: #F00;
+}
+
+a.spch-bub-inside:hover em,
+a.spch-bub-outside:hover .bubble  {
+  cursor: pointer;
+  background: #F00;
+  color: #FF0;
+}
+
+a.spch-bub-inside:hover .point,
+a.spch-bub-outside:hover .point {
+  border-left: 0.5em solid #F00; 
+}
+
+div.spch-bub-outside {
+  height: 1.5em;
+  width: 0;
+}
+
+/******* Page particular *******/
+#examples {
+  padding: 20px;
+  font-size: 14px;
+  background: #FFD;
+}
+
+#icon1 {
+  font-size: 78px;
+  margin: 0 20px 0px 0;
+}
+#icon1 .bubble { background-color: #FC3; }
+#icon1 .point { border-left-color: #FC3; }
+
+#icon2 .spch-bub-outside { font-size: 39px; float: left; width: 70px; padding-left: 0;}
+#icon2 .bubble { background-color: #FC3; }
+#icon2 .point { border-left-color: #FC3; }
+
+#icon2 .icon2a .bubble { background-color: rgba(255, 208, 64, .8); }
+#icon2 .icon2a .point { border-left-color: rgba(255, 208, 64, .8); }
+#icon2 .icon2b .bubble { background-color: rgba(255, 208, 64, .5); }
+#icon2 .icon2b .point { border-left-color: rgba(255, 208, 64, .5); }
+#icon2 .icon2c .bubble { background-color: rgba(255, 208, 64, .5); }
+#icon2 .icon2c .point { border-left-color: rgba(255, 208, 64, .5); }
+#icon2 .icon2d .bubble { background-color: rgba(255, 208, 64, .3); }
+#icon2 .icon2d .point { border-left-color: rgba(255, 208, 64, .3); }
+
+#css-select form { display: none; }
+
+fieldset {
+  margin-bottom: 10px;
+  border: 1px solid #CCC;
+  padding: 4px 0 4px 20px;
+  -moz-border-radius: 3px;
+}
+legend {
+  font-weight: bold;
+  padding: 0 0.5em;
+}
+label {margin-right: 16px;}

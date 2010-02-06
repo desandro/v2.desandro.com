@@ -1,0 +1,56 @@
+body.articles {
+  background: #222 url(comments_error02.png);
+
+}
+
+#content a:hover { color: #FFF; }
+
+#content h1 { 
+    position: absolute;
+    left: -9999em;
+    top: -9999em;
+}
+
+
+
+#content {color: #FFF;}
+
+
+p#uncover {
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  color: #FFF;
+  padding: 30px 0 60px;
+}
+
+p#uncover span {
+  background: transparent; /* browsers that can't handle rgba */
+  background: rgba(255,255,255,1);
+  padding: 0 0.05em;
+}
+
+p#uncover span:hover {
+  background: transparent;
+}
+
+/**************************
+**  Site Header
+**************************/
+
+#site_header #branding {
+    background: #FFF;
+    color: #222;
+}
+
+#site_header #branding p a {
+    color: #222;
+}
+
+#site_header ol a {
+    color: #FFF;
+}
+body.articles #site_header ol .articles,
+body.articles #site_header ol .articles a { 
+    color: #222; 
+}

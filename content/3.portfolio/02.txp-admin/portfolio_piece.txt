@@ -1,0 +1,37 @@
+title: Textpattern Admin Themes
+-
+portfolio_piece: yes
+-
+skills: CSS / PHP
+-
+link_text: View demo and download themes
+-
+link_url: http://txpadminthemes.desandro.com/article
+-
+header_deet:
+Textpattern is a flexible, elegant and easy-to-use CMS. I love the product and it&rsquo;s my go-to CMS of choice. <a href="http://www.flickr.com/photos/hicksdesign/989595974/">Like other designers</a>, I saw plenty of areas of improvement in its user interface. These themes were developed in CSS for the administration back-end. Read more about my design process in <a href="http://desandro.com/articles/textpattern-interface-case-study">Textpattern Interface Case Study</a>.
+-
+canvas_h: 1178
+-
+addl_deets:
+<details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Prior to version 4.2.0 there was no accessible way to implement custom themes. So in addition to the CSS themes, I developed a plugin to allow users to select and edit the admin themes from within the Textpattern back-end.                            
+    </dd>
+</details>
+<details class="deet2 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Images like the gradients in these buttons were inserted directly into CSS through data URI encoding. This allowed me to use simple imagery in the CSS without having to link to an external resource. In turn, users only have to worry about the CSS file, no fussing with images.                            
+    </dd>
+</details>
+<details class="deet3 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        So many flavors to chose from! In attempting to create the ideal one-to-rule-them-all theme, I pursue several different directions. The result was 11 distinct themes, each with its own personality.                            
+    </dd>
+</details>

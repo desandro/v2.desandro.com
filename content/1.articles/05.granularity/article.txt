@@ -1,0 +1,159 @@
+title: Granularity
+-
+article: yes
+-
+date: 1 Mar 2009
+-
+content:
+<div class="wrap12">
+    <h1>@title</h1>
+    <p class="gran">
+        <span>I</span>
+        <span>&nbsp;</span>
+        <span>f</span><span>i</span><span>n</span><span>d</span>
+        <span>&nbsp;</span>
+        <span>c</span><span>o</span><span>m</span><span>f</span><span>o</span><span>r</span><span>t</span>
+        <span>&nbsp;</span>
+        <span>i</span><span>n</span>
+        <span>&nbsp;</span>
+        <span>t</span><span>h</span><span>e</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+        <br />
+        <span>g</span><span>r</span><span>a</span><span>n</span><span>u</span><span>l</span><span>a</span><span>r</span><span>i</span><span>t</span><span>y</span>
+        <span>&nbsp;</span>
+        <span>o</span><span>f</span>
+        <span>&nbsp;</span>
+        <span>w</span><span>e</span><span>b</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+         <br />
+        <span>d</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>.</span>
+        <span>&nbsp;</span>
+        <span>E</span><span>v</span><span>e</span><span>r</span><span>y</span><span>t</span><span>h</span><span>i</span><span>n</span><span>g</span>
+        <span>&nbsp;</span>
+        <span>y</span><span>o</span><span>u</span>
+        <span>&nbsp;</span>
+        <br />
+        <span>s</span><span>e</span><span>e</span>
+        <span>&nbsp;</span>
+        <span>a</span><span>n</span><span>d</span>
+        <span>&nbsp;</span>
+        <span>i</span><span>n</span><span>t</span><span>e</span><span>r</span><span>a</span><span>c</span><span>t</span>
+        <span>&nbsp;</span>
+        <span>w</span><span>i</span><span>t</span><span>h</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+        <br />
+        <span>c</span><span>a</span><span>n</span>
+        <span>&nbsp;</span>
+        <span>b</span><span>e</span>
+        <span>&nbsp;</span>
+        <span>b</span><span>r</span><span>o</span><span>k</span><span>e</span><span>n</span>
+        <span>&nbsp;</span>
+        <span>d</span><span>o</span><span>w</span><span>n</span>
+        <span>&nbsp;</span>
+        <span>a</span><span>n</span><span>d</span>
+        <span>&nbsp;</span>
+         <br />
+        <span>s</span><span>u</span><span>b</span><span>&mdash;</span><span>d</span><span>i</span><span>v</span><span>i</span><span>d</span><span>e</span><span>d</span>
+        <span>&nbsp;</span>
+        <span>i</span><span>n</span><span>t</span><span>o</span>
+        <span>&nbsp;</span>
+        <span>s</span><span>m</span><span>a</span><span>l</span><span>l</span><span>&mdash;</span> <br />
+        <span>e</span><span>r</span><span>,</span>
+        <span>&nbsp;</span>
+        <span>s</span><span>i</span><span>m</span><span>p</span><span>l</span><span>e</span><span>r</span>
+        <span>&nbsp;</span>
+        <span>c</span><span>o</span><span>m</span><span>p</span><span>o</span><span>n</span><span>e</span><span>n</span><span>t</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+        <br />
+        <span>p</span><span>a</span><span>r</span><span>t</span><span>s</span><span>.</span>
+        <span>&nbsp;</span>
+        <span>N</span><span>o</span>
+        <span>&nbsp;</span>
+        <span>m</span><span>a</span><span>t</span><span>t</span><span>e</span><span>r</span>
+        <span>&nbsp;</span>
+        <span>h</span><span>o</span><span>w</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+        <br />
+        <span>c</span><span>o</span><span>m</span><span>p</span><span>l</span><span>e</span><span>x</span>
+        <span>&nbsp;</span>
+        <span>o</span><span>r</span>
+        <span>&nbsp;</span>
+        <span>i</span><span>n</span><span>t</span><span>r</span><span>i</span><span>c</span><span>a</span><span>t</span><span>e</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+         <br />
+        <span>t</span><span>h</span><span>e</span>
+        <span>&nbsp;</span>
+        <span>w</span><span>o</span><span>r</span><span>k</span>
+        <span>&nbsp;</span>
+        <span>b</span><span>e</span><span>c</span><span>o</span><span>m</span><span>e</span><span>s</span><span>,</span>
+        <span>&nbsp;</span>
+        <span>i</span><span>t</span><span>‘</span><span>s</span>
+        <span>&nbsp;</span>
+         <br />
+        <span>a</span><span>l</span><span>l</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+        <span>j</span><span>u</span><span>s</span><span>t</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+        <span>a</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+        <span>b</span><span>u</span><span>n</span><span>c</span><span>h</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+        <span>o</span><span>f</span>    
+        <br />
+        <span>c</span><span>a</span><span>r</span><span>e</span><span>f</span><span>u</span><span>l</span><span>l</span><span>y</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+        <span>s</span><span>e</span><span>l</span><span>e</span><span>c</span><span>t</span><span>e</span><span>d</span>
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+
+        <span>&nbsp;</span>
+         <br />
+        <span>c</span><span>h</span><span>a</span><span>r</span><span>a</span><span>c</span><span>t</span><span>e</span><span>r</span><span>s</span>
+        <span>&nbsp;</span>
+        <span>p</span><span>l</span><span>a</span><span>c</span><span>e</span><span>d</span>
+        <span>&nbsp;</span>
+        <span>i</span><span>n</span>
+        <span>&nbsp;</span>
+        <span>a</span>
+        <span>&nbsp;</span>
+         <br />
+        <span>p</span><span>a</span><span>r</span><span>t</span><span>i</span><span>c</span><span>u</span><span>l</span><span>a</span><span>r</span>
+        <span>&nbsp;</span>
+        <span>o</span><span>r</span><span>d</span><span>e</span><span>r</span><span>.</span> 
+    </p>    
+</div> <!-- /.wrap12 -->

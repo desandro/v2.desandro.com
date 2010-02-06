@@ -1,0 +1,804 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Portfolio Index &middot;  David DeSandro</title>
+    <link rel="stylesheet" href="../_base/css/desandro.css" type="text/css" media="screen" />
+    <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="../_base/js/jquery-1.4.min.js"></script>
+    <!-- <script type="text/javascript" src="_base/js/application.js"></script> -->
+    <script src="/mint/?js" type="text/javascript"></script>
+
+
+
+<link rel="stylesheet" href="../_base/css/portfolio.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="../_base/js/jquery.easing.1.3.js" charset="utf-8"></script>
+<script type="text/javascript" src="../_base/js/portfolio.js" charset="utf-8"></script>
+
+</head>
+<body class="portfolio tk_proxima_nova">
+ <section id="site_header" class="tk_proxima_nova">
+    <div id="branding">
+        <p><a href="../"><span>David</span> DeSandro</a>  / </p>
+    </div>
+    <ol>
+        <li class="articles"><a href="../articles">Articles</a>
+
+            
+        </li>
+        <li class="resources"><a href="../resources">Resources</a>
+            
+        </li>
+        <li class="portfolio"><a href="../portfolio">Portfolio</a>
+            
+        </li>
+        <li class="about"><a href="../about">About &amp; Contact</a></li>
+    </ol>    
+</section>
+
+<header class="wrap12">
+    <h1 class="col12">Portfolio</h1>
+</header>
+
+
+<ul id="port_nav">
+    <li class="updown previous"><a href="#">
+		<details>
+			<dt>Previous image<span class="pointer"></span></dt>
+		</details>
+        <span class="pos"></span>
+        <span class="neg inside"></span>
+        <span class="neg outside"></span>
+    </a></li>
+    <li class="updown next"><a href="#">
+		<details>
+			<dt>Next image<span class="pointer"></span></dt>
+		</details>
+        <span class="pos"></span>
+        <span class="neg inside"></span>
+        <span class="neg outside"></span>
+    </a></li>
+            <li class="nav_article">
+            <a href="#mashable">
+                <span class="dot"></span>
+				<details>
+					<dt> Mashable <span class="pointer"></span></dt>
+					<dd> CSS / WordPress Integration </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#welovemariokart">
+                <span class="dot"></span>
+				<details>
+					<dt> welovemariokart <span class="pointer"></span></dt>
+					<dd> HTML5 / CSS3 / jQuery / PHP </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#curtis-css-typeface">
+                <span class="dot"></span>
+				<details>
+					<dt> Curtis CSS Typeface <span class="pointer"></span></dt>
+					<dd> Typographic HTML &amp; CSS Experiment </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#gdzlla">
+                <span class="dot"></span>
+				<details>
+					<dt> GDZLLA <span class="pointer"></span></dt>
+					<dd> Illustration / jQuery Fun 404 page </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#jquery-masonry">
+                <span class="dot"></span>
+				<details>
+					<dt> jQuery Masonry <span class="pointer"></span></dt>
+					<dd> jQuery Plugin / Documentation </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#stc-france">
+                <span class="dot"></span>
+				<details>
+					<dt> STC France <span class="pointer"></span></dt>
+					<dd> Logo </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#gmail-vitamin">
+                <span class="dot"></span>
+				<details>
+					<dt> Gmail Vitamin <span class="pointer"></span></dt>
+					<dd> CSS Userstyle </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#grey-king">
+                <span class="dot"></span>
+				<details>
+					<dt> The Grey King <span class="pointer"></span></dt>
+					<dd> Book Cover: Layout / Illustration </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#txp-org">
+                <span class="dot"></span>
+				<details>
+					<dt> Textpattern.org <span class="pointer"></span></dt>
+					<dd> HTML / CSS / Information Architecture </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#craigslist">
+                <span class="dot"></span>
+				<details>
+					<dt> Craigslist Clean-up <span class="pointer"></span></dt>
+					<dd> CSS Userstyle </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#txp-forum">
+                <span class="dot"></span>
+				<details>
+					<dt> Textpattern Forum <span class="pointer"></span></dt>
+					<dd> CSS </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#mobile-fuel">
+                <span class="dot"></span>
+				<details>
+					<dt> Mobile Fuel <span class="pointer"></span></dt>
+					<dd> Facebook Application: Visual Design </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#txp-admin">
+                <span class="dot"></span>
+				<details>
+					<dt> Textpattern Admin Themes <span class="pointer"></span></dt>
+					<dd> CSS / PHP </dd>
+				</details>
+            </a>
+        </li>
+            <li class="nav_article">
+            <a href="#render-plus">
+                <span class="dot"></span>
+				<details>
+					<dt> Render Plus Systems <span class="pointer"></span></dt>
+					<dd> Identity &amp; Logo Design </dd>
+				</details>
+            </a>
+        </li>
+    
+</ul>
+
+    
+<article id="mashable">
+    <section class="images">
+                    <div class="image mashable03"> <img src="../content/3.portfolio/14.mashable/mashable03.jpg" width="975" height="478"  /></div>
+                    <div class="image mashable02"> <img src="../content/3.portfolio/14.mashable/mashable02.jpg" width="975" height="523"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+                            <canvas width="960" height="1000"></canvas>
+            
+            <header>
+                <h2>Mashable</h2>
+                <div>
+                    <p class="skills">CSS / WordPress Integration</p>
+                                                    <p class="visit"><a href="http://mashable.com/">Visit mashable.com<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        When Pete Cashmore and the Mashable team turned to nclud as strategic partners for their upcoming redesign, I was responsible for realizing the new visual treatment for mashable.com. Collaborating with my peers at nclud, we sought to make an attractive, accessible design that could easily be scanned and read by the massive Mashable readership. Given the great amount of content produced by Mashable writers, I paid keen attention to the visual hierarchy of the articles and features.
+                    </dd>
+                </details>
+            </header>
+                            <details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        As Mashable is on the forefront of social media, I wanted the user interface to be just as forward thinking. CSS transitions are employed here in these navigation elements, as well in other numerous places.
+    </dd>
+</details>
+<details class="deet2 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        With the variety of sizes of and styles of content types, these various elements are all aligned to a grid, thus establishing visual cohesion.
+    </dd>
+</details>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="welovemariokart">
+    <section class="images">
+                    <div class="image welovemariokart05"> <img src="../content/3.portfolio/13.welovemariokart/welovemariokart05.jpg" width="940" height="804"  /></div>
+                    <div class="image welovemariokart04"> <img src="../content/3.portfolio/13.welovemariokart/welovemariokart04.jpg" width="915" height="446"  /></div>
+                    <div class="image welovemariokart03"> <img src="../content/3.portfolio/13.welovemariokart/welovemariokart03.png" width="400" height="300"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+                            <canvas width="960" height="1550"></canvas>
+            
+            <header>
+                <h2>welovemariokart</h2>
+                <div>
+                    <p class="skills">HTML5 / CSS3 / jQuery / PHP</p>
+                                                    <p class="visit"><a href="http://wiilovemariokart.com/preview/friday.html">View demo<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        At nclud, we love our Mario Kart. To the viewer, welovemariokart is a simple website that visualizes the results of races. To me, this project provided the environment to experiment with new features of HTML5 and CSS3. Personal side-projects like these are the ideal playgrounds to innovate.
+                    </dd>
+                </details>
+            </header>
+                            <details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Player results are animated and sorted with jQuery.
+    </dd>
+</details>
+<details class="deet2 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Bezier curves are rendered with the HTML5 canvas element.
+        </dd>
+</details>
+<details class="deet3 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Selecting settings is done with a drag &amp; drop user interface, using <a href="http://jqueryui.com/">jQuery UI</a>.  CSS3 box-shadows are leveraged to indicate UI states.
+    </dd>
+</details>
+<details class="deet4 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        These buttons are rendered purely with CSS, no images involved. The shading is achieved using a combination of inline box-shadow and CSS gradients.
+    </dd>
+</details>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="curtis-css-typeface">
+    <section class="images">
+                    <div class="image curtis01"> <img src="../content/3.portfolio/12.curtis-css-typeface/curtis01.png" width="940" height="500"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+            
+            <header>
+                <h2>Curtis CSS Typeface</h2>
+                <div>
+                    <p class="skills">Typographic HTML &amp; CSS Experiment</p>
+                                                    <p class="visit"><a href="/resources/curtis-css-typeface">View experiment<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        All of the shapes that make up these letter forms were rendered exclusively with CSS. While this experiment in typography does not have any practical application, it does exemplify that CSS is not just limited to boxes and styling.
+                    </dd>
+                </details>
+            </header>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="gdzlla">
+    <section class="images">
+                    <div class="image gdzlla"> <img src="../content/3.portfolio/11.gdzlla/gdzlla.jpg" width="940" height="480"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+                            <canvas width="960" height="480"></canvas>
+            
+            <header>
+                <h2>GDZLLA</h2>
+                <div>
+                    <p class="skills">Illustration / jQuery Fun 404 page</p>
+                                                    <p class="visit"><a href="http://gdzl.la">View live site<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        Once we branded the nclud Tweetie/Flickr script as GDZLLA, it was obvious that we needed an adorable mascot to give the product some personality.
+                    </dd>
+                </details>
+            </header>
+                            <details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Just like the application of GDZLLA itself, the illustration was created organically rapidly. Given a tight deadline, I relied on simple shapes as the foundational forms that make up Smash the mascot.  His head, body, and all the parts of his eyes are comprised of circles.<br /> 
+        <br />
+        <a href="http://nclud.com/sketchbook/illustrating-smash-the-gdzlla-mascot/">Read more about the illustrative process behind Smash.</a>                          
+    </dd>
+</details>
+<details class="deet2 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Smash takes center stage on the <a href="http://gdzl.la/404">GDZLLA 404 page</a>. Infusing the illustration with jQuery animation brought the mascot to life.                        
+    </dd>
+</details>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="jquery-masonry">
+    <section class="images">
+                    <div class="image masonry"> <img src="../content/3.portfolio/10.jquery-masonry/masonry.png" width="940" height="440"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+            
+            <header>
+                <h2>jQuery Masonry</h2>
+                <div>
+                    <p class="skills">jQuery Plugin / Documentation</p>
+                                                    <p class="visit"><a href="/resources/jquery-masonry">View plugin resource<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        Masonry is a layout plugin for jQuery. Think of it as the flip side of CSS floats. Whereas floating arranges elements horizontally then vertically, Masonry arranges elements vertically then horizontally according to a grid. The result minimizes vertical gaps between elements of varying height, just like a mason fitting stones in a wall.
+                    </dd>
+                </details>
+            </header>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="stc-france">
+    <section class="images">
+                    <div class="image stc_france"> <img src="../content/3.portfolio/09.stc-france/stc_france.png" width="940" height="396"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+            
+            <header>
+                <h2>STC France</h2>
+                <div>
+                    <p class="skills">Logo</p>
+                                                    <p class="visit"><a href="http://stcfrance.org/articles/61/david-desandro-delivers-on-the-new-stc-france-logo">Read client testimonial<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        Logo for the <a href="http://stcfrance.org">France Chapter of the Society for Technical Communication.</a>
+                    </dd>
+                </details>
+            </header>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="gmail-vitamin">
+    <section class="images">
+                    <div class="image gmail_vitamin"> <img src="../content/3.portfolio/08.gmail-vitamin/gmail_vitamin.png" width="937" height="460"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+                            <canvas width="960" height="460"></canvas>
+            
+            <header>
+                <h2>Gmail Vitamin</h2>
+                <div>
+                    <p class="skills">CSS Userstyle</p>
+                                                    <p class="visit"><a href="http://userstyles.org/styles/19022">Download userstyle<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        Although Gmail is incredibly popular, it has enough visual quirks to ensure no one is happy with its appearance. Userstyles enable web users to load their own custom CSS on top any site. With this empowerment, I took it upon myself to touch up the interface and make it a more appealing visual experience.<br />
+<br />
+<a href="/articles/introducing-gmail-vitamin-a-userstyle">Read more about my design process.</a>
+                    </dd>
+                </details>
+            </header>
+                            <details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Removing the static underline for links reduces visual complexity, while adding functionality so they can be turned back on for hover states.<br>
+<br>
+These links also use a larger font size, to help establish visual hierarchy.
+    </dd>
+</details>
+<details class="deet2 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        I brought in the suggestions made by <a href="http://www.subtraction.com/2008/06/17/spacing-is-e">Khoi Vihn</a>, adding padding around all visual elements making the interface more legible.
+        </dd>
+</details>
+<details class="deet3 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Buttons now use a softer gradient and proper CSS rounded corners.
+    </dd>
+</details>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="grey-king">
+    <section class="images">
+                    <div class="image grey_king"> <img src="../content/3.portfolio/07.grey-king/grey_king.png" width="900" height="649"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+                            <canvas width="960" height="649"></canvas>
+            
+            <header>
+                <h2>The Grey King</h2>
+                <div>
+                    <p class="skills">Book Cover: Layout / Illustration</p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        <em>The Grey King</em> is the fourth novel in Susan Cooper’s five-volume fantasy saga The Dark Is Rising. Set in the Welsh countryside, the story follows 13-year old Will Stanton in his quest against the evil Grey King, lord of the Dark. Student work.
+                    </dd>
+                </details>
+            </header>
+                            <details class="deet1 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        As a winner of the Newberry Award, this book is a classic, so I chose iconic imagery that would stand the test of time.
+    </dd>
+</details>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="txp-org">
+    <section class="images">
+                    <div class="image txp_org05"> <img src="../content/3.portfolio/06.txp-org/txp_org05.jpg" width="958" height="584"  /></div>
+                    <div class="image txp_org04"> <img src="../content/3.portfolio/06.txp-org/txp_org04.jpg" width="962" height="536"  /></div>
+                    <div class="image txp_org03"> <img src="../content/3.portfolio/06.txp-org/txp_org03.jpg" width="962" height="584"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+                            <canvas width="960" height="1700"></canvas>
+            
+            <header>
+                <h2>Textpattern.org</h2>
+                <div>
+                    <p class="skills">HTML / CSS / Information Architecture</p>
+                                                    <p class="visit"><a href="/work/txp_org_v3/txporgv3_07/home.php">View demo site<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        This proposal project was a visual design and information architecture migration for <a href="http://textpattern.org">Textpattern Resources</a>, a community run site that catelogs all plugins for the Textpattern CMS. The demo site was completed as part of my coursework at CDIA. Progress on the actual site is tentative.
+                    </dd>
+                </details>
+            </header>
+                            <details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        One of the primary goals for this redesign was to condense the content structure. Whereas the site had six different content types, moving forward, Textpattern Resources would be focused only on cataloging plugins. The main navigation is now just the primary filters that organize the plugins.<br />
+<br />
+Older content and sections of lesser importance can still be access through the secondary nav on the top left.                            
+    </dd>
+</details>
+<details class="deet2 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        To reflect the minimal and lightweight nature of Textpattern, I avoided using heavy amounts of imagery and instead focused on the typography. As this site’s primary purpose to organize and present plugins, by keeping it simple, users can better scan and consume the content of each page.                            
+    </dd>
+</details>
+<details class="deet3 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Focusing on usability, a large portion of this project was aimed at simplifying functionality and removing excess content areas. The home page reflects this paradigm, offering a simple welcome blurb that directs new users to jump right in.
+    </dd>
+</details>
+<details class="deet4 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        The typical tag cloud is actually counter-productive. By making the most popular tags visually larger, it over-emphasizes the content that is already popular. In the case of a library or directory like Textpattern.org, the less popular tags deserve just as much attention. To visualize the popularity of each tag, a simple bar graph is employed.
+    </dd>
+</details>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="craigslist">
+    <section class="images">
+                    <div class="image craigslist6"> <img src="../content/3.portfolio/05.craigslist/craigslist6.png" width="1006" height="467"  /></div>
+                    <div class="image craigslist5"> <img src="../content/3.portfolio/05.craigslist/craigslist5.png" width="735" height="468"  /></div>
+                    <div class="image craigslist4"> <img src="../content/3.portfolio/05.craigslist/craigslist4.jpg" width="721" height="671"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+                            <canvas width="960" height="1600"></canvas>
+            
+            <header>
+                <h2>Craigslist Clean-up</h2>
+                <div>
+                    <p class="skills">CSS Userstyle</p>
+                                                    <p class="visit"><a href="http://userstyles.org/styles/12729">Download userstyle<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        Textpattern is a flexible, elegant and easy-to-use CMS. I love the product and it&rsquo;s my go-to CMS of choice. <a href="http://www.flickr.com/photos/hicksdesign/989595974/">Like other designers</a>, I saw plenty of areas of improvement in its user interface. These themes were developed in CSS for the administration back-end. Read more about my design process in <a href="http://desandro.com/articles/textpattern-interface-case-study">Textpattern Interface Case Study</a>.
+                    </dd>
+                </details>
+            </header>
+                            <details class="deet1 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Look familiar? The userstyle adheres to the current Craigslist visual brand (or lack there of). My goal was not to completely overhaul the interface, but to enhance and address every detail in order to provide a more legible and aesthetically pleasing website.                           
+    </dd>
+</details>
+<details class="deet2 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        By setting the total width of the content fairly thin, lines of text are kept to appropriate length, thus improving legibility.                          
+    </dd>
+</details>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="txp-forum">
+    <section class="images">
+                    <div class="image txp_forum_thread"> <img src="../content/3.portfolio/04.txp-forum/txp_forum_thread.jpg" width="900" height="750"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+                            <canvas width="960" height="750"></canvas>
+            
+            <header>
+                <h2>Textpattern Forum</h2>
+                <div>
+                    <p class="skills">CSS</p>
+                                                    <p class="visit"><a href="http://forum.textpattern.com">Visit the forum<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        Too often, forums aren&rsquo;t given the proper attention they deserve. Consider how many forums you might have stumbled upon.  Being an active member in the Textpattern community, I took the initiative to contribute to the cause and re-style the community forum.
+                    </dd>
+                </details>
+            </header>
+                            <details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Once you are a member of the forum, you can set this style as a preference. Go to Profile &gt; Display and select <em>tabula</em> as your preferred style.
+    </dd>
+</details>
+<details class="deet2 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Blockquotes like this one are integral to the communicative nature of the forum. By utilizing border radius, the shape of the quote points right to the speaker.
+    </dd>
+</details>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="mobile-fuel">
+    <section class="images">
+                    <div class="image mobile_fuel"> <img src="../content/3.portfolio/03.mobile-fuel/mobile_fuel.jpg" width="960" height="592"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+            
+            <header>
+                <h2>Mobile Fuel</h2>
+                <div>
+                    <p class="skills">Facebook Application: Visual Design</p>
+                                                    <p class="visit"><a href="http://apps.facebook.com/mobilefuel/">View App on Facebook<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        Mobile Fuel is a Facebook application for AT&amp;T mobile phone customers. Mobile Fuel users receive exclusive offers, including free ringtones, free mobile games and more.<br />
+<br />
+In addition to touching up the aesthetics of the app, I was charged with aligning the visual brand of Mobile Fuel closer to its parent company AT&amp;T.
+                    </dd>
+                </details>
+            </header>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="txp-admin">
+    <section class="images">
+                    <div class="image txp_admin2"> <img src="../content/3.portfolio/02.txp-admin/txp_admin2.png" width="967" height="624"  /></div>
+                    <div class="image txp_admin1"> <img src="../content/3.portfolio/02.txp-admin/txp_admin1.jpg" width="960" height="554"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+                            <canvas width="960" height="1178"></canvas>
+            
+            <header>
+                <h2>Textpattern Admin Themes</h2>
+                <div>
+                    <p class="skills">CSS / PHP</p>
+                                                    <p class="visit"><a href="http://txpadminthemes.desandro.com/article">View demo and download themes<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        Textpattern is a flexible, elegant and easy-to-use CMS. I love the product and it&rsquo;s my go-to CMS of choice. <a href="http://www.flickr.com/photos/hicksdesign/989595974/">Like other designers</a>, I saw plenty of areas of improvement in its user interface. These themes were developed in CSS for the administration back-end. Read more about my design process in <a href="http://desandro.com/articles/textpattern-interface-case-study">Textpattern Interface Case Study</a>.
+                    </dd>
+                </details>
+            </header>
+                            <details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Prior to version 4.2.0 there was no accessible way to implement custom themes. So in addition to the CSS themes, I developed a plugin to allow users to select and edit the admin themes from within the Textpattern back-end.                            
+    </dd>
+</details>
+<details class="deet2 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Images like the gradients in these buttons were inserted directly into CSS through data URI encoding. This allowed me to use simple imagery in the CSS without having to link to an external resource. In turn, users only have to worry about the CSS file, no fussing with images.                            
+    </dd>
+</details>
+<details class="deet3 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        So many flavors to chose from! In attempting to create the ideal one-to-rule-them-all theme, I pursue several different directions. The result was 11 distinct themes, each with its own personality.                            
+    </dd>
+</details>
+            
+        </div>
+    </section>
+</article>
+    
+<article id="render-plus">
+    <section class="images">
+                    <div class="image renderplus"> <img src="../content/3.portfolio/01.render-plus/renderplus.jpg" width="940" height="600"  /></div>
+        
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+            
+            <header>
+                <h2>Render Plus Systems</h2>
+                <div>
+                    <p class="skills">Identity &amp; Logo Design</p>
+                        
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        Render Plus Systems develops computer-aided design and graphics software. Their primary products are tools and plug-ins for Google SketchUp, a 3-D modeling application for architects and civil engineers. The identity uses basic flat shapes that represent the building blocks of 3-D modeling. Concept work.
+                    </dd>
+                </details>
+            </header>
+            
+        </div>
+    </section>
+</article>
+
+     <section id="site_footer" class="tk_proxima_nova">
+        <div class="wrap12">
+            <div class="made_this col4">
+                <p class="who_did">
+                    <span class="david">David</span>
+                    <span class="desandro">DeSandro</span>
+                    made this.
+                </p>
+                <p class="copyright">&copy; 2009 &ndash; 2010</p>                
+            </div>
+
+            <p class="where_what col4">
+                <span class="heisa">He is a graphic &amp;</span>
+                <span class="designer">web designer</span>
+                <span class="living">living in Arlington, VA,</span>
+                <span class="working">working at <a href="http://nclud.com">nclud</a> in Washington, DC.</span>
+                <span class="happy">Being creative and making stuff keeps him happy.</span>
+            </p>
+            <div class="also_made col4">
+                <h3>Dave also made</h3>
+                <ul>
+                    <li class="jqmsnry"><a href="../resources/jquery-masonry/">jQuery Masonry</a></li>
+                    <li class="curtis"><a href="../resources/curtis-css-typeface/">Curtis CSS Typeface</a></li>
+                    <li class="speechbub"><a href="../resources/css-speech-bubble-icon/">CSS Speech Bubble</a></li>
+                </ul>
+            </div>
+        </div>
+    </section> <!-- #site_footer -->
+</body>
+</html>
+
+
+<!-- Stacey(2.0): d346160852521daf6acdf02b2ddc5d30 -->

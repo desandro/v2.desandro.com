@@ -1,0 +1,32 @@
+title: GDZLLA
+-
+portfolio_piece: yes
+-
+skills: Illustration / jQuery Fun 404 page
+-
+link_text: View live site
+-
+link_url: http://gdzl.la
+-
+header_deet:
+Once we branded the nclud Tweetie/Flickr script as GDZLLA, it was obvious that we needed an adorable mascot to give the product some personality.
+-
+canvas_h: 480
+-
+addl_deets:
+<details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Just like the application of GDZLLA itself, the illustration was created organically rapidly. Given a tight deadline, I relied on simple shapes as the foundational forms that make up Smash the mascot.  His head, body, and all the parts of his eyes are comprised of circles.<br /> 
+        <br />
+        <a href="http://nclud.com/sketchbook/illustrating-smash-the-gdzlla-mascot/">Read more about the illustrative process behind Smash.</a>                          
+    </dd>
+</details>
+<details class="deet2 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Smash takes center stage on the <a href="http://gdzl.la/404">GDZLLA 404 page</a>. Infusing the illustration with jQuery animation brought the mascot to life.                        
+    </dd>
+</details>

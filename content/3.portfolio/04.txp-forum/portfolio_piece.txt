@@ -1,0 +1,30 @@
+title: Textpattern Forum
+-
+portfolio_piece: yes
+-
+skills: CSS
+-
+link_url: http://forum.textpattern.com
+-
+link_text: Visit the forum
+-
+header_deet:
+Too often, forums aren&rsquo;t given the proper attention they deserve. Consider how many forums you might have stumbled upon.  Being an active member in the Textpattern community, I took the initiative to contribute to the cause and re-style the community forum.
+-
+canvas_h: 750
+-
+addl_deets:
+<details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Once you are a member of the forum, you can set this style as a preference. Go to Profile &gt; Display and select <em>tabula</em> as your preferred style.
+    </dd>
+</details>
+<details class="deet2 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Blockquotes like this one are integral to the communicative nature of the forum. By utilizing border radius, the shape of the quote points right to the speaker.
+    </dd>
+</details>

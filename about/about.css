@@ -1,0 +1,182 @@
+html, body { background: #545649  url(about_head01.jpg) center 80px no-repeat; }
+
+body {
+    color: #FFF;
+}
+
+/**************************
+**  Site Header
+**************************/
+
+#site_header #branding {
+    background: #FFF;
+    color: #222;
+}
+
+#site_header #branding p a {
+    color: #222;
+}
+
+#site_header ol a {
+    color: #FFF;
+}
+body.about #site_header ol .about a { 
+    color: #222; 
+}
+
+/**************************
+**  About content
+**************************/
+
+#about {
+    height: 520px;
+    
+}
+
+#about p { 
+    margin-bottom: 0;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+
+h1 {
+}
+
+#about .col6 { background: hsla(0,0%,100%,.0); }
+
+#about .name { font-size: 64px; line-height: 1.0em; }
+#about .title { font-size: 42px; line-height: 1.0em; }
+#about .resides { font-size: 37.5px;}
+#about .born { font-size: 30px;}
+#about .graduated { font-size: 24.2px;}
+#about .certified { font-size: 28px;}
+#about .employed { font-size: 56px; line-height: 1.0em;}
+#about .loves { font-size: 51px; line-height: 1.0em;}
+#about .currently { font-size: 25px;}
+#about .likes { font-size: 19.5px;}
+
+#about .blurb {
+    font-size: 30px;
+    width: 95%;
+}
+
+/**************************
+**  Contact
+**************************/
+
+#contact {
+    background: #8BD;
+    padding: 20px 0;
+}
+
+
+#contact td.label {
+    width: 120px;
+    color: #222;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    color: #FFF;
+    vertical-align: top;
+    padding-top: 8px;
+}
+
+input.text,
+textarea {
+    background: #59A;
+	background: -webkit-gradient(linear, left top, left bottom, from(#478), to(#59A), color-stop(0.2, #589));
+    border: none;
+    margin: 1px 0;
+    width: 332px;
+    font-size: 18px;
+    font-family: inherit;
+    padding: 4px;
+    -moz-box-shadow: inset 0 2px 5px hsla(0,0%,0%,.3);
+    color: #FFF;
+}
+input.text:hover,
+textarea:hover { background: #589; }
+input.text:focus,
+textarea:focus { background: #478; }
+
+textarea { font-size: 15px; height: 200px;}
+
+.not_a_robot td.field {
+
+    line-height: 36px;
+    padding: 0 10px;
+    
+}
+
+.not_a_robot label { color: #222; }
+
+#robot {
+    margin-right: 0.4em;
+}
+
+input.submit {
+    background: #EEE;
+    border: none;
+    padding: 0 20px;
+    height: 26px;
+    margin-top: 4px;
+    font-family: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px #FFF;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    -moz-box-shadow:
+        inset 0 5px 10px #FFF,
+        inset 0 -10px 8px -2px hsla(0,0%,0%,.1),
+        0 2px 4px hsla(0,0%,0%,.3)
+    ;
+}
+
+input.submit:disabled {
+
+
+}
+
+
+/**************************
+**  Socialize
+**************************/
+
+#socialize {
+    position: relative;
+}
+
+#socialize h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 1.8em;
+}
+
+#socialize li {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.0em;
+    text-align: center;
+}
+
+#socialize li a { 
+    color: #46E; 
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    display: block;
+}
+#socialize li a:hover { 
+    color: #FFF; 
+/*    -moz-transform-origin: 0 center;
+    -webkit-transform-origin: 0 center;*/
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+}
+#socialize li a:active { color: #222; }
+
+

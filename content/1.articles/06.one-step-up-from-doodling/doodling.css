@@ -1,0 +1,64 @@
+body.articles {
+    background: #000;
+}
+
+#content {
+  background: #000 url(doodling1.jpg) bottom center no-repeat;
+  color: #EEE;
+}
+
+#content * { font-family: 'Palatino', 'Palatino Linotype', 'Times New Roman'; }
+
+#content .col5 a { color: #ee8 !important; }
+#content .col5 a:hover { text-decoration:underline; }
+
+#content h1.col12 {
+  font-family: 'Palatino', 'Palatino Linotype', 'Times New Roman';
+  width: 780px;
+  margin-left: 170px;
+  border-color: #000; 
+  letter-spacing: -0.015em; 
+  color: #ee8
+}
+
+
+#content .col5 {
+  margin-bottom: 360px;
+  width: 360px;
+  padding: 0 20px 0 0;
+}
+
+#content blockquote {
+  font-size: 14px;
+  color: #EE8;
+  font-style: italic;
+  padding: 10px 0;
+  border-top: 3px dotted #EEE;
+  border-bottom: 3px dotted #EEE;
+  margin: 27px 0 27px;
+}
+
+#content blockquote p { margin: 0;}
+
+
+
+/**************************
+**  Site Header
+**************************/
+
+#site_header #branding {
+    background: #FFF;
+    color: #222;
+}
+
+#site_header #branding p a {
+    color: #222;
+}
+
+#site_header ol a {
+    color: #FFF;
+}
+body.articles #site_header ol .articles,
+body.articles #site_header ol .articles a { 
+    color: #222; 
+}

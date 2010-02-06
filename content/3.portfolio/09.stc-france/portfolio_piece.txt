@@ -1,0 +1,12 @@
+title: STC France
+-
+portfolio_piece: yes
+-
+skills: Logo
+-
+link_text: Read client testimonial
+-
+link_url: http://stcfrance.org/articles/61/david-desandro-delivers-on-the-new-stc-france-logo
+-
+header_deet:
+Logo for the <a href="http://stcfrance.org">France Chapter of the Society for Technical Communication.</a>

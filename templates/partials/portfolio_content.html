@@ -1,0 +1,34 @@
+
+<article id="@slug">
+    <section class="images">
+        foreach $images do
+            <div class="image @base_name"> <img src="@url" @sizeattrs  /></div>
+        endforeach
+    </section>
+    <section class="copy">
+        <div class="wrap12">
+            if @canvas_h do
+                <canvas width="960" height="@canvas_h"></canvas>
+            endif
+            <header>
+                <h2>@title</h2>
+                <div>
+                    <p class="skills">@skills</p>
+                        if @link_text do
+                            <p class="visit"><a href="@link_url">@link_text<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                        endif
+                </div>
+                <details class="note_bottom">
+                    <dt></dt>
+                    <dd>
+                        <span class="point"></span>
+                        @header_deet
+                    </dd>
+                </details>
+            </header>
+            if @addl_deets do
+                @addl_deets
+            endif
+        </div>
+    </section>
+</article>

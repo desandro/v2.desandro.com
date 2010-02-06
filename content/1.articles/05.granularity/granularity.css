@@ -1,0 +1,31 @@
+
+body.articles {
+  background: #DD9 url(granularity01c.png) top center repeat;
+}
+
+#content h1 { 
+    position: absolute;
+    left: -9999em;
+    top: -9999em;
+}
+
+
+p.gran {
+  font-family: Futura, 'Century Gothic', Arial, sans-serif;
+  font-size: 26px;
+  line-height: 80px;
+  margin-left: 10px;
+  color: #A68;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+p.gran span {
+  display: block;
+  height: 80px;
+  width: 40px;
+  float: left;
+  text-align: center;
+}
+

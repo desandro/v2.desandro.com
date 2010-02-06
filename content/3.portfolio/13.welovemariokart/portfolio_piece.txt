@@ -1,0 +1,44 @@
+title: welovemariokart
+-
+portfolio_piece: yes
+-
+skills: HTML5 / CSS3 / jQuery / PHP
+-
+link_text: View demo
+-
+link_url: http://wiilovemariokart.com/preview/friday.html
+-
+header_deet:
+At nclud, we love our Mario Kart. To the viewer, welovemariokart is a simple website that visualizes the results of races. To me, this project provided the environment to experiment with new features of HTML5 and CSS3. Personal side-projects like these are the ideal playgrounds to innovate.
+-
+canvas_h: 1550
+-
+addl_deets:
+<details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Player results are animated and sorted with jQuery.
+    </dd>
+</details>
+<details class="deet2 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Bezier curves are rendered with the HTML5 canvas element.
+        </dd>
+</details>
+<details class="deet3 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Selecting settings is done with a drag &amp; drop user interface, using <a href="http://jqueryui.com/">jQuery UI</a>.  CSS3 box-shadows are leveraged to indicate UI states.
+    </dd>
+</details>
+<details class="deet4 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        These buttons are rendered purely with CSS, no images involved. The shading is achieved using a combination of inline box-shadow and CSS gradients.
+    </dd>
+</details>

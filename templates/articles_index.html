@@ -1,0 +1,42 @@
+
+:html_head
+
+:masonry_js
+<script type="text/javascript">
+    $(function(){
+        $('#content .articles').masonry({singleMode: true})
+    });
+</script>
+
+</head>
+<body class="articles tk_proxima_nova">
+
+:header
+
+<header class="wrap12">
+    
+</header>
+
+
+
+<section id="content" class="article_list">
+    <h1>@title</h1>
+
+    <div class="articles">
+        foreach $children do
+            <article>
+                <a href="@url" class="clearfix">
+                    <h2>@title</h2>
+                    <time>@date</time>
+                    foreach $_preview do
+                        <img src="@url" @sizeattrs />
+                    endforeach
+                </a>
+            </article>    
+        endforeach
+    </div><!-- #article_list -->
+
+</section>
+
+
+:footer

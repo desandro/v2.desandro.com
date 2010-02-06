@@ -1,0 +1,14 @@
+title: Mobile Fuel
+-
+portfolio_piece: yes
+-
+skills: Facebook Application: Visual Design
+-
+link_url: http://apps.facebook.com/mobilefuel/
+-
+link_text: View App on Facebook
+-
+header_deet:
+Mobile Fuel is a Facebook application for AT&amp;T mobile phone customers. Mobile Fuel users receive exclusive offers, including free ringtones, free mobile games and more.<br />
+<br />
+In addition to touching up the aesthetics of the app, I was charged with aligning the visual brand of Mobile Fuel closer to its parent company AT&amp;T.

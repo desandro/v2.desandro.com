@@ -1,0 +1,20 @@
+<section id="site_header" class="tk_proxima_nova">
+    <div id="branding">
+        <p><a href="@root_path"><span>David</span> DeSandro</a>  / </p>
+    </div>
+    <ol>
+        <li class="articles"><a href="@root_patharticles">Articles</a>
+
+            if @article do
+                :article_nav    
+            endif
+        </li>
+        <li class="resources"><a href="@root_pathresources">Resources</a>
+            if @resource do / <a href="@url">@title</a> endif
+        </li>
+        <li class="portfolio"><a href="@root_pathportfolio">Portfolio</a>
+            if @portfolio_piece do / <a href="@url">@title</a> endif
+        </li>
+        <li class="about"><a href="@root_pathabout">About &amp; Contact</a></li>
+    </ol>    
+</section>

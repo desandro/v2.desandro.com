@@ -1,0 +1,31 @@
+
+:html_head
+
+if $css do
+    foreach $css do
+        <link rel="stylesheet" href="@url" type="text/css" media="screen" />
+    endforeach
+endif
+
+if $js do
+    foreach $js do
+        <script type="text/javascript" src="@url" charset="utf-8"></script>
+    endforeach
+endif
+
+if @html_header do
+    @html_header
+endif
+
+</head>
+<body class="articles">
+
+:header
+
+<section id="content">
+
+    @content
+    
+</section>
+
+:footer

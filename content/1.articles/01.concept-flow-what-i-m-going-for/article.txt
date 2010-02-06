@@ -1,0 +1,35 @@
+title: Concept Flow: What I&rsquo;m going for
+-
+article: yes
+-
+first_article: yes
+-
+date: 1 Feb 2009
+-
+html_header:
+<link rel="stylesheet" href="@root_path/_base/css/v1.css" type="text/css" media="screen" />
+-
+content:
+<div class="wrap12"><h1>Concept Flow: What I'm going for</h1></div>
+<div class="ex clearfix">
+    <div class="wrap12">
+        <h3 class="col2">Ideal Result</h3>
+        <p class="wrap10"><img src="http://desandro.com/images/2009/what_im_going_for01.png" alt="" /></p>
+    </div><!-- /.wrap12 --> 
+</div> <!-- /.ex -->
+
+<div class="ex clearfix">
+    <div class="wrap12">
+        <h3 class="col2">Optimistic Result</h3>
+        <p class="wrap10"><img src="http://desandro.com/images/2009/what_im_going_for02.png" alt="" /></p>
+    </div><!-- /.wrap12 --> 
+</div> <!-- /.ex -->
+
+<div class="ex clearfix">
+    <div class="wrap12">
+
+        <h3 class="col2">Likely Result</h3>
+        <p class="wrap10"><img src="http://desandro.com/images/2009/what_im_going_for03.png" alt="" /></p>
+
+    </div><!-- /.wrap12 --> 
+</div> <!-- /.ex -->

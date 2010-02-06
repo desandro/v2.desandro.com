@@ -1,0 +1,180 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Articles and else &middot;  David DeSandro</title>
+    <link rel="stylesheet" href="../_base/css/desandro.css" type="text/css" media="screen" />
+    <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="../_base/js/jquery-1.4.min.js"></script>
+    <!-- <script type="text/javascript" src="_base/js/application.js"></script> -->
+    <script src="/mint/?js" type="text/javascript"></script>
+
+
+ <script type="text/javascript" src="../_base/js/jquery.masonry.js" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function(){
+        $('#content .articles').masonry({singleMode: true})
+    });
+</script>
+
+</head>
+<body class="articles tk_proxima_nova">
+ <section id="site_header" class="tk_proxima_nova">
+    <div id="branding">
+        <p><a href="../"><span>David</span> DeSandro</a>  / </p>
+    </div>
+    <ol>
+        <li class="articles"><a href="../articles">Articles</a>
+
+            
+        </li>
+        <li class="resources"><a href="../resources">Resources</a>
+            
+        </li>
+        <li class="portfolio"><a href="../portfolio">Portfolio</a>
+            
+        </li>
+        <li class="about"><a href="../about">About &amp; Contact</a></li>
+    </ol>    
+</section>
+
+<header class="wrap12">
+    
+</header>
+
+
+
+<section id="content" class="article_list">
+    <h1>Articles and else</h1>
+
+    <div class="articles">
+                   <article>
+                <a href="../articles/jquery-masonry-v10-released/" class="clearfix">
+                    <h2>jQuery Masonry v1.0&nbsp;Released</h2>
+                    <time>7 Dec 2009</time>
+                                            <img src="../content/1.articles/13.jquery-masonry-v10-released/_preview/masonry_1.0_released.jpg" width="298" height="220" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/advice-ouroboros/" class="clearfix">
+                    <h2>Advice Ouroboros</h2>
+                    <time>25 Oct 2009</time>
+                                            <img src="../content/1.articles/12.advice-ouroboros/_preview/advice_ouroboros01.jpg" width="298" height="321" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/nclusion/" class="clearfix">
+                    <h2>nclusion</h2>
+                    <time>13 Aug 2009</time>
+                                            <img src="../content/1.articles/11.nclusion/_preview/nclusion_thumb01.jpg" width="298" height="223" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/introducing-gmail-vitamin-a-userstyle/" class="clearfix">
+                    <h2>Introducing Gmail Vitamin: a&nbsp;userstyle</h2>
+                    <time>26 Jun 2009</time>
+                                            <img src="../content/1.articles/10.introducing-gmail-vitamin-a-userstyle/_preview/gmail_vitamin04.png" width="298" height="690" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/why-art/" class="clearfix">
+                    <h2>Why Art?</h2>
+                    <time>31 May 2009</time>
+                                            <img src="../content/1.articles/09.why-art/_preview/why_art01.png" width="298" height="328" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/prototyping-with-the-canvas-element/" class="clearfix">
+                    <h2>Prototyping with the canvas&nbsp;element</h2>
+                    <time>23 Apr 2009</time>
+                                            <img src="../content/1.articles/08.prototyping-with-the-canvas-element/_preview/prototyping_canvas07.jpg" width="298" height="777" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/do-make-create/" class="clearfix">
+                    <h2>Do make create</h2>
+                    <time>2 Apr 2009</time>
+                                            <img src="../content/1.articles/07.do-make-create/_preview/domake13.png" width="298" height="435" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/one-step-up-from-doodling/" class="clearfix">
+                    <h2>One step up from doodling</h2>
+                    <time>24 Mar 2009</time>
+                                            <img src="../content/1.articles/06.one-step-up-from-doodling/_preview/doodling3.jpg" width="298" height="322" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/granularity/" class="clearfix">
+                    <h2>Granularity</h2>
+                    <time>1 Mar 2009</time>
+                                            <img src="../content/1.articles/05.granularity/_preview/granularity03.png" width="298" height="372" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/textpattern-interface-case-study/" class="clearfix">
+                    <h2>Textpattern Interface Case Study</h2>
+                    <time>18 Feb 2009</time>
+                                            <img src="../content/1.articles/04.textpattern-interface-case-study/_preview/textpattern_interface_case_study05.png" width="298" height="737" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/i-like-ie6-because/" class="clearfix">
+                    <h2>I like IE6&nbsp;because</h2>
+                    <time>15 Feb 2009</time>
+                                            <img src="../content/1.articles/03.i-like-ie6-because/_preview/ilikeie07.png" width="300" height="409" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/uncover/" class="clearfix">
+                    <h2>Uncover</h2>
+                    <time>12 Feb 2009</time>
+                                            <img src="../content/1.articles/02.uncover/_preview/uncover02.png" width="298" height="188" />
+                    
+                </a>
+            </article>           <article>
+                <a href="../articles/concept-flow-what-i-m-going-for/" class="clearfix">
+                    <h2>Concept Flow: What I&rsquo;m going for</h2>
+                    <time>1 Feb 2009</time>
+                                            <img src="../content/1.articles/01.concept-flow-what-i-m-going-for/_preview/what-im-going-for00.png" width="298" height="467" />
+                    
+                </a>
+            </article>
+    </div><!-- #article_list -->
+
+</section>
+
+     <section id="site_footer" class="tk_proxima_nova">
+        <div class="wrap12">
+            <div class="made_this col4">
+                <p class="who_did">
+                    <span class="david">David</span>
+                    <span class="desandro">DeSandro</span>
+                    made this.
+                </p>
+                <p class="copyright">&copy; 2009 &ndash; 2010</p>                
+            </div>
+
+            <p class="where_what col4">
+                <span class="heisa">He is a graphic &amp;</span>
+                <span class="designer">web designer</span>
+                <span class="living">living in Arlington, VA,</span>
+                <span class="working">working at <a href="http://nclud.com">nclud</a> in Washington, DC.</span>
+                <span class="happy">Being creative and making stuff keeps him happy.</span>
+            </p>
+            <div class="also_made col4">
+                <h3>Dave also made</h3>
+                <ul>
+                    <li class="jqmsnry"><a href="../resources/jquery-masonry/">jQuery Masonry</a></li>
+                    <li class="curtis"><a href="../resources/curtis-css-typeface/">Curtis CSS Typeface</a></li>
+                    <li class="speechbub"><a href="../resources/css-speech-bubble-icon/">CSS Speech Bubble</a></li>
+                </ul>
+            </div>
+        </div>
+    </section> <!-- #site_footer -->
+</body>
+</html>
+
+<!-- Stacey(2.0): d346160852521daf6acdf02b2ddc5d30 -->

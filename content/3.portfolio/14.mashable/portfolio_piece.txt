@@ -1,0 +1,30 @@
+title: Mashable
+-
+portfolio_piece: yes
+-
+skills: CSS / WordPress Integration
+-
+link_text: Visit mashable.com
+-
+link_url: http://mashable.com/
+-
+header_deet:
+When Pete Cashmore and the Mashable team turned to nclud as strategic partners for their upcoming redesign, I was responsible for realizing the new visual treatment for mashable.com. Collaborating with my peers at nclud, we sought to make an attractive, accessible design that could easily be scanned and read by the massive Mashable readership. Given the great amount of content produced by Mashable writers, I paid keen attention to the visual hierarchy of the articles and features.
+-
+canvas_h: 1000
+-
+addl_deets:
+<details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        As Mashable is on the forefront of social media, I wanted the user interface to be just as forward thinking. CSS transitions are employed here in these navigation elements, as well in other numerous places.
+    </dd>
+</details>
+<details class="deet2 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        With the variety of sizes of and styles of content types, these various elements are all aligned to a grid, thus establishing visual cohesion.
+    </dd>
+</details>

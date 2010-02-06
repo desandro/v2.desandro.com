@@ -1,0 +1,10 @@
+/ <em><a href="@url">@title</a></em>
+<time>@date</time>
+<nav class="older_newer">
+    if !@first_article do
+        :older_article
+    endif
+    if !@last_article do
+        :newer_article
+    endif
+</nav>

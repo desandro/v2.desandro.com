@@ -1,0 +1,84 @@
+
+input[type="text"] { font: inherit; width: 100px; font-size: 16px; margin-right: 40px; }
+input[type="button"] { font: inherit; }
+
+#text-and-canvas {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+textarea {
+  position: relative;
+  width: 446px;
+  height: 337px;
+  font-family: Inconsolata, Consolas, Courier, 'Courier New', monospace;
+  background: #FFF;
+  border-style: solid;
+  border-color: #CCC;
+  border-width: 1px 0 0 1px;
+  padding: 4px 0 0 4px;
+}
+
+#canvas-col {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#canvas-wrap {
+  border: 2px dotted #888;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+
+.no-js-alert, .ie-alert {
+  background: #D22;
+  padding: 0 5px;
+  color: #FFF;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+var {
+  padding: 0 4px;
+  background: #D22;
+  color: #FFF;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-style: normal;
+}
+
+canvas { margin-bottom: -4px;} /* what!? */
+
+fieldset {
+  margin-bottom: 10px;
+  border: 1px solid #CCC;
+  padding: 4px 0 4px 20px;
+  -moz-border-radius: 3px;
+}
+legend {
+  font-weight: bold;
+  padding: 0 0.5em;
+}
+label {margin-right: 16px;}
+
+/* taken from learning jquery.com */
+.ui-resizable-handle { position: absolute; display: none; font-size: 0.1px; }
+.ui-resizable-s { 
+  cursor: s-resize; height: 8px; width: 100%; bottom: 0px; left: 0px;
+  background: #EEE url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAICAYAAAA4GpVBAAAALklEQVQImQXBMQ0AQAjAwPrXg4pfSNDAwsKAgf4ddye7KzMj3S1VJZkp7z2JCD9KgRxd004h4QAAAABJRU5ErkJggg==) bottom center repeat-x; 
+  border-left: 1px solid #CCC;
+
+}
+.ui-resizable-e { 
+  cursor: e-resize; width: 8px; right: 0px; top: 0px; height: 100%; 
+  background: #EEE url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVQImQEhAN7/APLy8v/u7u7/6enp/+Tk5P/S0tL/z8/P/8rKyv+0tLT/4wAcXX8RQI0AAAAASUVORK5CYII=) repeat-y; 
+  border-top: 1px solid #CCC;
+}
+.ui-resizable-se { 
+  cursor: se-resize; width: 8px; height: 8px; right: 0px; bottom: 0px;
+  background: #EEE url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAT0lEQVQYlX3KqRHAMAxFQfdfz69CRDOqQUREwA28oGRyOAbLdsw56W6qiswkInB3zAxJjO7eh6ritAyZyd0nRARvj+DurFzBzPgjiSGJnQNZ6tqPf4UFfQAAAABJRU5ErkJggg==) bottom right no-repeat;
+}

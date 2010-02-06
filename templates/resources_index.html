@@ -1,0 +1,58 @@
+
+:html_head
+
+<link rel="stylesheet" href="@root_path/_base/css/resources.css" type="text/css" media="screen" />
+
+:masonry_js
+<script type="text/javascript">
+    $(function(){
+        $('#jquery-masonry figure').masonry({columnWidth: 75})
+    });
+</script>
+
+</head>
+<body class="resources tk_proxima_nova">
+
+:header
+
+<header class="wrap12">
+    <h1 class="col12">Resources</h1>
+</header>
+
+
+<section id="content" class="wrap12">
+    foreach $children do
+    <article id="@slug">
+        <a href="@url" class="clearfix">
+            @preview
+        </a>
+    </article>    
+    endforeach
+    
+
+    <article id="txp_admin">
+        <a href="http://txpadminthemes.desandro.com" class="clearfix">
+            <div class="col8">
+                <h2><span class="t">Textpattern</span> <span class="a">Admin Themes</span></h2>
+                <p>Custom themes for the Textpattern backend.</p>
+            </div>
+            <figure class="col4">
+                <span class="top_row">
+                    <span class="selected">Content</span>
+                    <span>Presentation</span>
+                    <span>Admin</span>
+                </span>
+                <span class="bottom_row">
+                    <span>Categories</span>
+                    <span class="selected">Write</span>
+                    <span>Articles</span>
+                </span>
+            </figure>
+        </a>
+    </article>
+
+
+</section>
+
+
+:footer

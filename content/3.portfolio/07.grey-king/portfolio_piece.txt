@@ -1,0 +1,19 @@
+title: The Grey King
+-
+portfolio_piece: yes
+-
+skills: Book Cover: Layout / Illustration
+-
+header_deet:
+<em>The Grey King</em> is the fourth novel in Susan Cooper’s five-volume fantasy saga The Dark Is Rising. Set in the Welsh countryside, the story follows 13-year old Will Stanton in his quest against the evil Grey King, lord of the Dark. Student work.
+-
+canvas_h: 649
+-
+addl_deets:
+<details class="deet1 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        As a winner of the Newberry Award, this book is a classic, so I chose iconic imagery that would stand the test of time.
+    </dd>
+</details>

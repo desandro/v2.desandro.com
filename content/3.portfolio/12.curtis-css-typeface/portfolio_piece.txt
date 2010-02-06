@@ -1,0 +1,12 @@
+title: Curtis CSS Typeface
+-
+portfolio_piece: yes
+-
+skills: Typographic HTML &amp; CSS Experiment
+-
+link_text: View experiment
+-
+link_url: /resources/curtis-css-typeface
+-
+header_deet:
+All of the shapes that make up these letter forms were rendered exclusively with CSS. While this experiment in typography does not have any practical application, it does exemplify that CSS is not just limited to boxes and styling.

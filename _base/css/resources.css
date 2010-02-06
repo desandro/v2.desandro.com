@@ -1,0 +1,595 @@
+
+#content .col8 {
+}
+
+
+article {
+    margin-bottom: 40px;
+}
+
+#content h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 0.9em;
+    margin-bottom: 0;
+}
+
+#content h2 span {
+    display: block;
+    line-height: 0.9em; 
+}
+
+#content p { 
+    font-weight: 200; 
+    margin-bottom: 0;
+    line-height: 1.0em
+}
+
+/*#content .col8 { background: #FFF; }*/
+
+#content a { 
+    color:#F90;
+    padding: 10px 0;
+    display: block;
+    background: #EEE;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+}
+
+#content a:hover {
+    color: #E58;
+    background: #FFF;
+}
+
+/**** Jquery Masonry ****/
+
+#jquery-masonry h2 { font-size: 120px; }
+#jquery-masonry h2 .j { font-size: 154px;  }
+#jquery-masonry p { font-size: 35px; }
+
+#jquery-masonry figure span {
+    display: block;
+    background: #58E;
+    margin: 2px;
+    float: left
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+}
+#jquery-masonry a:hover figure span { background: #E58; }
+#jquery-masonry figure .w1 { width: 71px; }
+#jquery-masonry figure .h1 { height: 71px; }
+#jquery-masonry figure .w2 { width: 146px; }
+#jquery-masonry figure .h2 { height: 146px; }
+
+#curtis-css-typeface h2 { font-size: 106px; }
+#curtis-css-typeface h2 .t { font-size: 122px; }
+#curtis-css-typeface p { font-size: 18px; }
+
+/**** Speech bubble ****/
+
+#css-speech-bubble-icon h2 { font-size: 100px; }
+#css-speech-bubble-icon h2 .b { font-size: 154px; }
+#css-speech-bubble-icon p { font-size: 32px; }
+
+#css-speech-bubble-icon figure {
+    height: 260px;
+    position: relative;
+}
+
+#css-speech-bubble-icon figure span { display: block; position: absolute; } 
+
+#css-speech-bubble-icon figure .bubble {
+    height: 200px;
+    width: 100%;
+    background: #58E;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    left: 0;
+    top: 0;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+}
+#css-speech-bubble-icon a:hover  figure .bubble { background: #E58; }
+
+#css-speech-bubble-icon figure .point {
+    border-left: 60px solid #58E;
+    border-bottom: 60px solid #EEE;
+    left: 60px;
+    bottom: 0;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+}
+#css-speech-bubble-icon a:hover figure .point { 
+    border-left-color: #E58;
+    border-bottom-color: #FFF;
+}
+
+/**** TXP Admin ****/
+
+#txp_admin h2 { font-size: 79px; }
+#txp_admin h2 .t { font-size: 88px; }
+#txp_admin p { font-size: 32px; }
+
+#txp_admin figure {
+    background: #58E;
+    padding: 10px 10px 60px;
+    width: 280px;
+}
+#txp_admin a:hover figure { background: #E58; }
+
+#txp_admin figure span {
+    display: block;
+    clear: left;
+    
+}
+
+#txp_admin figure span span {
+    float: left;
+    clear: none;
+    padding: 5px 10px;
+}
+
+#txp_admin figure .top_row {
+    font-weight: bold;
+    background: #EEE;
+    overflow: auto;
+    padding: 40px 5px 0;
+}
+#txp_admin a:hover  figure .top_row { background: #FFF; }
+
+#txp_admin figure .top_row span {
+    background: #EEE;
+    color: #58E;
+}
+#txp_admin a:hover figure .top_row span {
+    background: #FFF;
+    color: #E58;
+}
+#txp_admin figure .top_row span.selected {
+    background: #58E;
+    color: #EEE;
+}
+#txp_admin a:hover figure .top_row span.selected {
+    background: #E58;
+    color: #FFF;
+}
+
+#txp_admin figure .bottom_row {
+    overflow: auto;
+    padding-top: 10px;
+    color: #EEE;
+}
+#txp_admin a:hover figure .bottom_row { color: #FFF; }
+
+
+#txp_admin figure .bottom_row span.selected {
+    background: #EEE;
+    color: #58E;
+}
+#txp_admin a:hover figure .bottom_row span.selected {
+    background: #FFF;
+    color: #E58;
+}
+
+/**** Quickie Canas ****/
+
+#quickie-canvas h2 { font-size: 146px; }
+#quickie-canvas p { font-size: 19px; }
+
+#quickie-canvas figure {
+    display: block;
+    position: relative;
+    width: 290px;
+    border: 5px dashed #58E;
+    height: 260px;
+}
+#quickie-canvas a:hover figure { border-color: #E58; }
+
+#quickie-canvas figure span {
+    display: block;
+    position: absolute;
+    background: hsla(210, 100%, 50%, .5);
+}
+
+#quickie-canvas a:hover figure span { background: hsla(330,100%,50%,.5); }
+
+
+
+#quickie-canvas figure .circle {
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    left: 20px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+#quickie-canvas figure .triangle {
+    background: none;
+    border-style: solid;
+    border-color: hsla(210, 100%, 50%, .5) transparent;
+    border-width: 0 66px 120px;
+    top: 40px;
+    right: 30px;
+}
+#quickie-canvas a:hover figure .triangle {
+    background: none;
+    border-color: hsla(330,100%,50%,.5) transparent;
+}
+
+#quickie-canvas figure .square {
+    width: 100px;
+    height: 100px;
+    left: 80px;
+    top: 100px;
+}
+
+
+/**************************
+**  Curtis Letters
+**************************/
+
+
+.css_char .fill { background: #58E; }
+.css_char .neg { background: #EEE; }
+.css_char .stroke,
+.css_char .neg_stroke,
+.css_char .split_vert,
+.css_char .split_horiz,
+.css_char .split_horiz_pos,
+.css_char .split_horiz_neg { border: 0px solid; }
+.css_char .stroke { border-color: #58E; }
+.css_char .split_vert { border-color: #58E transparent; }
+.css_char .split_horiz { border-color: #EEE transparent; }
+.css_char .split_horiz_pos { border-color: transparent #58E; }
+.css_char .split_horiz_neg { border-color: transparent #EEE; }
+
+a:hover .css_char .fill { background: #E58; }
+a:hover .css_char .neg { background: #FFF; }
+a:hover .css_char .stroke,
+a:hover .css_char .neg_stroke,
+a:hover .css_char .split_vert,
+a:hover .css_char .split_horiz,
+a:hover .css_char .split_horiz_pos,
+a:hover .css_char .split_horiz_neg { border: 0px solid; }
+a:hover .css_char .stroke { border-color: #E58; }
+a:hover .css_char .split_vert { border-color: #E58 transparent; }
+a:hover .css_char .split_horiz { border-color: #FFF transparent; }
+a:hover .css_char .split_horiz_pos { border-color: transparent #E58; }
+a:hover .css_char .split_horiz_neg { border-color: transparent #FFF; }
+
+
+.css_char {
+  position: relative;
+  height: 140px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin: 0 5px 20px 0;
+  text-indent: -9999em;
+}
+
+
+
+.css_char span {
+  display: block;
+  position: absolute;
+  text-indent: -9999em;
+  width: 0px;
+  height: 0px;
+  top: 0;
+  left: 0;
+}
+
+
+.size140 .css_char {
+  height: 140px;
+  margin: 0 10px 20px 0;
+}
+
+
+.size140 .css_char.c {  width: 140px; }
+.size140 .css_char.c .stroke {
+  width: 60px;
+  height: 60px;
+  border-width: 40px;
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+}
+.size140 .css_char.c .neg {
+  width: 70px;
+  height: 20px;
+  top: 60px;
+  left: 70px;
+}
+
+.size140 .css_char.i { width: 40px; }
+
+.size140 .css_char.i .fill {
+  width: 40px;
+  height: 140px;
+}
+
+.size140 .css_char.r { width: 105px; }
+
+.size140 .css_char.r .inside {
+  width: 10px;
+  border-width: 60px 0 0 30px;
+  top: 80px;
+  left:  30px;
+}
+
+.size140 .css_char.r .outside {
+  width: 10px;
+  border-width: 0 30px 60px 0;
+  top: 80px;
+  left: 65px;
+}
+
+.size140 .css_char.r .stroke {
+  width: 40px;
+  height: 20px;
+  border-width: 40px 40px 40px 0;
+  left: 20px;
+  -moz-border-radius-topright: 50px;
+  -moz-border-radius-bottomright: 50px;
+  -webkit-border-top-right-radius: 50px;
+  -webkit-border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.size140 .css_char.r .fill {
+  width: 40px;
+  height: 140px;
+}
+
+
+.size140 .css_char.s,
+.size140 .css_char.question {
+  width: 90px;
+}
+
+.size140 .css_char.s .top_circle,
+.size140 .css_char.s .bottom_circle,
+.size140 .css_char.s .right .stroke,
+.size140 .css_char.question .stroke {
+  width: 10px;
+  height: 10px;
+  border-width: 40px;
+  -moz-border-radius: 45px;
+  -webkit-border-radius: 45px;
+  border-radius: 45px;
+}
+.size140 .css_char.s .bottom_circle { top: 50px; }
+
+.size140 .css_char.s .left.neg,
+.size140 .css_char.s .right.neg,
+.size140 .css_char.question .neg {
+  width: 45px;
+  height: 50px;
+  top: 45px;
+}
+.size140 .css_char.s .right.neg { 
+  left: 45px;
+  overflow: hidden;
+}
+.size140 .css_char.s .right .stroke {
+  top: 5px;
+  left: -45px;
+}
+
+
+/***** T *****/
+
+.size140 .css_char.t { width: 100px; }
+
+.size140 .css_char.t .cross {
+  width: 100px;
+  height: 40px;
+}
+
+.size140 .css_char.t .stem {
+  width: 40px;
+  height: 120px;
+  left: 30px;
+  top: 20px;
+}
+
+.size140 .css_char.u,
+.size140 .css_char.j { width: 110px; }
+
+.size140 .css_char.u .stroke,
+.size140 .css_char.j .stroke {
+  width: 30px;
+  height: 100px;
+  border-width: 0 40px 40px;
+  -moz-border-radius-bottomleft: 55px;
+  -moz-border-radius-bottomright: 55px;
+  -webkit-border-bottom-left-radius: 55px;
+  -webkit-border-bottom-right-radius: 55px;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+}
+
+.size140 .css_char.j .neg {
+  width: 60px;
+  height: 80px;
+  left: -10px;
+}
+
+.size56 .css_char {
+  height: 56px;
+  margin: 0 4px 8px 0;
+}
+
+
+/***** C, D, G, O & Q *****/
+
+.size56 .css_char.c,
+.size56 .css_char.o,
+.size56 .css_char.d,
+.size56 .css_char.g,
+.size56 .css_char.q {  width: 56px; }
+
+.size56 .css_char.c .stroke,
+.size56 .css_char.o .stroke,
+.size56 .css_char.d .stroke,
+.size56 .css_char.g .outside,
+.size56 .css_char.q .stroke {
+  width: 24px;
+  height: 24px;
+  border-width: 16px;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+}
+
+.size56 .css_char.d .stroke {
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.size56 .css_char.c .neg,
+.size56 .css_char.g .neg {
+  width: 28px;
+  height: 8px;
+  top: 24px;
+  left: 28px;
+}
+
+
+/***** I *****/
+
+.size56 .css_char.i { width: 16px; }
+
+.size56 .css_char.i .fill {
+  width: 16px;
+  height: 56px;
+}
+
+/***** U & J *****/
+
+.size56 .css_char.u,
+.size56 .css_char.j { width: 44px; }
+
+.size56 .css_char.u .stroke,
+.size56 .css_char.j .stroke {
+  width: 12px;
+  height: 40px;
+  border-width: 0 16px 16px;
+  -moz-border-radius-bottomleft: 22px;
+  -moz-border-radius-bottomright: 22px;
+  -webkit-border-bottom-left-radius: 22px;
+  -webkit-border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+
+.size56 .css_char.j .neg {
+  width: 24px;
+  height: 32px;
+  left: -4px;
+}
+
+
+
+/***** R  & P *****/
+
+.size56 .css_char.r { width: 42px; }
+.size56 .css_char.p { width: 40px; }
+
+.size56 .css_char.r .inside {
+  width: 4px;
+  border-width: 24px 0 0 12px;
+  top: 32px;
+  left:  12px;
+}
+
+.size56 .css_char.r .outside {
+  width: 4px;
+  border-width: 0 12px 24px 0;
+  top: 32px;
+  left: 26px;
+}
+
+.size56 .css_char.r .stroke,
+.size56 .css_char.p .stroke {
+  width: 16px;
+  height: 8px;
+  border-width: 16px 16px 16px 0;
+  left: 8px;
+  -moz-border-radius-topright: 20px;
+  -moz-border-radius-bottomright: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.size56 .css_char.r .fill,
+.size56 .css_char.p .fill {
+  width: 16px;
+  height: 56px;
+}
+
+/***** S & some of ? *****/
+
+.size56 .css_char.s,
+.size56 .css_char.question {
+  width: 36px;
+}
+
+.size56 .css_char.s .top_circle,
+.size56 .css_char.s .bottom_circle,
+.size56 .css_char.s .right .stroke,
+.size56 .css_char.question .stroke {
+  width: 4px;
+  height: 4px;
+  border-width: 16px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+}
+.size56 .css_char.s .bottom_circle { 
+  top: auto;
+  bottom: 0;
+}
+
+.size56 .css_char.s .left.neg,
+.size56 .css_char.s .right.neg,
+.size56 .css_char.question .neg {
+  width: 18px;
+  height: 20px;
+  top: 18px;
+}
+.size56 .css_char.s .right.neg { 
+  left: 18px;
+  overflow: hidden;
+}
+.size56 .css_char.s .right .stroke {
+  top: 2px;
+  left: -18px;
+}
+
+/***** T *****/
+
+.size56 .css_char.t { width: 40px; }
+
+.size56 .css_char.t .cross {
+  width: 40px;
+  height: 16px;
+}
+
+.size56 .css_char.t .stem {
+  width: 16px;
+  height: 48px;
+  left: 12px;
+  top: 8px;
+}
+

@@ -1,0 +1,29 @@
+title: I like IE6&nbsp;because
+-
+article: yes
+-
+date: 15 Feb 2009
+-
+html_header:
+<link rel="stylesheet" href="@root_path/_base/css/v1.css" type="text/css" media="screen" />
+-
+content:
+<div class="wrap12">
+    <h1>I like IE6 because</h1>
+    <h3>I enjoy a good challenge</h3>
+
+    <p class="challenge col4 pad8left">When a new IE6 bug pops up, my first negative reaction probably isn’t the best one. Instead of initial frustration, I should be excited that I have a quirky new puzzle awaiting a solution. After all, <a href="http://www.randsinrepose.com/archives/2007/11/11/the_nerd_handbook.html">nerds love puzzles.</a> Sure, completing a site does come with a sense of accomplishment. But that’s nothing compared to the joyous moment of triumphant ecstasy when you get it to work in Microsoft’s browser.</p>
+
+    <h3>I like surprises</h3>
+
+    <p class="surprises col4 pad8right">Working with computers all day, the profession of web design can become monotonous.  But unlike all the other reliable, boring browsers out there,  IE6 has some personality (albeit the annoying and frustrating sort) willing to mix it up and keep the designer/machine relationship new and interesting.  IE6 is sort of like C-3PO, always getting into trouble, and being kind of a jerk.  Keeping with the allegory, web designers are like Han Solo: cool, calm, in control, saving the day while maintaining a perfect head of hair.  </p>
+
+    <h3>It makes me think about people that are not like me.</h3>
+
+    <p class="notlikeme col4 pad8left">I fear that as web designers, we are overly insulated in our own cultural bubble.  While we are connected tightly to one another via the numerous social networks of the modern age, there’s a tendency to close ourselves off to everybody else.  People like our parents, grand parents and other relatives.  People who toil at corporate jobs and provide the human infrastructure that powers our industrous society.  People who don’t have the shiniest new Mac.  All of these individuals deserve, and perhaps depend upon, us web designers doing our best to ensure they get a terrific online experience.  When I’m in the briar patch, trying to resolve an IE6 bug, I try to keep those people in mind.  </p>
+
+    <h3>It gives us bonding power</h3>
+
+    <p class="bonding col4 pad8right">The easiest way to unify a group of people is to find a common entity of opposition.  IE6 is the ideal focal point of commiseration for an entire professional sector.  We may not be able to agree on everything, but we all can find common ground with our general disdain for IE6.  Together, we are stronger.  Thank you Microsoft!  </p>		
+
+</div><!-- .wrap12 -->

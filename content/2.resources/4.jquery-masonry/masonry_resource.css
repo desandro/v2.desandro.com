@@ -1,0 +1,253 @@
+body {    background: #D8D5D2; }
+
+#content { 
+    margin: 0; 
+    font: 13px 'Helvetica Neue', Arial, sans-serif;
+    padding: 20px;
+    color: #222;
+}
+
+#content .col6,
+#content .copy {
+    line-height: 1.6em;
+}
+
+#content a {
+    color: #A2C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#content a:hover {
+    color: #D26;
+}
+
+#content a.button { color: #FFF; }
+
+#content h1,  #content h2 {
+    font-weight:100;
+    text-shadow: none;
+    text-transform: none;
+}
+
+#content h1 {
+    font-size: 36px;
+    border-bottom: none;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+
+#content h1 a {
+    font-weight: 100;
+    color: #111;
+}
+
+#content h2, #content h3, #content p, #content ul, #content ol, #content pre {
+    margin-bottom: 1.0em;
+}
+
+#content h1, #content h2, #content h3 {
+    font-family:'Helvetica Neue', Arial, sans-serif;
+}
+
+#content h2 {
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+#content h3 {
+    font-size: 16px;
+}
+
+.copy h2 {
+    border-top: 2px solid #FFF;
+    padding-top: 10px;
+    clear: both;
+}
+
+
+#msnry_nav {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #BBB;
+    height: 20px;
+}
+
+#content ol#msnry_nav {
+
+}
+
+#content #msnry_nav li {
+    list-style: none;
+
+    float: left;
+    margin-right: 2px;
+    margin-left: 0;
+    padding: 0;
+}
+
+#msnry_nav li a {
+    padding: 6px 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#msnry_nav li a:hover {
+}
+
+#content #msnry_nav li.selected span {
+    background: #C8C5C2;
+    color: #FFF;
+    padding: 6px 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a img {
+    border: none;
+}
+
+pre, code {
+    font-family: Monaco, monospace;
+    font-size: 12px;
+    background: #111;
+    color: #F5F5F5;
+}
+
+p code {
+    padding: 1px 3px;
+    background: #111;
+    color: #F5F5F5;
+}
+
+
+pre {
+    padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+pre .string { color: #3C3;}
+pre .constant { color: #66F;}
+pre .property { color: #A00;}
+pre .keyword { color: #E66;}
+pre .storage { color: #FC8;}
+pre .comment { color: #888;}
+
+.hidden { display: none; }
+
+.copy {
+    width: 600px;
+}
+
+#content ul ul {
+    margin-bottom: 0;
+}
+
+#content dt {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#content dd + dt {
+    margin-top: 0.5em;
+}
+
+#content dd {
+    margin-left: 1.0em;
+}
+
+/**** Masonry CSS ****/
+
+.wrap {
+    background: #FFF;
+    border: 0px solid #456;
+    padding: 10px;
+	margin-bottom: 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.wrap:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.box {
+    margin: 5px;
+    padding: 5px;
+    background: #D8D5D2;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 11px;
+    float: left;
+}
+
+.msnry_col1 { width: 80px; }
+.msnry_col2 { width: 180px; }
+.msnry_col3 { width: 280px; }
+.msnry_col4 { width: 380px; }
+.msnry_col5 { width: 480px; }
+
+
+/**** Primer comparison ****/
+
+#comparison {
+    overflow: auto;
+}
+
+#comparison .example {
+    width: 420px;
+    float: left;
+    margin-right: 50px;
+}
+
+#comparison .box h5 {
+    float: left;
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-right: 4px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+/**** In the wild examples ****/
+
+
+#content ul#inthewild { margin: 0; padding: 0;}
+
+#content #inthewild li {
+    width: 300px;
+    float: left;
+    list-style: none;
+    margin: 0 0 20px;
+}
+
+#content #inthewild li a {
+    display: block;
+    padding: 5px 10px 10px;
+    text-decoration: none;
+
+}
+#inthewild li a:hover { background: #C8C5C2 }
+
+#inthewild li img { 
+    margin-top: 5px;
+}
+
+
+
+

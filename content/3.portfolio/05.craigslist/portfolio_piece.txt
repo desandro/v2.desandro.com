@@ -1,0 +1,30 @@
+title: Craigslist Clean-up
+-
+portfolio_piece: yes
+-
+skills: CSS Userstyle
+-
+link_text: Download userstyle
+-
+link_url: http://userstyles.org/styles/12729
+-
+header_deet:
+Textpattern is a flexible, elegant and easy-to-use CMS. I love the product and it&rsquo;s my go-to CMS of choice. <a href="http://www.flickr.com/photos/hicksdesign/989595974/">Like other designers</a>, I saw plenty of areas of improvement in its user interface. These themes were developed in CSS for the administration back-end. Read more about my design process in <a href="http://desandro.com/articles/textpattern-interface-case-study">Textpattern Interface Case Study</a>.
+-
+canvas_h: 1600
+-
+addl_deets:
+<details class="deet1 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Look familiar? The userstyle adheres to the current Craigslist visual brand (or lack there of). My goal was not to completely overhaul the interface, but to enhance and address every detail in order to provide a more legible and aesthetically pleasing website.                           
+    </dd>
+</details>
+<details class="deet2 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        By setting the total width of the content fairly thin, lines of text are kept to appropriate length, thus improving legibility.                          
+    </dd>
+</details>

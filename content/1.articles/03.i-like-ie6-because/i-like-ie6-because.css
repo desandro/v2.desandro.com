@@ -1,0 +1,50 @@
+body {background: #FFF;}
+
+#content h3 { display: none; }
+
+#content .info {
+  width: 940px;
+}
+
+#content .info .tags, 
+#content .info .tags ul { width: auto;  }
+
+#content .info .tags p,
+#content .info .tags ul,
+#content .info .tags li {
+  float: left;
+}
+
+#content .info .tags li { margin: 0 10px; }
+
+#content h1 {
+  text-indent: -9999px;
+  background: url(ilikeie06.jpg) no-repeat top right;
+  height: 140px;
+
+}
+
+.pad8left { padding-left:640px; }
+.pad8right { padding-right: 640px; }
+
+.challenge {
+  background: url(ilikeie02.jpg) no-repeat top left;
+  height: 240px;
+}
+
+.surprises {
+  background: url(ilikeie03.jpg) no-repeat top right;
+  height: 240px;
+}
+
+.notlikeme {
+  background: url(ilikeie04.jpg) no-repeat top left;
+  height: 340px;
+}
+
+.bonding {
+  background: url(ilikeie05.jpg) no-repeat top right;
+  height: 260px;
+}
+
+#comments { background-color: #176; }

@@ -1,0 +1,42 @@
+title: Gmail Vitamin
+-
+portfolio_piece: yes
+-
+skills: CSS Userstyle
+-
+link_text: Download userstyle
+-
+link_url: http://userstyles.org/styles/19022
+-
+header_deet:
+Although Gmail is incredibly popular, it has enough visual quirks to ensure no one is happy with its appearance. Userstyles enable web users to load their own custom CSS on top any site. With this empowerment, I took it upon myself to touch up the interface and make it a more appealing visual experience.<br />
+<br />
+<a href="/articles/introducing-gmail-vitamin-a-userstyle">Read more about my design process.</a>
+-
+canvas_h: 460
+-
+addl_deets:
+<details class="deet1 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Removing the static underline for links reduces visual complexity, while adding functionality so they can be turned back on for hover states.<br>
+<br>
+These links also use a larger font size, to help establish visual hierarchy.
+    </dd>
+</details>
+<details class="deet2 note_bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        I brought in the suggestions made by <a href="http://www.subtraction.com/2008/06/17/spacing-is-e">Khoi Vihn</a>, adding padding around all visual elements making the interface more legible.
+        </dd>
+</details>
+<details class="deet3 note_top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Buttons now use a softer gradient and proper CSS rounded corners.
+    </dd>
+</details>
+

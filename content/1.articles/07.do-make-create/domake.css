@@ -1,0 +1,46 @@
+body.articles {  background: #432 url(domake12.png) top center no-repeat; }
+
+#content h1 { 
+    position: absolute;
+    left: -9999em;
+    top: -9999em;
+}
+
+
+#do-images img {
+  position: absolute;
+}
+
+
+#do-images {
+  width: 661px;
+  height: 446px;
+  margin: 500px auto;
+  padding: 1px;
+}
+
+#comments { 
+  background: #432;
+  color: #210;  
+}
+
+/**************************
+**  Site Header
+**************************/
+
+#site_header #branding {
+    background: #FFF;
+    color: #222;
+}
+
+#site_header #branding p a {
+    color: #222;
+}
+
+#site_header ol a {
+    color: #FFF;
+}
+body.articles #site_header ol .articles,
+body.articles #site_header ol .articles a { 
+    color: #222; 
+}

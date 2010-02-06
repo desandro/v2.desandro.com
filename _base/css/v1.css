@@ -1,0 +1,75 @@
+body {
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; ;
+  font-size: 12.5px;
+  line-height: 20px;
+  background: #FFF;
+}
+
+#content a { text-decoration: none; }
+#content a:link, #content a:visited { color: #E58; }
+#content a:hover { color: #000; }
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+#content p, #content ul, #content ol, #content h1, #content h2, #content h3 { margin-bottom: 20px; }
+
+#content li { margin-left: 20px; }
+#content ul li { list-style: disc; }
+#content ul ul li { list-style: circle; }
+#content ol li { list-style: decimal; }
+#content ol ol li { list-style: lower-roman; }
+
+
+#content h1, #content h2, #content h3, #content h4,
+#content .slab, #content .deck {
+  font-family: Serifa, "Serifa Std", Stymie, "EF Stymie", "ITC Lubalin Graph",  "ITC Lubalin Graph Std", Lexia, Glypha, "Glypha Std", Soho, Memphis, "Memphis Std", Rockwell, "Rockwell Std", Georgia, serif;
+}
+
+#content h1 {
+  font-size: 62px;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  text-shadow: 0 2px 3px rgba( 0, 0, 0, .13);
+  border-bottom: 9px double #EEE;
+  border-color: rgba(0,0,0,.08);
+  margin-bottom: 11px;
+  text-transform: none;
+  font-weight: normal;
+}
+
+#content h2 {
+  font-size: 36px;
+  line-height: 40px;
+  text-shadow: 0 2px 4px rgba( 0, 0, 0, .13);
+  letter-spacing: -0.03em;
+}
+
+#content h2, #content h3, #content h4 { font-weight: bold;} 
+
+#content h3 { font-size: 20px; }
+a.button {
+  font-size: 14px;
+  padding: 5px 15px;
+  background: #E47;
+  color: #FFF;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -moz-box-shadow: 0px 3px 8px rgba(0,0,0,0.15);  
+  -webkit-box-shadow: 0px 3px 8px rgba(0,0,0,0.15); 
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.15);   
+}
+#content a.button:hover {  background-color: #C25; }
+#content a.button:active { background-color: #333; }
+
+
+#content .deck {
+    font-size:17px;
+    font-weight:300;
+}
+
+#content .caption  {
+    color: #777;
+    font-size: 11px;
+}
