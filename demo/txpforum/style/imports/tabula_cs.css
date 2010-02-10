@@ -1,0 +1,200 @@
+/* background and text colours
+---------------------------------------------------------------- */
+
+body {
+background-color: #fff;
+}
+
+.pun {
+color: #333;
+}
+
+label {
+color: #960;
+}
+
+.qjump label, .top-search label {
+color: #333;
+background-color: transparent;
+}
+
+.pun pre {
+background-color: #ffc;
+border: 1px dashed #CCC;
+
+}
+
+.pun code {
+background-color: #ffc;
+}
+
+
+
+/* main board header and navigation bar background and text colors */
+
+#brdtitle {
+color: #333;
+}
+
+.pun h2, #brdheader .elsewhere {
+color: #333;
+}
+
+#brdmenu {
+color: #333;
+border: none;
+}
+
+
+
+/* table header rows */
+
+.pun th {
+  border-top:2px solid #FC3 !important;
+}
+
+/* fieldset legend text color */
+
+.pun legend {
+color: #333;
+}
+
+/* highlighted text for various items */
+
+.pun div.blockmenu li.isactive a,
+#posterror li strong {
+color: #333;
+}
+
+/* post backgrounds and text
+---------------------------------------------------------------- */
+
+/* this is the setup for posts */
+
+div.blockpost div.box, div.postright, div.postfootright {
+background-color: #fff;
+}
+
+div.postright, div.postfootright {
+border-left-color: #fff;
+}
+
+div.postleft, div.postfootleft, div.blockpost label {
+background-color: #fff;
+}
+
+/* background for post headers and text color for post numbers
+in viewtopic */
+
+
+
+div.blockpost h2 span.conr {
+color: #333;
+}
+
+/* this is the line above the signature in posts. color and
+background should be the same */
+
+.pun hr {
+  color: #CCC;
+  background-color: #CCC;
+}
+
+/* border colours
+---------------------------------------------------------------- */
+
+/* color for all external borders */
+
+div.box {
+border: none;
+}
+
+/* makes the top border of posts match the color used for post
+headers */
+
+div.blockpost div.box {
+border: none;
+}
+
+/* table internal borders. by default "th" is same as background
+so border is invisible */
+
+.pun th, .pun td {
+border: none;
+}
+
+/* creates the inset border for quote boxes, code boxes, and form
+info boxes */
+
+.pun blockquote, 
+div.codebox, 
+div.forminfo, 
+div.blockpost label {
+border-color: #aca899 #fff #fff #aca899;
+}
+
+/* gecko's default fieldset borders are really nasty so this gives
+them a color without interferring with ie's rather nice default */
+
+.pun div > fieldset {
+border-color: #aca899;
+}
+
+/* link colours
+---------------------------------------------------------------- */
+
+/* this is the default for all links */
+
+.pun a:link {
+color: #333;
+}
+
+.pun a:visited {
+color: #b55b02;
+}
+
+.pun a:hover {
+color: #f90;
+}
+
+/* colors for links in header rows and navigation bar */
+
+.pun h2 a:link, .pun h2 a:visited, .pun h2 a:hover,
+#brdmenu a:link, #brdmenu a:visited, #brdmenu a:hover {
+color: #333;
+}
+
+/* colors for links in message post */
+
+.pun a:link, .pun a:visited,
+.pun h2 a:link, .pun h2 a:visited, 
+#brdmenu a:link, #brdmenu a:visited,
+li.maintenancelink a:link,
+li.maintenancelink a:visited,
+div.postmsg a:link, div.postmsg a:visited {
+  color: #963;
+}
+.pun a:hover,
+li.maintenancelink a:hover,
+div.postmsg a:hover {
+  color: #000;
+}
+
+#brdmenu a:hover, .pun h2 a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/*
+---------------------------------------------------------------- */
+
+dl.iredirect, 
+.iredirect dd + dt, 
+.iredirect dt + dt {
+border-color: #fce39d;
+}
+
+tr.dividesticky td {
+  border-top: 2px solid #FC3 !important;
+}
+

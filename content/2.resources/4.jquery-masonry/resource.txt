@@ -33,9 +33,9 @@ content:
     <h1 class="col12">jQuery Masonry</h1>
     <ol id="msnry_nav" class="col12">
         <li class="selected"><span>Primer</span></li>
-        <li><a href="/demo/masonry/basic.html">Basic Examples</a></li>
-        <li><a href="/demo/masonry/tumblelog.html">Tumblelog Example</a></li>
-        <li><a href="/demo/masonry/infinite_scroll.html">Infinite Scroll Example</a></li>
+        <li><a href="../../demo/masonry/basic.html">Basic Examples</a></li>
+        <li><a href="../../demo/masonry/tumblelog.html">Tumblelog Example</a></li>
+        <li><a href="../../demo/masonry/infinite_scroll.html">Infinite Scroll Example</a></li>
     </ol>
 
     <div class="col6">

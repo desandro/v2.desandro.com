@@ -1,0 +1,61 @@
+body.articles { background: #BCC; }
+
+h1 {
+    position: absolute;
+    left: -9999em;
+    top: -9999em;
+}
+
+
+#content {
+    color: #FFF;
+    padding: 100px 0 300px;
+    text-align: left;
+    overflow: hidden;
+}
+
+#content .wrap12 {
+
+}
+
+#content p {
+    position: relative;
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+
+#content * {
+    display: block;
+    line-height: 1.0em;
+
+}
+
+#content span {
+    position: relative;
+    z-index: 200;
+    font-family: 'Hoefler Text', 'Times New Roman', serif;
+    color: #466;
+    color: hsla(180,60%,30%,.5);
+
+}
+
+.its {
+    font-size: 90px;
+}
+
+.witha { 
+    font-size: 140px;
+    font-style: italic;
+}
+
+#content p em {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 700px;
+    position: absolute;
+    right: 0;
+    top: -140px;
+    color: #FFF;
+    text-shadow: 0 0 100px #FFF, 0 0 60px #FFF, 0 0 10px #FFF;
+}
+

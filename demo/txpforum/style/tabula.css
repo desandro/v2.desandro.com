@@ -1,0 +1,356 @@
+@import url(imports/base.css);
+@import url(imports/tabula_cs.css); 
+
+/* overwriting base.css
+---------------------------------------------------------------- */
+
+body, input, textarea, select, optgroup, option {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333 ;
+}
+
+body {
+  border-top:12px solid #FC3;
+}
+
+/* IE6 Win \*/
+* html {
+  font-size: 82%;
+}
+
+div.postsignature hr {
+width: 100%;
+}
+
+#punwrap {
+  width:840px;
+  padding:10px;
+  margin:0 auto;
+}
+
+div.postleft dl,
+div.postright {
+padding: 0px;
+}
+
+div.icon {
+  display:none;
+  visibility: hidden;
+}
+
+.tclcon h3, 
+.tclcon p, 
+.tclcon .thread {
+  margin-left: 0;
+}
+
+tr.inew {
+  background:#FFC;
+}
+.inew + .tclcon {
+  background:#FFC;
+}
+
+div.linksb {
+  padding:1.0em 0 0 ;
+  border-top:1px dotted #CCC;
+}
+
+p.page-links {
+margin: 0;
+padding-left: 0;
+float: none;
+width: auto;
+}
+
+tr.dividesticky td {
+  border: none;
+}
+
+.pun th,
+.pun td,
+div.block div.inbox,
+div.blockmenu div.inbox,
+.pun h2 {
+  padding: 6px 0px;
+}
+
+/*
+---------------------------------------------------------------- */
+
+/* by default borders are 1px solid */
+
+div.box,
+.pun td, .pun th,
+div.codebox,
+div.forminfo,
+div.blockpost label {
+border: none;
+}
+
+.pun blockquote {
+  color:#555;
+  margin-bottom: 1.0em !important;
+  border-style: solid;
+  border-color: #FDA;
+  border-width: 3px 1px 1px 3px;
+  -moz-border-radius: 10px;
+  -moz-border-radius-topleft:0px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+div.blocktable,
+div.blockform,
+div.block2col,
+#postreview {
+margin-bottom: 12px;
+}
+
+/* padding around fieldsets */
+
+div.blockform form,
+div.fakeform {
+padding: 20px 20px 15px 20px;
+}
+
+div.icon {
+width: 15px;
+height: 15px;
+border: none;
+}
+
+div.searchposts div.icon {
+margin-left: 0;
+}
+
+div.inew {
+background-image: url(/img/dot.png);
+background-repeat: no-repeat;
+background-position: center center;
+border: none;
+}
+
+div.inform {
+padding-bottom: 12px;
+}
+
+dl.iredirect {
+padding: 0 0 4px 0;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+}
+
+.inbox dt {
+font-family: Georgia, "Georgia Ref", Times, Serif;
+}
+
+div.linkst {
+  padding: 0;
+}
+
+.blockpost {
+  border-top:2px solid #FC3;
+}
+
+
+
+/* padding for the action links and online indicator in
+viewtopic */
+
+div.postfootright ul {
+padding: 10px 6px 0 6px;
+}
+
+div.postmsg ul,
+div.postmsg ol {
+padding-left: 1em;
+}
+
+div.postmsg a {
+font-weight: normal;
+}
+
+.pun pre {
+  font-size: 1.0em;
+margin: 1.5em 0;
+padding: 10px;
+}
+
+td.tc2, td.tc3, td.tcl, td.tcr {
+  border-top: 1px dotted #CCC;
+  padding: 6px 0;
+}
+
+td.tcl h3 {
+  font:bold 14px/20px "Helvetica Neue", Arial, sans-serif;
+}
+
+#brdtitle h1 {
+font-size: 1.8em;
+font-family: Georgia, "Georgia Ref", Times, Serif;
+font-weight: normal;
+font-variant: small-caps;
+letter-spacing: .3em;
+}
+
+#brdtitle, h1 {
+  margin: 0 ;
+  padding: 0 ;
+  line-height:1.0em;
+}
+
+#brdtitle h1 span {
+margin-left: -0.5em;
+font-style: italic;
+font-size: .8em;
+font-variant: normal;
+text-transform: lowercase;
+letter-spacing: normal;
+}
+
+#brdtitle a {
+text-decoration: none;
+}
+
+#brdmenu {
+border-top: none;
+border-bottom: none;
+}
+
+#brdheader.block,
+#brdstats.block {
+margin-bottom: 6px;
+}
+
+h2.cat-heading {
+  border-top:1px dotted #CCC;
+  font:bold 13px Georgia,serif;
+  padding:8px 0;
+}
+
+/* --------------------------------------------------------------  STYLISH ALL NEW STUFF */
+
+
+
+/* header */
+
+#brdmenu ul {
+  margin: 0;
+  list-style: none;
+  border-top: 1px solid #CCC;
+  font: bold 14px Georgia, serif;
+}
+
+#brdmenu li a {
+  height: 20px;
+  line-height: 20px;
+}
+
+#brdwelcome {
+  font:italic 11px/18px Georgia, Serif;
+  border-top:1px dotted #CCC;
+}
+#brdwelcome a {
+  text-decoration:none;
+}
+
+.top-jump {
+  border-top:1px dotted #CCC;
+}
+
+/* categories */
+
+.blocktable thead {
+  font:11px  Georgia ;
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+  
+}
+
+.blocktable table {
+  margin-bottom: 30px;
+  border-bottom: 1px dotted #CCC;
+}
+
+
+
+.tc2, .tc3, .tcr {
+  color: #666;
+  font-size: 0.95em ;
+}
+
+/* posts and threads */
+
+
+h2 span {
+  text-transform:uppercase;
+  font-size:0.92em;
+}
+
+.postleft {
+  font: 11px/18px Georgia;
+  color:#666;
+}
+
+.postmsg {
+  padding-top: 1.0em !important;
+  border-top: 1px dotted #CCC;
+}
+
+.postright p, .postright li {
+  line-height: 1.6em !important;
+} 
+
+.postfootleft, .postfootright {
+  text-transform: uppercase;
+  font-size: 0.87em;
+}
+.postfootleft p, .postfootright p {
+  padding: 0 !important;
+}
+
+
+.postsignature {
+  color:#666;
+  font-size:0.9em;
+}
+
+
+
+p.page-links, p.pagelink {
+margin: 0;
+float: left;
+  clear:both;
+  padding: 6px 0;
+  width:50%;
+}
+p.page-links a:link,
+p.page-links a:visited,
+p.pagelink a:link,
+p.pagelink a:visited {
+  padding:2px 2px;
+  background:#FFD;
+  border:0px solid #FED;
+  text-decoration:none;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+p.page-links a:hover,
+p.pagelink a:hover {
+  border-color: #D22;
+  background: #D22;
+  color:#FFF;
+}
+
+.blockform {
+  padding:0 10px !important;
+  background:#FFD;
+  border:1px solid #CCC;
+}

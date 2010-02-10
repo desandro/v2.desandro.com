@@ -1,0 +1,35 @@
+/**************************
+**  alternate home page
+**************************/
+
+.page_home section {
+    width: 310px;
+    float: left;
+	border: none;
+}
+
+.page_home section:first-child {
+    margin-right: 40px;
+}
+
+.page_home h2 + .plugin.list {
+	border-top: 3px double #CCC;
+}
+
+.page_home .meta {
+    width: 100%;
+	margin-bottom: 0.4em;
+}
+
+.page_home .meta p {
+    float: right;
+	margin-left: 8px;
+}
+
+.page_home .content {
+    width: auto;
+}
+
+.page_home h4 {
+	padding-top: 6px;
+}

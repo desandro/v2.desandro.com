@@ -36,7 +36,6 @@
     </div>
     <ol>
         <li class="articles"><a href="../../articles">Articles</a>
-
             
         </li>
         <li class="resources"><a href="../../resources">Resources</a>
@@ -55,9 +54,9 @@
     <h1 class="col12">jQuery Masonry</h1>
     <ol id="msnry_nav" class="col12">
         <li class="selected"><span>Primer</span></li>
-        <li><a href="/demo/masonry/basic.html">Basic Examples</a></li>
-        <li><a href="/demo/masonry/tumblelog.html">Tumblelog Example</a></li>
-        <li><a href="/demo/masonry/infinite_scroll.html">Infinite Scroll Example</a></li>
+        <li><a href="../../demo/masonry/basic.html">Basic Examples</a></li>
+        <li><a href="../../demo/masonry/tumblelog.html">Tumblelog Example</a></li>
+        <li><a href="../../demo/masonry/infinite_scroll.html">Infinite Scroll Example</a></li>
     </ol>
 
     <div class="col6">
@@ -391,4 +390,4 @@
 </body>
 </html>
 
-<!-- Stacey(2.0): d346160852521daf6acdf02b2ddc5d30 -->
+<!-- Stacey(2.0): efc582cf3822a9fb598af3423f5a6de7 -->

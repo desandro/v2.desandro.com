@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+	<title>Rando</title>
+    <script type="text/javascript" src="jquery-1.4.min.js" charset="utf-8"></script>
+
+    <script type="text/javascript" charset="utf-8">
+        $(function(){
+            $(window).click(function(){
+                var
+                    hue = parseInt(Math.random()*360),
+                    sat = parseInt(Math.random()*100),
+                    lit = parseInt(Math.random()*100),
+                    randoColor = 'hsla('+hue+','+sat+'%,'+lit+'%,1)'
+                ;
+               $('body').css('background', randoColor);
+            }).click();
+            
+        });
+    </script>
+
+    <style type="text/css" media="screen">
+        body {
+            font-family: 'Futura Std';
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #FFF;
+            text-align: center;
+        }
+        h1 { font-size: 60px;}
+    </style>
+
+</head>
+<body>
+    <h1>Any Color will do</h1>
+</body>
+</html>

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>home page &middot;  David DeSandro</title>
+    <title> David DeSandro</title>
     <link rel="stylesheet" href="./_base/css/desandro.css" type="text/css" media="screen" />
     <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
@@ -34,7 +34,6 @@
     </div>
     <ol>
         <li class="articles"><a href="./articles">Articles</a>
-
                             / <em><a href="./articles/jquery-masonry-v10-released/">jQuery Masonry v1.0&nbsp;Released</a></em>
 <time>7 Dec 2009</time>
 <nav class="older_newer">
@@ -42,7 +41,7 @@
 
 
     
-                <a href="./articles/concept-flow-what-i-m-going-for/" title="Concept Flow: What I&rsquo;m going for">Newer &rsaquo; </a>
+                <a href="./articles/with-a-capital-s/" title="With a capital S">Newer &rsaquo; </a>
 
 
     
@@ -110,4 +109,4 @@
 </body>
 </html>
 
-<!-- Stacey(2.0): d346160852521daf6acdf02b2ddc5d30 -->
+<!-- Stacey(2.0): 69324b5f5627b1fab05d41af53fa1262 -->

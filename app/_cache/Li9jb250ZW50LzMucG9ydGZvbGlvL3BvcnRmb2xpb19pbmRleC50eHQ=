@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Portfolio Index &middot;  David DeSandro</title>
+    <title>Portfolio &middot;  David DeSandro</title>
     <link rel="stylesheet" href="../_base/css/desandro.css" type="text/css" media="screen" />
     <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
@@ -26,7 +26,6 @@
     </div>
     <ol>
         <li class="articles"><a href="../articles">Articles</a>
-
             
         </li>
         <li class="resources"><a href="../resources">Resources</a>
@@ -801,4 +800,4 @@ In addition to touching up the aesthetics of the app, I was charged with alignin
 </html>
 
 
-<!-- Stacey(2.0): d346160852521daf6acdf02b2ddc5d30 -->
+<!-- Stacey(2.0): efc582cf3822a9fb598af3423f5a6de7 -->

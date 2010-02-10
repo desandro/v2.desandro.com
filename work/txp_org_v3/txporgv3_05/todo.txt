@@ -1,0 +1,29 @@
+
+Generic article template
+
+
+
+
+Possible Featured Plugins
+	zem contact reborn
+	rvm maintenance
+	tru tags
+	sed section fields
+	upm image
+	
+	http://sam.brown.tc/entry/282/9-must-install-textpattern-plugins
+	toolbar
+	
+	
+	http://forum.textpattern.com/viewtopic.php?id=28222
+	
+FAQ's
+	How do I install plugin?
+	How do I submit a plugin to this site?
+	How can I create my own plugin?
+	Who 
+	
+Future Features
+	filter by supported version of TXP
+	Other plugins by this author
+	

@@ -27,7 +27,6 @@
     </div>
     <ol>
         <li class="articles"><a href="../articles">Articles</a>
-
             
         </li>
         <li class="resources"><a href="../resources">Resources</a>
@@ -51,6 +50,13 @@
 
     <div class="articles">
                    <article>
+                <a href="../articles/with-a-capital-s/" class="clearfix">
+                    <h2>With a capital S</h2>
+                    <time>9 Feb 2010</time>
+                                            <img src="../content/1.articles/14.with-a-capital-s/_preview/with_a_capital_s.jpg" width="300" height="178" />
+                    
+                </a>
+            </article>           <article>
                 <a href="../articles/jquery-masonry-v10-released/" class="clearfix">
                     <h2>jQuery Masonry v1.0&nbsp;Released</h2>
                     <time>7 Dec 2009</time>
@@ -177,4 +183,4 @@
 </body>
 </html>
 
-<!-- Stacey(2.0): d346160852521daf6acdf02b2ddc5d30 -->
+<!-- Stacey(2.0): 23493ea953adcad05a26af8bcea6e020 -->

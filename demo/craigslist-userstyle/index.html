@@ -1,0 +1,621 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>craigslist userstyle demo - main page</title>
+
+<link rel="stylesheet" title="craigslist" href="craigslist.css" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="cl-cleanup.css" />
+</head>
+<body class="hp">
+
+	<p id="alert">This is a demo.  View <a href="index.html">homepage</a>,
+		<a href="bikes.html">list page</a>, or <a href="post.html">post page</a>.
+		Back to <a href="http://desandro.com/portfolio">David DeSandro's portfolio</a>.</p>
+
+	<table cellspacing="0" cellpadding="0" summary="page">
+		<tr>
+			<td id="leftbar">
+				<div id="logo">
+					<a href="http://www.craigslist.org/about/sites.html">craigslist</a> 
+				</div>
+
+				<ul id="postlks">
+					<li><a href="https://post.craigslist.org/wdc">post to classifieds</a>
+					<li><a href="https://accounts.craigslist.org">my account</a>
+					<li><a href="http://www.craigslist.org/about/help/">help, faq, abuse, legal</a>
+				</ul>
+
+				<form id="search" action="/search/" method="GET">
+					<div>search craigslist</div>
+					<input type="hidden" name="areaID" value="10">
+					<input type="hidden" name="subAreaID" value="">
+					<input id="query" name="query"><br>
+					<select name="catAbbreviation">
+						<option value="ccc">community
+						<option value="eee">events
+						<option value="ggg">gigs
+						<option value="hhh">housing
+						<option value="jjj">jobs
+						<option value="ppp">personals
+						<option value="res">resumes
+						<option value="sss" selected="selected">for sale
+						<option value="bbb">services
+					</select>
+					<input id="go" type="submit" value="&gt;">
+				</form>
+
+				<br>
+
+				
+		<div class="ban"><a href="bikes.html">event calendar</a></div>
+		<div id="caldiv">
+			<table class="cal" summary="calendar">
+				<tr class="dys">
+	<th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th></tr>
+<tr>
+<td><a href="#">5</a></td>
+<td><a href="#">6</a></td>
+<td class="tdy"><a href="#">7</a></td>
+<td><a href="#">8</a></td>
+<td><a href="#">9</a></td>
+<td><a href="#">10</a></td>
+<td><a href="#">11</a></td>
+</tr>
+<tr>
+<td><a href="#">12</a></td>
+<td><a href="#">13</a></td>
+<td><a href="#">14</a></td>
+<td><a href="#">15</a></td>
+<td><a href="#">16</a></td>
+<td><a href="#">17</a></td>
+<td><a href="#">18</a></td>
+</tr>
+<tr>
+<td><a href="#">19</a></td>
+<td><a href="#">20</a></td>
+<td><a href="#">21</a></td>
+<td><a href="#">22</a></td>
+<td><a href="#">23</a></td>
+<td><a href="#">24</a></td>
+<td><a href="#">25</a></td>
+</tr>
+<tr>
+<td><a href="#">26</a></td>
+<td><a href="#">27</a></td>
+<td><a href="#">28</a></td>
+<td><a href="#">29</a></td>
+<td><a href="#">30</a></td>
+<td><a href="#">1</a></td>
+<td><a href="#">2</a></td>
+</tr>
+</table>
+</div>
+
+				<br>
+
+				<ul class="leftlinks" id="leftlinks">
+
+					
+					<li><a href="http://www.craigslist.org/about/scams">avoid scams &amp; fraud</a>
+					<li><a href="http://www.craigslist.org/about/safety">personal safety tips</a>
+					<li><a href="http://blog.craigslist.org/">craigslist blog</a>
+					<li><a href="http://www.craigslist.org/about/factsheet.html">craigslist factsheet</a>
+					<li><a href="http://www.craigslist.org/about/best/all/">best-of-craigslist</a>
+					
+					<li><a href="http://www.craigslist.org/about/job_boards_compared">job boards compared</a>
+					
+					<li><a href="http://24hoursoncraigslist.com/subs/nowplaying.html">craigslist movie &amp; dvd</a>
+					<li><a href="http://www.craigslistfoundation.org/index.php?page=Craigslist_Foundation_Store">craigslist T-shirts</a>
+					<li><a href="http://craigslistfoundation.org/">craigslist foundation</a>
+                    
+					<li><a href="http://savetheinternet.com/=faq">defend net neutrality</a>
+
+				</ul>
+
+				<div><a href="http://www.craigslist.org/about/help/system-status.html">system status</a></div>
+
+				<br>
+				<table id="alks" cellspacing="5" cellpadding="2" summary="about links">
+					<tr bgcolor="white">
+						<td align="right"><a href="http://www.craigslist.org/about/terms.of.use.html">terms of use</a></td>
+						<td align="left"><a href="http://www.craigslist.org/about/privacy_policy">privacy</a></td>
+					</tr>
+					<tr bgcolor="white">
+						<td align="right"><a href="http://www.craigslist.org/about/">about us</a></td>
+						<td align="left"><a href="http://www.craigslist.org/about/help/">help</a></td>
+					</tr>
+				</table>
+			</td>
+
+			<td>&nbsp;&nbsp;</td>
+
+			<td>
+				<table summary="main">
+					<tr>
+						<td align="center" colspan="5" id="topban">
+							<div>
+								<h2>washington, DC</h2>&nbsp;<sup><a href="http://en.wikipedia.org/wiki/Washington,_DC">w</a></sup>
+								<span class="for"><a href="/doc/" title="district of columbia">doc</a>&nbsp;<a href="/nva/" title="northern virginia">nva</a>&nbsp;<a href="/mld/" title="maryland">mld</a>&nbsp;</span>
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+
+							
+			<div class="ban"><a href="bikes.html">community</a></div>
+			<table cellspacing="1" class="w2" width="100%" summary="community">
+				<tr>
+					<td>
+		<a href="bikes.html">activities</a>
+<a href="bikes.html">artists</a>
+<a href="bikes.html">childcare</a>
+<a href="bikes.html">general</a>
+<a href="bikes.html">groups</a>
+<a href="bikes.html">pets</a>
+<a href="bikes.html">events</a>
+</td><td valign="top"><a href="bikes.html">lost+found</a>
+<a href="bikes.html">musicians</a>
+<a href="bikes.html">local&nbsp;news</a>
+<a href="bikes.html">politics</a>
+<a href="bikes.html">rideshare</a>
+<a href="bikes.html">volunteers</a>
+<a href="bikes.html#classes">classes</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr></table>
+		
+							
+			<div class="ban">personals</div>
+			<table cellspacing="1" class="w2" width="100%" summary="personals">
+				<tr>
+					<td>
+		<a href="/cgi-bin/personals.cgi?category=stp">strictly platonic</a>
+<a href="/cgi-bin/personals.cgi?category=w4w">women seek women</a>
+<a href="/cgi-bin/personals.cgi?category=w4m">women seeking men</a>
+<a href="/cgi-bin/personals.cgi?category=m4w">men seeking women</a>
+<a href="/cgi-bin/personals.cgi?category=m4m">men seeking men</a>
+<a href="/cgi-bin/personals.cgi?category=msr">misc romance</a>
+<a href="/cgi-bin/personals.cgi?category=cas">casual encounters</a>
+<a href="/cgi-bin/personals.cgi?category=mis">missed connections</a>
+<a href="/cgi-bin/personals.cgi?category=rnr">rants and raves</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr></table>
+
+							
+			<div class="ban"><a href="/forums/">discussion forums</a></div>
+			<table cellspacing="0" width="100%" summary="forums">
+				<tr class="for" id="forums">
+					<td valign="top">
+		<a href="#">1099</a>
+<a href="#">apple</a>
+<a href="#">arts</a>
+<a href="#">atheist</a>
+<a href="#">autos</a>
+<a href="#">beauty</a>
+<a href="#">bikes</a>
+<a href="#">celebs</a>
+<a href="#">comp</a>
+<a href="#">crafts</a>
+<a href="#">diet</a>
+<a href="#">divorce</a>
+<a href="#">dying</a>
+<a href="#">eco</a>
+<a href="#">educ</a>
+<a href="#">etiquet</a>
+<a href="#">feedbk</a>
+<a href="#">film</a>
+<a href="#">fitness</a>
+<a href="#">fixit</a>
+<a href="#">food</a>
+<a href="#">frugal</a>
+<a href="#">gaming</a>
+<a href="#">garden</a>
+</td><td valign="top"><a href="#">gifts</a>
+<a href="#">haiku</a>
+<a href="#">health</a>
+<a href="#"><b>help</b></a>
+<a href="#">history</a>
+<a href="#">housing</a>
+<a href="#">jobs</a>
+<a href="#">jokes</a>
+<a href="#">kink</a>
+<a href="#">l.t.r.</a>
+<a href="#">legal</a>
+<a href="#">linux</a>
+<a href="#">loc pol</a>
+<a href="#">m4m</a>
+<a href="#">money</a>
+<a href="#">motocy</a>
+<a href="#">music</a>
+<a href="#">npo</a>
+<a href="#">open</a>
+<a href="#">outdoor</a>
+<a href="#">over 50</a>
+<a href="#">p.o.c.</a>
+<a href="#">parent</a>
+<a href="#">pefo</a>
+</td><td valign="top"><a href="#">pets</a>
+<a href="#">philos</a>
+<a href="#">politic</a>
+<a href="#">psych</a>
+<a href="#">queer</a>
+<a href="#">recover</a>
+<a href="#">religion</a>
+<a href="#">rofo</a>
+<a href="#">science</a>
+<a href="#">shop</a>
+<a href="#">spirit</a>
+<a href="#">sports</a>
+<a href="#">t.v.</a>
+<a href="#">tax</a>
+<a href="#">testing</a>
+<a href="#">transg</a>
+<a href="#">travel</a>
+<a href="#">vegan</a>
+<a href="#">w4w</a>
+<a href="#">wed</a>
+<a href="#">wine</a>
+<a href="#">women</a>
+<a href="#">words</a>
+<a href="#">writers</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr></table>
+
+						</td>
+
+						<td>&nbsp;</td>
+
+						<td>
+							
+			<div class="ban"><a href="bikes.html">housing</a></div>
+			<table cellspacing="1" class="w2" width="100%" summary="housing">
+				<tr>
+					<td>
+		<a href="bikes.html">apts / housing</a>
+<a href="bikes.html">rooms / shared</a>
+<a href="bikes.html">sublets / temporary</a>
+<a href="bikes.html">housing wanted</a>
+<a href="bikes.html">housing swap</a>
+<a href="bikes.html">vacation rentals</a>
+<a href="bikes.html">parking / storage</a>
+<a href="bikes.html">office / commercial</a>
+<a href="bikes.html">real estate for sale</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr></table>
+
+							
+			<div class="ban"><a href="bikes.html">for sale</a></div>
+			<table cellspacing="1" class="w2" width="100%" summary="for sale">
+				<tr>
+					<td>
+		<a href="bikes.html">barter</a>
+<a href="bikes.html">bikes</a>
+<a href="bikes.html">boats</a>
+<a href="bikes.html">books</a>
+<a href="bikes.html">business</a>
+<a href="bikes.html">computer</a>
+<a href="bikes.html">free</a>
+<a href="bikes.html">furniture</a>
+<a href="bikes.html">general</a>
+<a href="bikes.html">jewelry</a>
+<a href="bikes.html">material</a>
+<a href="bikes.html">rvs</a>
+<a href="bikes.html">sporting</a>
+<a href="bikes.html">tickets</a>
+<a href="bikes.html">tools</a>
+</td><td valign="top"><a href="bikes.html">arts+crafts</a>
+<a href="bikes.html">auto parts</a>
+<a href="bikes.html">baby+kids</a>
+<a href="bikes.html">cars+trucks</a>
+<a href="bikes.html">cds/dvd/vhs</a>
+<a href="bikes.html">clothes+acc</a>
+<a href="bikes.html">collectibles</a>
+<a href="bikes.html">electronics</a>
+<a href="bikes.html">farm+garden</a>
+<a href="bikes.html">games+toys</a>
+<a href="bikes.html">garage sale</a>
+<a href="bikes.html">household</a>
+<a href="bikes.html">motorcycles</a>
+<a href="bikes.html">music instr</a>
+<a href="bikes.html">photo+video</a>
+<a href="bikes.html">wanted</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr></table>
+
+							
+			<div class="ban"><a href="bikes.html">services</a></div>
+			<table cellspacing="1" class="w2" width="100%" summary="services">
+				<tr>
+					<td>
+		<a href="bikes.html">beauty</a>
+<a href="bikes.html">computer</a>
+<a href="bikes.html">creative</a>
+<a href="/cgi-bin/personals.cgi?category=ers">erotic</a>
+<a href="bikes.html">event</a>
+<a href="bikes.html">financial</a>
+<a href="bikes.html">legal</a>
+<a href="bikes.html">lessons</a>
+</td><td valign="top"><a href="bikes.html">automotive</a>
+<a href="bikes.html">household</a>
+<a href="bikes.html">labor/move</a>
+<a href="bikes.html">skill'd trade</a>
+<a href="bikes.html">real estate</a>
+<a href="bikes.html">sm biz ads</a>
+<a href="bikes.html">therapeutic</a>
+<a href="bikes.html">travel/vac</a>
+<a href="bikes.html">write/ed/tr8</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr></table>
+
+						</td>
+
+						<td>&nbsp;</td>
+
+						<td>
+
+							
+			<div class="ban"><a href="bikes.html">jobs</a></div>
+			<table cellspacing="1" class="w2" width="100%" summary="jobs">
+				<tr>
+					<td>
+		<a href="bikes.html">accounting+finance</a>
+<a href="bikes.html">admin / office</a>
+<a href="bikes.html">arch / engineering</a>
+<a href="bikes.html">art / media / design</a>
+<a href="bikes.html">biotech / science</a>
+<a href="bikes.html">business / mgmt</a>
+<a href="bikes.html">customer service</a>
+<a href="bikes.html">education</a>
+<a href="bikes.html">food / bev / hosp</a>
+<a href="bikes.html">general labor</a>
+<a href="bikes.html">government</a>
+<a href="bikes.html">human resources</a>
+<a href="bikes.html">internet engineers</a>
+<a href="bikes.html">legal  /  paralegal</a>
+<a href="bikes.html">manufacturing</a>
+<a href="bikes.html">marketing / pr / ad</a>
+<a href="bikes.html">medical / health</a>
+<a href="bikes.html">nonprofit sector</a>
+<a href="bikes.html">real estate</a>
+<a href="bikes.html">retail / wholesale</a>
+<a href="bikes.html">sales / biz dev</a>
+<a href="bikes.html">salon / spa / fitness</a>
+<a href="bikes.html">security</a>
+<a href="bikes.html">skilled trade / craft</a>
+<a href="bikes.html">software / qa / dba</a>
+<a href="bikes.html">systems / network</a>
+<a href="bikes.html">technical support</a>
+<a href="bikes.html">transport</a>
+<a href="bikes.html">tv / film / video</a>
+<a href="bikes.html">web / info design</a>
+<a href="bikes.html">writing / editing</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr></table>
+						<table class="w2" id="xjl">
+							<tr>
+								<td id="etc"><a href="bikes.html" style="display:inline;">[ETC]</a></td>
+								<td id="pt"><a href="/search/jjj?addFour=part-time" style="display:inline;">[part time]</a></td>
+							</tr>
+						</table>
+
+							
+			<div class="ban"><a href="bikes.html">gigs</a></div>
+			<table cellspacing="1" class="w2" width="100%" summary="gigs">
+				<tr>
+					<td>
+		<a href="bikes.html">computer</a>
+<a href="bikes.html">creative</a>
+<a href="bikes.html">crew</a>
+<a href="bikes.html">domestic</a>
+</td><td valign="top"><a href="bikes.html">event</a>
+<a href="bikes.html">labor</a>
+<a href="bikes.html">writing</a>
+<a href="bikes.html">talent</a>
+<a href="/cgi-bin/personals.cgi?category=adg">adult</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr></table>
+
+							
+			<div class="ban"><a href="bikes.html">resumes</a></div>
+			<table cellspacing="1" class="w2" width="100%" summary="resumes">
+				<tr>
+					<td>
+		</td></tr>
+<tr><td>&nbsp;</td></tr></table>
+
+						</td>
+					</tr>
+				</table>
+			</td>
+
+			<td>
+
+
+
+		<table class="city" summary="city list"><tr><td>
+			<h5>us cities</h5><ul>
+<li><a href="http://atlanta.craigslist.org/">atlanta</a>
+<li><a href="http://austin.craigslist.org/">austin</a>
+<li><a href="http://boston.craigslist.org/">boston</a>
+<li><a href="http://chicago.craigslist.org/">chicago</a>
+<li><a href="http://dallas.craigslist.org/">dallas</a>
+<li><a href="http://denver.craigslist.org/">denver</a>
+<li><a href="http://houston.craigslist.org/">houston</a>
+<li><a href="http://lasvegas.craigslist.org/">las&nbsp;vegas</a>
+<li><a href="http://losangeles.craigslist.org/">los&nbsp;angeles</a>
+<li><a href="http://miami.craigslist.org/">miami</a>
+<li><a href="http://minneapolis.craigslist.org/">minneapolis</a>
+<li><a href="http://newyork.craigslist.org/">new&nbsp;york</a>
+<li><a href="http://orangecounty.craigslist.org/">orange&nbsp;co</a>
+<li><a href="http://philadelphia.craigslist.org/">philadelphia</a>
+<li><a href="http://phoenix.craigslist.org/">phoenix</a>
+<li><a href="http://portland.craigslist.org/">portland</a>
+<li><a href="http://raleigh.craigslist.org/">raleigh</a>
+<li><a href="http://sacramento.craigslist.org/">sacramento</a>
+<li><a href="http://sandiego.craigslist.org/">san&nbsp;diego</a>
+<li><a href="http://seattle.craigslist.org/">seattle</a>
+<li><a href="http://sfbay.craigslist.org/">sf&nbsp;bayarea</a>
+<li><a href="http://washingtondc.craigslist.org/">wash dc</a>
+</ul>
+<a href="http://geo.craigslist.org/iso/us">more ...</a><br>
+<br>
+			<h5>canada</h5><ul>
+<li><a href="http://calgary.craigslist.ca">calgary</a>
+<li><a href="http://edmonton.craigslist.ca">edmonton</a>
+<li><a href="http://halifax.craigslist.ca">halifax</a>
+<li><a href="http://montreal.craigslist.ca">montreal</a>
+<li><a href="http://ottawa.craigslist.ca">ottawa</a>
+<li><a href="http://toronto.craigslist.ca">toronto</a>
+<li><a href="http://vancouver.craigslist.ca">vancouver</a>
+<li><a href="http://victoria.craigslist.ca">victoria</a>
+<li><a href="http://winnipeg.craigslist.ca">winnipeg</a>
+</ul>
+<a href="http://geo.craigslist.org/iso/ca">more ...</a><br>
+<br>
+			<h5>intl cities</h5><ul>
+<li><a href="http://amsterdam.craigslist.org/">amsterdam</a>
+<li><a href="http://bangalore.craigslist.co.in/">bangalore</a>
+<li><a href="http://bangkok.craigslist.co.th/">bangkok</a>
+<li><a href="http://barcelona.craigslist.es/">barcelona</a>
+<li><a href="http://berlin.craigslist.org/">berlin</a>
+<li><a href="http://buenosaires.craigslist.org/">buenosaires</a>
+<li><a href="http://hongkong.craigslist.org/">hongkong</a>
+<li><a href="http://london.craigslist.co.uk/">london</a>
+<li><a href="http://manila.craigslist.com.ph/">manila</a>
+<li><a href="http://mexicocity.craigslist.com.mx/">mexico</a>
+<li><a href="http://paris.craigslist.org/">paris</a>
+<li><a href="http://rio.craigslist.org/">riodejaneiro</a>
+<li><a href="http://rome.craigslist.org/">rome</a>
+<li><a href="http://shanghai.craigslist.com.cn/">shanghai</a>
+<li><a href="http://sydney.craigslist.org/">sydney</a>
+<li><a href="http://tokyo.craigslist.jp/">tokyo</a>
+<li><a href="http://zurich.craigslist.ch/">zurich</a>
+</ul>
+
+		</td><td valign="top">
+			<h5>us states</h5><ul>
+<li><a href="http://geo.craigslist.org/iso/us/al">alabama</a>
+<li><a href="http://geo.craigslist.org/iso/us/ak">alaska</a>
+<li><a href="http://geo.craigslist.org/iso/us/az">arizona</a>
+<li><a href="http://geo.craigslist.org/iso/us/ar">arkansas</a>
+<li><a href="http://geo.craigslist.org/iso/us/ca">california</a>
+<li><a href="http://geo.craigslist.org/iso/us/co">colorado</a>
+<li><a href="http://geo.craigslist.org/iso/us/ct">connecticut</a>
+<li><a href="http://geo.craigslist.org/iso/us/dc">dc</a>
+<li><a href="http://geo.craigslist.org/iso/us/de">delaware</a>
+<li><a href="http://geo.craigslist.org/iso/us/fl">florida</a>
+<li><a href="http://geo.craigslist.org/iso/us/ga">georgia</a>
+<li><a href="http://micronesia.craigslist.org">guam</a>
+<li><a href="http://geo.craigslist.org/iso/us/hi">hawaii</a>
+<li><a href="http://geo.craigslist.org/iso/us/id">idaho</a>
+<li><a href="http://geo.craigslist.org/iso/us/il">illinois</a>
+<li><a href="http://geo.craigslist.org/iso/us/in">indiana</a>
+<li><a href="http://geo.craigslist.org/iso/us/ia">iowa</a>
+<li><a href="http://geo.craigslist.org/iso/us/ks">kansas</a>
+<li><a href="http://geo.craigslist.org/iso/us/ky">kentucky</a>
+<li><a href="http://geo.craigslist.org/iso/us/la">louisiana</a>
+<li><a href="http://geo.craigslist.org/iso/us/me">maine</a>
+<li><a href="http://geo.craigslist.org/iso/us/md">maryland</a>
+<li><a href="http://geo.craigslist.org/iso/us/ma">mass</a>
+<li><a href="http://geo.craigslist.org/iso/us/mi">michigan</a>
+<li><a href="http://geo.craigslist.org/iso/us/mn">minnesota</a>
+<li><a href="http://geo.craigslist.org/iso/us/ms">mississippi</a>
+<li><a href="http://geo.craigslist.org/iso/us/mo">missouri</a>
+<li><a href="http://geo.craigslist.org/iso/us/mt">montana</a>
+<li><a href="http://geo.craigslist.org/iso/us/nc">n carolina</a>
+<li><a href="http://geo.craigslist.org/iso/us/nh">n hampshire</a>
+<li><a href="http://geo.craigslist.org/iso/us/ne">nebraska</a>
+<li><a href="http://geo.craigslist.org/iso/us/nv">nevada</a>
+<li><a href="http://geo.craigslist.org/iso/us/nj">new jersey</a>
+<li><a href="http://geo.craigslist.org/iso/us/nm">new mexico</a>
+<li><a href="http://geo.craigslist.org/iso/us/ny">new york</a>
+<li><a href="http://geo.craigslist.org/iso/us/nd">north dakota</a>
+<li><a href="http://geo.craigslist.org/iso/us/oh">ohio</a>
+<li><a href="http://geo.craigslist.org/iso/us/ok">oklahoma</a>
+<li><a href="http://geo.craigslist.org/iso/us/or">oregon</a>
+<li><a href="http://geo.craigslist.org/iso/us/pa">pennsylvania</a>
+<li><a href="http://geo.craigslist.org/iso/pr">puerto rico</a>
+<li><a href="http://geo.craigslist.org/iso/us/ri">rhode island</a>
+<li><a href="http://geo.craigslist.org/iso/us/sc">s carolina</a>
+<li><a href="http://geo.craigslist.org/iso/us/sd">south dakota</a>
+<li><a href="http://geo.craigslist.org/iso/us/tn">tennessee</a>
+<li><a href="http://geo.craigslist.org/iso/us/tx">texas</a>
+<li><a href="http://geo.craigslist.org/iso/us/ut">utah</a>
+<li><a href="http://geo.craigslist.org/iso/us/vt">vermont</a>
+<li><a href="http://geo.craigslist.org/iso/us/va">virginia</a>
+<li><a href="http://geo.craigslist.org/iso/us/wa">washington</a>
+<li><a href="http://geo.craigslist.org/iso/us/wv">west virginia</a>
+<li><a href="http://geo.craigslist.org/iso/us/wi">wisconsin</a>
+<li><a href="http://geo.craigslist.org/iso/us/wy">wyoming</a>
+</ul>
+
+		</td><td valign="top">
+			<h5>countries</h5><ul>
+<li><a href="http://geo.craigslist.org/iso/ar">argentina</a>
+<li><a href="http://geo.craigslist.org/iso/au">australia</a>
+<li><a href="http://craigslist.at">austria</a>
+<li><a href="http://geo.craigslist.org/iso/bd">bangladesh</a>
+<li><a href="http://geo.craigslist.org/iso/be">belgium</a>
+<li><a href="http://geo.craigslist.org/iso/br">brazil</a>
+<li><a href="http://craigslist.ca">canada</a>
+<li><a href="http://caribbean.craigslist.org/">caribbean</a>
+<li><a href="http://geo.craigslist.org/iso/cl">chile</a>
+<li><a href="http://craigslist.com.cn">china</a>
+<li><a href="http://geo.craigslist.org/iso/co">colombia</a>
+<li><a href="http://geo.craigslist.org/iso/cr">costa rica</a>
+<li><a href="http://geo.craigslist.org/iso/cz">czech repub</a>
+<li><a href="http://geo.craigslist.org/iso/dk">denmark</a>
+<li><a href="http://geo.craigslist.org/iso/eg">egypt</a>
+<li><a href="http://craigslist.fi">finland</a>
+<li><a href="http://geo.craigslist.org/iso/fr">france</a>
+<li><a href="http://craigslist.de">germany</a>
+<li><a href="http://craigslist.co.uk">great britain</a>
+<li><a href="http://geo.craigslist.org/iso/gr">greece</a>
+<li><a href="http://geo.craigslist.org/iso/hu">hungary</a>
+<li><a href="http://craigslist.co.in">india</a>
+<li><a href="http://geo.craigslist.org/iso/id">indonesia</a>
+<li><a href="http://geo.craigslist.org/iso/ie">ireland</a>
+<li><a href="http://geo.craigslist.org/iso/il">israel</a>
+<li><a href="http://geo.craigslist.org/iso/it">italy</a>
+<li><a href="http://craigslist.jp">japan</a>
+<li><a href="http://craigslist.co.kr">korea</a>
+<li><a href="http://geo.craigslist.org/iso/lb">lebanon</a>
+<li><a href="http://geo.craigslist.org/iso/my">malaysia</a>
+<li><a href="http://craigslist.com.mx">mexico</a>
+<li><a href="http://micronesia.craigslist.org/">micronesia</a>
+<li><a href="http://geo.craigslist.org/iso/nl">netherlands</a>
+<li><a href="http://geo.craigslist.org/iso/nz">new zealand</a>
+<li><a href="http://geo.craigslist.org/iso/no">norway</a>
+<li><a href="http://geo.craigslist.org/iso/pk">pakistan</a>
+<li><a href="http://geo.craigslist.org/iso/pa">panama</a>
+<li><a href="http://geo.craigslist.org/iso/pe">peru</a>
+<li><a href="http://craigslist.com.ph">philippines</a>
+<li><a href="http://craigslist.pl">poland</a>
+<li><a href="http://craigslist.pt">portugal</a>
+<li><a href="http://geo.craigslist.org/iso/ru">russia</a>
+<li><a href="http://craigslist.com.sg">singapore</a>
+<li><a href="http://craigslist.co.za">south africa</a>
+<li><a href="http://craigslist.es">spain</a>
+<li><a href="http://craigslist.se">sweden</a>
+<li><a href="http://craigslist.ch">switzerland</a>
+<li><a href="http://craigslist.com.tw">taiwan</a>
+<li><a href="http://geo.craigslist.org/iso/th">thailand</a>
+<li><a href="http://craigslist.com.tr">turkey</a>
+<li><a href="http://geo.craigslist.org/iso/ae">UAE</a>
+<li><a href="http://craigslist.co.uk">UK</a>
+<li><a href="http://geo.craigslist.org/iso/us">US</a>
+<li><a href="http://geo.craigslist.org/iso/ve">venezuela</a>
+<li><a href="http://geo.craigslist.org/iso/vn">vietnam</a>
+</ul>
+
+		</td></tr></table>
+
+			</td>
+
+		</tr>
+	</table>
+<script type="text/javascript" src="http://www.craigslist.org/js/jquery.js"></script>
+</body>
+</html>
+

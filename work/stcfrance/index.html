@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+<head>
+	<title>STC France logo comps v1</title>
+
+<link rel="stylesheet" type="text/css" media="screen" href="/styles/960grid12v2.css" />	
+
+
+<style type="text/css">
+
+
+
+* { margin: 0; padding: 0;}
+
+html { background: #FFF; } 
+
+body {
+  color: #000;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; ;
+  font-size: 12.5px;
+  line-height: 20px;
+}
+
+a { text-decoration: none; }
+a:link, a:visited { color: #E58; }
+a:hover { color: #000; }
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+p, ul, ol, h1, h2, h3 { margin-bottom: 20px; }
+
+
+
+#round1 img { 
+  display: block; 
+  max-width: 700px;
+}
+
+
+
+h1 {
+  font-size: 62px;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+}
+
+h2, h3, h4 { font-weight: bold;} 
+
+h3 { font-size: 20px; }
+h4, p.comments-closed { font-size: 15px; }
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+.col9 { margin-bottom: 60px;}
+
+
+#show-round-1 {
+  color: #F00;
+  cursor: pointer;
+}
+#show-round-1:hover {
+  color: #00F;
+}
+
+#round1 { display: none;}
+
+#round2 .col3 {
+  position: relative;
+  height: 400px;
+}
+
+#round2 .col3 img {
+  width: 220px;
+  position: absolute;
+}
+
+#round2 li {
+  list-style: none;
+  width: 40px;
+  background: rgba(128,128,128,.3);
+  border: 2px solid transparent;
+  position: relative;
+  z-index: 1000;
+  float: left;
+  height: 26px;
+  color: #FFF;
+  cursor: pointer;
+}
+#round2 li:hover {
+  border-color: #F00;
+  background: transparent;
+  color: #F00;
+}
+#round2 li.selected{
+  border-color: #00F;
+  background: transparent;
+  color: #00F;
+}
+
+#round2 .window {
+  position: relative;
+  width: 680px;
+  height: 460px;
+  overflow: hidden;
+}
+
+#round2 .col9 img {
+  position: absolute;
+}
+
+
+</style>
+
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(function() {
+	$('#show-round-1').click(function() {
+		$('#round1').slideToggle();
+	});
+
+	$('#round2 li').click(function() {
+		var n = $('#round2 li').index(this);
+		var col = n%5;
+		var row = Math.floor( n/5);
+	//	$('#round2 .console').text( n + ' ' + col + ' ' + row );
+		
+		$('#round2 .col9 img').animate({
+			top: row * -470,
+			left: col * -680
+		});
+		
+		$('#round2 li.selected').removeClass('selected');
+		$(this).addClass('selected');
+		
+	});
+
+
+})
+</script>
+
+
+</head>
+
+<body>
+
+
+<div id="round2" class="wrap12">
+	<h1 class="col12">STC France Logo comps round 2	</h1>
+
+	<div class="col3">
+		<img src="eiffel-versions01.png" alt="" />
+			<ul>
+				<li class="selected">1a</li>
+				<li>2a</li>
+				<li>3a</li>
+				<li>4a</li>
+				<li>5a</li>
+				<li>1b</li>
+				<li>2b</li>
+				<li>3b</li>
+				<li>4b</li>
+				<li>5b</li>
+				<li>1c</li>
+				<li>2c</li>
+				<li>3c</li>
+				<li>4c</li>
+				<li>5c</li>
+			</ul>
+			<p class="console"></p>
+			<p><a href="eiffel-versions01.png">View eiffel-versions01.png</a></p>
+			
+	</div>
+
+	<div class="col9">
+		<div class="window">
+			<img src="eiffel-versions01.png" alt="" />
+		</div>
+	</div>	
+
+</div> <!-- /.wrap12 -->
+
+<div class="wrap12">
+	<h3 id="show-round-1" class="col12">Show Round 1</h3>
+
+</div> <!-- /.wrap12 -->
+
+<div id="round1" class="wrap12">
+	<h1 class="col12">STC France Logo comps round 1</h1>
+
+	<div class="wrap12 clearfix">
+
+
+		<div class="col6 space3left">
+			<p>
+				Here is the first round of logo ideas for your group.  I tried to take all the considerations into account:  Make it work at small sizes for avatars; Limited use of color for less expensive printing;  Identify with France; Identify with Technical Communication.  I've provided several variations of each comp, just to give an idea of other options that we could pursue.
+			</p>
+		</div>
+	
+	</div> <!-- /.wrap12 -->	
+
+
+	<div class="wrap12 clearfix">
+
+		<div class="col3">
+			<h3>Comp 1 - Eiffel</h3>
+			<p>
+				As requested, this logo incorporates the Eiffel Tower. I wanted to use the shape of the tower in the negative space so it becomes less prominent. This way it becomes the last thing you notice about the logo. You first read STC in cursive, then "France," and then you're eye catches the tower. The Eiffel Tower is such an icon, I didn't want to use it straight forward, since it might dominate the identity.
+			</p>
+		</div>
+
+		<div class="col9">
+			<img src="eiffel03.png" alt="" />
+		</div>
+	
+	</div> <!-- /.wrap12 -->	
+
+	<div class="wrap12 clearfix">
+
+		<div class="col3">
+			<h3>Comp 2 - Letters</h3>
+			<p>This logo took a more straight forward approach of using the shapes of the letters.  The curves of the S and C are perfect circles.  I decided to use these basic shapes to mimic technical diagrams, the sort of illustrations engineers would use.  I felt this was appropriate, as opposed to more expressive or evocative shapes.  I like the top variation the best because the propotions work well.  The width of the letter strokes is the same size of the width of the counters and negative space.
+			</p>
+			<p>There are two treatments.  One with transparency - you could think of these as Venn diagrams.  One with the T as purely negative space.  You can also see how the logo would look in black and white.
+			</p>
+		</div>
+
+		<div class="col9">
+			<img src="letters01.png" alt="" />
+			<img src="letters02.png" alt="" />
+		</div>
+	
+	</div> <!-- /.wrap12 -->	
+
+
+	<div class="wrap12 clearfix">
+
+		<div class="col3">
+			<h3>Comp 3 - Bubbles</h3>
+			<p>This logo was a bit more experimental.  I was interested in seeing I could fit the letters in to one another.  Again, I used the blue, white, and red of the French flag.</p>
+		</div>
+
+		<div class="col9">
+			<img src="bubbles02.png" alt="" />
+		</div>
+	
+	</div> <!-- /.wrap12 -->
+	
+	<div class="wrap12 clearfix">
+
+		<div class="col3">
+			<h3>Comp 4 - Blocky</h3>
+			<p>The goal with these logos was to make the letters more abstract, but still use simple shapes.  Stretching out the right side gives the shapes some character, and also mimic the traditional french flag (rotated 90 degrees).  The top variation has is slanted to give it some motion.  The right versions have a 3D rotation applied, to make them more dynamic.</p>
+		</div>
+
+		<div class="col9">
+			<img src="blocky01.png" alt="" />
+		</div>
+	
+	</div> <!-- /.wrap12 -->	
+
+</div> <!-- /.wrap12 -->
+
+</body>
+
+</html>

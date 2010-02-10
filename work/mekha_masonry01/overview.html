@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Overview</title>
+	
+	<link rel="stylesheet" href="css/mekha_masonry01.css" type="text/css" media="screen" />
+	
+</head>
+
+<body>
+
+
+	<ol id="nav">
+		<li>Masonry 0.8 for Mekha:</li>
+		<li><a href=".">Parent Directory</a></li>
+		<li><a href="overview.html">Overview</a></li>
+		<li><a href="magazine.html">Magazine</a></li>
+		<li><a href="box100.html">Box 100 example</a></li>
+	</ol>
+
+	<h1>Overview</h1>
+	
+
+
+
+	<div id="copy">
+		
+		<p>This package has the Masonry 0.8 script (both minified and unminified) and several demos to show you what it's capable of.</p>
+		
+		<h3>In response to your images</h3>
+		
+		<ol>
+			<li>The Masonry 0.8 script can arrange elements with different widths.  </li>
+			<li>Each item needs to be sized via CSS. Masonry will only handle the layout of the items, not sizing them differently.  Calling this version of Masonry is similar to the previous, on there are a couple options:
+				<ol>
+					<li><code>singleMode: false,</code> // false by default, set this to true if you want to use the old version of Masonry where ever item div is the same width and save a couple milliseconds of rendering time.</li>
+					<li><code>columnWidth: 200,</code> // size in pixels of each column in the grid. If not size is provided, it defaults to the size of the first element in the wrapper div</li>
+					<li><code>itemSelector: undefined,</code> // use this if you want to specify which class should be targeted when being arranged</li>
+					<li><code>resizeable: true,</code> // true by default.  This option will resize the items when browser is resized</li>
+					<li><code>newContent: undefined,</code> // this is an advanced feature, useful when appending content.  Pass in an element.  if newContent is set, then itemSelector is also required.</li>
+					<li><code>saveOptions: true</code> // another advanced feature, by default Masonry saves your options,  This is to be used when using newContent and you do not want to save the newContent selector next time</li>
+				</ol>
+				<p>For the purposes of what the client is looking for, only <code>columnWidth</code>  and possibly <code>itemSelector</code> will need to be set.</p>
+			</li>
+			<li>By default Masonry 0.8 will rearrange elements when the browser is resized.  To disable this feature,  set the resizable option to false: <br /> <code>$('#wrap').masonry({columnWidth: 100, resizeable: false })</code></li>
+			<li>Gaps will be hard to avoid.  There are a couple ways to make sure they don't happen
+				<ol>
+					<li>When item heights are the same height, there's less likely to be any gaps</li>
+				<li>A greater number of different item widths will produce more gaps.  The Space Collective Gallery items can only be two widths.</li>
+				<li>Do not put outlines or boxes around the items - which emphasize the spaces where there are no items</li>
+				</ol>
+			</li>
+			<li>There are several ways to make the items different sizes:
+				<ol>
+					<li>In the Wordpress template - each different kind of post (quotes, articles, pics, video) would have its own class, and could be styled differently.  Quotes would be 2 column, articles 3 column, pics 1 column.</li>
+					<li><a href="http://suprb.com/#gridalicious">Grid-a-licious</a> sizes items be analyzing any pics in the item.  The pic gets sized down to the best fit.  Big pics get 3 columns, small pics get 1 column.</li>
+					<li>You could add into the WordPress template a way for the client to decide how big they want each item.  Maybe by selecting adding a tag, or selecting a class from a drop-down menu.</li>
+				</ol>
+			</li>
+		</ol>
+
+
+		<p>So the big challenges for you will be deciding how you want to size each item.  The other challenge is dealing with images.</p>
+		<p>Masonry works by measuring the size of each item in the wrapping element.  If there's an image inside that item and it hasn't fully loaded, then the height of that item will not be calculated.  There are two ways to get around this:</p>
+		<ol>
+			<li>Specify the height of each image inline: <img src="image.jpg" height="100" />  Grid-a-licious does this via PHP</li>
+			<li>Call masonry once all images have loaded.  Take a look at the <a href="box100.html">Box100 example</a> for more details.</li>
+		</ol>
+
+		<p>As you'll see in the demos, it's best to call masonry at the bottom of the page, so it does not hold up loading any of the site.</p>
+
+		<p>There is no option in the plugin for setting a minimum width of the container div.  But you can do this via CSS on your own.</p>
+
+		<p>Masonry 0.8 is also compatible with the <a href="http://infinite-scroll.com">Infinite Scroll plugin</a>.  If you're interested I can include another demo to show you how to use the two scripts together.</p>
+
+	</div>
+	
+	
+
+</body>
+</html>

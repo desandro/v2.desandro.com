@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>canvas</title>
+	
+	<style type="text/css" media="screen">
+		body {
+			font-family: 'Helvetica Neue', Arial, sans-serif;
+			padding: 0px 40px;
+		}
+		
+		h1 {
+			font-weight: 100;
+		}
+		
+		#cnvs {
+            border: 1px solid #CCC;
+		}
+		
+		td {
+		    border: 1px solid #CCC;
+		}
+		
+	</style>
+	
+	<script type="text/javascript" src="jquery-1.4.min.js" charset="utf-8"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+	
+		$(function(){
+
+            function drawCanvas() {
+    			var canvas = document.getElementById("cnvs");
+    			if (canvas.getContext) {
+    				var ctx = canvas.getContext("2d");
+    				// begin canvas code
+
+                    for (i=0; i < 9; i++) {
+                        for (j=0; j < 9; j++) {
+                            var
+                                sat = parseInt(12.5*i),
+                                lit = parseInt(12.5*j),
+                                color = 'hsla(0,'+sat+'%,'+lit+'%,1)'
+                            ;
+                            ctx.fillStyle = color;
+                            ctx.beginPath();
+                                ctx.arc(50+100*i, 50+100*j, 50, 0, Math.PI*2, true);
+                                ctx.fill();
+                            ctx.closePath();                            
+                        }
+                    }
+
+
+    			}
+    		}
+
+
+
+		    drawCanvas();
+		})
+		
+		
+	</script>
+	
+</head>
+
+<body>
+
+	<h1>canvas</h1>
+	
+	<canvas id="cnvs" width="900" height="900"></canvas>
+    
+    <table>
+        
+    </table>
+
+</body>
+</html>
