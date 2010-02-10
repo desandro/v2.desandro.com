@@ -35,7 +35,7 @@ content:
         <li class="selected"><span>Primer</span></li>
         <li><a href="../../demo/masonry/basic.html">Basic Examples</a></li>
         <li><a href="../../demo/masonry/tumblelog.html">Tumblelog Example</a></li>
-        <li><a href="../../demo/masonry/infinite_scroll.html">Infinite Scroll Example</a></li>
+        <li><a href="../../demo/masonry/infinite-scroll.html">Infinite Scroll Example</a></li>
     </ol>
 
     <div class="col6">
@@ -279,29 +279,29 @@ content:
 
                 <li><a href="http://www.tumblr.com/theme/3531">
                     Astronaut Tumblr Theme  
-                    <img src="http://desandro.com/images/2009/masonry/peter_vidani.jpg" alt="Astronaut Tumblr Theme" width="280" height="492" />
+                    <img src="../../content/2.resources/4.jquery-masonry/peter_vidani.jpg" alt="Astronaut Tumblr Theme" width="280" height="492" />
 
                 </a></li>
                 <li><a href="http://www.woothemes.com/demo/?t=41">
                     Mortar 
-                    <img src="http://desandro.com/images/2009/masonry/mortar.jpg" alt="Mortar"  width="280" height="705" />
+                    <img src="../../content/2.resources/4.jquery-masonry/mortar.jpg" alt="Mortar"  width="280" height="705" />
                 </a></li>
                 <li><a href="http://maxvoltar.com">
-                    Maxvoltar    
-                    <img src="http://desandro.com/images/2009/masonry/maxvoltar.jpg" alt="Maxvoltar"  width="280" height="547" />
+                    Rather Splendid    
+                    <img src="../../content/2.resources/4.jquery-masonry/rather-splendid.jpg" alt="Maxvoltar"  width="280" height="517" />
                 </a></li>
                 <li><a href="http://www.mrbridge.co.nz/fluidadvert.html">
 
                     Andy Bridge    
-                    <img src="http://desandro.com/images/2009/masonry/andy.jpg" alt="Andy Bridge" width="280" height="508" />
+                    <img src="../../content/2.resources/4.jquery-masonry/andy.jpg" alt="Andy Bridge" width="280" height="508" />
                 </a></li>
                 <li><a href="http://chromeography.com">
                     Chromeography    
-                    <img src="http://desandro.com/images/2009/masonry/chromeography.jpg" alt="Chromeography" width="280" height="523" />
+                    <img src="../../content/2.resources/4.jquery-masonry/chromeography.jpg" alt="Chromeography" width="280" height="523" />
                 </a></li>
                 <li><a href="http://jquerystyle.com">
                     jQuery Style    
-                    <img src="http://desandro.com/images/2009/masonry/jquery_style.jpg" alt="jQuery Style" width="280" height="631" />
+                    <img src="../../content/2.resources/4.jquery-masonry/jquery_style.jpg" alt="jQuery Style" width="280" height="631" />
 
                 </a></li>
 
