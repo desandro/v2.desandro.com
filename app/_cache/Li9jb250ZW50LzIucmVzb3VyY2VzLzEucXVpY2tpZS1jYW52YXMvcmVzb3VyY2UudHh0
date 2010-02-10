@@ -1,0 +1,242 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Quickie Canvas &middot;  David DeSandro</title>
+    <link rel="stylesheet" href="../../_base/css/desandro.css" type="text/css" media="screen" />
+    <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="../../_base/js/jquery-1.4.min.js"></script>
+    <!-- <script type="text/javascript" src="_base/js/application.js"></script> -->
+    <script src="/mint/?js" type="text/javascript"></script>
+
+
+
+            <link rel="stylesheet" href="../../content/2.resources/1.quickie-canvas/quickie_canvas.css" type="text/css" media="screen" />
+    
+
+
+            <script type="text/javascript" src="../../content/2.resources/1.quickie-canvas/quickie_canvas.js" charset="utf-8"></script>
+    
+
+
+
+
+</head>
+<body class="resources">
+ <section id="site_header" class="tk_proxima_nova">
+    <div id="branding">
+        <p><a href="../../"><span>David</span> DeSandro</a>  / </p>
+    </div>
+    <ol>
+        <li class="articles"><a href="../../articles">Articles</a>
+            
+        </li>
+        <li class="resources"><a href="../../resources">Resources</a>
+            / <a href="../../resources/quickie-canvas/">Quickie Canvas</a> 
+        </li>
+        <li class="portfolio"><a href="../../portfolio">Portfolio</a>
+            
+        </li>
+        <li class="about"><a href="../../about">About &amp; Contact</a></li>
+    </ol>    
+</section>
+
+<section id="content">
+    
+    <div class="wrap12 tk_proxima_nova">
+    <h1 class="col12">Quickie Canvas</h1>
+    <div class="clearfix">
+        <div class="col6">
+	
+    <!--[if IE]><p class="ie-alert">Internet Explorer does not support &lt;canvas&gt;</p><![endif]-->
+
+<p>    <label for="how-wide">Width</label>
+    	<input type="text" id="how-wide" name="how_wide" value="100" /> <label for="how-tall">Height</label>
+    	<input type="text" id="how-tall" name="how_tall" value="80" /></p>
+
+    <div id="text-and-canvas">
+    	<textarea cols="60" rows="20" >var c = Math.sqrt( (w/2)*(w/2) + (h/2)*(h/2) );
+//colors and shading
+var grad = ctx.createRadialGradient( w/2, h/2, 0, w/2, h/2, c);
+grad.addColorStop(0, 'rgba( 64, 192, 192, .6)');
+grad.addColorStop(1, 'rgba( 0, 128, 128, .6)');
+//shapes
+var s = h/4;
+ctx.fillStyle = grad;
+ctx.beginPath();
+ctx.arc( s, s, s, Math.PI, Math.PI*(3/2),false); 
+ctx.arc( w-s, s, s, Math.PI*(3/2), 0,false); 
+ctx.arc( w-s, h-s*2, s, 0, Math.PI*(1/2),false);
+ctx.lineTo(w*.2+s, h-s);
+ctx.lineTo(w*.2, h);
+ctx.lineTo(w*.2, h-s);
+ctx.arc( s, h-s*2, s, Math.PI*(1/2), Math.PI,false); 
+ctx.fill();
+ctx.closePath();</textarea>
+    	<div id="canvas-wrap"></div> 
+    </div>
+
+    <input type="button" id="make-canvas" value="Make canvas" />
+
+    <fieldset>
+      <legend>Background</legend>
+    <input type="radio" name="bg-select" id="bg-trans" value="trans" checked="checked" /> <label for="bg-trans">Transparent</label>
+    	<input type="radio" name="bg-select" id="bg-light" value="light" /> <label for="bg-light">Light</label>
+    	<input type="radio" name="bg-select" id="bg-dark" value="dark" /> <label   for="bg-dark" >Dark</label> 
+    </fieldset>
+
+    <p>Use <var>w</var> for canvas width, <var>h</var> for canvas height.</p>
+
+    <p>I developed the Quickie Canvas tool to easily generate images with the canvas element.  You can read more about the benefits of this tool and some examples at  <a href="/articles/prototyping-with-the-canvas-element">Prototyping with the canvas element</a>.</p>
+
+    <p>You can Right Click to save the canvas as a PNG, just like you would for any other image (Firefox only).</p>
+
+    <p>To get the data URI of the canvas, right click the canvas and select View Image.  The Data URI will be in the URL address for that image.</p>
+
+    <p><a href="https://developer.mozilla.org/en/Canvas_tutorial">Mozilla Developer Center - Canvas Tutorial</a></p>
+
+
+        </div>
+    </div> <!-- /.clearfix --> <!-- /.col6 -->
+    <div class="col6">
+
+    <h2>Properties and Methods </h2>
+
+    <h3>Drawing Shapes </h3>
+
+<pre><code>//Rectangles
+ctx.fillRect(x,y,width,height); 
+ctx.strokeRect(x,y,width,height); 
+ctx.clearRect(x,y,width,height); 
+
+//Drawing paths 
+ctx.beginPath();
+ctx.closePath();
+ctx.stroke();
+ctx.fill();
+ctx.moveTo(x, y);
+ctx.lineTo(x, y);
+ctx.arc(x, y, radius, startAngle, endAngle, anticlockwise);
+ctx.quadraticCurveTo(cp1x, cp1y, x, y); 
+ctx.bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y);
+ctx.rect(x, y, width, height);</code></pre>
+
+    <h3> Styles and Colors </h3>
+
+<pre><code>//Colors
+ctx.fillStyle = color ;
+ctx.strokeStyle = color ;
+
+//Transparency
+ctx.globalAlpha = transparency value ;
+
+//Line styles
+ctx.lineWidth = value ;
+ctx.lineCap = type ;
+ctx.lineJoin = type ;
+ctx.miterLimit = value ;
+
+//Gradients
+var varname = ctx.createLinearGradient(x1,y1,x2,y2);
+var varname = ctx.createRadialGradient(x1,y1,r1,x2,y2,r2);
+varname.addColorStop(position, color);
+
+//Shadows (Firefox 3.1, Webkit browsers)
+ctx.shadowOffsetX = float ;
+ctx.shadowOffsetY = float ;
+ctx.shadowBlur = float ;
+ctx.shadowColor = color ;</code></pre>
+
+    <h3> Transformations </h3>
+
+<pre><code>//Save and Restore state
+ctx.save();
+ctx.restore();
+
+//Translating 
+ctx.translate(x, y);
+
+//Rotating 
+ctx.rotate(angle);
+
+//Scaling 
+ctx.scale(x, y);</code></pre>
+
+    <p>The above examples were originally published in the <a href="https://developer.mozilla.org/en/Canvas_tutorial">Mozilla Developer's Center Canvas Tutorial</a> under a <a href="http://creativecommons.org/licenses/by-sa/2.5/">Creative Commons Attribution-Share Alike license</a>.</p>
+    </div> <!-- /.col6 -->
+    <div class="col6">
+
+    <h2> Examples </h2>
+
+    <h3> Gradient </h3>
+
+<pre><code>var grad = ctx.createLinearGradient(0,0,0,h);
+grad.addColorStop(0, '#000');
+grad.addColorStop(.3, '#00F');
+grad.addColorStop(1, '#FFF');
+ctx.fillStyle = grad;
+ctx.fillRect( 0, 0, w, h);</code></pre>
+
+    <h3> Rounded Rectangle </h3>
+
+<pre><code>var r = 10; // corner radius of 10
+ctx.fillStyle = "#468";
+ctx.beginPath();
+ctx.arc( r,     r, r, Math.PI, Math.PI*(3/2),false); 
+ctx.arc( w-r,   r, r, Math.PI*(3/2), 0,false); 
+ctx.arc( w-r, h-r, r, 0, Math.PI*(1/2),false); 
+ctx.arc( r,   h-r, r, Math.PI*(1/2), Math.PI,false); 
+ctx.fill();
+ctx.closePath();</code></pre>
+
+    <h3> Function </h3>
+
+<pre><code>function colorSquare( x, y, size, color) {
+  ctx.fillStyle = color;
+  ctx.fillRect(x,y,size,size);
+}
+
+colorSquare( 5, 5, 20, '#F00');
+colorSquare( 10, 10, 40, 'rgba( 0, 128, 0, .5)' );
+colorSquare( 40, 40, 30, '#0FF' );
+colorSquare( 80, 20, 10, '#FC3' );</code></pre>
+
+
+    </div> <!-- /.col6 -->
+</div> <!-- /.wrap12 -->
+    
+</section>
+     <section id="site_footer" class="tk_proxima_nova">
+        <div class="wrap12">
+            <div class="made_this col4">
+                <p class="who_did">
+                    <span class="david">David</span>
+                    <span class="desandro">DeSandro</span>
+                    made this.
+                </p>
+                <p class="copyright">&copy; 2009 &ndash; 2010</p>                
+            </div>
+
+            <p class="where_what col4">
+                <span class="heisa">He is a graphic &amp;</span>
+                <span class="designer">web designer</span>
+                <span class="living">living in Arlington, VA,</span>
+                <span class="working">working at <a href="http://nclud.com">nclud</a> in Washington, DC.</span>
+                <span class="happy">Being creative and making stuff keeps him happy.</span>
+            </p>
+            <div class="also_made col4">
+                <h3>Dave also made</h3>
+                <ul>
+                    <li class="jqmsnry"><a href="../../resources/jquery-masonry/">jQuery Masonry</a></li>
+                    <li class="curtis"><a href="../../resources/curtis-css-typeface/">Curtis CSS Typeface</a></li>
+                    <li class="speechbub"><a href="../../resources/css-speech-bubble-icon/">CSS Speech Bubble</a></li>
+                </ul>
+            </div>
+        </div>
+    </section> <!-- #site_footer -->
+</body>
+</html>
+
+<!-- Stacey(2.0): 70d2cd05e2d31c31b265f23af3bd0168 -->

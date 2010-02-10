@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>With a capital S &middot;  David DeSandro</title>
+    <title>Do make create &middot;  David DeSandro</title>
     <link rel="stylesheet" href="../../_base/css/desandro.css" type="text/css" media="screen" />
     <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
@@ -13,10 +13,12 @@
 
 
 
-            <link rel="stylesheet" href="../../content/1.articles/14.with-a-capital-s/caps.css" type="text/css" media="screen" />
+            <link rel="stylesheet" href="../../content/1.articles/07.do-make-create/domake.css" type="text/css" media="screen" />
     
 
 
+            <script type="text/javascript" src="../../content/1.articles/07.do-make-create/domake.js" charset="utf-8"></script>
+    
 
 
 
@@ -29,14 +31,14 @@
     </div>
     <ol>
         <li class="articles"><a href="../../articles">Articles</a>
-                            / <em><a href="../../articles/with-a-capital-s/">With a capital S</a></em>
-<time>9 Feb 2010</time>
+                            / <em><a href="../../articles/do-make-create/">Do make create</a></em>
+<time>2 Apr 2009</time>
 <nav class="older_newer">
-                <a href="../../articles/jquery-masonry-v10-released/" title="jQuery Masonry v1.0&nbsp;Released">&lsaquo; Older</a>
+                <a href="../../articles/one-step-up-from-doodling/" title="One step up from doodling">&lsaquo; Older</a>
 
 
     
-                <a href="../../articles/concept-flow-what-i-m-going-for/" title="Concept Flow: What I&rsquo;m going for">Newer &rsaquo; </a>
+                <a href="../../articles/prototyping-with-the-canvas-element/" title="Prototyping with the canvas&nbsp;element">Newer &rsaquo; </a>
 
 
     
@@ -56,13 +58,10 @@
 
 <section id="content">
 
-    <div class="wrap12 tk_proxima_nova">
-    <h1>With a capital S</h1>
-    <p>
-        <span class="its">It&rsquo;s DeSandro,</span>
-        <span class="witha">with a capital</span>
-        <em>S</em>
-    </p>
+    <h1>Do make create</h1>
+<div id="do-images">
+	<img alt="do make design" src="../../content/1.articles/07.do-make-create/domake09.png" id="domake">
+	<img alt="go open launch" src="../../content/1.articles/07.do-make-create/domake10.png" id="invent">
 </div>
     
 </section>

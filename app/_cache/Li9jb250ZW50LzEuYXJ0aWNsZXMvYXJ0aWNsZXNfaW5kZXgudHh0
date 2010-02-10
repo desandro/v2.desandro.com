@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Articles and else &middot;  David DeSandro</title>
+    <title>Articles &middot;  David DeSandro</title>
     <link rel="stylesheet" href="../_base/css/desandro.css" type="text/css" media="screen" />
     <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
@@ -46,7 +46,7 @@
 
 
 <section id="content" class="article_list">
-    <h1>Articles and else</h1>
+    <h1>Articles</h1>
 
     <div class="articles">
                    <article>
@@ -183,4 +183,4 @@
 </body>
 </html>
 
-<!-- Stacey(2.0): 23493ea953adcad05a26af8bcea6e020 -->
+<!-- Stacey(2.0): 70d2cd05e2d31c31b265f23af3bd0168 -->

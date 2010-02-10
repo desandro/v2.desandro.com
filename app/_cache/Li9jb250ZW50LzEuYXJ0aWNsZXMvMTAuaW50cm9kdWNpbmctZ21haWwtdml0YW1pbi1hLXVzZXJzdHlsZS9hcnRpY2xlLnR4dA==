@@ -30,7 +30,6 @@
     </div>
     <ol>
         <li class="articles"><a href="../../articles">Articles</a>
-
                             / <em><a href="../../articles/introducing-gmail-vitamin-a-userstyle/">Introducing Gmail Vitamin: a&nbsp;userstyle</a></em>
 <time>26 Jun 2009</time>
 <nav class="older_newer">
@@ -142,4 +141,4 @@ ctx.fillRect( 0, 0, w, h);</code></pre>
 </body>
 </html>
 
-<!-- Stacey(2.0): f59b1713e10e916bddee779b121ab5cd -->
+<!-- Stacey(2.0): 70d2cd05e2d31c31b265f23af3bd0168 -->

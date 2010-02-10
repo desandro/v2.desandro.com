@@ -1,0 +1,217 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Textpattern Interface Case Study &middot;  David DeSandro</title>
+    <link rel="stylesheet" href="../../_base/css/desandro.css" type="text/css" media="screen" />
+    <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="../../_base/js/jquery-1.4.min.js"></script>
+    <!-- <script type="text/javascript" src="_base/js/application.js"></script> -->
+    <script src="/mint/?js" type="text/javascript"></script>
+
+
+
+            <link rel="stylesheet" href="../../content/1.articles/04.textpattern-interface-case-study/textpattern_interface_case_study.css" type="text/css" media="screen" />
+    
+
+
+
+
+    <link rel="stylesheet" href="../../_base/css/v1.css" type="text/css" media="screen" />
+
+
+</head>
+<body class="articles">
+ <section id="site_header" class="tk_proxima_nova">
+    <div id="branding">
+        <p><a href="../../"><span>David</span> DeSandro</a>  / </p>
+    </div>
+    <ol>
+        <li class="articles"><a href="../../articles">Articles</a>
+                            / <em><a href="../../articles/textpattern-interface-case-study/">Textpattern Interface Case Study</a></em>
+<time>18 Feb 2009</time>
+<nav class="older_newer">
+                <a href="../../articles/i-like-ie6-because/" title="I like IE6&nbsp;because">&lsaquo; Older</a>
+
+
+    
+                <a href="../../articles/granularity/" title="Granularity">Newer &rsaquo; </a>
+
+
+    
+</nav>
+    
+            
+        </li>
+        <li class="resources"><a href="../../resources">Resources</a>
+            
+        </li>
+        <li class="portfolio"><a href="../../portfolio">Portfolio</a>
+            
+        </li>
+        <li class="about"><a href="../../about">About &amp; Contact</a></li>
+    </ol>    
+</section>
+
+<section id="content">
+
+    <div class="wrap12">
+    <h1 class="col12">Textpattern Interface Case Study</h1>
+    <div class="col6 space2left">
+
+        <h2> </h2>
+
+    	<p class="deck">Ever since <a href="http://www.flickr.com/photos/hicksdesign/989595974/">John Hicks released his custom theme over a year ago,</a> I’ve taken up the pet project of redesigning the Textpattern admin interface.  <a href="http://txpadminthemes.desandro.com">Now that I’ve released some of these themes,</a> I thought it would be appropriate to discuss my process and what challenges I faced.</p>
+
+    	<h3>Motivation</h3>
+
+    <aside class="col4 pull4right">
+
+    	<p class="caption">Aside: While I was drafting this article, <a href="http://wion.com/articles/a-study-of-textpatterns-admin-side-write-panel">Wion released a terrific post regarding the Textpattern back-end.</a>  I recommend you read it as well. He provides some historical context and he goes into detail about what elements he would fix. If you are interested in getting involved in the a possible Textpattern redesign, go ahead and <a href="http://forum.textpattern.com/viewtopic.php?id=29628">chime in on the current forum thread.</a></p>
+
+    </aside>
+
+    	<p>Why change the Textpattern interface at all?  The general consensus from the community was that, while not the most attractive back-end, Textpattern does look okay, and more importantly, it gets the job done.  If it ain’t broke, don’t fix it.</p>
+
+    	<p>While the design of Textpattern wasn’t necessarily broken, I do feel that it fails in one specific area.  The look of the interface does not properly represent the brand of Textpattern.  Now that I’ve been using <span class="caps">TXP</span> for several years, I’ve come to think of as sleek, efficient, modern and easy-to-use.  But when I look at the back-end interface, I do not see those characteristics reflected in the design.  The tabs look a bit clumsy as the drop shadows are too opaque.  The text fields feel dated with that grey background.  In short, it feels old, like it would have been the best blogging solution five years ago, not the flexible, modern <span class="caps">CMS</span> I’ve come to know it as.</p>
+
+    <aside class="deck col3 pull3right">
+
+    	<p>Words and phrases that characterize Textpattern</p>
+
+    	<ul>
+    		<li>minimal</li>
+    		<li>sleek</li>
+    		<li>nimble</li>
+    		<li>efficient</li>
+    		<li>convenient</li>
+    		<li>easy to use</li>
+    		<li>flexible</li>
+    	</ul>
+
+    </aside>
+
+    	<p>The main goal of my themes was to help close this gap between the design and the brand of Textpattern.  The themes wouldn’t just be some shiny new chrome&mdash;a redesign just for its own sake.  Rather, each detail would have to emphasize the great qualities that make up <span class="caps">TXP</span>.</p>
+
+    	<h3>Tab-ula rasa</h3>
+
+    	<p>My primary focus of re-designing the Txp admin interface always began with the tabs.  The tabs are the principal navigation element.  As I already stated, I wasn’t too big of a fan of the drop shadows.  But there’s a bigger issue here: both rows of tabs are too similar to one another.  There are only two characteristics that separate the primary row from the secondary row:</p>
+
+    	<ol>
+    		<li>Primary tabs are placed on top</li>
+    		<li>Primary tabs are colored a slightly darker yellow</li>
+    	</ol>
+
+    <figure class="col12 pull2left">
+      <img alt="Original Textpattern admin tabs" src="../../content/1.articles/4.textpattern-interface-case-study/textpattern_interface_case_study01.png">
+    The original admin tabs.
+    </figure>
+
+    	<p>Apart from that, the user has no other visual cues to distinguish between the elements.  Shape, size, and behavior are all the same.  This is a <a href="http://en.wikipedia.org/wiki/Gestalt_psychology">Gestalt</a> issue.  Since the tabs are so similar in appearance, we want group them together.  Consequently, differentiating between secondary and primary items is all the more difficult.  </p>
+
+    	<p>I was also reminded of Dave Shea’s article, <a href="http://24ways.org/2007/get-in-shape">Get in Shape.</a> In it, he specifically addresses this issue with primary/secondary navigation.  When you do not consider the entire composition of both elements, it can result in awkward shapes that do not seem to relate to one another.</p>
+
+    <figure class="col12 pull2left">
+      <img alt="Various tabs" src="../../content/1.articles/4.textpattern-interface-case-study/textpattern_interface_case_study02.png">
+      I used different shapes, colors, sizes to distinguish between primary and secondary tabs.
+    </figure>
+
+    	<p>Facing this dilemma, I tried to use different characteristics for the primary and secondary tabs: size, shape, color, and position.  To emphasize the child-parent relationship between the two rows, I found the most successful technique was to use tab shapes only on the top row.  This is a typical design pattern I saw used with other popular <span class="caps">CMS</span> like Wordpress (the 2.5 release) and Expression Engine.  Two rows of tabs reminds me too much of a bad Microsoft UI.  My favorite solution to the two-row tab problem was the convention of using a heavy bottom border for the secondary tabs, as John Hicks did in his custom theme.  This border was subtle enough that didn’t compete with the tabs, but it was strong enough to be noticed.  In search for other solutions, <a href="http://patterntap.com">Pattern Tap</a> was a true blessing, providing plenty of examples of tabs I could steal from.</p>
+
+    	<h3> Branding</h3>
+
+    	<p>Here’s my best attempt at expressing why Textpattern is great:</p>
+
+    	<p class="deck">Textpattern is small and easy to use, which makes it nimble and fast.  Textpattern also has a tremendous capacity for expansion, which makes it flexible enough to handle a variety of purposes.</p>
+
+    	<p>My aim was to adhere to those two ideals&mdash;minimalism and flexibility.  In terms of minimalism, this meant keeping “chrome” to a low&mdash;making sure that every gradient and drop shadow I put in place had a purpose and was necessary as a design element.  For flexibility, I had to consider that Textpattern is used to handle many different kinds of content&mdash;blogs, portfolios, brochure-ware, even magazines. The interface that controls those different platforms should be able to fit the role.  </p>
+
+    	<p>The default theme comes with the most prominent design element of Textpattern, that yellow bar (most say yellow, I always thought it was orange).  It’s the first thing you see, a bright strip of color right at the top of the page.  Part of me loves it, because its so bold and it immediately acts as the brand for Textpattern.  But as a designer, I found that working <em>with</em> it was a bit frustrating. <span style="background: none repeat scroll 0% 0% rgb(255, 204, 51);">#FFCC33</span> is a serious color, one that’s doesn’t play well with others.  I tried several color combinations to see if I could somehow use it to my advantaged, but only ran into frustration.  I tried other beiges and pale yellows and oranges, but the results looked too mushy.  Adding a black or charcoal gray to the mix made for a bumble-bee / <a href="http://en.wikipedia.org/wiki/Stryper">Stryper</a> look.  And I didn’t want to try another bold color, like royal blue or blood red, because then they would be competing.  In the end, I either kept the yellow un-touched, and used it with a minimal white,  or removed it all together.</p>
+
+    	<h3> Buttons</h3>
+
+    <figure class="col4 pull4right">
+
+    	<p><img alt="" src="../../content/1.articles/4.textpattern-interface-case-study/txp-case-study07.png"></p>
+
+     Top: buttons as styled by the default Textpattern CSS.  Bottom: Buttons with styling removed, rendered with Firefox for Mac.
+    </figure>
+
+    	<p>I suppose this a point of contention amongst Interaction Designers, but I prefer buttons to retain their native browser rendering.  This maintains consistency within the web application and ensures that the user views a button as a button.  Moreover, The smaller buttons (with classes of <code>spsmallbox</code> and the like)  don’t look any better than the default browser rendering.  Plus, you don’t have to worry about active and hover states in the <span class="caps">CSS</span>, as the browser will handle that.</p>
+
+    	<h3> Typography</h3>
+
+    	<p>Looking at the type, Textpattern employs Verdana at 11px.  Again, here’s another 2004 design element that doesn’t quite mesh into today’s environment.  Verdana was designed for the screen to be legible at small sizes.  It’s hey day was 8 years ago, before Clear Type and anti-aliased pixel rendering.  Nowadays I see Verdana as dated and clunky.  Using other fonts &mdash; Helvetica/Arial, Lucida Grande, and even Georgia italic bold &mdash; helped freshen up the look.</p>
+
+    	<h3>Execution</h3>
+
+    	<p>Even if the final product of this project isn’t too flashy, I am happy that I took it on for the simple fact that it forced me to stretch my abilities as a web designer.</p>
+
+    	<p>This was the first time (and hopefully last) that I had to implement <span class="caps">CSS</span> for a table-based layout.  We now live in a post-standardista world of web design, where table-based layouts have become the fabled gremlins of the dark ages long since past.  But here was a great opportunity to bring them back into the light and try working with them.  I was immediately reminded why the tables are so loathed.  In short, <span class="caps">CSS</span> and <span class="caps">HTML</span> tables can play well together, but it takes a lot of work.  Hopefully, the development team will look to tackle this issue in one of the next releases.</p>
+
+    	<p>Since I only had <span class="caps">CSS</span> to work with, I was forced to adopt data <span class="caps">URI</span> images.  This is a method I conned off of (who else?) Jon Hicks, who mentioned in his <a href="http://24ways.org/2008/user-styling">User Stylin’ article for 24ways.</a>  But unlike Mr. Hicks, I generated the <span class="caps">URI</span> by creating images straight from the <code>canvas</code> element.  In fact, creating these themes was the primary reason why I made the <a href="http://desandro.com/resources/quickie-canvas">Quickie Canvas tool.</a></p>
+
+    	<h3> Results</h3>
+
+    	<p><a href="http://txpadminthemes.desandro.com/article" class="button">View theme demo and download themes</a></p>
+
+    	<p>Getting a hang of restyling Textpattern took a while, but once I got it, it was easy to strap on my <span class="caps">CSS</span> helmet (it is a helmet, not a hat) and theme it up.  So far, I’ve developed 11 themes that are compatible with Textpattern versions 4.0.5 through 4.0.8.  I made so many because I kept trying to find that ideal theme that could possibly replace the default <span class="caps">CSS</span>.  The themes range in many elements I changed and how much I kept the same from the default <span class="caps">CSS</span>.  Sometimes I touched all the buttons and fonts and headers, sometimes just a couple elements. <em>Smallmarine2</em> only touches the tabs and the link color, whereas <em>simplexbubble</em> was designed with the goal of a lot of chrome.</p>
+
+    	<p><img alt="simplexmild screenshot" title="simplexmild screenshot" class="col4 pull4right" src="http://txpadminthemes.desandro.com/images/simplexmild01.png"></p>
+
+    	<p><em>Simplexmild</em> is my prime candidate to usurp the default theme.  The theme isn’t so much of a re-design as it is a re-alignment.  The top tabs are still there, but adding padding and a subtle gradient softens the look.  Bottom tabs are replaced by the  bottom border a la Hicks.  Typography was also given some attention, swapping out Verdana for Helvetica.</p>
+
+    	<p><img alt="simplexmild screenshot" title="simplexmild screenshot" class="col4 pull4right" src="http://txpadminthemes.desandro.com/images/wilsonorange01.png"></p>
+
+    	<p>Personally, the theme I like the best is the <em>wilsonorange.</em> Still searching for that ultimate minimal theme, I came across <a href="http://www.wilsonminer.com">Wilson Miner’s site,</a> which he redesigned in October.  His site served as an example of how to make something look simple and attractive.  The theme is the most basic one I created &ndash; no rounded corners or drop shadows.  And I kept that big block of orange at the top.  For typography, Helvetica is at work, in its trendy tightly-kerned fashion.</p>
+
+    	<p>The other themes attempt to divert from the original goal of creating a new default theme for the interface.  <em>Dropmag</em> was created for <a href="http://dropshado.ws">dropshado.ws.</a>  <em>Wp25</em> is a port of <a href="http://jasonsantamaria.com/portfolio/wordpress/">Jason Santa Maria’s Wordpress 2.5 interface.</a>  <em>Smallmarine2</em> was designed for that corporate blue look.  It’s all done with <span class="caps">CSS</span>, so everyone is encouraged to fix and tweak to their heart’s content to find their own ideal theme.</p>
+
+    	<h3>Further discussion</h3>
+
+    	<p>Unfortunately, the themes I developed are just <span class="caps">CSS</span> files and therefore, I wasn’t able to touch any of the mark up or content.  Digging into <span class="caps">CSS</span> and <span class="caps">HTML</span>, it’s plain to see how piecemeal Textpattern is.  Across the various modules within Txp (Write, Forms, Sections, Plugins), the visual consistency is lacking.  For example, the Forms and Write modules use <code>h3.plain</code> tags.  Some of sub-tabs under Admin use <code>h1</code>.  </p>
+
+    	<p>Part of me wants to see a serious overhaul&mdash;scrap everything and build it back up better.  Of course, I realize that starting from a blank slate is unrealistic, especially for a platform that has such a large userbase (although there are projects do just that, see <a href="http://forum.textpattern.com/viewtopic.php?id=25453">crockery</a> and <a href="http://xpattern.net">Xpattern</a> ).  Plus, the developers have to ensure a good measure of backwards compatibility for the plugins that make Textpattern so flexible.</p>
+
+    	<p>In the two and half years I’ve been using Textpattern, the interface has undergone only minor tweaks and changes.  Compare that with Wordpress, which has seen 2 major redesigns in the same span of time.  Granted, these two platforms have a world of difference in between them.  Wordpress has a development team, and was able to hire Happy Cog, <em>the</em> web design firm, to do the interface refresh.  Textpattern relies on the contributions of its userbase, just a handful of enthusiastic volunteers spread across the world to make the changes to the product.  With enough community support, redesigning Txp is certainly an attainable achievement.  </p>
+
+    	<p>I created these themes because I am excited about Textpattern, and I hope to share that excitement with others.  As a tool, I love using it every day.  it’s the principal device I use to communicate on the web.  As a community, I love being a part of something bigger than just a couple <span class="caps">CSS</span> files.  </p>
+
+    </div>    
+</div><!-- .wrap12 -->
+    
+</section>
+     <section id="site_footer" class="tk_proxima_nova">
+        <div class="wrap12">
+            <div class="made_this col4">
+                <p class="who_did">
+                    <span class="david">David</span>
+                    <span class="desandro">DeSandro</span>
+                    made this.
+                </p>
+                <p class="copyright">&copy; 2009 &ndash; 2010</p>                
+            </div>
+
+            <p class="where_what col4">
+                <span class="heisa">He is a graphic &amp;</span>
+                <span class="designer">web designer</span>
+                <span class="living">living in Arlington, VA,</span>
+                <span class="working">working at <a href="http://nclud.com">nclud</a> in Washington, DC.</span>
+                <span class="happy">Being creative and making stuff keeps him happy.</span>
+            </p>
+            <div class="also_made col4">
+                <h3>Dave also made</h3>
+                <ul>
+                    <li class="jqmsnry"><a href="../../resources/jquery-masonry/">jQuery Masonry</a></li>
+                    <li class="curtis"><a href="../../resources/curtis-css-typeface/">Curtis CSS Typeface</a></li>
+                    <li class="speechbub"><a href="../../resources/css-speech-bubble-icon/">CSS Speech Bubble</a></li>
+                </ul>
+            </div>
+        </div>
+    </section> <!-- #site_footer -->
+</body>
+</html>
+
+<!-- Stacey(2.0): 70d2cd05e2d31c31b265f23af3bd0168 -->

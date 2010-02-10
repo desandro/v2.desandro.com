@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>I like IE6&nbsp;because &middot;  David DeSandro</title>
+    <link rel="stylesheet" href="../../_base/css/desandro.css" type="text/css" media="screen" />
+    <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="../../_base/js/jquery-1.4.min.js"></script>
+    <!-- <script type="text/javascript" src="_base/js/application.js"></script> -->
+    <script src="/mint/?js" type="text/javascript"></script>
+
+
+
+            <link rel="stylesheet" href="../../content/1.articles/03.i-like-ie6-because/i-like-ie6-because.css" type="text/css" media="screen" />
+    
+
+
+
+
+    <link rel="stylesheet" href="../../_base/css/v1.css" type="text/css" media="screen" />
+
+
+</head>
+<body class="articles">
+ <section id="site_header" class="tk_proxima_nova">
+    <div id="branding">
+        <p><a href="../../"><span>David</span> DeSandro</a>  / </p>
+    </div>
+    <ol>
+        <li class="articles"><a href="../../articles">Articles</a>
+                            / <em><a href="../../articles/i-like-ie6-because/">I like IE6&nbsp;because</a></em>
+<time>15 Feb 2009</time>
+<nav class="older_newer">
+                <a href="../../articles/uncover/" title="Uncover">&lsaquo; Older</a>
+
+
+    
+                <a href="../../articles/textpattern-interface-case-study/" title="Textpattern Interface Case Study">Newer &rsaquo; </a>
+
+
+    
+</nav>
+    
+            
+        </li>
+        <li class="resources"><a href="../../resources">Resources</a>
+            
+        </li>
+        <li class="portfolio"><a href="../../portfolio">Portfolio</a>
+            
+        </li>
+        <li class="about"><a href="../../about">About &amp; Contact</a></li>
+    </ol>    
+</section>
+
+<section id="content">
+
+    <div class="wrap12">
+    <h1>I like IE6 because</h1>
+    <h3>I enjoy a good challenge</h3>
+
+    <p class="challenge col4 pad8left">When a new IE6 bug pops up, my first negative reaction probably isn’t the best one. Instead of initial frustration, I should be excited that I have a quirky new puzzle awaiting a solution. After all, <a href="http://www.randsinrepose.com/archives/2007/11/11/the_nerd_handbook.html">nerds love puzzles.</a> Sure, completing a site does come with a sense of accomplishment. But that’s nothing compared to the joyous moment of triumphant ecstasy when you get it to work in Microsoft’s browser.</p>
+
+    <h3>I like surprises</h3>
+
+    <p class="surprises col4 pad8right">Working with computers all day, the profession of web design can become monotonous.  But unlike all the other reliable, boring browsers out there,  IE6 has some personality (albeit the annoying and frustrating sort) willing to mix it up and keep the designer/machine relationship new and interesting.  IE6 is sort of like C-3PO, always getting into trouble, and being kind of a jerk.  Keeping with the allegory, web designers are like Han Solo: cool, calm, in control, saving the day while maintaining a perfect head of hair.  </p>
+
+    <h3>It makes me think about people that are not like me.</h3>
+
+    <p class="notlikeme col4 pad8left">I fear that as web designers, we are overly insulated in our own cultural bubble.  While we are connected tightly to one another via the numerous social networks of the modern age, there’s a tendency to close ourselves off to everybody else.  People like our parents, grand parents and other relatives.  People who toil at corporate jobs and provide the human infrastructure that powers our industrous society.  People who don’t have the shiniest new Mac.  All of these individuals deserve, and perhaps depend upon, us web designers doing our best to ensure they get a terrific online experience.  When I’m in the briar patch, trying to resolve an IE6 bug, I try to keep those people in mind.  </p>
+
+    <h3>It gives us bonding power</h3>
+
+    <p class="bonding col4 pad8right">The easiest way to unify a group of people is to find a common entity of opposition.  IE6 is the ideal focal point of commiseration for an entire professional sector.  We may not be able to agree on everything, but we all can find common ground with our general disdain for IE6.  Together, we are stronger.  Thank you Microsoft!  </p>		
+
+</div><!-- .wrap12 -->
+    
+</section>
+     <section id="site_footer" class="tk_proxima_nova">
+        <div class="wrap12">
+            <div class="made_this col4">
+                <p class="who_did">
+                    <span class="david">David</span>
+                    <span class="desandro">DeSandro</span>
+                    made this.
+                </p>
+                <p class="copyright">&copy; 2009 &ndash; 2010</p>                
+            </div>
+
+            <p class="where_what col4">
+                <span class="heisa">He is a graphic &amp;</span>
+                <span class="designer">web designer</span>
+                <span class="living">living in Arlington, VA,</span>
+                <span class="working">working at <a href="http://nclud.com">nclud</a> in Washington, DC.</span>
+                <span class="happy">Being creative and making stuff keeps him happy.</span>
+            </p>
+            <div class="also_made col4">
+                <h3>Dave also made</h3>
+                <ul>
+                    <li class="jqmsnry"><a href="../../resources/jquery-masonry/">jQuery Masonry</a></li>
+                    <li class="curtis"><a href="../../resources/curtis-css-typeface/">Curtis CSS Typeface</a></li>
+                    <li class="speechbub"><a href="../../resources/css-speech-bubble-icon/">CSS Speech Bubble</a></li>
+                </ul>
+            </div>
+        </div>
+    </section> <!-- #site_footer -->
+</body>
+</html>
+
+<!-- Stacey(2.0): 70d2cd05e2d31c31b265f23af3bd0168 -->

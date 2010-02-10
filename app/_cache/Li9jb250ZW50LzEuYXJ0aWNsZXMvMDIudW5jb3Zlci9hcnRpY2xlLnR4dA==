@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>With a capital S &middot;  David DeSandro</title>
+    <title>Uncover &middot;  David DeSandro</title>
     <link rel="stylesheet" href="../../_base/css/desandro.css" type="text/css" media="screen" />
     <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
@@ -13,12 +13,15 @@
 
 
 
-            <link rel="stylesheet" href="../../content/1.articles/14.with-a-capital-s/caps.css" type="text/css" media="screen" />
+            <link rel="stylesheet" href="../../content/1.articles/02.uncover/uncover.css" type="text/css" media="screen" />
     
 
 
+            <script type="text/javascript" src="../../content/1.articles/02.uncover/uncover.js" charset="utf-8"></script>
+    
 
 
+    <link rel="stylesheet" href="../../_base/css/v1.css" type="text/css" media="screen" />
 
 
 </head>
@@ -29,14 +32,14 @@
     </div>
     <ol>
         <li class="articles"><a href="../../articles">Articles</a>
-                            / <em><a href="../../articles/with-a-capital-s/">With a capital S</a></em>
-<time>9 Feb 2010</time>
+                            / <em><a href="../../articles/uncover/">Uncover</a></em>
+<time>12 Feb 2009</time>
 <nav class="older_newer">
-                <a href="../../articles/jquery-masonry-v10-released/" title="jQuery Masonry v1.0&nbsp;Released">&lsaquo; Older</a>
+                <a href="../../articles/concept-flow-what-i-m-going-for/" title="Concept Flow: What I&rsquo;m going for">&lsaquo; Older</a>
 
 
     
-                <a href="../../articles/concept-flow-what-i-m-going-for/" title="Concept Flow: What I&rsquo;m going for">Newer &rsaquo; </a>
+                <a href="../../articles/i-like-ie6-because/" title="I like IE6&nbsp;because">Newer &rsaquo; </a>
 
 
     
@@ -56,12 +59,49 @@
 
 <section id="content">
 
-    <div class="wrap12 tk_proxima_nova">
-    <h1>With a capital S</h1>
-    <p>
-        <span class="its">It&rsquo;s DeSandro,</span>
-        <span class="witha">with a capital</span>
-        <em>S</em>
+    <div class="wrap12">
+    <h1>Uncover</h1>
+    <p id="uncover" class="col10 space1left space1right "> 
+        <span>I</span>
+        <span>am</span>
+        <span>just</span>
+        <span>beginning</span>
+        <span>to</span>
+        <span>uncover</span>
+        <span>some</span>
+        <span>sense</span>
+        <span>of</span>
+        <span>the</span>
+        <span>role</span>
+        <span>of</span>
+        <span>interaction</span>
+        <span>in</span>
+        <span>web</span>
+        <span>design.</span>
+        <span>Typically,</span>
+        <span>I</span>
+        <span>framed</span>
+        <span>the</span>
+        <span>interactive</span>
+        <span>element</span>
+        <span>as</span>
+        <span>facilitating</span>
+        <span>the</span>
+        <span>message</span>
+        <span>of</span>
+        <span>the</span>
+        <span>work.</span>
+        <span>But</span>
+        <span>I</span>
+        <span>now</span>
+        <span>I</span>
+        <span>see</span>
+        <span>it</span>
+        <span>more</span>
+        <span>as</span>
+        <span>the</span>
+        <span>message</span>
+        <span>itself.</span>
     </p>
 </div>
     
