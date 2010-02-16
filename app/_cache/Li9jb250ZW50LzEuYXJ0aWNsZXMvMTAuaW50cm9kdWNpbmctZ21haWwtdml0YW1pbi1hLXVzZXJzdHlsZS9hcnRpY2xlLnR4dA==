@@ -12,7 +12,7 @@
     <script src="/mint/?js" type="text/javascript"></script>
 
 
-
+ 
             <link rel="stylesheet" href="../../content/1.articles/10.introducing-gmail-vitamin-a-userstyle/intro_gmail_vitamin.css" type="text/css" media="screen" />
     
 
@@ -108,8 +108,9 @@ ctx.fillRect( 0, 0, w, h);</code></pre>
 
     </div>
 </div><!-- .wrap12 -->
-    
+
 </section>
+
      <section id="site_footer" class="tk_proxima_nova">
         <div class="wrap12">
             <div class="made_this col4">
@@ -141,4 +142,4 @@ ctx.fillRect( 0, 0, w, h);</code></pre>
 </body>
 </html>
 
-<!-- Stacey(2.0): 70d2cd05e2d31c31b265f23af3bd0168 -->
+<!-- Stacey(2.0): 73bad144da2353d597217a3ca656d5cf -->

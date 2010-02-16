@@ -12,7 +12,7 @@
     <script src="/mint/?js" type="text/javascript"></script>
 
 
-
+ 
             <link rel="stylesheet" href="../../content/1.articles/12.advice-ouroboros/advice_ouroboros.css" type="text/css" media="screen" />
     
 
@@ -73,8 +73,9 @@
 	</p>
 		
 </div> <!-- #ouroboros -->
-    
+
 </section>
+
      <section id="site_footer" class="tk_proxima_nova">
         <div class="wrap12">
             <div class="made_this col4">
@@ -106,4 +107,4 @@
 </body>
 </html>
 
-<!-- Stacey(2.0): 70d2cd05e2d31c31b265f23af3bd0168 -->
+<!-- Stacey(2.0): 73bad144da2353d597217a3ca656d5cf -->

@@ -1,5 +1,8 @@
 body {    background: #D8D5D2; }
 
+
+a:hover { background: transparent; }
+
 #content { 
     margin: 0; 
     font: 13px 'Helvetica Neue', Arial, sans-serif;

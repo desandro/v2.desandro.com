@@ -10,7 +10,7 @@ header_deet:
 canvas_h: 649
 -
 addl_deets:
-<details class="deet1 note_top">
+<details class="deet1 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>

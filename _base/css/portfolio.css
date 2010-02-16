@@ -8,14 +8,12 @@ article {
     position: relative;
 }
 
-body.portfolio #site_header {
-}
 
 /**************************
 **  Portfolio Nav
 **************************/
 
-#port_nav { 
+#port-nav { 
     position: fixed;
     right: 0;
     top: 0;
@@ -27,11 +25,11 @@ body.portfolio #site_header {
     -webkit-transition: all .12s ease-out;
     -moz-transition: all .12s ease-out;
 }
-#port_nav:hover {
+#port-nav:hover {
     background: hsla(0,0%,100%,.6);
 }
 
-#port_nav li {
+#port-nav li {
     margin: 0 5px 5px 5px;
     position: relative;
     width: 22px;
@@ -40,61 +38,61 @@ body.portfolio #site_header {
     -webkit-transition: all .12s ease-out;
     -moz-transition: all .12s ease-out;
 }
-#port_nav:hover li { opacity: 1.0; }
-#port_nav li a { display: block; }
-#port_nav li span { display: block; position: absolute;}
+#port-nav:hover li { opacity: 1.0; }
+#port-nav li a { display: block; }
+#port-nav li span { display: block; position: absolute;}
 
-/*#port_nav .updown {overflow: hidden;}*/
+/*#port-nav .updown {overflow: hidden;}*/
 
-#port_nav .updown a {  width: 100%; height: 100%; background: #FFF; }
+#port-nav .updown a {  width: 100%; height: 100%; background: #FFF; }
 
-#port_nav .updown .text { text-indent: -9999em; }
+#port-nav .updown .text { text-indent: -9999em; }
 
-#port_nav .updown .pos { border: 11px solid; border-color: #222 #FFF; }
-#port_nav .updown.previous .pos {  top: 5px; border-top-width: 0; }
-#port_nav .updown.next .pos { bottom: 5px; border-bottom-width: 0; }
+#port-nav .updown .pos { border: 11px solid; border-color: #222 #FFF; }
+#port-nav .updown.previous .pos {  top: 5px; border-top-width: 0; }
+#port-nav .updown.next .pos { bottom: 5px; border-bottom-width: 0; }
 
-#port_nav .updown a:hover  { background: #222; }
-#port_nav .updown a:hover .pos { border-color: #FFF #222; }
-#port_nav .updown a:hover .neg.outside { border-color: transparent #222; }
-#port_nav .updown a:hover .neg.inside { border-color: #222 transparent; }
+#port-nav .updown a:hover  { background: #222; }
+#port-nav .updown a:hover .pos { border-color: #FFF #222; }
+#port-nav .updown a:hover .neg.outside { border-color: transparent #222; }
+#port-nav .updown a:hover .neg.inside { border-color: #222 transparent; }
 
 
-#port_nav .updown .neg.outside {
+#port-nav .updown .neg.outside {
     border: 11px solid;
     border-color: #222 #FFF ;
     border-color: transparent #FFF;
     left: 0;
 }
-#port_nav .updown.previous .neg.outside { bottom: 0px; border-bottom-width: 0; }
-#port_nav .updown.next .neg.outside { top: 0px; border-top-width: 0; }
+#port-nav .updown.previous .neg.outside { bottom: 0px; border-bottom-width: 0; }
+#port-nav .updown.next .neg.outside { top: 0px; border-top-width: 0; }
 
-#port_nav .updown .neg.inside {
+#port-nav .updown .neg.inside {
     border: 8px solid;
     border-color: #FFF #222;
     border-color: #FFF transparent;
     left: 3px;
 }
 
-#port_nav .updown.previous .neg.inside { bottom: 3px; border-top-width: 0; }
-#port_nav .updown.next .neg.inside { top: 3px; border-bottom-width: 0; }
+#port-nav .updown.previous .neg.inside { bottom: 3px; border-top-width: 0; }
+#port-nav .updown.next .neg.inside { top: 3px; border-bottom-width: 0; }
 
 
-#port_nav .nav_article {
+#port-nav .nav-article {
     margin-bottom: 0px;
 }
 
-#port_nav .nav_article:after {
+#port-nav .nav-article:after {
 
 }
 
-#port_nav .nav_article a {
+#port-nav .nav-article a {
     display: block;
     width: 100%;
     height: 100%;
 }
 
-#port_nav .nav_article a .dot {
+#port-nav .nav-article a .dot {
     display: block;
     width: 6px;
     height: 100%;
@@ -104,15 +102,15 @@ body.portfolio #site_header {
     -moz-transition: all 0.2s ease-out;
 }
 
-#port_nav .nav_article a:hover { background: none;}
+#port-nav .nav-article a:hover { background: none;}
 
-#port_nav .nav_article a:hover .dot {
+#port-nav .nav-article a:hover .dot {
     background: #E58;
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
 }
 
-#port_nav .nav_article.current a .dot {
+#port-nav .nav-article.current a .dot {
     background: #58E;
     -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -124,12 +122,12 @@ body.portfolio #site_header {
     border-radius: 6px;
 }
 
-#port_nav .nav_article.current a:hover .dot {
+#port-nav .nav-article.current a:hover .dot {
     -moz-transform: rotate(270deg) ; 
     -webkit-transform: rotate(270deg); 
 }
 
-#port_nav a details {
+#port-nav a details {
     display: block;
 	position: absolute;
     top: -9px;
@@ -147,18 +145,18 @@ body.portfolio #site_header {
     -webkit-transition: all 0.25s ease-out;
     -moz-transition: all 0.25s ease-out;
 }
-#port_nav .updown a details { top: -2px;}
+#port-nav .updown a details { top: -2px;}
 
-#port_nav a:hover details {
+#port-nav a:hover details {
     width: 230px;
     padding: 5px 10px 5px 5px;    
     overflow: visible;
     opacity: 1;
 }
 
-#port_nav details * { display: block; line-height: 1.2em; width: 230px; }
+#port-nav details * { display: block; line-height: 1.2em; width: 230px; }
 
-#port_nav details .pointer {
+#port-nav details .pointer {
     display: block;
     position: absolute;
     border: 8px solid;
@@ -168,10 +166,10 @@ body.portfolio #site_header {
     top: 12px;
     width: 0;
 }
-#port_nav .updown .pointer { top: 5px;}
+#port-nav .updown .pointer { top: 5px;}
 
-#port_nav details dt { font-weight: 600; text-transform: uppercase;  }
-#port_nav details dd { font-weight: 500; font-size: 11.5px;}
+#port-nav details dt { font-weight: 600; text-transform: uppercase;  }
+#port-nav details dd { font-weight: 500; font-size: 11.5px;}
 
 /**************************
 **  Articles
@@ -256,7 +254,7 @@ article .visit a span {
     display: block;
     position: absolute;
 }
-article .visit a .arrow_bar {
+article .visit a .arrow-bar {
     height: 6px;
     width: 7px;
     background: #E58;
@@ -265,7 +263,7 @@ article .visit a .arrow_bar {
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
 }
-article .visit a .arrow_point {
+article .visit a .arrow-point {
     border: 6px solid;
     border-color: transparent #E58;
     border-right: 0;
@@ -279,8 +277,8 @@ article .visit a:hover {
     color: #FFF; 
     background: #E58; 
 }
-article .visit a:hover .arrow_bar { background: #FFF; right: 10px; }
-article .visit a:hover .arrow_point { border-color: transparent #FFF; right: 4px; }
+article .visit a:hover .arrow-bar { background: #FFF; right: 10px; }
+article .visit a:hover .arrow-point { border-color: transparent #FFF; right: 4px; }
 
 
 article details {
@@ -356,30 +354,30 @@ article details dd .point {
     left: 144px;
 }
 
-article details.note_top .point,
-article details.note_bottom .point {
+article details.note-top .point,
+article details.note-bottom .point {
     border-color: #222 transparent;
 }
 
 
-article details.note_bottom dd {
+article details.note-bottom dd {
     top: 34px;
 }
-article header details.note_bottom dd {
+article header details.note-bottom dd {
     top: 40px;
 }
 
 
-article details.note_bottom .point {
+article details.note-bottom .point {
     top: -20px;
     border-top-width: 0;
 }
 
-article details.note_top dd {
+article details.note-top dd {
     bottom: 34px;
 }
 
-article details.note_top .point {
+article details.note-top .point {
     bottom: -20px;
     border-bottom-width: 0;
 }

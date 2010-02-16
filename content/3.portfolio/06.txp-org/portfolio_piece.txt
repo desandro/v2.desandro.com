@@ -14,7 +14,7 @@ This proposal project was a visual design and information architecture migration
 canvas_h: 1700
 -
 addl_deets:
-<details class="deet1 note_bottom">
+<details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -23,21 +23,21 @@ addl_deets:
 Older content and sections of lesser importance can still be access through the secondary nav on the top left.                            
     </dd>
 </details>
-<details class="deet2 note_bottom">
+<details class="deet2 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         To reflect the minimal and lightweight nature of Textpattern, I avoided using heavy amounts of imagery and instead focused on the typography. As this site’s primary purpose to organize and present plugins, by keeping it simple, users can better scan and consume the content of each page.                            
     </dd>
 </details>
-<details class="deet3 note_bottom">
+<details class="deet3 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         Focusing on usability, a large portion of this project was aimed at simplifying functionality and removing excess content areas. The home page reflects this paradigm, offering a simple welcome blurb that directs new users to jump right in.
     </dd>
 </details>
-<details class="deet4 note_bottom">
+<details class="deet4 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>

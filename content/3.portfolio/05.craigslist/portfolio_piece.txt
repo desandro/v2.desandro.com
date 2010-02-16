@@ -14,14 +14,14 @@ Textpattern is a flexible, elegant and easy-to-use CMS. I love the product and i
 canvas_h: 1600
 -
 addl_deets:
-<details class="deet1 note_top">
+<details class="deet1 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>
         Look familiar? The userstyle adheres to the current Craigslist visual brand (or lack there of). My goal was not to completely overhaul the interface, but to enhance and address every detail in order to provide a more legible and aesthetically pleasing website.                           
     </dd>
 </details>
-<details class="deet2 note_top">
+<details class="deet2 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>

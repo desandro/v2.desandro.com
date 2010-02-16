@@ -92,7 +92,7 @@
 </head>
 <body class="about tk_proxima_nova">
     
-     <section id="site_header" class="tk_proxima_nova"> 
+     <section id="site-header" class="tk_proxima_nova"> 
         <div id="branding"> 
             <p><a href="../"><span>David</span> DeSandro</a>  / </p> 
         </div> 
@@ -153,19 +153,19 @@
         </div>
     </section>
 
-    <section id="site_footer" class="tk_proxima_nova">
+    <section id="site-footer" class="tk_proxima_nova">
         <div class="wrap12">
-            <div class="made_this col4">
-                <p class="who_did">
+            <div class="made-this col4">
+                <p class="who-did">
 
                     <span class="david">David</span>
                     <span class="desandro">DeSandro</span>
                     made this.
                 </p>
-                <p class="copyright">&copy; 2009 &ndash; @current_year</p>                
+                <p class="copyright">&copy; 2009 &ndash; 2010</p>                
             </div>
 
-            <p class="where_what col4">
+            <p class="where-what col4">
                 <span class="heisa">He is a graphic &amp;</span>
                 <span class="designer">web designer</span>
                 <span class="living">living in Arlington, VA,</span>
@@ -173,7 +173,7 @@
 
                 <span class="happy">Being creative and making stuff keeps him happy.</span>
             </p>
-            <div class="also_made col4">
+            <div class="also-made col4">
                 <h3>Dave also made</h3>
                 <ul>
                     <li class="jqmsnry"><a href="<?= ROOT ?>resources/jquery-masonry">jQuery Masonry</a></li>
@@ -183,6 +183,6 @@
                 </ul>
             </div>
         </div>
-    </section> <!-- #site_footer -->
+    </section> <!-- #site-footer -->
 </body>
 </html>

@@ -1,0 +1,54 @@
+body.articles { 
+    background: #E22;
+    background: -moz-radial-gradient(center 40%, circle cover, #F41 0%, #400 100%);
+    background: -webkit-gradient(radial, center 40%, 0,  center 40%, 800, from(#F41), to(#400) );    
+}
+
+#content {
+    padding: 40px 0;
+    overflow: hidden;
+    color: #410;
+}
+
+#content h2  {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#content h2 span {
+    font-family:  'Bickham Script Pro', 'Edwardian Script ITC', 'Palace Script MT', Zapfino, cursive;
+    display: block;
+    font-size: 90px;
+    line-height: 1.1em;
+    
+}
+
+#content h2 em {
+    display: block;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 0.8em;
+    letter-spacing: 0.1em;
+    font-weight: 800;
+    font-size: 240px;
+    color: #FFF;
+    text-shadow: 0 0 150px #FFF, 0 0 60px #FFF, 0 0 10px #FFF;
+}
+
+
+
+
+#content p {
+    font-size: 17px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 1.0em;
+    line-height: 1.4em;
+}
+
+#content pre {
+    width: 580px;
+    margin: 0 auto;
+   
+}
+#content pre, #content code { background: #410; }

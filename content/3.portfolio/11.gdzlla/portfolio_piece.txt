@@ -14,7 +14,7 @@ Once we branded the nclud Tweetie/Flickr script as GDZLLA, it was obvious that w
 canvas_h: 480
 -
 addl_deets:
-<details class="deet1 note_bottom">
+<details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -23,7 +23,7 @@ addl_deets:
         <a href="http://nclud.com/sketchbook/illustrating-smash-the-gdzlla-mascot/">Read more about the illustrative process behind Smash.</a>                          
     </dd>
 </details>
-<details class="deet2 note_top">
+<details class="deet2 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>

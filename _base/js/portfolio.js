@@ -100,13 +100,13 @@ $(function(){
     $(window).scroll(function(){
         var 
             currentI = getCurrentI(articleCount, articleY),
-            $previousNav = $('#port_nav .nav_article.current');
-            previousI = $('#port_nav .nav_article').index( $previousNav );
+            $previousNav = $('#port-nav .nav-article.current');
+            previousI = $('#port-nav .nav-article').index( $previousNav );
         ;
         
         if ( currentI != previousI && currentI != -1 ) {
             $previousNav.removeClass('current');
-            $('#port_nav .nav_article').eq(currentI).addClass('current');
+            $('#port-nav .nav-article').eq(currentI).addClass('current');
         }
     });
 
@@ -126,9 +126,9 @@ $(function(){
 
     
     // port nav article scrolling
-    $('#port_nav .nav_article a').click(function(){
+    $('#port-nav .nav-article a').click(function(){
         var 
-            i = $('#port_nav .nav_article').index( $(this).parent() ),
+            i = $('#port-nav .nav-article').index( $(this).parent() ),
             target =  $('article').eq(i),
             article = target,
             y = target.offset().top
@@ -148,14 +148,14 @@ $(function(){
     }
 
     // prev & next buttons
-    $('#port_nav .previous a').click(function(){
+    $('#port-nav .previous a').click(function(){
         var currentI = getCurrentI(imageCount, imagesY);
         if ( currentI > 0 ) {
             prevNextScroll(currentI-1);
         }
         return false;
     });
-    $('#port_nav .next a').click(function(){
+    $('#port-nav .next a').click(function(){
         var currentI = getCurrentI(imageCount, imagesY);
         if ( currentI != imageCount-1 ) {
             prevNextScroll(currentI+1);

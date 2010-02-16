@@ -1,0 +1,24 @@
+title: The New Lens Flare
+-
+article: yes
+-
+date: 11 Feb 2010
+-
+newest_article: yes
+-
+content:
+<div class="wrap12 tk_proxima_nova">
+    <h2>
+        <span>White hot glowing text is the</span>
+        <em>new lens flare</em>
+    </h2>
+
+    <p>By abusing the text-shadow property, you can turn any ho-hum bit of text into a magnificent, radiant beacon of allure and awe.  But getting your bling-bling on has never been for the cheapskates.  Expect to pay a boatload in refresh rates, as your browser buckles under the weight of rendering that glorious halo.</p>
+
+    <p>Here&rsquo;s how it was pulled off:</p>
+    
+    <pre><code>#content h2 em {
+    color: #FFF;
+    text-shadow: 0 0 150px #FFF, 0 0 60px #FFF, 0 0 10px #FFF;
+}</code></pre>
+</div>

@@ -1,0 +1,30 @@
+
+:html_head
+
+if $css do
+    foreach $css do
+        <link rel="stylesheet" href="@url" type="text/css" media="screen" />
+    endforeach
+endif
+
+if $js do
+    foreach $js do
+        <script type="text/javascript" src="@url" charset="utf-8"></script>
+    endforeach
+endif
+
+</head>
+<body class="about tk_proxima_nova">
+    
+    :header
+    
+    <section id="about">
+        <div class="wrap12">
+            <div class="col6">
+                <h1>About</h1>
+                <p class="blurb">David DeSandro revels in the creative process. Building from the foundations of art, math, and logic, he produces elegant, inspiring interfaces. Exploring uncharted waters in the medium, he innovates to find new ways to design for the web.</p>
+            </div>
+        </div>
+    </section>
+    
+    :footer

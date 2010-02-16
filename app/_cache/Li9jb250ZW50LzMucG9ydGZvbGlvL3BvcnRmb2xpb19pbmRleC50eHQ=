@@ -20,7 +20,7 @@
 
 </head>
 <body class="portfolio tk_proxima_nova">
- <section id="site_header" class="tk_proxima_nova">
+ <section id="site-header" class="tk_proxima_nova">
     <div id="branding">
         <p><a href="../"><span>David</span> DeSandro</a>  / </p>
     </div>
@@ -43,7 +43,7 @@
 </header>
 
 
-<ul id="port_nav">
+<ul id="port-nav">
     <li class="updown previous"><a href="#">
 		<details>
 			<dt>Previous image<span class="pointer"></span></dt>
@@ -60,7 +60,7 @@
         <span class="neg inside"></span>
         <span class="neg outside"></span>
     </a></li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#mashable">
                 <span class="dot"></span>
 				<details>
@@ -69,7 +69,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#welovemariokart">
                 <span class="dot"></span>
 				<details>
@@ -78,7 +78,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#curtis-css-typeface">
                 <span class="dot"></span>
 				<details>
@@ -87,7 +87,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#gdzlla">
                 <span class="dot"></span>
 				<details>
@@ -96,7 +96,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#jquery-masonry">
                 <span class="dot"></span>
 				<details>
@@ -105,7 +105,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#stc-france">
                 <span class="dot"></span>
 				<details>
@@ -114,7 +114,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#gmail-vitamin">
                 <span class="dot"></span>
 				<details>
@@ -123,7 +123,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#grey-king">
                 <span class="dot"></span>
 				<details>
@@ -132,7 +132,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#txp-org">
                 <span class="dot"></span>
 				<details>
@@ -141,7 +141,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#craigslist">
                 <span class="dot"></span>
 				<details>
@@ -150,7 +150,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#txp-forum">
                 <span class="dot"></span>
 				<details>
@@ -159,7 +159,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#mobile-fuel">
                 <span class="dot"></span>
 				<details>
@@ -168,7 +168,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#txp-admin">
                 <span class="dot"></span>
 				<details>
@@ -177,7 +177,7 @@
 				</details>
             </a>
         </li>
-            <li class="nav_article">
+            <li class="nav-article">
             <a href="#render-plus">
                 <span class="dot"></span>
 				<details>
@@ -204,10 +204,10 @@
                 <h2>Mashable</h2>
                 <div>
                     <p class="skills">CSS / WordPress Integration</p>
-                                                    <p class="visit"><a href="http://mashable.com/">Visit mashable.com<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="http://mashable.com/">Visit mashable.com<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -215,14 +215,14 @@
                     </dd>
                 </details>
             </header>
-                            <details class="deet1 note_bottom">
+                            <details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         As Mashable is on the forefront of social media, I wanted the user interface to be just as forward thinking. CSS transitions are employed here in these navigation elements, as well in other numerous places.
     </dd>
 </details>
-<details class="deet2 note_bottom">
+<details class="deet2 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -249,10 +249,10 @@
                 <h2>welovemariokart</h2>
                 <div>
                     <p class="skills">HTML5 / CSS3 / jQuery / PHP</p>
-                                                    <p class="visit"><a href="http://wiilovemariokart.com/preview/friday.html">View demo<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="http://wiilovemariokart.com/preview/friday.html">View demo<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -260,28 +260,28 @@
                     </dd>
                 </details>
             </header>
-                            <details class="deet1 note_bottom">
+                            <details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         Player results are animated and sorted with jQuery.
     </dd>
 </details>
-<details class="deet2 note_top">
+<details class="deet2 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>
         Bezier curves are rendered with the HTML5 canvas element.
         </dd>
 </details>
-<details class="deet3 note_top">
+<details class="deet3 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>
         Selecting settings is done with a drag &amp; drop user interface, using <a href="http://jqueryui.com/">jQuery UI</a>.  CSS3 box-shadows are leveraged to indicate UI states.
     </dd>
 </details>
-<details class="deet4 note_bottom">
+<details class="deet4 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -305,10 +305,10 @@
                 <h2>Curtis CSS Typeface</h2>
                 <div>
                     <p class="skills">Typographic HTML &amp; CSS Experiment</p>
-                                                    <p class="visit"><a href="/resources/curtis-css-typeface">View experiment<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="/resources/curtis-css-typeface">View experiment<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -334,10 +334,10 @@
                 <h2>GDZLLA</h2>
                 <div>
                     <p class="skills">Illustration / jQuery Fun 404 page</p>
-                                                    <p class="visit"><a href="http://gdzl.la">View live site<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="http://gdzl.la">View live site<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -345,7 +345,7 @@
                     </dd>
                 </details>
             </header>
-                            <details class="deet1 note_bottom">
+                            <details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -354,7 +354,7 @@
         <a href="http://nclud.com/sketchbook/illustrating-smash-the-gdzlla-mascot/">Read more about the illustrative process behind Smash.</a>                          
     </dd>
 </details>
-<details class="deet2 note_top">
+<details class="deet2 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -378,10 +378,10 @@
                 <h2>jQuery Masonry</h2>
                 <div>
                     <p class="skills">jQuery Plugin / Documentation</p>
-                                                    <p class="visit"><a href="/resources/jquery-masonry">View plugin resource<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="/resources/jquery-masonry">View plugin resource<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -406,10 +406,10 @@
                 <h2>STC France</h2>
                 <div>
                     <p class="skills">Logo</p>
-                                                    <p class="visit"><a href="http://stcfrance.org/articles/61/david-desandro-delivers-on-the-new-stc-france-logo">Read client testimonial<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="http://stcfrance.org/articles/61/david-desandro-delivers-on-the-new-stc-france-logo">Read client testimonial<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -435,10 +435,10 @@
                 <h2>Gmail Vitamin</h2>
                 <div>
                     <p class="skills">CSS Userstyle</p>
-                                                    <p class="visit"><a href="http://userstyles.org/styles/19022">Download userstyle<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="http://userstyles.org/styles/19022">Download userstyle<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -448,7 +448,7 @@
                     </dd>
                 </details>
             </header>
-                            <details class="deet1 note_bottom">
+                            <details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -457,14 +457,14 @@
 These links also use a larger font size, to help establish visual hierarchy.
     </dd>
 </details>
-<details class="deet2 note_bottom">
+<details class="deet2 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         I brought in the suggestions made by <a href="http://www.subtraction.com/2008/06/17/spacing-is-e">Khoi Vihn</a>, adding padding around all visual elements making the interface more legible.
         </dd>
 </details>
-<details class="deet3 note_top">
+<details class="deet3 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -491,7 +491,7 @@ These links also use a larger font size, to help establish visual hierarchy.
                     <p class="skills">Book Cover: Layout / Illustration</p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -499,7 +499,7 @@ These links also use a larger font size, to help establish visual hierarchy.
                     </dd>
                 </details>
             </header>
-                            <details class="deet1 note_top">
+                            <details class="deet1 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -526,10 +526,10 @@ These links also use a larger font size, to help establish visual hierarchy.
                 <h2>Textpattern.org</h2>
                 <div>
                     <p class="skills">HTML / CSS / Information Architecture</p>
-                                                    <p class="visit"><a href="/work/txp_org_v3/txporgv3_07/home.php">View demo site<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="/work/txp_org_v3/txporgv3_07/home.php">View demo site<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -537,7 +537,7 @@ These links also use a larger font size, to help establish visual hierarchy.
                     </dd>
                 </details>
             </header>
-                            <details class="deet1 note_bottom">
+                            <details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -546,21 +546,21 @@ These links also use a larger font size, to help establish visual hierarchy.
 Older content and sections of lesser importance can still be access through the secondary nav on the top left.                            
     </dd>
 </details>
-<details class="deet2 note_bottom">
+<details class="deet2 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         To reflect the minimal and lightweight nature of Textpattern, I avoided using heavy amounts of imagery and instead focused on the typography. As this site’s primary purpose to organize and present plugins, by keeping it simple, users can better scan and consume the content of each page.                            
     </dd>
 </details>
-<details class="deet3 note_bottom">
+<details class="deet3 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         Focusing on usability, a large portion of this project was aimed at simplifying functionality and removing excess content areas. The home page reflects this paradigm, offering a simple welcome blurb that directs new users to jump right in.
     </dd>
 </details>
-<details class="deet4 note_bottom">
+<details class="deet4 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -587,10 +587,10 @@ Older content and sections of lesser importance can still be access through the 
                 <h2>Craigslist Clean-up</h2>
                 <div>
                     <p class="skills">CSS Userstyle</p>
-                                                    <p class="visit"><a href="http://userstyles.org/styles/12729">Download userstyle<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="http://userstyles.org/styles/12729">Download userstyle<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -598,14 +598,14 @@ Older content and sections of lesser importance can still be access through the 
                     </dd>
                 </details>
             </header>
-                            <details class="deet1 note_top">
+                            <details class="deet1 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>
         Look familiar? The userstyle adheres to the current Craigslist visual brand (or lack there of). My goal was not to completely overhaul the interface, but to enhance and address every detail in order to provide a more legible and aesthetically pleasing website.                           
     </dd>
 </details>
-<details class="deet2 note_top">
+<details class="deet2 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -630,10 +630,10 @@ Older content and sections of lesser importance can still be access through the 
                 <h2>Textpattern Forum</h2>
                 <div>
                     <p class="skills">CSS</p>
-                                                    <p class="visit"><a href="http://forum.textpattern.com">Visit the forum<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="http://forum.textpattern.com">Visit the forum<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -641,14 +641,14 @@ Older content and sections of lesser importance can still be access through the 
                     </dd>
                 </details>
             </header>
-                            <details class="deet1 note_bottom">
+                            <details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         Once you are a member of the forum, you can set this style as a preference. Go to Profile &gt; Display and select <em>tabula</em> as your preferred style.
     </dd>
 </details>
-<details class="deet2 note_top">
+<details class="deet2 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -672,10 +672,10 @@ Older content and sections of lesser importance can still be access through the 
                 <h2>Mobile Fuel</h2>
                 <div>
                     <p class="skills">Facebook Application: Visual Design</p>
-                                                    <p class="visit"><a href="http://apps.facebook.com/mobilefuel/">View App on Facebook<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="http://apps.facebook.com/mobilefuel/">View App on Facebook<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -704,10 +704,10 @@ In addition to touching up the aesthetics of the app, I was charged with alignin
                 <h2>Textpattern Admin Themes</h2>
                 <div>
                     <p class="skills">CSS / PHP</p>
-                                                    <p class="visit"><a href="http://txpadminthemes.desandro.com/article">View demo and download themes<span class="arrow_bar"></span><span class="arrow_point"></span></a></p>
+                                                    <p class="visit"><a href="http://txpadminthemes.desandro.com/article">View demo and download themes<span class="arrow-bar"></span><span class="arrow-point"></span></a></p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -715,21 +715,21 @@ In addition to touching up the aesthetics of the app, I was charged with alignin
                     </dd>
                 </details>
             </header>
-                            <details class="deet1 note_bottom">
+                            <details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         Prior to version 4.2.0 there was no accessible way to implement custom themes. So in addition to the CSS themes, I developed a plugin to allow users to select and edit the admin themes from within the Textpattern back-end.                            
     </dd>
 </details>
-<details class="deet2 note_bottom">
+<details class="deet2 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         Images like the gradients in these buttons were inserted directly into CSS through data URI encoding. This allowed me to use simple imagery in the CSS without having to link to an external resource. In turn, users only have to worry about the CSS file, no fussing with images.                            
     </dd>
 </details>
-<details class="deet3 note_top">
+<details class="deet3 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -755,7 +755,7 @@ In addition to touching up the aesthetics of the app, I was charged with alignin
                     <p class="skills">Identity &amp; Logo Design</p>
                         
                 </div>
-                <details class="note_bottom">
+                <details class="note-bottom">
                     <dt></dt>
                     <dd>
                         <span class="point"></span>
@@ -768,10 +768,10 @@ In addition to touching up the aesthetics of the app, I was charged with alignin
     </section>
 </article>
 
-     <section id="site_footer" class="tk_proxima_nova">
+     <section id="site-footer" class="tk_proxima_nova">
         <div class="wrap12">
-            <div class="made_this col4">
-                <p class="who_did">
+            <div class="made-this col4">
+                <p class="who-did">
                     <span class="david">David</span>
                     <span class="desandro">DeSandro</span>
                     made this.
@@ -779,14 +779,14 @@ In addition to touching up the aesthetics of the app, I was charged with alignin
                 <p class="copyright">&copy; 2009 &ndash; 2010</p>                
             </div>
 
-            <p class="where_what col4">
+            <p class="where-what col4">
                 <span class="heisa">He is a graphic &amp;</span>
                 <span class="designer">web designer</span>
                 <span class="living">living in Arlington, VA,</span>
                 <span class="working">working at <a href="http://nclud.com">nclud</a> in Washington, DC.</span>
                 <span class="happy">Being creative and making stuff keeps him happy.</span>
             </p>
-            <div class="also_made col4">
+            <div class="also-made col4">
                 <h3>Dave also made</h3>
                 <ul>
                     <li class="jqmsnry"><a href="../resources/jquery-masonry/">jQuery Masonry</a></li>
@@ -800,4 +800,4 @@ In addition to touching up the aesthetics of the app, I was charged with alignin
 </html>
 
 
-<!-- Stacey(2.0): efc582cf3822a9fb598af3423f5a6de7 -->
+<!-- Stacey(2.0): 0de5074feb8c9178d9d14c34c37b1f29 -->

@@ -4,6 +4,8 @@ date: 9 Feb 2010
 -
 article: yes
 -
+newest_article: yes
+-
 content:
 <div class="wrap12 tk_proxima_nova">
     <h1>With a capital S</h1>

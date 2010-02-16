@@ -21,7 +21,7 @@
 
 </head>
 <body class="articles tk_proxima_nova">
- <section id="site_header" class="tk_proxima_nova">
+ <section id="site-header" class="tk_proxima_nova">
     <div id="branding">
         <p><a href="../"><span>David</span> DeSandro</a>  / </p>
     </div>
@@ -45,15 +45,14 @@
 
 
 
-<section id="content" class="article_list">
+<section id="content" class="article-list">
     <h1>Articles</h1>
 
     <div class="articles">
                    <article>
-                <a href="../articles/with-a-capital-s/" class="clearfix">
-                    <h2>With a capital S</h2>
-                    <time>9 Feb 2010</time>
-                                            <img src="../content/1.articles/14.with-a-capital-s/_preview/with_a_capital_s.jpg" width="300" height="178" />
+                <a href="../articles/the-new-lens-flare/" class="clearfix">
+                    <h2>The New Lens Flare</h2>
+                    <time>11 Feb 2010</time>
                     
                 </a>
             </article>           <article>
@@ -152,10 +151,10 @@
 
 </section>
 
-     <section id="site_footer" class="tk_proxima_nova">
+     <section id="site-footer" class="tk_proxima_nova">
         <div class="wrap12">
-            <div class="made_this col4">
-                <p class="who_did">
+            <div class="made-this col4">
+                <p class="who-did">
                     <span class="david">David</span>
                     <span class="desandro">DeSandro</span>
                     made this.
@@ -163,14 +162,14 @@
                 <p class="copyright">&copy; 2009 &ndash; 2010</p>                
             </div>
 
-            <p class="where_what col4">
+            <p class="where-what col4">
                 <span class="heisa">He is a graphic &amp;</span>
                 <span class="designer">web designer</span>
                 <span class="living">living in Arlington, VA,</span>
                 <span class="working">working at <a href="http://nclud.com">nclud</a> in Washington, DC.</span>
                 <span class="happy">Being creative and making stuff keeps him happy.</span>
             </p>
-            <div class="also_made col4">
+            <div class="also-made col4">
                 <h3>Dave also made</h3>
                 <ul>
                     <li class="jqmsnry"><a href="../resources/jquery-masonry/">jQuery Masonry</a></li>
@@ -183,4 +182,4 @@
 </body>
 </html>
 
-<!-- Stacey(2.0): 70d2cd05e2d31c31b265f23af3bd0168 -->
+<!-- Stacey(2.0): 1f4d1a29dc6da619c72d7654926e0d58 -->

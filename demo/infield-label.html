@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+	<title>In-field label with background colors</title>
+
+<style type="text/css" media="screen">
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 { margin-bottom: 0.5em; }
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    width: 600px;
+    margin: 40px auto;
+}
+
+.datapoint {
+    border-top: 1px solid #ABC;
+    background: #DEF;
+    padding: 10px;
+}
+
+
+.field {
+    position: relative;
+}
+
+.field  * {
+    width: 240px;
+    padding: 3px;
+}
+
+.field .place_holder {
+    color: #888;
+    border: 1px solid transparent;
+}
+
+.field input.text {
+    font: inherit;
+    background: #FFF;
+    border: 1px solid #CCC;
+}
+
+.field input.text:focus {
+    background: #FFF;
+}
+
+</style>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function(){
+            
+            $textInputs = $('.field input.text');
+            
+            fillColor = $textInputs.css('background-color');
+            
+            $('.field .place_holder').css({
+                borderColor: $textInputs.css('border-color'),
+                background: fillColor
+            });
+            
+            $textInputs
+                .css({
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    background: 'transparent'
+                })
+                .focus(function(){
+                    $(this).css('background-color', fillColor)
+                })
+                .blur(function(){
+                    var blurColor = $(this).val() === '' ? 'transparent' : fillColor;
+                    $(this).css('background-color', blurColor);
+                })
+                .blur()
+            ;
+        });
+    </script>
+
+</head>
+<body>
+    
+    <h1>In-field label with background colors</h1>
+
+    <div class="datapoint">
+        <label for="email">Email Address</label>
+        <div class="field">
+            <p class="place_holder">name@gmail.com</p>
+            <input type="text" class="text" name="email" value="" id="email" />
+        </div>
+    </div>
+    <div class="datapoint">
+        <label for="phone">Phone Number</label>
+        <div class="field">
+            <p class="place_holder">123-456-7890</p>
+            <input type="text" class="text" name="phone" value="" id="phone" />
+        </div>
+    </div>
+
+
+</body>
+</html>

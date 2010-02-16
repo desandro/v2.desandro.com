@@ -16,7 +16,7 @@ Although Gmail is incredibly popular, it has enough visual quirks to ensure no o
 canvas_h: 460
 -
 addl_deets:
-<details class="deet1 note_bottom">
+<details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
@@ -25,14 +25,14 @@ addl_deets:
 These links also use a larger font size, to help establish visual hierarchy.
     </dd>
 </details>
-<details class="deet2 note_bottom">
+<details class="deet2 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         I brought in the suggestions made by <a href="http://www.subtraction.com/2008/06/17/spacing-is-e">Khoi Vihn</a>, adding padding around all visual elements making the interface more legible.
         </dd>
 </details>
-<details class="deet3 note_top">
+<details class="deet3 note-top">
     <dt></dt>
     <dd>
         <span class="point"></span>

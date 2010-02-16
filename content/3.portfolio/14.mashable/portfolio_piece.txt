@@ -14,14 +14,14 @@ When Pete Cashmore and the Mashable team turned to nclud as strategic partners f
 canvas_h: 1000
 -
 addl_deets:
-<details class="deet1 note_bottom">
+<details class="deet1 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>
         As Mashable is on the forefront of social media, I wanted the user interface to be just as forward thinking. CSS transitions are employed here in these navigation elements, as well in other numerous places.
     </dd>
 </details>
-<details class="deet2 note_bottom">
+<details class="deet2 note-bottom">
     <dt></dt>
     <dd>
         <span class="point"></span>

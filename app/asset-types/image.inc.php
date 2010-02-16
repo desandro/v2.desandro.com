@@ -30,8 +30,6 @@ Class Image extends Asset {
 		
 		# set dimensions for image
         $img_path =  preg_replace('/\.\.\//', '', $this->link_path);
-        // $this->data['@dirs'] = getcwd() . ' /// ' . $this->link_path . ' /// ' . $img_path;
-        
         $img_size = getimagesize($img_path);
         $this->data['@sizeattrs'] = $img_size[3];
 		

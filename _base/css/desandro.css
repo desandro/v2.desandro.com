@@ -32,13 +32,13 @@ a:hover {
 **  Site Header
 **************************/
 
-#site_header {
+#site-header {
     position: relative;
     font-size: 17px;
     line-height: 22px;
 }
 
-#site_header #branding {
+#site-header #branding {
     position: absolute;
     background: #222;
     width: 100%;
@@ -49,42 +49,42 @@ a:hover {
     left: 0;
 }
 
-body.articles #site_header #branding { top: 0;}
-body.resources #site_header #branding { top: 22px;}
-body.portfolio #site_header #branding { top: 44px;}
-body.about #site_header #branding { top: 66px;}
+body.articles #site-header #branding { top: 0;}
+body.resources #site-header #branding { top: 22px;}
+body.portfolio #site-header #branding { top: 44px;}
+body.about #site-header #branding { top: 66px;}
 
-#site_header #branding p {
+#site-header #branding p {
     width: 940px;
     margin: 0 auto;
     font-weight: 800;
     padding: 0 10px;
 }
-#site_header #branding p a {
+#site-header #branding p a {
     color: #FFF;
 }
-#site_header #branding p a:hover { color: #E58; }
+#site-header #branding p a:hover { color: #E58; }
 
 
-#site_header a:hover {
+#site-header a:hover {
     background: none;
 }
 
-#site_header #branding p a * {
+#site-header #branding p a * {
     display: block; 
     float: left;
 
 }
-#site_header #branding p span { font-weight: 100; }
+#site-header #branding p span { font-weight: 100; }
 
-#site_header ol {
+#site-header ol {
     width: 960px;
     margin: 0 auto 20px;
     text-transform: uppercase;
     font-weight: 600;
 }
 
-#site_header ol li {
+#site-header ol li {
     z-index: 200;
     position: relative;
     top: 0;
@@ -94,31 +94,31 @@ body.about #site_header #branding { top: 66px;}
 }
 
 
-#site_header ol a {
+#site-header ol a {
     color: #222;
 }
-body.articles #site_header ol .articles a,
-body.resources #site_header ol .resources a,
-body.portfolio #site_header ol .portfolio a,
-body.about #site_header ol .about a { 
+body.articles #site-header ol .articles a,
+body.resources #site-header ol .resources a,
+body.portfolio #site-header ol .portfolio a,
+body.about #site-header ol .about a { 
     color: #FFF; 
 }
 
 
-#site_header ol .articles a:hover,
-body.articles #site_header ol .articles a:hover { color: #3C7; }
-#site_header ol .resources a:hover,
-body.resources #site_header ol .resources a:hover { color: #F90; }
-#site_header ol .portfolio a:hover,
-body.portfolio #site_header ol .portfolio a:hover { color: #85E; }
-#site_header ol .about a:hover,
-body.about #site_header ol .about a:hover { color: #58E; }
+#site-header ol .articles a:hover,
+body.articles #site-header ol .articles a:hover { color: #3C7; }
+#site-header ol .resources a:hover,
+body.resources #site-header ol .resources a:hover { color: #F90; }
+#site-header ol .portfolio a:hover,
+body.portfolio #site-header ol .portfolio a:hover { color: #85E; }
+#site-header ol .about a:hover,
+body.about #site-header ol .about a:hover { color: #58E; }
 
-#site_header ol em {
+#site-header ol em {
     font-style: normal;
 }
 
-#site_header ol time {
+#site-header ol time {
     margin-left: 10px;
     font-weight: 200;
     font-size: 14px;
@@ -126,7 +126,7 @@ body.about #site_header ol .about a:hover { color: #58E; }
     letter-spacing: 0.15em;
 }
 
-#site_header .older_newer {
+#site-header .older-newer {
     position: absolute;
     top: 0;
     right: 0;
@@ -135,7 +135,7 @@ body.about #site_header ol .about a:hover { color: #58E; }
     letter-spacing: 0.1em;
 }
 
-#site_header .older_newer a { margin-left: 10px; }
+#site-header .older-newer a { margin-left: 10px; }
 
 /**************************
 **  Basic styles
@@ -173,17 +173,26 @@ p {
 }
 
 a.button {
-  font-size: 14px;
-  padding: 5px 15px;
-  background: #E58;
-  color: #FFF;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
-  -moz-box-shadow: 0px 3px 8px rgba(0,0,0,0.15);  
-  -webkit-box-shadow: 0px 3px 8px rgba(0,0,0,0.15); 
-  box-shadow: 0px 3px 8px rgba(0,0,0,0.15);   
+    font-size: 14px;
+    padding: 5px 15px;
+    background: #E58;
+    background: -moz-linear-gradient(-90deg, hsl(330,100%,50%), hsl(330,100%,47%) );
+    color: #FFF;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    -moz-box-shadow: 0px 2px 5px hsla(0,0%,0%,.15);  
+    -webkit-box-shadow: 0px 2px 5px rgba(0,0%,0%,.15); 
+    box-shadow: 0px 2px 5px rgba(0,0%,0%,.15);   
 }
+a.button:hover {
+    background: #C36;
+    background: -moz-linear-gradient(-90deg, hsl(330,100%,49%), hsl(330,100%,40%) );
+}
+a.button:focus {
+    -moz-box-shadow: inset 0px 2px 13px rgba(0,0,0,.5);
+}
+
 
 pre, code {
     background: #222;
@@ -205,19 +214,19 @@ pre {
 **  Article List
 **************************/
 
-#content.article_list {
+#content.article-list {
     padding: 0 30px;
 }
 
-#content.article_list h1 {padding-left: 10px;}
+#content.article-list h1 {padding-left: 10px;}
 
-#content.article_list article {
+#content.article-list article {
     width: 320px;
     float: left;
     margin-bottom: 40px;
 }
 
-#content.article_list article a {
+#content.article-list article a {
     display: block;
     position: relative;
     color: #3C7;
@@ -228,7 +237,7 @@ pre {
     -moz-transition: all 0.12s ease-out;
 }
 
-#content.article_list article a:hover {
+#content.article-list article a:hover {
     background: #FFF;
     color: #222;
     -moz-transform: scale(1.1);
@@ -238,16 +247,16 @@ pre {
     z-index: 100;
 }
 
-#content.article_list article a * { display: block;}
+#content.article-list article a * { display: block;}
 
-#content.article_list article h2 {
+#content.article-list article h2 {
     margin-bottom: 0;
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-#content.article_list article time {
+#content.article-list article time {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 200;
@@ -258,7 +267,7 @@ pre {
 **  Site Footer
 **************************/
 
-#site_footer {
+#site-footer {
     background: #222;
     color: #EEE;
     padding-top: 60px;
@@ -266,14 +275,14 @@ pre {
     clear: both;
 }
 
-#site_footer p { margin-bottom: 0;}
+#site-footer p { margin-bottom: 0;}
 
 
-#site_footer a:hover {
+#site-footer a:hover {
     background: none;
 }
 
-#site_footer .made_this p {
+#site-footer .made-this p {
     position: relative;
     left: 0;
     top: 0;
@@ -281,10 +290,10 @@ pre {
     -moz-transition: all 0.12s ease-out;
 }
 
-#site_footer .made_this:hover p {
+#site-footer .made-this:hover p {
 }
 
-#site_footer  .made_this .who_did {
+#site-footer  .made-this .who-did {
     color: #555;
     text-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
     font-weight: 800;
@@ -296,46 +305,46 @@ pre {
     -moz-transition: all 0.12s ease-out;
 }
 
-#site_footer .made_this .who_did span {
+#site-footer .made-this .who-did span {
 }
 
-#site_footer .made_this:hover .who_did {
+#site-footer .made-this:hover .who-did {
     color: #FFF;
     top: -3px;
     left: -3px;
     text-shadow: 1px 1px #E58, 2px 2px #E58, 3px 3px #E58, 4px 4px #E58, 5px 5px #E58, 6px 6px #E58, 7px 7px #E58, 8px 8px #E58, 9px 9px #E58, 10px 10px #E58, 11px 11px #E58;
 }
-#site_footer  .made_this:hover .who_did .david {
+#site-footer  .made-this:hover .who-did .david {
     text-shadow: 1px 1px #58E, 2px 2px #58E, 3px 3px #58E, 4px 4px #58E, 5px 5px #58E, 6px 6px #58E, 7px 7px #58E, 8px 8px #58E, 9px 9px #58E, 10px 10px #58E, 11px 11px #58E;
 }
-#site_footer  .made_this:hover .who_did .desandro {
+#site-footer  .made-this:hover .who-did .desandro {
     text-shadow: 1px 1px #F90, 2px 2px #F90, 3px 3px #F90, 4px 4px #F90, 5px 5px #F90, 6px 6px #F90, 7px 7px #F90, 8px 8px #F90, 9px 9px #F90, 10px 10px #F90, 11px 11px #F90;
 }
 
-#site_footer .who_did .david {
+#site-footer .who-did .david {
     display: block;
     font-size: 76px;
     line-height: 0.8em;
 }
 
-#site_footer .who_did .desandro {
+#site-footer .who-did .desandro {
     display: block;
     line-height: 0.9em;
 
 }
 
-#site_footer .copyright {
+#site-footer .copyright {
     color: #555;
     padding-left: 60px;
     -webkit-transition: all 0.12s ease-out;
     -moz-transition: all 0.12s ease-out;
 }
 
-#site_footer .made_this:hover .copyright { 
+#site-footer .made-this:hover .copyright { 
     color: #EEE; 
 }
 
-#site_footer .where_what {
+#site-footer .where-what {
     font-weight: 200;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -343,7 +352,7 @@ pre {
     color: #555;
 
 }
-#site_footer .where_what span { 
+#site-footer .where-what span { 
 	display: block; 
 	line-height: 1.05em;
     -webkit-transform-origin: center bottom;
@@ -352,34 +361,34 @@ pre {
     -moz-transition: all 0.2s ease-out;
     text-shadow: 0 0px 1px #222;
 }
-#site_footer .where_what span:hover {
+#site-footer .where-what span:hover {
     color: #666;
     text-shadow: 0 4px 1px #000;
     -moz-transform: scale(1.25);
     -webkit-transform: scale(1.25);
 }
-#site_footer .where_what span:hover a { color: #E58; }
+#site-footer .where-what span:hover a { color: #E58; }
 
-#site_footer .where_what .heisa { font-size: 32px; }
-#site_footer .where_what .designer { font-size: 40px; }
-#site_footer .where_what .living { font-size: 22px; }
-#site_footer .where_what .working { font-size: 12px; letter-spacing: 0.15em; line-height: 2.0em; font-weight: 500; }
-#site_footer .where_what .happy { font-size: 9px; letter-spacing: 0.15em; line-height: 1.2em; font-weight: 500; }
+#site-footer .where-what .heisa { font-size: 32px; }
+#site-footer .where-what .designer { font-size: 40px; }
+#site-footer .where-what .living { font-size: 22px; }
+#site-footer .where-what .working { font-size: 12px; letter-spacing: 0.15em; line-height: 2.0em; font-weight: 500; }
+#site-footer .where-what .happy { font-size: 9px; letter-spacing: 0.15em; line-height: 1.2em; font-weight: 500; }
 
-#site_footer .where_what .working:hover,
-#site_footer .where_what .happy:hover { 
+#site-footer .where-what .working:hover,
+#site-footer .where-what .happy:hover { 
     -moz-transform: scale(1.4);
     -webkit-transform: scale(1.4);
 
 }
 
-#site_footer .where_what a:hover { color: #FFF; }
+#site-footer .where-what a:hover { color: #FFF; }
 
-#site_footer .also_made {
+#site-footer .also-made {
     text-align: right;
 }
 
-#site_footer .also_made h3 {
+#site-footer .also-made h3 {
     text-transform: uppercase;
     font-style: normal;
     font-weight: 500;
@@ -389,17 +398,17 @@ pre {
     color: #555;
 }
 
-#site_footer .also_made li {
+#site-footer .also-made li {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 26px;
     line-height: 1.6em;
 }
-#site_footer .also_made li.jqmsnry{ font-size: 27px;}
-#site_footer .also_made li.curtis{ font-size: 22.5px;}
-#site_footer .also_made li.speechbub{ font-size: 24px;}
+#site-footer .also-made li.jqmsnry{ font-size: 27px;}
+#site-footer .also-made li.curtis{ font-size: 22.5px;}
+#site-footer .also-made li.speechbub{ font-size: 24px;}
 
-.also_made a {
+.also-made a {
     color: #EEE;
     text-shadow: 1px 1px #D47, 2px 2px #D47, 3px 3px #D47;
     position: relative;
@@ -408,7 +417,7 @@ pre {
     -webkit-transition: all 0.12s ease-out;
     -moz-transition: all 0.12s ease-out;
 }
-.also_made a:hover {
+.also-made a:hover {
     color: #FFF;
     top: -3px;
     left: -3px;
