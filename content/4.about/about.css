@@ -8,19 +8,19 @@ body {
 **  Site Header
 **************************/
 
-#site_header #branding {
+#site-header #branding {
     background: #FFF;
     color: #222;
 }
 
-#site_header #branding p a {
+#site-header #branding p a {
     color: #222;
 }
 
-#site_header ol a {
+#site-header ol a {
     color: #FFF;
 }
-body.about #site_header ol .about a { 
+body.about #site-header ol .about a { 
     color: #222; 
 }
 

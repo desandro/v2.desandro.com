@@ -46,19 +46,19 @@ body.articles {
 **  Site Header
 **************************/
 
-#site_header #branding {
+#site-header #branding {
     background: #FFF;
     color: #222;
 }
 
-#site_header #branding p a {
+#site-header #branding p a {
     color: #222;
 }
 
-#site_header ol a {
+#site-header ol a {
     color: #FFF;
 }
-body.articles #site_header ol .articles,
-body.articles #site_header ol .articles a { 
+body.articles #site-header ol .articles,
+body.articles #site-header ol .articles a { 
     color: #222; 
 }
