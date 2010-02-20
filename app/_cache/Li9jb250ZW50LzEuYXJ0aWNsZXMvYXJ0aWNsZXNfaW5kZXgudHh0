@@ -24,6 +24,14 @@
  <section id="site-header" class="tk_proxima_nova">
     <div id="branding">
         <p><a href="../"><span>David</span> DeSandro</a>  / </p>
+        <div class="rss">
+            <a href="#">
+                RSS
+                <span class="dot"></span>
+                <span class="inside ring"></span>
+                <span class="outside ring"></span>
+            </a>
+        </div>
     </div>
     <ol>
         <li class="articles"><a href="../articles">Articles</a>
@@ -182,4 +190,4 @@
 </body>
 </html>
 
-<!-- Stacey(2.0): ae4d234cf00351efb9455eaa7d4e0ac2 -->
+<!-- Stacey(2.0): b99a339bc88ed025354aa25f73f2eec1 -->

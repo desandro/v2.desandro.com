@@ -137,6 +137,78 @@ body.about #site-header ol .about a:hover { color: #58E; }
 
 #site-header .older-newer a { margin-left: 10px; }
 
+/**** RSS Icon ****/
+
+#site-header .rss {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+
+.rss a {
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: #F90;
+    position: relative;
+    overflow: hidden;
+    text-indent: -9999em;
+    border: 2px solid;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.rss a span {
+    display: block;
+    position: absolute;
+}
+
+.rss a .dot {
+    width: 3px;
+    height: 3px;
+    left: 0;
+    top: 10px;
+    background: #FFF;
+    -moz-border-radius: 1.5px;
+    -webkit-border-radius: 1.5px;
+    border-radius: 1.5px;
+}
+
+.rss a .ring {
+    border: 3px solid #FFF;
+}
+
+.rss a .inside {
+    width: 10px;
+    height: 10px;
+    left: -8px;
+    top: 5px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+
+
+.rss a .outside {
+    width: 20px;
+    height: 20px;
+    left: -13px;
+    top: 0px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+}
+
+
+
+.rss a { background: #222; border-color: #222; }
+
+#site-header .rss a:hover { background: #F90; border-color: #F90; }
+.rss a:hover .dot { background: #FFF; }
+.rss a:hover .ring { border-color: #FFF; }
+
 /**************************
 **  Basic styles
 **************************/

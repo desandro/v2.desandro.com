@@ -23,6 +23,14 @@
  <section id="site-header" class="tk_proxima_nova">
     <div id="branding">
         <p><a href="../"><span>David</span> DeSandro</a>  / </p>
+        <div class="rss">
+            <a href="#">
+                RSS
+                <span class="dot"></span>
+                <span class="inside ring"></span>
+                <span class="outside ring"></span>
+            </a>
+        </div>
     </div>
     <ol>
         <li class="articles"><a href="../articles">Articles</a>
@@ -800,4 +808,4 @@ In addition to touching up the aesthetics of the app, I was charged with alignin
 </html>
 
 
-<!-- Stacey(2.0): 0de5074feb8c9178d9d14c34c37b1f29 -->
+<!-- Stacey(2.0): b99a339bc88ed025354aa25f73f2eec1 -->

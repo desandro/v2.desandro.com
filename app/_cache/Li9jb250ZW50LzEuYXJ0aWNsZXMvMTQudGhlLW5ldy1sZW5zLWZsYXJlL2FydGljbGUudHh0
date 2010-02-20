@@ -26,6 +26,14 @@
  <section id="site-header" class="tk_proxima_nova">
     <div id="branding">
         <p><a href="../../"><span>David</span> DeSandro</a>  / </p>
+        <div class="rss">
+            <a href="#">
+                RSS
+                <span class="dot"></span>
+                <span class="inside ring"></span>
+                <span class="outside ring"></span>
+            </a>
+        </div>
     </div>
     <ol>
         <li class="articles"><a href="../../articles">Articles</a>
@@ -36,9 +44,6 @@
 
 
     
-                <a href="../../articles/concept-flow-what-i-m-going-for/" title="Concept Flow: What I&rsquo;m going for">Newer &rsaquo; </a>
-
-
     
 </nav>
     
@@ -105,4 +110,4 @@
 </body>
 </html>
 
-<!-- Stacey(2.0): 1f4d1a29dc6da619c72d7654926e0d58 -->
+<!-- Stacey(2.0): b99a339bc88ed025354aa25f73f2eec1 -->

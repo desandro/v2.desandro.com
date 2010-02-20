@@ -24,6 +24,10 @@ body.about #site-header ol .about a {
     color: #222; 
 }
 
+.rss a { background: #FFF; border-color: #FFF; }
+.rss a .dot { background: #222; }
+.rss a .ring { border-color: #222; }
+
 /**************************
 **  About content
 **************************/

@@ -18,14 +18,12 @@ img#bottom { display: none !important;}
 #container, html.embed { background: transparent; }
 
 .wufoo label.desc {
-    font-size: 14px;
+    font-size: 13px;
     text-transform: uppercase;
     color: #FFF;
 }
 
 form span.req { display: none; }
-
-
 
 .noI .leftLabel label.desc {
     width:20%;
@@ -157,3 +155,11 @@ input.text, input.search, textarea.textarea {
 #errorMsg strong,
 form li.error { background-color: #FFF !important; }
 
+
+form p.error {font-size: 11px;}
+
+.confirm h2 {
+    color: #FFF;
+    text-align: left;
+    font-size: 140%;
+}
