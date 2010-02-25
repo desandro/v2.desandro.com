@@ -22,7 +22,6 @@
 <body class="portfolio tk_proxima_nova">
  <section id="site-header" class="tk_proxima_nova">
     <div id="branding">
-        <p><a href="../"><span>David</span> DeSandro</a>  / </p>
         <div class="rss">
             <a href="#">
                 RSS
@@ -31,6 +30,8 @@
                 <span class="outside ring"></span>
             </a>
         </div>
+        <p><a href="../"><span>David</span> DeSandro</a>  / </p>
+
     </div>
     <ol>
         <li class="articles"><a href="../articles">Articles</a>
@@ -776,22 +777,37 @@ In addition to touching up the aesthetics of the app, I was charged with alignin
     </section>
 </article>
 
-     <section id="site-footer" class="tk_proxima_nova">
+     <section id="site-footer" class="vcard tk_proxima_nova">
         <div class="wrap12">
             <div class="made-this col4">
-                <p class="who-did">
-                    <span class="david">David</span>
-                    <span class="desandro">DeSandro</span>
-                    made this.
-                </p>
+                <a href="../" class="url uid" rel="me">
+                    <strong class="fn">
+                        <span class="given-name">David</span>
+                        <span class="family-name">DeSandro</span>
+                    </strong>
+                    <span class="made">made</span> 
+                    <span class="this">this.</span>
+                </a>
                 <p class="copyright">&copy; 2009 &ndash; 2010</p>                
             </div>
 
             <p class="where-what col4">
                 <span class="heisa">He is a graphic &amp;</span>
-                <span class="designer">web designer</span>
-                <span class="living">living in Arlington, VA,</span>
-                <span class="working">working at <a href="http://nclud.com">nclud</a> in Washington, DC.</span>
+                <span class="role designer">web designer</span>
+                <span class="living">
+                    living in 
+                    <span class="adr">
+                        <span class="locality">Arlington</span>, 
+                        <span class="region" title="Virginia">VA</span>,
+                    </span>
+                </span>
+                <span class="working vcard">
+                    working at <a href="http://nclud.com" class="fn org url">nclud</a> in 
+                    <span class="adr">
+                        <span class="locality">Washington</span>, 
+                        <span class="region" title="District of Columbia">DC</span>.
+                    </span>
+                </span>
                 <span class="happy">Being creative and making stuff keeps him happy.</span>
             </p>
             <div class="also-made col4">
@@ -803,9 +819,9 @@ In addition to touching up the aesthetics of the app, I was charged with alignin
                 </ul>
             </div>
         </div>
-    </section> <!-- #site_footer -->
+    </section> <!-- #site-footer -->
 </body>
 </html>
 
 
-<!-- Stacey(2.0): b99a339bc88ed025354aa25f73f2eec1 -->
+<!-- Stacey(2.0): 95e495e12130666b4f05478cb039012e -->

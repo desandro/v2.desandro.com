@@ -2,19 +2,18 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title> David DeSandro</title>
-    <link rel="stylesheet" href="./_base/css/desandro.css" type="text/css" media="screen" />
+    <title>Conan O&rsquo;Brien on cynicism &middot;  David DeSandro</title>
+    <link rel="stylesheet" href="../../_base/css/desandro.css" type="text/css" media="screen" />
     <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script type="text/javascript" src="http://use.typekit.com/bqa1ehi.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <script type="text/javascript" src="./_base/js/jquery-1.4.min.js"></script>
+    <script type="text/javascript" src="../../_base/js/jquery-1.4.min.js"></script>
     <!-- <script type="text/javascript" src="_base/js/application.js"></script> -->
     <script src="/mint/?js" type="text/javascript"></script>
 
 
-
-    
-            <link rel="stylesheet" href="./content/1.articles/15.conan-asks/conan-asks.css" type="text/css" media="screen" />
+ 
+            <link rel="stylesheet" href="../../content/1.articles/15.conan-on-cynicism/conan-cynic.css" type="text/css" media="screen" />
     
 
 
@@ -34,37 +33,39 @@
                 <span class="outside ring"></span>
             </a>
         </div>
-        <p><a href="./"><span>David</span> DeSandro</a>  / </p>
+        <p><a href="../../"><span>David</span> DeSandro</a>  / </p>
 
     </div>
     <ol>
-        <li class="articles"><a href="./articles">Articles</a>
-                            / <em><a href="./articles/conan-asks/">Conan Asks</a></em>
+        <li class="articles"><a href="../../articles">Articles</a>
+                            / <em><a href="../../articles/conan-on-cynicism/">Conan O&rsquo;Brien on cynicism</a></em>
 <time>22 Feb 2010</time>
 <nav class="older-newer">
-                <a href="./articles/the-new-lens-flare/" title="The New Lens Flare">&lsaquo; Older</a>
+                <a href="../../articles/the-new-lens-flare/" title="The New Lens Flare">&lsaquo; Older</a>
 
 
     
+                <a href="../../articles/concept-flow-what-i-m-going-for/" title="Concept Flow: What I&rsquo;m going for">Newer &rsaquo; </a>
+
+
     
 </nav>
     
             
         </li>
-        <li class="resources"><a href="./resources">Resources</a>
+        <li class="resources"><a href="../../resources">Resources</a>
             
         </li>
-        <li class="portfolio"><a href="./portfolio">Portfolio</a>
+        <li class="portfolio"><a href="../../portfolio">Portfolio</a>
             
         </li>
-        <li class="about"><a href="./about">About &amp; Contact</a></li>
+        <li class="about"><a href="../../about">About &amp; Contact</a></li>
     </ol>    
 </section>
 
 <section id="content">
 
     <div class="col12">
-    <h1>Conan Asks</h1>
     <blockquote>
         <p>
             <span class="ask">All I ask is one thing,</span>
@@ -87,11 +88,10 @@
 
 </section>
 
-
      <section id="site-footer" class="vcard tk_proxima_nova">
         <div class="wrap12">
             <div class="made-this col4">
-                <a href="./" class="url uid" rel="me">
+                <a href="../../" class="url uid" rel="me">
                     <strong class="fn">
                         <span class="given-name">David</span>
                         <span class="family-name">DeSandro</span>
@@ -124,9 +124,9 @@
             <div class="also-made col4">
                 <h3>Dave also made</h3>
                 <ul>
-                    <li class="jqmsnry"><a href="./resources/jquery-masonry/">jQuery Masonry</a></li>
-                    <li class="curtis"><a href="./resources/curtis-css-typeface/">Curtis CSS Typeface</a></li>
-                    <li class="speechbub"><a href="./resources/css-speech-bubble-icon/">CSS Speech Bubble</a></li>
+                    <li class="jqmsnry"><a href="../../resources/jquery-masonry/">jQuery Masonry</a></li>
+                    <li class="curtis"><a href="../../resources/curtis-css-typeface/">Curtis CSS Typeface</a></li>
+                    <li class="speechbub"><a href="../../resources/css-speech-bubble-icon/">CSS Speech Bubble</a></li>
                 </ul>
             </div>
         </div>
@@ -134,4 +134,4 @@
 </body>
 </html>
 
-<!-- Stacey(2.0): 95e495e12130666b4f05478cb039012e -->
+<!-- Stacey(2.0): 90bb78a96c9a9b94db42f265465be14c -->

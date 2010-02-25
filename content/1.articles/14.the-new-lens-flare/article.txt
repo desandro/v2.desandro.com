@@ -4,8 +4,6 @@ article: yes
 -
 date: 11 Feb 2010
 -
-newest_article: yes
--
 content:
 <div class="wrap12 tk_proxima_nova">
     <h2>

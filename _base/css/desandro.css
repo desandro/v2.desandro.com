@@ -59,6 +59,8 @@ body.about #site-header #branding { top: 66px;}
     margin: 0 auto;
     font-weight: 800;
     padding: 0 10px;
+    position: relative;
+    z-index: 100;
 }
 #site-header #branding p a {
     color: #FFF;
@@ -141,8 +143,11 @@ body.about #site-header ol .about a:hover { color: #58E; }
 
 #site-header .rss {
     position: absolute;
-    top: 2px;
+    top: 3px;
     left: 4px;
+    width: 17px;
+    height: 17px;
+    overflow: hidden;
 }
 
 .rss a {

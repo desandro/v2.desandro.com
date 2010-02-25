@@ -23,7 +23,6 @@
 <body class="articles tk_proxima_nova">
  <section id="site-header" class="tk_proxima_nova">
     <div id="branding">
-        <p><a href="../"><span>David</span> DeSandro</a>  / </p>
         <div class="rss">
             <a href="#">
                 RSS
@@ -32,6 +31,8 @@
                 <span class="outside ring"></span>
             </a>
         </div>
+        <p><a href="../"><span>David</span> DeSandro</a>  / </p>
+
     </div>
     <ol>
         <li class="articles"><a href="../articles">Articles</a>
@@ -58,6 +59,12 @@
 
     <div class="articles">
                    <article>
+                <a href="../articles/conan-asks/" class="clearfix">
+                    <h2>Conan Asks</h2>
+                    <time>22 Feb 2010</time>
+                    
+                </a>
+            </article>           <article>
                 <a href="../articles/the-new-lens-flare/" class="clearfix">
                     <h2>The New Lens Flare</h2>
                     <time>11 Feb 2010</time>
@@ -162,12 +169,13 @@
      <section id="site-footer" class="vcard tk_proxima_nova">
         <div class="wrap12">
             <div class="made-this col4">
-                <a href="../" class="url" rel="me">
+                <a href="../" class="url uid" rel="me">
                     <strong class="fn">
                         <span class="given-name">David</span>
                         <span class="family-name">DeSandro</span>
                     </strong>
-                    <span class="made">made</span> <span class="this">this.</span>
+                    <span class="made">made</span> 
+                    <span class="this">this.</span>
                 </a>
                 <p class="copyright">&copy; 2009 &ndash; 2010</p>                
             </div>
@@ -200,8 +208,8 @@
                 </ul>
             </div>
         </div>
-    </section> <!-- #site_footer -->
+    </section> <!-- #site-footer -->
 </body>
 </html>
 
-<!-- Stacey(2.0): 3fda2c2be6d743e82d5c07931906432f -->
+<!-- Stacey(2.0): 95e495e12130666b4f05478cb039012e -->

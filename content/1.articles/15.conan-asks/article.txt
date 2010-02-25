@@ -1,0 +1,30 @@
+title: Conan Asks
+-
+date: 22 Feb 2010
+-
+article: yes
+-
+newest_article: yes
+-
+content:
+<div class="col12">
+    <h1>@title</h1>
+    <blockquote>
+        <p>
+            <span class="ask">All I ask is one thing,</span>
+            <span class="young-people">I&rsquo;m asking this particularly of <em>young people</em> that watch.</span>
+
+            <span class="please">Please do not be cynical.</span>
+            <span class="cynicism">I hate cynicism&hellip; <em>It doesn&rsquo;t lead anywhere.</em></span>
+
+            <span class="nobody">Nobody in life gets exactly what</span>
+            <span class="thought">they thought they were going to get.</span>
+
+            <span class="work">But if you <em>work</em> really hard, </span>
+            <span class="kind">and you are <em>kind</em>,</span> 
+            <span class="amazing">amazing things </span>
+            <span class="happen">will happen.</span>
+        </p>
+    </blockquote>
+    <p class="attribution"><cite>&mdash; Conan O&rsquo;Brien</cite></p>
+</div>
