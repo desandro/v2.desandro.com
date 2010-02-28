@@ -14,7 +14,7 @@ content:
 
     	<p class="deck">Jon Hicks aptly identifies Gmail as the <a href="http://24ways.org/2008/user-styling">Holy Grail of userstyles.</a> And rightly so&mdash;it is incredibly popular, yet it has enough visual quirks to ensure that absolutely no one is happy with its appearance.  As such, there are <a href="http://userstyles.org/styles/search/gmail">hundreds of Gmail userstyles</a> available.  For a while, I held off on attacking the project.  But after months of clicking those buttons encased in that awkward thick border, I had enough.  Something had to be done.</p>
 
-    	<p class="col12 pull2left"><img height="586" width="938" alt="Gmail vitamin screenshot" title="Gmail vitamin screenshot" src="../../content/1.articles/10.introducing-gmail-vitamin-a-userstyle/gmail_vitamin06.png"></p>
+    	<p class="col12 pull2left"><img height="586" width="938" alt="Gmail vitamin screenshot" title="Gmail vitamin screenshot" src="../../content/1.articles/10.introducing-gmail-vitamin-a-userstyle/gmail_vitamin06.png" /></p>
 
     	<p><a href="http://userstyles.org/styles/19022" class="button">Download Gmail Vitamin</a></p>
 

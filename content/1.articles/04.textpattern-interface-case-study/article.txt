@@ -56,7 +56,7 @@ content:
     	</ol>
 
     <figure class="col12 pull2left">
-      <img alt="Original Textpattern admin tabs" src="../../content/1.articles/4.textpattern-interface-case-study/textpattern_interface_case_study01.png">
+      <img alt="Original Textpattern admin tabs" src="../../content/1.articles/4.textpattern-interface-case-study/textpattern_interface_case_study01.png" />
     The original admin tabs.
     </figure>
 
@@ -65,7 +65,7 @@ content:
     	<p>I was also reminded of Dave Shea’s article, <a href="http://24ways.org/2007/get-in-shape">Get in Shape.</a> In it, he specifically addresses this issue with primary/secondary navigation.  When you do not consider the entire composition of both elements, it can result in awkward shapes that do not seem to relate to one another.</p>
 
     <figure class="col12 pull2left">
-      <img alt="Various tabs" src="../../content/1.articles/4.textpattern-interface-case-study/textpattern_interface_case_study02.png">
+      <img alt="Various tabs" src="../../content/1.articles/4.textpattern-interface-case-study/textpattern_interface_case_study02.png" />
       I used different shapes, colors, sizes to distinguish between primary and secondary tabs.
     </figure>
 
@@ -79,13 +79,13 @@ content:
 
     	<p>My aim was to adhere to those two ideals&mdash;minimalism and flexibility.  In terms of minimalism, this meant keeping “chrome” to a low&mdash;making sure that every gradient and drop shadow I put in place had a purpose and was necessary as a design element.  For flexibility, I had to consider that Textpattern is used to handle many different kinds of content&mdash;blogs, portfolios, brochure-ware, even magazines. The interface that controls those different platforms should be able to fit the role.  </p>
 
-    	<p>The default theme comes with the most prominent design element of Textpattern, that yellow bar (most say yellow, I always thought it was orange).  It’s the first thing you see, a bright strip of color right at the top of the page.  Part of me loves it, because its so bold and it immediately acts as the brand for Textpattern.  But as a designer, I found that working <em>with</em> it was a bit frustrating. <span style="background: none repeat scroll 0% 0% rgb(255, 204, 51);">#FFCC33</span> is a serious color, one that’s doesn’t play well with others.  I tried several color combinations to see if I could somehow use it to my advantaged, but only ran into frustration.  I tried other beiges and pale yellows and oranges, but the results looked too mushy.  Adding a black or charcoal gray to the mix made for a bumble-bee / <a href="http://en.wikipedia.org/wiki/Stryper">Stryper</a> look.  And I didn’t want to try another bold color, like royal blue or blood red, because then they would be competing.  In the end, I either kept the yellow un-touched, and used it with a minimal white,  or removed it all together.</p>
+    	<p>The default theme comes with the most prominent design element of Textpattern, that yellow bar (most say yellow, I always thought it was orange).  It’s the first thing you see, a bright strip of color right at the top of the page.  Part of me loves it, because its so bold and it immediately acts as the brand for Textpattern.  But as a designer, I found that working <em>with</em> it was a bit frustrating. <span style="background:#FC3;">#FFCC33</span> is a serious color, one that’s doesn’t play well with others.  I tried several color combinations to see if I could somehow use it to my advantaged, but only ran into frustration.  I tried other beiges and pale yellows and oranges, but the results looked too mushy.  Adding a black or charcoal gray to the mix made for a bumble-bee / <a href="http://en.wikipedia.org/wiki/Stryper">Stryper</a> look.  And I didn’t want to try another bold color, like royal blue or blood red, because then they would be competing.  In the end, I either kept the yellow un-touched, and used it with a minimal white,  or removed it all together.</p>
 
     	<h3> Buttons</h3>
 
     <figure class="col4 pull4right">
 
-    	<p><img alt="" src="../../content/1.articles/4.textpattern-interface-case-study/txp-case-study07.png"></p>
+    	<p><img alt="" src="../../content/1.articles/4.textpattern-interface-case-study/txp-case-study07.png" /></p>
 
      Top: buttons as styled by the default Textpattern CSS.  Bottom: Buttons with styling removed, rendered with Firefox for Mac.
     </figure>
@@ -110,11 +110,11 @@ content:
 
     	<p>Getting a hang of restyling Textpattern took a while, but once I got it, it was easy to strap on my <span class="caps">CSS</span> helmet (it is a helmet, not a hat) and theme it up.  So far, I’ve developed 11 themes that are compatible with Textpattern versions 4.0.5 through 4.0.8.  I made so many because I kept trying to find that ideal theme that could possibly replace the default <span class="caps">CSS</span>.  The themes range in many elements I changed and how much I kept the same from the default <span class="caps">CSS</span>.  Sometimes I touched all the buttons and fonts and headers, sometimes just a couple elements. <em>Smallmarine2</em> only touches the tabs and the link color, whereas <em>simplexbubble</em> was designed with the goal of a lot of chrome.</p>
 
-    	<p><img alt="simplexmild screenshot" title="simplexmild screenshot" class="col4 pull4right" src="http://txpadminthemes.desandro.com/images/simplexmild01.png"></p>
+    	<p><img alt="simplexmild screenshot" title="simplexmild screenshot" class="col4 pull4right" src="http://txpadminthemes.desandro.com/images/simplexmild01.png" /></p>
 
     	<p><em>Simplexmild</em> is my prime candidate to usurp the default theme.  The theme isn’t so much of a re-design as it is a re-alignment.  The top tabs are still there, but adding padding and a subtle gradient softens the look.  Bottom tabs are replaced by the  bottom border a la Hicks.  Typography was also given some attention, swapping out Verdana for Helvetica.</p>
 
-    	<p><img alt="simplexmild screenshot" title="simplexmild screenshot" class="col4 pull4right" src="http://txpadminthemes.desandro.com/images/wilsonorange01.png"></p>
+    	<p><img alt="simplexmild screenshot" title="simplexmild screenshot" class="col4 pull4right" src="http://txpadminthemes.desandro.com/images/wilsonorange01.png" /></p>
 
     	<p>Personally, the theme I like the best is the <em>wilsonorange.</em> Still searching for that ultimate minimal theme, I came across <a href="http://www.wilsonminer.com">Wilson Miner’s site,</a> which he redesigned in October.  His site served as an example of how to make something look simple and attractive.  The theme is the most basic one I created &ndash; no rounded corners or drop shadows.  And I kept that big block of orange at the top.  For typography, Helvetica is at work, in its trendy tightly-kerned fashion.</p>
 
