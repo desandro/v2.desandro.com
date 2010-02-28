@@ -126,8 +126,8 @@ Class PageData {
 		$page->base_url = $_SERVER['HTTP_HOST'].str_replace('/index.php', '', $_SERVER['PHP_SELF']);
 		# @site_updated
 		$page->site_updated = strval(date('c'));
-		# @updated
-		$page->updated = strval(date('c', Helpers::last_modified($page->file_path)));
+        # @updated
+        $page->updated = strval(date('c', Helpers::last_modified($page->file_path)));
 		
 		# @is_current_page
 		$page->is_current_page = self::is_current_page($page->data['@base_url'], $page->data['@permalink']);
