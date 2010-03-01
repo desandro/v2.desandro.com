@@ -2,6 +2,8 @@ title: The New Lens Flare
 -
 article: yes
 -
+iso8601time: 2010-02-11T12:00:00-05:00
+-
 date: 11 Feb 2010
 -
 content:

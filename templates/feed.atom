@@ -21,10 +21,15 @@
         foreach $children do
             <entry>
                <title>@title</title>
-               <id>tag:@domain_name,@current_year:/@permalink</id>
-               <updated>@updated</updated>
-               <summary>@title</summary>
                <link rel="alternate" type="text/html" href="http://@base_url/@permalink/" />
+               <updated>@updated</updated>
+               <published>@iso8601time</published>
+               <author>
+                   <name>@name</name>
+                   <uri>http://@base_url</uri>
+               </author>
+               <id>tag:@domain_name,@current_year:/@permalink</id>
+               <summary>@title</summary>
                <content type="xhtml" xml:lang="en">
                     <div xmlns="http://www.w3.org/1999/xhtml">
                         if @content do 

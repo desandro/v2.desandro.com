@@ -4,6 +4,8 @@ article: yes
 -
 date:  24 Mar 2009  
 -
+iso8601time: 2009-03-24T12:00:00-05:00
+-
 html_header:
 <link rel="stylesheet" href="@root_path/_base/css/v1.css" type="text/css" media="screen" />
 -

@@ -27,7 +27,7 @@
             <article>
                 <a href="@url" class="clearfix">
                     <h2>@title</h2>
-                    <time>@date</time>
+                    <time datetime="@iso8601time">@date</time>
                     foreach $_preview do
                         <img src="@url" @sizeattrs />
                     endforeach
