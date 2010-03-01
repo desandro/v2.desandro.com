@@ -6,15 +6,14 @@ Class AssetFactory {
 	static $asset_subclasses = array();
 
 	static function &create($file_path) {
-
-        #
-        # a little bit of magic here to find any classes which extend 'Asset'
-        #
-        self::get_asset_subclasses();
+    #
+    # a little bit of magic here to find any classes which extend 'Asset'
+    #
+    self::get_asset_subclasses();
     
-        # if the file path isn't passed through as a string, return an empty data array
-        $data = array();
-        if(!is_string($file_path)) return $data;
+    # if the file path isn't passed through as a string, return an empty data array
+    $data = array();
+    if(!is_string($file_path)) return $data;
     
 		# split by file extension
 		preg_match('/\.([\w\d]+?)$/', $file_path, $split_path);

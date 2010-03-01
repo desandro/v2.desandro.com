@@ -22,7 +22,6 @@ Class PageData {
 	}
 	
 	static function get_parent($file_path, $url) {
-
 	  # split file path by slashes
 		$split_path = explode('/', $file_path);
 		# drop the last folder from the file path
@@ -33,7 +32,6 @@ Class PageData {
 	}
 	
 	static function get_parents($file_path, $url) {
-	  
 	  # split file path by slashes
 		$split_path = explode('/', $file_path);
 		$parents = array();
@@ -64,10 +62,11 @@ Class PageData {
 				if($sibling == $file_path) return strval($count);
 			}
 		}
+		$count = 0;
 		return strval($count);
 	}
 	
-	static function is_current_page($base_url, $permalink) {
+	static function is_current($base_url, $permalink) {
 	  $base_path = preg_replace('/^[^\/]+/', '', $base_url);
   	if($permalink == 'index') {
   	  return ('/' == $_SERVER['REQUEST_URI']);
@@ -97,7 +96,6 @@ Class PageData {
 	      if(!is_dir($asset_path)) $asset_collections[$filename][$asset_name] = $asset_path;
 	    }
     }
-    
 	  return $asset_collections;
 	}
 	
@@ -125,18 +123,21 @@ Class PageData {
 		# @base_url
 		$page->base_url = $_SERVER['HTTP_HOST'].str_replace('/index.php', '', $_SERVER['PHP_SELF']);
 		# @site_updated
-		$page->site_updated = strval(date('c'));
-        # @updated
-        $page->updated = strval(date('c', Helpers::last_modified($page->file_path)));
-		
-		# @is_current_page
-		$page->is_current_page = self::is_current_page($page->data['@base_url'], $page->data['@permalink']);
+		$page->site_updated = strval(date('c', Helpers::site_last_modified()));
+		# @updated
+		$page->updated = strval(date('c', Helpers::last_modified($page->file_path)));
 		
 		# @siblings_count
 		$page->siblings_count = strval(count($page->data['$siblings']));
 		# @index
 		$page->index = self::get_index($page->data['$siblings'], $page->file_path);
 		
+		# @is_current
+		$page->is_current = self::is_current($page->data['@base_url'], $page->data['@permalink']);
+		# @is_last
+		$page->is_last = $page->data['@index'] == $page->data['@siblings_count'];
+		# @is_first
+		$page->is_first = $page->data['@index'] == 1;
 	}
 	
 	static function create_collections($page) {
@@ -173,7 +174,6 @@ Class PageData {
 		# create asset collections (any assets within a folder beginning with an underscore)
 		$asset_collections = self::get_asset_collections($page->file_path);
 		foreach($asset_collections as $collection_name => $collection_files) eval('$page->'.$collection_name.' = $collection_files;');
-		
 	}
 	
 	static function create_textfile_vars($page) {
@@ -200,21 +200,41 @@ Class PageData {
 			# split the string by the first colon
 			$colon_split = explode(':', $match, 2);
 			# set a variable with a name of 'key' on the page with a value of 'value' 
-			$page->$colon_split[0] = trim($colon_split[1]);
+            // $page->$colon_split[0] = 
 			  # if the 'value' contains a newline character, parse it as markdown
-			  # (strpos($colon_split[1], "\n") === false) ? trim($colon_split[1]) : Markdown(trim($colon_split[1]));
+              // (strpos($colon_split[1], "\n") === false) ? trim($colon_split[1]) : Markdown(trim($colon_split[1]));
+			  
+			$page->$colon_split[0] =  trim($colon_split[1])  ;
 		}
+	}
+	
+	static function html_to_xhtml($value) {
+    # convert named entities to numbered entities
+	  $value = Helpers::translate_named_entities($value);
+	  # convert appropriate markdown-created tags to xhtml syntax
+    $value = preg_replace('/<(br|hr|input|img)(.*?)\s?\/?>/', '<\\1\\2 />', $value);
+		
+		return $value;
 	}
 	
 	static function create($page) {
 		# set vars created within the text file
 		self::create_textfile_vars($page);
-		
 		# create each of the page-specfic helper variables
 		self::create_collections($page);
 		self::create_vars($page);
 		self::create_asset_collections($page);
 		
+		# if file extension matches an xml type, convert to any html to xhtml to pass validation
+    global $current_page_template_file;
+		if(preg_match('/\.(xml|rss|rdf|atom)$/', $current_page_template_file)) {
+		  # clean each value for xhtml rendering
+  	  foreach($page->data as $key => $value) {
+    	  if(is_string($value)) {
+		      $page->data[$key] = self::html_to_xhtml($value);
+		    }
+		  }
+		}
 	}
 	
 }

@@ -2,12 +2,11 @@
 
 Class Stacey {
 	
-	static $version = '2.0';
+	static $version = '2.0.1';
 		
 	function handle_redirects() {
 		# rewrite any calls to /index or /app back to /
 		if(preg_match('/^\/?(index|app)\/?$/', $_SERVER['REQUEST_URI'])) {
-  		echo $_SERVER['REQUEST_URI'].'<br>';
 			header('HTTP/1.1 301 Moved Permanently');
 			header('Location: ../');
 			return true;
@@ -59,7 +58,6 @@ Class Stacey {
 		    # set html/utf-8 charset header
     	  header("Content-type: text/html; charset=utf-8");
 		}
-	  
 	}
 	
 	function etag_expired($cache) {
@@ -95,22 +93,23 @@ Class Stacey {
 	  # return a 404 if a matching folder doesn't exist
 		if(!file_exists($file_path)) throw new Exception('404');
 
-    # register global for the path to the page which is currently being loaded
+    # register global for the path to the page which is currently being viewed
 		global $current_page_file_path;
 		$current_page_file_path = $file_path;
 
 		# create new page object
 		$page = new Page($route);
+
+		# register global for the template for the page which is currently being viewed
+		global $current_page_template_file;
+		$current_page_template_file = $page->template_file;
 		
 		# error out if template file doesn't exist (or glob returns an error)
-		if(empty($page->template_name)) {
-		  throw new Exception('404');
-		}
+		if(empty($page->template_name)) throw new Exception('404');
 	  
 	  if(!$page->template_file) {
 	    throw new Exception('A template named \''.$page->template_name.'\' could not be found in the \'/templates\' folder');
 	  }
-
 		# render page
 		$this->render($page);
 	}
@@ -127,23 +126,18 @@ Class Stacey {
     $file_path = Helpers::url_to_file_path($route);
 
     try {
-
       # create and render the current page
       $this->create_page($file_path, $route);
-
     } catch(Exception $e) {
-
       if($e->getMessage() == "404") {
         # return 404 headers
       	header('HTTP/1.0 404 Not Found');
-      	if(file_exists('./_base/404.html')) echo file_get_contents('./_base/404.html');
+      	if(file_exists('./public/404.html')) echo file_get_contents('./public/404.html');
       	else echo '<h1>404</h1><h2>Page could not be found.</h2><p>Unfortunately, the page you were looking for does not exist here.</p>';
       } else {
         echo '<h3>'.$e->getMessage().'</h3>';
       }
-
     }
-		
 	}
 	
 }

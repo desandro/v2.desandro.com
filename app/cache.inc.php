@@ -9,9 +9,8 @@ Class Cache {
 	function __construct($page) {
 		# store reference to current page
 		$this->page = $page;
-		# turn a base64 of the full path to the page's content file into the name of the cache file
-		$content_file_path = $page->file_path.'/'.$page->template_name.'.txt';
-		$this->cachefile = './app/_cache/'.base64_encode($content_file_path);
+		# turn a base64 of the current route into the name of the cache file
+		$this->cachefile = './app/_cache/'.base64_encode($_SERVER['REQUEST_URI']);
 		//collect an md5 of all files
 		$this->hash = $this->create_hash();
 	}
@@ -58,9 +57,9 @@ Class Cache {
 		# create a collection of every file inside the templates folder
 		$templates = $this->collate_files('./templates');
 		# create a collection of every file inside the public folder
-		$base = $this->collate_files('./_base');
+		$public = $this->collate_files('./public');
 		# create an md5 of the two collections
-		return $this->hash = md5($content.$templates.$base);
+		return $this->hash = md5($content.$templates.$public);
 	}
 	
 	function collate_files($dir) {

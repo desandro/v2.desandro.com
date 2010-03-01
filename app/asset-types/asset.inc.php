@@ -21,14 +21,13 @@ Class Asset {
 		$this->link_path = $this->construct_link_path($file_path);
 		
 		# extract filename from path
-			$split_path = explode('/', $file_path);
+		$split_path = explode('/', $file_path);
 		$this->file_name = array_pop($split_path);
 		
 		# set @url & @name variables
 		$this->data['@url'] = $this->link_path;
 		$this->data['@file_name'] = $this->file_name;
-		$this->data['@base_name'] = preg_replace(array('/\.[\w\d]+?$/', '/^\d+?\./'), array('', ''), $this->file_name);
-		$this->data['@name'] = ucfirst(preg_replace('/[-_]/', ' ', $this->data['@base_name']));
+		$this->data['@name'] = ucfirst(preg_replace(array('/[-_]/', '/\.[\w\d]+?$/', '/^\d+?\./'), array(' ', '', ''), $this->file_name));
 	}
 	
 }
