@@ -1,0 +1,80 @@
+title: Opera Logo with CSS
+-
+date: 4 Mar 2010
+-
+iso8601time: 2010-03-04T20:00:00-05:00
+-
+article: yes
+-
+newest_article: yes
+-
+content:
+<h1>@title</h1>
+
+<div id="opera-logo">        
+    <div class="light-shadow"></div>
+    <div class="dark-shadow"></div>
+    <div class="outer-edge"></div>
+    <div class="highlight"></div>
+    <div class="fill"></div>
+    <div class="inner-edge"></div>
+    <div class="inside"></div>
+    <div class="counter"></div>
+</div>
+
+<div id="copy" class="tk_proxima_nova">
+    <p>The <a href="http://www.opera.com">Opera</a> logo, rendered only with CSS, no images.</p>
+    
+    <p>Aside from another shameless plea for attention, this demonstration gives me a chance to look at some CSS3 properties across browsers.</p>
+    
+    <h3>Border Radius</h3>
+    
+    <p>In all the tutorials and hubbub over CSS3, elliptical border radius is one of those features that hasn&rsquo;t been given enough attention. It&rsquo;s syntax is easy enough: instead of using one value, two are used. First value is horizontal, second is vertical (following x &amp; y, just like other 2-D values like background-position). Important to note is the difference between the Mozilla and Webkit values. Mozilla uses a slash, Webkit has a space.</p>
+    
+<pre><code>border-radius: 220px;
+-moz-border-radius: 220px/235px;
+-webkit-border-radius: 220px 235px;</code></pre>    
+
+    <p>Regular ol' <code>border-radius</code> is not just a vanity property anymore.  <a href="http://dev.opera.com/articles/view/css3-border-background-boxshadow/">Opera 10.5</a> and <a href="http://blogs.msdn.com/ie/archive/2009/11/18/an-early-look-at-ie9-for-developers.aspx">Internet Explorer 9</a> both support border-radius, no vendor-prefix necessary. For these browsers, the shape will not be perfectly oval, but at least be mostly round. Note that the <code>border-radius</code> property should come first, as it will overwrite preceeding <code>-webkit-border-radius</code> properties in Webkit browsers.</p>
+    
+    <p>The extra fun use-cases to consider are the Webkit and Mozilla browsers that support border-radius, but not the elliptical variety. Take for instance Camino 2.0. Given the code above, it has no property to fall back on, and will render the shape as a rectangle. So do you add yet border-radius property?</p>
+    
+    <h3>Gradients</h3>
+    <p>While Firefox lagged Webkit browsers with supporting CSS gradients, the extra time it took doing so was well worth it. Mozilla&rsquo;s gradient syntax is more intuitive and easier to easy to remember. If it&rsquo;s just a simple two color gradient, the Mozilla syntax goes angle, color, color. Webkit&rsquo;s implementation requires more deliberate code with the positioning and colors. </p>
+    
+    <pre><code>background: #800;
+background: -moz-linear-gradient(-90deg, #F88, #800);
+background: -webkit-gradient(linear, 0 top, 0 bottom, from(#F88), to(#800));</code></pre>
+    
+    <p> This difference is exacerbated when working with multiple colors. Take this example, from the large fill area:</p>
+    
+    <pre><code>background: #E71616;
+background: -moz-linear-gradient(-90deg, #FE878A, #E71616 50%, #800000 80%, 
+    #800000 85%, #b80304);
+background: -webkit-gradient(linear, 0 top, 0 bottom, from(#FE878A),
+    color-stop(50%, #E71616), color-stop(80%, #800000), 
+    color-stop(85%, #800000), to(#b80304) );</code></pre>
+    
+    <p>Using a text editor with proper syntax highlighting is a huge help here, making sense of all the business going on between all those parentheses and commas. Of course, a default color should be supplied for graceful degradation.</p>
+    
+    <p>Looking at radial gradients, it&rsquo;s much of the same. The Webkit values can grow cumbersome easily.  Mozilla provided some sweet helper constants like <em>cover</em> and <em>contain</em> so you don&rsquo;t have to worry about sizing the radii perfect to fit whatever size you&rsquo;re working with.</p>
+    
+    <h3>Box Shadow</h3>
+    
+    <p>Box shadow properties are consistent between browsers. Apart from the vendor prefixes, the properties are exactly the same.</p>
+    
+    <pre><code>-moz-box-shadow: 0 100px 30px hsla(0,0%,0%,.2);
+-webkit-box-shadow: 0 100px 30px hsla(0,0%,0%,.2);
+box-shadow: 0 100px 30px hsla(0,0%,0%,.2);</code></pre>
+
+    <p>Here I&rsquo;m using the <a href="https://developer.mozilla.org/en/CSS/color_value#HSLa_(hue-saturation-lightness-alpha)_hsla(H.2cS.2cL.2ca)">HSLa color value</a>, which I&rsquo;ve found to be easier to tweak when designing on the fly.</p>
+    
+    <h3>Resources</h3>
+    
+    <p>I find myself turning to the <a href="https://developer.mozilla.org/en/CSS_Reference">Mozilla Developer Center</a> for reference on the new properties and values. In addition to comprehensive overviews, it also details the differences between Mozilla and other browser implementations. In fact, it was through the MDC that I found the <a href="http://developer.apple.com/safari/library/documentation/InternetWeb/Conceptual/SafariVisualEffectsProgGuide/Introduction/Introduction.html">Safari Reference Library</a>. Googling &ldquo;mdc&rdquo; with the property in question will get you straight there, so you can avoid the multitude of zombie CSS blogs.</p>
+    
+    <p>PROTIP: when Googling for CSS3 values and properties, be sure to leave off the initial hyphen.  &ldquo;-moz-linear-gradient&rdquo; will be interpreted as <em>NOT moz-linear-gradient</em> thus yielding no results.</p>
+    
+    <p>Also useful is the <a href="http://westciv.com/tools/">Western Civilization CSS3 Sandbox</a>, which has tools for trying out gradients, text shadows, box shadows, text stroke, and transforms. Especially helpful is the ability to change between Webkit and Mozilla syntax.</p>
+    
+</div>

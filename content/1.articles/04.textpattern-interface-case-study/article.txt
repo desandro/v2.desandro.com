@@ -58,7 +58,7 @@ content:
     	</ol>
 
     <figure class="col12 pull2left">
-      <img alt="Original Textpattern admin tabs" src="../../content/1.articles/4.textpattern-interface-case-study/textpattern_interface_case_study01.png" />
+      <img alt="Original Textpattern admin tabs" src="../../content/1.articles/04.textpattern-interface-case-study/textpattern_interface_case_study01.png" />
     The original admin tabs.
     </figure>
 
@@ -67,7 +67,7 @@ content:
     	<p>I was also reminded of Dave Shea’s article, <a href="http://24ways.org/2007/get-in-shape">Get in Shape.</a> In it, he specifically addresses this issue with primary/secondary navigation.  When you do not consider the entire composition of both elements, it can result in awkward shapes that do not seem to relate to one another.</p>
 
     <figure class="col12 pull2left">
-      <img alt="Various tabs" src="../../content/1.articles/4.textpattern-interface-case-study/textpattern_interface_case_study02.png" />
+      <img alt="Various tabs" src="../../content/1.articles/04.textpattern-interface-case-study/textpattern_interface_case_study02.png" />
       I used different shapes, colors, sizes to distinguish between primary and secondary tabs.
     </figure>
 

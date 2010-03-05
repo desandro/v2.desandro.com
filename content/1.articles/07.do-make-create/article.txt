@@ -9,6 +9,6 @@ article: yup
 content:
 <h1>@title</h1>
 <div id="do-images">
-	<img alt="do make design" src="../../content/1.articles/07.do-make-create/domake09.png" id="domake" />
+	<img alt="do make create" src="../../content/1.articles/07.do-make-create/domake09.png" id="domake" />
 	<img alt="go open launch" src="../../content/1.articles/07.do-make-create/domake10.png" id="invent" />
 </div>
