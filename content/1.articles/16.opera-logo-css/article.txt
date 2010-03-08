@@ -6,8 +6,6 @@ iso8601time: 2010-03-04T20:00:00-05:00
 -
 article: yes
 -
-newest_article: yes
--
 content:
 <h1>@title</h1>
 
@@ -23,13 +21,13 @@ content:
 </div>
 
 <div id="copy" class="tk_proxima_nova">
-    <p>The <a href="http://www.opera.com">Opera</a> logo, rendered only with CSS, no images.</p>
+    <p>The <a href="http://www.opera.com">Opera</a> logo, rendered only with CSS, no images. <a href="http://www.opera.com/media/images/icon/Opera_512x512.png">Compare it with the real deal</a>.</p>
     
     <p>Aside from another shameless plea for attention, this demonstration gives me a chance to look at some CSS3 properties across browsers.</p>
     
     <h3>Border Radius</h3>
     
-    <p>In all the tutorials and hubbub over CSS3, elliptical border radius is one of those features that hasn&rsquo;t been given enough attention. It&rsquo;s syntax is easy enough: instead of using one value, two are used. First value is horizontal, second is vertical (following x &amp; y, just like other 2-D values like background-position). Important to note is the difference between the Mozilla and Webkit values. Mozilla uses a slash, Webkit has a space.</p>
+    <p>In all the tutorials and hubbub over CSS3, elliptical border radius is one of those features that hasn&rsquo;t been given enough attention. It&rsquo;s syntax is easy enough: instead of using one value, two are used. First value is horizontal, second is vertical (following x &amp; y, just like other 2-D values like background-position). Important to note is the difference between the Mozilla and Webkit values. Mozilla uses a slash, Webkit uses a space.</p>
     
 <pre><code>border-radius: 220px;
 -moz-border-radius: 220px/235px;
@@ -46,7 +44,7 @@ content:
 background: -moz-linear-gradient(-90deg, #F88, #800);
 background: -webkit-gradient(linear, 0 top, 0 bottom, from(#F88), to(#800));</code></pre>
     
-    <p> This difference is exacerbated when working with multiple colors. Take this example, from the large fill area:</p>
+    <p> This difference is exacerbated when working with multiple colors. Take this example, from the large fill area, which has 3 additional color-stops:</p>
     
     <pre><code>background: #E71616;
 background: -moz-linear-gradient(-90deg, #FE878A, #E71616 50%, #800000 80%, 
@@ -76,5 +74,9 @@ box-shadow: 0 100px 30px hsla(0,0%,0%,.2);</code></pre>
     <p>PROTIP: when Googling for CSS3 values and properties, be sure to leave off the initial hyphen.  &ldquo;-moz-linear-gradient&rdquo; will be interpreted as <em>NOT moz-linear-gradient</em> thus yielding no results.</p>
     
     <p>Also useful is the <a href="http://westciv.com/tools/">Western Civilization CSS3 Sandbox</a>, which has tools for trying out gradients, text shadows, box shadows, text stroke, and transforms. Especially helpful is the ability to change between Webkit and Mozilla syntax.</p>
+    
+    <h3>Possible practical reason for CSS shapes?</h3>
+    
+    <p>Resolution independence. Go ahead and page zoom in to see how the shapes hold up with no pixelation. </p>
     
 </div>

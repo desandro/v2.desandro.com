@@ -60,9 +60,9 @@
     background: -webkit-gradient(linear, 0 top, 0 bottom, from(#cc3836), color-stop(50%, #d9100f), to(#d20000));
     left: 158px;
     top: 56px;
-    border-radius: 160px;
-    -moz-border-radius: 160px/300px;
-    -webkit-border-radius: 160px 300px;
+    border-radius: 99px;
+    -moz-border-radius: 99px/170px;
+    -webkit-border-radius: 99px 170px;
 }
 
 #opera-logo .inside {
@@ -73,9 +73,9 @@
     background: -webkit-gradient(linear, 0 top, 0 bottom, from(#9a0000), to(#b80000));
     left: 161px;
     top: 59px;
-    border-radius: 158px;
-    -moz-border-radius: 158px/298px;
-    -webkit-border-radius: 158px 298px;
+    border-radius: 96px;
+    -moz-border-radius: 96px/170px;
+    -webkit-border-radius: 96px 170px;
 }
 
 #opera-logo .counter {
@@ -84,9 +84,9 @@
     background: #FFF;
     left: 174px;
     top: 71px;
-    border-radius: 148px;
-    -moz-border-radius: 148px/288px;
-    -webkit-border-radius: 148px 288px;
+    border-radius: 82px;
+    -moz-border-radius: 82px/170px;
+    -webkit-border-radius: 82px 170px;
 }
 
 
@@ -137,3 +137,6 @@ body.articles { background: #FFF;}
 }
 
 pre, code { background: #333;}
+
+#copy a { color: #E71616;}
+#copy a:hover {color: #000; background: hsla(5,100%,50%,.1);}

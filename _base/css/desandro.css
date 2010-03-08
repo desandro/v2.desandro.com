@@ -367,7 +367,7 @@ pre {
     -moz-transition: all 0.12s ease-out;
 }
 
-#site-footer  .made-this a {
+#site-footer .made-this a {
     font-weight: 800;
     text-transform: uppercase;
     font-size: 42px;
@@ -378,6 +378,8 @@ pre {
     display: block;
     position: relative;
 }
+#site-footer .made-this a strong { font-weight: 800;}
+
 
 #site-footer .made-this a .given-name,
 #site-footer .made-this a .family-name,
