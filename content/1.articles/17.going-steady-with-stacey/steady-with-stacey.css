@@ -1,0 +1,41 @@
+h1 {
+    text-transform: lowercase;
+    font-weight: 500;
+    height: 300px;
+    position: relative;
+    font-size: 46px;
+}
+
+h1 span {
+    display: block;
+    position: absolute;
+
+}
+
+h1 .going {
+    left: 80px;
+    top: 0;
+
+
+}
+
+h1 .steady {
+    left: 120px;
+    top: 40px;
+}
+
+h1 .with {
+    top: 80px;
+    left: 70px;
+}
+
+h1 .stacey {
+    font-weight: 600;
+    font-size: 200px;
+    font-style: italic;
+    letter-spacing: -0.05em;
+    color: #FFF;
+    text-shadow: 0 3px 5px hsla(0,0%,0%,.4);
+    left: 160px;
+    top: 110px;
+}

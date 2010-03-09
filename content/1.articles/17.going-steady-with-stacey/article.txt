@@ -1,0 +1,113 @@
+title: Going Steady with Stacey
+-
+date: 7 Mar 2010
+-
+iso8601time: 2010-03-07T13:00:00-05:00
+-
+article: yes
+-
+newest_article: yes
+-
+content:
+<div class="wrap12 tk_proxima_nova">
+    <h1>
+        <span class="going">Going</span>
+        <span class="steady">Steady</span>
+        <span class="with">with</span>
+        <span class="stacey">Stacey</span>
+    </h1>    
+    <div id="copy" class="col6">
+        <p class="deck">And we&rsquo;re back! After months in the making, desandro.com v2.1 is live. </p>
+        
+        <p>For those of who are reading this via feed reader, I apologize for the big blip with the feed.</p> 
+        
+        <p> No database, no administration panels. The entire site is managed through the file system. Each page of this site exists as a folder.  </p>
+
+        <p>The site is now running on <a href="http://staceyapp.com">Stacey</a>.  It&rsquo;s pretty neat! Working with Stacey is not just changing flavors of CMS, it&rsquo;s an entire paradigm shift. The content no longer lives within a database that is managed through an admin section.  The entire site is managed through the file system as a basic collection of files and folders. Every time I want to publish a new article, I need to create a separate folder and add a required text file. Explaining the setup Dan, he appropriately responded &ldquo;Why would you ever want to do that?&rdquo; Here&rsquo;s why:</p>
+        
+        
+        <p>Simply put, the typical CMSs that have risen to popularity in the past decade have were designed for a different kind of site. They expect to display multiple entries of content with similar views. My site, <a href="http://delicious.com/jasonsantamaria/inspired">and the many others like it</a>, break this mold. For each entry, there is a unique view. After maintaing my site through one of those CMS for the past year, it became clear that it wasn&rsquo;t the right tool for the job.</p>
+        
+        <section>
+            <div class="issue">
+                <p>Designing each article or resource would required too much back-and-forth between local development and publishing content to the live site.</p>
+            </div>
+            <div class="resolution">
+                <p>There&rsquo;s no need to get any content into a database, as all content lives inside text files. The workflow for creating and editing content is much more streamlined.</p>
+                <ol>
+                    <li>Design and develop the entry locally. Adding any necessary files to the entry&rsquo;s folder.</li>
+                    <li>When the entry is complete, I use Git update the entire site.</li>
+                </ol>
+                <p>That&rsquo;s it. There&rsquo;s no FTPing, no adding filenames to custom fields, no back and forth between local development copy and the live site. No pulling the content out of a HTML form, pasting it into TextMate, editing it, then pasting it back into the HTML form to fix it. I can manage the entire site through TextMate, Finder, and publish changes with Git.</p>
+            </div>
+        </section>
+        
+        <section>
+            <div class="issue">
+                <p>The live site is a completely separate entity from local development version.</p>
+            </div>
+            <div class="resolution">
+                <p>Since the entire site exists as a bunch of text files and folders, it can easily be packaged together, and managed with version control. Leveraging Git, I can rest assure that the site I have on my local hard drive will be the same exact thing that&rsquo;s on the live site.</p>
+            </div>
+        </section>
+        
+        <section>
+            <div class="issue">
+                <p>Making edits to content after original publication requires I go into the CMS admin section, pull the content out of the HTML form, bring it into a proper text editor, edit it, and get it back in the CMS. Any edits to other files (CSS, JS), require I get to them through FTP.</p>
+            </div>
+            <div class="resolution">
+                <p>All files can be easily accessed locally through TextMate.</p>
+            </div>
+        </section>
+        
+        <p> </p>
+        
+        <p>The main reason for switching was to streamline to my workflow for creating new articles and resources. Now that the database is completely eliminated, the entire process is streamlined.</p>
+        
+
+        
+        
+        <p>This website isn&rsquo;t best suited for the typical CMS. CMSs like Wordpress and Textpattern are designed to display multiple entries of content through similar views. My site has many different views, each of which is unique to the entry. That said, it makes more sense to group the building blocks of each article (markup, JS, CSS, images, etc.) together, instead of grouping the building blocks of the site together by type. I realize this is backwards from what I&rsquo;ve always been taught: keep all your stuff separate.</p>
+
+
+        <p>Organizing files by entry directly translates into an easier workflow. Without any admin panels to worry about, the entire site can live on my hard drive as a complete entity.  Leveraging Git, I can rest assure that the site I have working locally will be the same one that&rsquo;s on the web.</p>
+        
+        <p>As it all lives through the actual filesystem, </p>
+        
+        <p>Moreover, this means that the entire site can be accessed through TextMate and Finder. This is huge. All hassles of working through a admin backend are thrown out. Instead I get all the benefits of workin and replaced with the simplicity of just working with text files. Site-wide find and replace While I understand the utility that databases provide, there&rsquo;s some luddite in me that doesn&rsquo;t like them. They are another level of abstraction between the stuff I make and where it lives.</p>
+        
+        <p>One of the more perplexing obstacles with Textpattern was deciding on how to use custom fields. Sure, there were plugins to address some of these contrainsts, but it was clear that .  Stacey provides for basic string variables for each page.  Each section can have as many as required.</p>
+        
+        
+        <p>Easier file management. For any typical site, all the component files &mdash; CSS, JS, images, etc. &mdash; would be separated from one another. But for my site, this delineation didn&rsquo;t make sense anymore, as these building block files were particular to each article, not to the larger site itself.  Now each article exists as a folder with its family of resource files close by.</p>
+
+        <p>Take for instance the <a href="/articles/conan-asks/">Conan Asks</a> article. The font files, article content, stylesheet, and preview thumbnail can be found in the same folder.  </p>
+        
+        <p>Doing away with databases means one thick layer of abstraction is gone. The stuff I make lives exactly where I can find it. No fussing with admin backends. All content can be edited directly with TextMate.</p>
+        
+        <p>Having everything in a file system makes for easier portability.  My entire site lives on my hard drive.  Leveraging Git, I can reproduce it on the live site and rest assure that both entities are exactly the same.</p>
+        
+        <p>There is a bit more versatility with the entire site as a templating engine. In Textpattern, I often felt hand cuffed with deciding on how to use custom fields. But with Stacey, that data gets handled with variables, which appeals to the developer in me. Everything is a string.  Why worry about  With Stacey&rsquo;s support for variables, I can use how ever many custom bits of data I need</p>
+    
+        
+        It&rsquo;s all 
+        
+        
+        I was originally writing this gushing review on 
+
+        I do have a point-by-point analysis on why Stacey feels better suited to handle this site
+
+        Here's what it boils down to:
+
+        Everything on the site lives together.  The files are grouped together by entry. For a site like mine, where each entry has its own particular resources like CSS, JS, images, etc, this is especially benefitial as I don't have to hunt down the where-abouts when I want to make a change to a component of the entry.  The content, the presentation, the behaviour all live in the same room.  I realize this goes against everything I ever read or have learned about best practices, MCV, or what have you, but it makes so much more sense when I'm working with it in practice.
+
+        As the entire site exists as a complete entity with a separate database, I can get to any part of it through nothing more than Finder and TextMate. The workflow of publishing content is condensed into just working with text files, and not having to work with the CMS itself.  No adding content to an entry, no add filenames to custom fields to link CSS or JS, no FTPing said files to the site structure.
+
+        As a complete entity, the whole thing can go up on Git. My workflow goes like this: design and develop entry.  Then publish the changes via Git. I can rest assure that my local copy of the site is the exact same one as the live site.
+
+
+        
+        
+        
+    </div>
+</div><!-- .wrap12 -->
