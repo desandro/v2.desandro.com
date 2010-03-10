@@ -23,6 +23,10 @@ content:
 <div id="copy" class="tk_proxima_nova">
     <p>The <a href="http://www.opera.com">Opera</a> logo, rendered only with CSS, no images. <a href="http://www.opera.com/media/images/icon/Opera_512x512.png">Compare it with the real deal</a>.</p>
     
+    <p class="centerplz"><a href="http://www.flickr.com/photos/nemoorange/4421737904/" title="Opera logo with CSS across browsers by Dave DeSandro, on Flickr"><img src="http://farm5.static.flickr.com/4014/4421737904_094129fd0b.jpg" width="500" height="113" alt="Opera logo with CSS across browsers" /></a></p>
+    
+    <p>Alas, best viewed in Firefox 3.6, Safari 4, or Chrome 5.</p>
+    
     <p>Aside from another shameless plea for attention, this demonstration gives me a chance to look at some CSS3 properties across browsers.</p>
     
     <h3>Border Radius</h3>
@@ -35,16 +39,16 @@ content:
 
     <p>Regular ol' <code>border-radius</code> is not just a vanity property anymore.  <a href="http://dev.opera.com/articles/view/css3-border-background-boxshadow/">Opera 10.5</a> and <a href="http://blogs.msdn.com/ie/archive/2009/11/18/an-early-look-at-ie9-for-developers.aspx">Internet Explorer 9</a> both support border-radius, no vendor-prefix necessary. For these browsers, the shape will not be perfectly oval, but at least be mostly round. Note that the <code>border-radius</code> property should come first, as it will overwrite preceeding <code>-webkit-border-radius</code> properties in Webkit browsers.</p>
     
-    <p>The extra fun use-cases to consider are the Webkit and Mozilla browsers that support border-radius, but not the elliptical variety. Take for instance Camino 2.0. Given the code above, it has no property to fall back on, and will render the shape as a rectangle. So do you add yet border-radius property?</p>
+    <p>The extra fun use-cases to consider are the Webkit and Mozilla browsers that support border-radius, but not the elliptical variety. Take for instance Camino 2.0. Given the code above, it has no property to fall back on, and will render the shape as a rectangle. So do you add yet another border-radius property?</p>
     
     <h3>Gradients</h3>
-    <p>While Firefox lagged Webkit browsers with supporting CSS gradients, the extra time it took doing so was well worth it. Mozilla&rsquo;s gradient syntax is more intuitive and easier to easy to remember. If it&rsquo;s just a simple two color gradient, the Mozilla syntax goes angle, color, color. Webkit&rsquo;s implementation requires more deliberate code with the positioning and colors. </p>
+    <p>While Firefox lagged Webkit browsers with supporting CSS gradients, the extra time it took doing so was well worth it. Mozilla&rsquo;s gradient syntax is more intuitive and easier to remember. If it&rsquo;s just a simple two color gradient, the Mozilla syntax goes angle, color, color. Webkit&rsquo;s implementation requires more deliberate code with its positioning and colors. </p>
     
     <pre><code>background: #800;
 background: -moz-linear-gradient(-90deg, #F88, #800);
 background: -webkit-gradient(linear, 0 top, 0 bottom, from(#F88), to(#800));</code></pre>
     
-    <p> This difference is exacerbated when working with multiple colors. Take this example, from the large fill area, which has 3 additional color-stops:</p>
+    <p> This difference is emphasized when working with multiple colors. Take this example, from the large fill area, which has 3 additional color-stops:</p>
     
     <pre><code>background: #E71616;
 background: -moz-linear-gradient(-90deg, #FE878A, #E71616 50%, #800000 80%, 
@@ -53,7 +57,7 @@ background: -webkit-gradient(linear, 0 top, 0 bottom, from(#FE878A),
     color-stop(50%, #E71616), color-stop(80%, #800000), 
     color-stop(85%, #800000), to(#b80304) );</code></pre>
     
-    <p>Using a text editor with proper syntax highlighting is a huge help here, making sense of all the business going on between all those parentheses and commas. Of course, a default color should be supplied for graceful degradation.</p>
+    <p>Of course, a default color should be supplied for graceful degradation. Using a text editor with proper syntax highlighting is a huge help here, making sense of all the business going on between all those parentheses and commas. </p>
     
     <p>Looking at radial gradients, it&rsquo;s much of the same. The Webkit values can grow cumbersome easily.  Mozilla provided some sweet helper constants like <em>cover</em> and <em>contain</em> so you don&rsquo;t have to worry about sizing the radii perfect to fit whatever size you&rsquo;re working with.</p>
     

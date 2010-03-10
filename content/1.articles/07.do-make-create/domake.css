@@ -44,3 +44,7 @@ body.articles #site-header ol .articles,
 body.articles #site-header ol .articles a { 
     color: #222; 
 }
+
+.rss a { background: #FFF; border-color: #FFF; }
+.rss a .dot { background: #222; }
+.rss a .ring { border-color: #222; }

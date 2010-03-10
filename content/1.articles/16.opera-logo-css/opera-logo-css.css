@@ -140,3 +140,5 @@ pre, code { background: #333;}
 
 #copy a { color: #E71616;}
 #copy a:hover {color: #000; background: hsla(5,100%,50%,.1);}
+
+#copy .centerplz {text-align: center;}

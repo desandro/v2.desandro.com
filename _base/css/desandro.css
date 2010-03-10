@@ -13,7 +13,7 @@ html, body {
 
 body {
     color: #222;
-    font-family: 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Proxima Nova','proxima-nova-1','proxima-nova-2', 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.5em;
     font-size: 14px;
 }

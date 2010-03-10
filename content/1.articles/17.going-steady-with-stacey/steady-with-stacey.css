@@ -3,11 +3,14 @@ html {
 }
 
 body {
-/*    background: -moz-radial-gradient(center 40%, circle cover, hsla(0,0%,100%,.8) 0%, hsla(0,0%,100%,0) 100%) no-repeat; */
     background: transparent;  
     background: -moz-radial-gradient(center center, circle cover, hsla(0,0%,100%,.2) 0%, hsla(0,0%,55%,1) 100%) fixed no-repeat;
     background: -webkit-gradient(radial, center center, 0,  center center, 800, from(hsla(0,0%,100%,.2)), to(hsla(0,0%,55%,1)) ) fixed; 
 
+}
+
+#content { 
+    padding: 20px 0 40px;
 }
 
 h1 {
@@ -57,7 +60,7 @@ h1 .stacey {
 #copy section {
     width: 940px;
     margin: 0 auto;
-    border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #BBB;
     padding: 30px 0 40px;
     -moz-column-count: 3;
     -webkit-column-count: 3;
