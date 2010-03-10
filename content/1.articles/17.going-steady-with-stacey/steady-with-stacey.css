@@ -1,9 +1,23 @@
+html {
+    background: #EEE url(vic-wallpaper.jpg) center top fixed;
+}
+
+body {
+/*    background: -moz-radial-gradient(center 40%, circle cover, hsla(0,0%,100%,.8) 0%, hsla(0,0%,100%,0) 100%) no-repeat; */
+    background: transparent;  
+    background: -moz-radial-gradient(center center, circle cover, hsla(0,0%,100%,.2) 0%, hsla(0,0%,55%,1) 100%) fixed no-repeat;
+    background: -webkit-gradient(radial, center center, 0,  center center, 800, from(hsla(0,0%,100%,.2)), to(hsla(0,0%,55%,1)) ) fixed; 
+
+}
+
 h1 {
     text-transform: lowercase;
     font-weight: 500;
-    height: 300px;
+    height: 260px;
     position: relative;
     font-size: 46px;
+    width: 640px;
+    margin: 0 auto;
 }
 
 h1 span {
@@ -13,20 +27,20 @@ h1 span {
 }
 
 h1 .going {
-    left: 80px;
+    left: 10px;
     top: 0;
 
 
 }
 
 h1 .steady {
-    left: 120px;
+    left: 50px;
     top: 40px;
 }
 
 h1 .with {
     top: 80px;
-    left: 70px;
+    left: 0px;
 }
 
 h1 .stacey {
@@ -36,6 +50,26 @@ h1 .stacey {
     letter-spacing: -0.05em;
     color: #FFF;
     text-shadow: 0 3px 5px hsla(0,0%,0%,.4);
-    left: 160px;
+    left: 90px;
     top: 110px;
 }
+
+#copy section {
+    width: 940px;
+    margin: 0 auto;
+    border-bottom: 1px solid #CCC;
+    padding: 30px 0 40px;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-gap: 30px;
+    -webkit-column-gap: 30px;
+    line-height: 22px;
+
+    font-size: 105%;
+}
+
+#copy section p {
+    margin-bottom: 22px;
+}
+
+.rerss { display: none;}
