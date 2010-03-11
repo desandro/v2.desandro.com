@@ -16,14 +16,14 @@ content:
 <div class="ex clearfix">
     <div class="wrap12">
         <h3 class="col2">Ideal Result</h3>
-        <p class="wrap10"><img src="http://desandro.com/images/2009/what_im_going_for01.png" alt="" /></p>
+        <p class="wrap10"><img src="../../content/1.articles/01.concept-flow-what-i-m-going-for/what_im_going_for01.png" alt="" /></p>
     </div><!-- /.wrap12 --> 
 </div> <!-- /.ex -->
 
 <div class="ex clearfix">
     <div class="wrap12">
         <h3 class="col2">Optimistic Result</h3>
-        <p class="wrap10"><img src="http://desandro.com/images/2009/what_im_going_for02.png" alt="" /></p>
+        <p class="wrap10"><img src="../../content/1.articles/01.concept-flow-what-i-m-going-for/what_im_going_for02.png" alt="" /></p>
     </div><!-- /.wrap12 --> 
 </div> <!-- /.ex -->
 
@@ -31,7 +31,7 @@ content:
     <div class="wrap12">
 
         <h3 class="col2">Likely Result</h3>
-        <p class="wrap10"><img src="http://desandro.com/images/2009/what_im_going_for03.png" alt="" /></p>
+        <p class="wrap10"><img src="../../content/1.articles/01.concept-flow-what-i-m-going-for/what_im_going_for03.png" alt="" /></p>
 
     </div><!-- /.wrap12 --> 
 </div> <!-- /.ex -->

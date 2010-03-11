@@ -47,7 +47,7 @@ content:
 
             <p>But that&rsquo;s not to say that Stacey is the ideal solution for most sites. Even with the all the issues it alleviates, I do have hesitations recommending it as a solution to anyone else.</p> 
 
-            <p>The cunning simplicity of Stacey which makes it great, also provides for its greatest frustrations. As liberating as it is working primarily through a text editor, I could understand how perplexing it could be to anyone who is well acquainted with a typical CMS. There are no plugins, no templates, no admin section. If you want to pages, you&rsquo;ll have to hack it.  If you want to display images 1, 2, 3 and not 3, 2, 1, you&rsquo;ll have to hack it. Flat out, there&rsquo;s a lot of functionality that you might expect (comments, pages, sorting content) and Stacey doesn&rsquo;t have it. </p>
+            <p>The cunning simplicity of Stacey which makes it great, also provides for its greatest frustrations. As liberating as it is working primarily through a text editor, I could understand how perplexing it could be to anyone who is well acquainted with a typical CMS. There are no plugins, no templates, no admin section. If you want paginated archives, you&rsquo;ll have to hack it.  If you want to display images 1, 2, 3 and not 3, 2, 1, you&rsquo;ll have to hack it. Flat out, there&rsquo;s a lot of functionality that you might expect (comments, pages, sorting content) and Stacey doesn&rsquo;t have it. </p>
 
             <p>Lucky for me, it&rsquo;s a great fit.</p>
         </section>
