@@ -23,7 +23,7 @@ content:
 <div id="copy" class="tk_proxima_nova">
     <p>The <a href="http://www.opera.com">Opera</a> logo, rendered only with CSS, no images. <a href="http://www.opera.com/media/images/icon/Opera_512x512.png">Compare it with the real deal</a>.</p>
     
-    <p class="centerplz"><a href="http://www.flickr.com/photos/nemoorange/4421737904/" title="Opera logo with CSS across browsers by Dave DeSandro, on Flickr"><img src="http://farm5.static.flickr.com/4014/4421737904_094129fd0b.jpg" width="500" height="113" alt="Opera logo with CSS across browsers" /></a></p>
+    <p class="centerplz"><a href="http://www.flickr.com/photos/nemoorange/4421737904/" title="Opera logo with CSS across browsers by Dave DeSandro, on Flickr"><img src="http://farm5.static.flickr.com/4014/4421737904_be9672475e.jpg" width="500" height="113" alt="Opera logo with CSS across browsers" /></a></p>
     
     <p>Alas, best viewed in Firefox 3.6, Safari 4, or Chrome 5.</p>
     
@@ -31,13 +31,15 @@ content:
     
     <h3>Border Radius</h3>
     
-    <p>In all the tutorials and hubbub over CSS3, elliptical border radius is one of those features that hasn&rsquo;t been given enough attention. It&rsquo;s syntax is easy enough: instead of using one value, two are used. First value is horizontal, second is vertical (following x &amp; y, just like other 2-D values like background-position). Important to note is the difference between the Mozilla and Webkit values. Mozilla uses a slash, Webkit uses a space.</p>
+    <p>In all the tutorials and hubbub over CSS3, elliptical border radius is one of those features that hasn&rsquo;t been given enough attention. It&rsquo;s syntax is easy enough: instead of using one value, two are used. First value is horizontal, second is vertical (following x &amp; y, just like other 2-D values like background-position). Important to note is the difference between the Mozilla, Opera and Webkit values. Mozilla uses a slash, Webkit uses a space.</p>
     
-<pre><code>border-radius: 220px;
--moz-border-radius: 220px/235px;
--webkit-border-radius: 220px 235px;</code></pre>    
+<pre><code>-moz-border-radius: 220px/235px;
+-webkit-border-radius: 220px 235px;
+border-radius: 220px/235px;</code></pre>    
 
-    <p>Regular ol' <code>border-radius</code> is not just a vanity property anymore.  <a href="http://dev.opera.com/articles/view/css3-border-background-boxshadow/">Opera 10.5</a> and <a href="http://blogs.msdn.com/ie/archive/2009/11/18/an-early-look-at-ie9-for-developers.aspx">Internet Explorer 9</a> both support border-radius, no vendor-prefix necessary. For these browsers, the shape will not be perfectly oval, but at least be mostly round. Note that the <code>border-radius</code> property should come first, as it will overwrite preceeding <code>-webkit-border-radius</code> properties in Webkit browsers.</p>
+    <p>Regular ol' <code>border-radius</code> is not just a vanity property anymore.  <a href="http://dev.opera.com/articles/view/css3-border-background-boxshadow/">Opera 10.5</a> and <a href="http://blogs.msdn.com/ie/archive/2009/11/18/an-early-look-at-ie9-for-developers.aspx">Internet Explorer 9</a> both support border-radius, no vendor-prefix necessary. <span class="strikethat">For these browsers, the shape will not be perfectly oval, but at least be mostly round. Note that the <code>border-radius</code> property should come first, as it will overwrite preceeding <code>-webkit-border-radius</code> properties in Webkit browsers.</span> Opera&rsquo;s own <a href="http://twitter.com/pepelsbey">Vadim Makeyev</a> and Petter Nilsen did a good job of looking over my shoulder to point out that Opera 10.5 support elliptical border-radius. </p>
+    
+    <p>Lars Gunther then followed up regarding the proper ordering of properties. I had overwritten the default <code>border-radius</code> with the vendor-specific owns, but as <a href="http://itpastorn.blogspot.com/2009/06/do-not-put-experimental-features-last.html">Lars discusses the best practice for this scenario</a>, <code>border-radius</code> should be the ultimate property.</p>
     
     <p>The extra fun use-cases to consider are the Webkit and Mozilla browsers that support border-radius, but not the elliptical variety. Take for instance Camino 2.0. Given the code above, it has no property to fall back on, and will render the shape as a rectangle. So do you add yet another border-radius property?</p>
     
