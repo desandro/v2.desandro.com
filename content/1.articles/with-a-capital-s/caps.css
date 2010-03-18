@@ -2,8 +2,8 @@ body.articles { background: #BCC; }
 
 h1 {
     position: absolute;
-    left: -9999em;
-    top: -9999em;
+    left: -9999px;
+    top: -9999px;
 }
 
 

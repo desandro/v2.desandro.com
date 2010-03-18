@@ -2,8 +2,8 @@ body.articles {  background: #432 url(domake12.png) top center no-repeat; }
 
 #content h1 { 
     position: absolute;
-    left: -9999em;
-    top: -9999em;
+    left: -9999px;
+    top: -9999px;
 }
 
 

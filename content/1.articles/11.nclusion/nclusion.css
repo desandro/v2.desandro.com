@@ -16,7 +16,7 @@ body.articles #content .wrap12 {
 
 h1 {
   border: none;
-  text-indent: -9999em;
+  text-indent: -9999px;
   background: url(nclusion_title01.png) top center no-repeat;
   height: 80px;
 }
@@ -45,7 +45,7 @@ h1 {
 
 #nclusion .example {
   background: url(nclusion_p01.png) top center no-repeat;
-  text-indent: -9999em;
+  text-indent: -9999px;
   height: 150px;
 }
 
