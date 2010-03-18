@@ -82,8 +82,10 @@ content:
 &lt;/span&gt;</code></pre>
 
 	<p>
-		The Curtis CSS font wasn&rsquo;t conceived of any practical application.  I was more interested in seeing if it could be pulled off, and if so, what the final result would look like.  This typeface was used in the article, <a href="/articles/why-art">Why Art?</a>.
+		The Curtis CSS font wasn&rsquo;t conceived of any practical application.  I was more interested in seeing if it could be pulled off, and if so, what the final result would look like.  This typeface was used in the article, <a href="/articles/why-art">Why Art?</a>. Remarkably, Wagner Paula was able to build upon the framework I started in his <a href="http://www.wagnerpaula.com/liveposter/">Liveposter</a>.
 	</p>
+	<p>This design pattern is released under a <a href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution License</a>.  You are free to share and remix this work.  Link-back appreciated.</p>
+	
 </div>
 
 <div id="options" class="gone tk_proxima_nova">

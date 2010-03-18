@@ -35,7 +35,7 @@ content:
         
         <p>Since Internet Explorer 6 and 7 does not support the RGBa color schema, the bottom half of the point element will not be transparent.  Be sure to modify the CSS to match the background color.
         </p>        
-        <p>This design pattern is released under a Creative Commons By License.  You are free to share and remix this work
+        <p>This design pattern is released under a <a href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution License</a>.  You are free to share and remix this work.
         </p>
     </div> <!-- /.col5 -->    
 
