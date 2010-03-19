@@ -23,7 +23,8 @@ article {
     z-index: 300;
     padding: 5px 0;
     -webkit-transition: all .12s ease-out;
-    -moz-transition: all .12s ease-out;
+       -moz-transition: all .12s ease-out;
+         -o-transition: all .12s ease-out;
 }
 #port-nav:hover {
     background: hsla(0,0%,100%,.6);
@@ -36,7 +37,8 @@ article {
     height: 22px;
     opacity: 0.5;
     -webkit-transition: all .12s ease-out;
-    -moz-transition: all .12s ease-out;
+       -moz-transition: all .12s ease-out;
+         -o-transition: all .12s ease-out;
 }
 #port-nav:hover li { opacity: 1.0; }
 #port-nav li a { display: block; }
@@ -46,7 +48,7 @@ article {
 
 #port-nav .updown a {  width: 100%; height: 100%; background: #FFF; }
 
-#port-nav .updown .text { text-indent: -9999em; }
+#port-nav .updown .text { text-indent: -9999px; }
 
 #port-nav .updown .pos { border: 11px solid; border-color: #222 #FFF; }
 #port-nav .updown.previous .pos {  top: 5px; border-top-width: 0; }
@@ -99,32 +101,36 @@ article {
     background: #222;
     margin: 0 8px;
     -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
+       -moz-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
 }
 
 #port-nav .nav-article a:hover { background: none;}
 
 #port-nav .nav-article a:hover .dot {
     background: #E58;
-    -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
 }
 
 #port-nav .nav-article.current a .dot {
     background: #58E;
-    -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
+       -moz-transform: rotate(90deg);
+         -o-transform: rotate(90deg);
     width: 12px;
     height: 12px;
     margin: 5px;
-    -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
 }
 
 #port-nav .nav-article.current a:hover .dot {
-    -moz-transform: rotate(270deg) ; 
     -webkit-transform: rotate(270deg); 
+       -moz-transform: rotate(270deg); 
+         -o-transform: rotate(270deg); 
 }
 
 #port-nav a details {
@@ -140,10 +146,12 @@ article {
     text-align: center;
     font-size: 13px;
     opacity: 0;
-    -moz-box-shadow: 0 2px 5px hsla(0,0%,0%,.35);
     -webkit-box-shadow: 0 2px 5px hsla(0,0%,0%,.35);
+       -moz-box-shadow: 0 2px 5px hsla(0,0%,0%,.35);
+            box-shadow: 0 2px 5px hsla(0,0%,0%,.35);
     -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
+       -moz-transition: all 0.25s ease-out;
+         -o-transition: all 0.25s ease-out;
 }
 #port-nav .updown a details { top: -2px;}
 
@@ -202,8 +210,9 @@ article header {
     color: #FFF;
     padding: 10px 10px 15px;
     text-align: center;
-    -moz-box-shadow: 0 3px 10px hsla(0,0%,0%,.4);
     -webkit-box-shadow: 0 3px 10px hsla(0,0%,0%,.4);
+       -moz-box-shadow: 0 3px 10px hsla(0,0%,0%,.4);
+            box-shadow: 0 3px 10px hsla(0,0%,0%,.4);
 }
 
 article img { 
@@ -242,12 +251,13 @@ article .visit a {
     padding: 0px 25px 0px 7px;
     display: block;
     line-height: 20px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
     background: #222;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
+       -moz-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
 }
 
 article .visit a span {
@@ -261,7 +271,8 @@ article .visit a .arrow-bar {
     top: 7px;
     right: 13px;
     -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
+       -moz-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
 }
 article .visit a .arrow-point {
     border: 6px solid;
@@ -270,7 +281,8 @@ article .visit a .arrow-point {
     top: 4px;
     right: 7px;
     -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
+       -moz-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
 }
 
 article .visit a:hover { 
@@ -299,23 +311,27 @@ article details dt {
     position: absolute;
     background: #222;
     cursor: pointer;
-    -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
-    -moz-box-shadow: 0 2px 5px hsla(0,0%,0%,.4);
+       -moz-border-radius: 8px;
+            border-radius: 8px;
     -webkit-box-shadow: 0 2px 5px hsla(0,0%,0%,.4);
+       -moz-box-shadow: 0 2px 5px hsla(0,0%,0%,.4);
 /*    -webkit-transition: all .2s ease-out;*/
     -moz-transition: all .2s ease-out;
+      -o-transition: all .2s ease-out;
 }
 article header details dt {
     width: 14px;
     height: 14px;
-    -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
+       -moz-border-radius: 12px;
+            border-radius: 12px;
 }
 article details:hover dt {
     background: #FFF;
-    -moz-transform: scale(1.5);
     -webkit-transform: scale(1.5);
+       -moz-transform: scale(1.5);
+         -o-transform: scale(1.5);
 }
 
 
@@ -330,10 +346,12 @@ article details dd {
     overflow: hidden;
     font-size: 14px;
     z-index: 100;
-    -moz-box-shadow: 0 3px 10px hsla(0,0%,0%,.4);
     -webkit-box-shadow: 0 3px 10px hsla(0,0%,0%,.4);
+       -moz-box-shadow: 0 3px 10px hsla(0,0%,0%,.4);
+            box-shadow: 0 3px 10px hsla(0,0%,0%,.4);
     -webkit-transition: all .2s ease-out;
-    -moz-transition: all .2s ease-out;
+       -moz-transition: all .2s ease-out;
+         -o-transition: all .2s ease-out;
     
 }
 article header details dd { left: -144px; }

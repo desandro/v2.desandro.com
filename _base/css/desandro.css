@@ -157,7 +157,7 @@ body.about #site-header ol .about a:hover { color: #58E; }
     background: #F90;
     position: relative;
     overflow: hidden;
-    text-indent: -9999em;
+    text-indent: -9999px;
     border: 2px solid;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -365,6 +365,7 @@ pre {
     top: 0;
     -webkit-transition: all 0.12s ease-out;
     -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
 }
 
 #site-footer .made-this a {
@@ -375,6 +376,7 @@ pre {
     margin-bottom: 10px;
     -webkit-transition: all 0.12s ease-out;
     -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
     display: block;
     position: relative;
 }
@@ -389,6 +391,7 @@ pre {
     text-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
     -webkit-transition: all 0.12s ease-out;
     -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
     
 }
 
@@ -434,6 +437,7 @@ pre {
     padding-left: 60px;
     -webkit-transition: all 0.12s ease-out;
     -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
 }
 
 
@@ -451,12 +455,15 @@ pre {
 #site-footer .where-what .living,
 #site-footer .where-what .working,
 #site-footer .where-what .happy { 
+color: #555;
 	display: block; 
 	line-height: 1.05em;
     -webkit-transform-origin: center bottom;
     -moz-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
     text-shadow: 0 0px 1px #222;
 }
 #site-footer .where-what .heisa:hover,
@@ -468,6 +475,7 @@ pre {
     text-shadow: 0 4px 1px #000;
     -moz-transform: scale(1.25);
     -webkit-transform: scale(1.25);
+    -o-transform: scale(1.25);
 }
 #site-footer .where-what span:hover a { color: #E58; }
 
@@ -481,6 +489,7 @@ pre {
 #site-footer .where-what .happy:hover { 
     -moz-transform: scale(1.4);
     -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
 
 }
 
@@ -518,6 +527,7 @@ pre {
     left: 0;
     -webkit-transition: all 0.12s ease-out;
     -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
 }
 .also-made a:hover {
     color: #FFF;

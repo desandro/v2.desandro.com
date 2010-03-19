@@ -29,6 +29,8 @@ content:
     
     <p>Aside from another shameless plea for attention, this demonstration gives me a chance to look at some CSS3 properties across browsers.</p>
     
+    <p><strong>[Updated 18 March 2010]</strong> After this post started <a href="http://topsy.com/tb/desandro.com/articles/opera-logo-css/">gaining some momentum on the tweets</a>, both <a href="http://my.opera.com/chooseopera/blog/2010/03/17/opera-logo-in-css">Håkon Wium Lie</a> and <a href="http://helmersworks.com/demo/opera_logo.html">Jan Henrik Helmers</a> produced their own Opera 10.5-friendly versions using inset box-shadows to recreate the gradients.</p>
+    
     <h3>Border Radius</h3>
     
     <p>In all the tutorials and hubbub over CSS3, elliptical border radius is one of those features that hasn&rsquo;t been given enough attention. It&rsquo;s syntax is easy enough: instead of using one value, two are used. First value is horizontal, second is vertical (following x &amp; y, just like other 2-D values like background-position). Important to note is the difference between the Mozilla, Opera and Webkit values. Mozilla uses a slash, Webkit uses a space.</p>
