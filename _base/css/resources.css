@@ -297,6 +297,7 @@ a:hover .css_char .split_horiz_neg { border-color: transparent #FFF; }
   border-width: 40px;
   -moz-border-radius: 70px;
   -webkit-border-radius: 70px;
+  border-radius: 70px;
 }
 .size140 .css_char.c .neg {
   width: 70px;
@@ -444,6 +445,7 @@ a:hover .css_char .split_horiz_neg { border-color: transparent #FFF; }
   border-width: 16px;
   -moz-border-radius: 28px;
   -webkit-border-radius: 28px;
+  border-radius: 28px;
 }
 
 .size56 .css_char.d .stroke {
