@@ -40,7 +40,7 @@ form span.req { display: none; }
 .noI .leftLabel textarea.textarea, 
 .noI .leftLabel li div.col, 
 .noI .leftLabel li.complex div {
-    width:71%;
+    width: 100%;
 }
 
 .leftLabel li div.col, 
