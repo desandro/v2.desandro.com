@@ -9,7 +9,7 @@ link_text: Download userstyle
 link_url: http://userstyles.org/styles/12729
 -
 header_deet:
-Textpattern is a flexible, elegant and easy-to-use CMS. I love the product and it&rsquo;s my go-to CMS of choice. <a href="http://www.flickr.com/photos/hicksdesign/989595974/">Like other designers</a>, I saw plenty of areas of improvement in its user interface. These themes were developed in CSS for the administration back-end. Read more about my design process in <a href="http://desandro.com/articles/textpattern-interface-case-study">Textpattern Interface Case Study</a>.
+Poor ol&rsquo; Craigslist. Everyone picks on it for being ugly, but no one is willing to get their hands dirty cleaning it up. That is, until I discovered it could be done with userstyles.
 -
 canvas_h: 1600
 -

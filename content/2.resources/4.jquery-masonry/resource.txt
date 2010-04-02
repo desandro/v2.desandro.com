@@ -286,7 +286,7 @@ content:
                     Mortar 
                     <img src="../../content/2.resources/4.jquery-masonry/mortar.jpg" alt="Mortar"  width="280" height="705" />
                 </a></li>
-                <li><a href="http://maxvoltar.com">
+                <li><a href="http://rathersplendid.net/">
                     Rather Splendid    
                     <img src="../../content/2.resources/4.jquery-masonry/rather-splendid.jpg" alt="Maxvoltar"  width="280" height="517" />
                 </a></li>
