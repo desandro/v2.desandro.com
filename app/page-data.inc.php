@@ -36,14 +36,14 @@ Class PageData {
 		$split_path = explode('/', $file_path);
 		$parents = array();
 		# drop the last folder from split file path and push it into the $parents array
-		while(count($split_path) > 2) {
+		while(count($split_path) > 3) {
 		  array_pop($split_path);
 		  $parents[] = implode('/', $split_path);
 		}
 		# reverse array to emulate anchestor structure
 		$parents = array_reverse($parents);
 		
-		return (count($parents) < 2) ? array() : $parents;
+		return (count($parents) < 1) ? array() : $parents;
 	}
 	
 	static function get_thumbnail($file_path) {
@@ -71,7 +71,7 @@ Class PageData {
   	if($permalink == 'index') {
   	  return ('/' == $_SERVER['REQUEST_URI']);
   	} else {
-  	  return ($base_path.'/'.$permalink.'/' == $_SERVER['REQUEST_URI']);
+  	  return ($base_path.'/'.$permalink == $_SERVER['REQUEST_URI']);
   	}
 	}
 	
@@ -100,10 +100,12 @@ Class PageData {
 	}
 	
 	static function create_vars($page) {
+		# @file_path
+		$page->data['@file_path'] = $page->file_path;
 		# @url
-		$page->url = Helpers::relative_root_path().$page->url_path.'/';
+		$page->url = Helpers::relative_root_path($page->url_path.'/');
 		# @permalink
-		$page->permalink = $page->url_path;
+		$page->permalink = Helpers::modrewrite_parse($page->url_path.'/');
 		# @slug
 			$split_url = explode("/", $page->url_path);
 		$page->slug = $split_url[count($split_url) - 1];
@@ -128,9 +130,9 @@ Class PageData {
 		$page->updated = strval(date('c', Helpers::last_modified($page->file_path)));
 		
 		# @siblings_count
-		$page->siblings_count = strval(count($page->data['$siblings']));
+		$page->siblings_count = strval(count($page->data['$siblings_and_self']));
 		# @index
-		$page->index = self::get_index($page->data['$siblings'], $page->file_path);
+		$page->index = self::get_index($page->data['$siblings_and_self'], $page->file_path);
 		
 		# @is_current
 		$page->is_current = self::is_current($page->data['@base_url'], $page->data['@permalink']);
@@ -150,9 +152,12 @@ Class PageData {
 		$page->parents = self::get_parents($page->file_path, $page->url_path);
 		# $siblings
 		$parent_path = !empty($parent_path[0]) ? $parent_path[0] : './content';
-		$page->siblings = Helpers::list_files($parent_path, '/^\d+?\./', true);
+		$split_url = explode("/", $page->url_path);
+		$page->siblings = Helpers::list_files($parent_path, '/^\d+?\.(?!'.$split_url[(count($split_url) - 1)].')/', true);
+		# $siblings_and_self
+		$page->siblings_and_self = Helpers::list_files($parent_path, '/^\d+?\./', true);
 		# $next_sibling / $previous_sibling
-			$neighboring_siblings = self::extract_closest_siblings($page->data['$siblings'], $page->file_path);
+			$neighboring_siblings = self::extract_closest_siblings($page->data['$siblings_and_self'], $page->file_path);
 		$page->previous_sibling = array($neighboring_siblings[0]);
 		$page->next_sibling = array($neighboring_siblings[1]);
 		
@@ -199,12 +204,15 @@ Class PageData {
 		foreach($matches[1] as $match) {
 			# split the string by the first colon
 			$colon_split = explode(':', $match, 2);
-			# set a variable with a name of 'key' on the page with a value of 'value' 
-            // $page->$colon_split[0] = 
+			
+			# replace the only var in your content - @path for your inline html with images and stuff
+			$relative_path = preg_replace('/^\.\//', Helpers::relative_root_path(), $page->file_path);
+			$colon_split[1] = preg_replace('/\@path/', $relative_path.'/', $colon_split[1]);
+			
+			# set a variable with a name of 'key' on the page with a value of 'value'
+			$page->$colon_split[0] = 
 			  # if the 'value' contains a newline character, parse it as markdown
-              // (strpos($colon_split[1], "\n") === false) ? trim($colon_split[1]) : Markdown(trim($colon_split[1]));
-			  
-			$page->$colon_split[0] =  trim($colon_split[1])  ;
+			  (strpos($colon_split[1], "\n") === false) ? trim($colon_split[1]) : Markdown(trim($colon_split[1]));
 		}
 	}
 	
