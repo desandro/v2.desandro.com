@@ -279,29 +279,29 @@ content:
 
                 <li><a href="http://www.tumblr.com/theme/3531">
                     Astronaut Tumblr Theme  
-                    <img src="../../content/2.resources/4.jquery-masonry/peter_vidani.jpg" alt="Astronaut Tumblr Theme" width="280" height="492" />
+                    <img src="@pathpeter_vidani.jpg" alt="Astronaut Tumblr Theme" width="280" height="492" />
 
                 </a></li>
                 <li><a href="http://www.woothemes.com/demo/?t=41">
                     Mortar 
-                    <img src="../../content/2.resources/4.jquery-masonry/mortar.jpg" alt="Mortar"  width="280" height="705" />
+                    <img src="@pathmortar.jpg" alt="Mortar"  width="280" height="705" />
                 </a></li>
                 <li><a href="http://rathersplendid.net/">
                     Rather Splendid    
-                    <img src="../../content/2.resources/4.jquery-masonry/rather-splendid.jpg" alt="Maxvoltar"  width="280" height="517" />
+                    <img src="@pathrather-splendid.jpg" alt="Maxvoltar"  width="280" height="517" />
                 </a></li>
                 <li><a href="http://www.mrbridge.co.nz/fluidadvert.html">
 
                     Andy Bridge    
-                    <img src="../../content/2.resources/4.jquery-masonry/andy.jpg" alt="Andy Bridge" width="280" height="508" />
+                    <img src="@pathandy.jpg" alt="Andy Bridge" width="280" height="508" />
                 </a></li>
                 <li><a href="http://chromeography.com">
                     Chromeography    
-                    <img src="../../content/2.resources/4.jquery-masonry/chromeography.jpg" alt="Chromeography" width="280" height="523" />
+                    <img src="@pathchromeography.jpg" alt="Chromeography" width="280" height="523" />
                 </a></li>
                 <li><a href="http://jquerystyle.com">
                     jQuery Style    
-                    <img src="../../content/2.resources/4.jquery-masonry/jquery_style.jpg" alt="jQuery Style" width="280" height="631" />
+                    <img src="@pathjquery_style.jpg" alt="jQuery Style" width="280" height="631" />
 
                 </a></li>
 
