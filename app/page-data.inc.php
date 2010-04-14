@@ -212,7 +212,8 @@ Class PageData {
 			# set a variable with a name of 'key' on the page with a value of 'value'
 			$page->$colon_split[0] = 
 			  # if the 'value' contains a newline character, parse it as markdown
-			  (strpos($colon_split[1], "\n") === false) ? trim($colon_split[1]) : Markdown(trim($colon_split[1]));
+              // (strpos($colon_split[1], "\n") === false) ? trim($colon_split[1]) : Markdown(trim($colon_split[1]));
+              $page->$colon_split[0] =  trim($colon_split[1])  ;
 		}
 	}
 	
