@@ -3,7 +3,7 @@
 
     <title>@name</title>
     <subtitle>@subtitle</subtitle>
-    <link href="http://@base_url/@permalink/" hreflang="en" rel="self" type="application/atom+xml"/>
+    <link href="http://@base_url/@permalink" hreflang="en" rel="self" type="application/atom+xml"/>
     <link href="http://@base_url/" hreflang="en" rel="alternate" type="text/html"/>
 
     <updated>@site_updated</updated>
@@ -21,7 +21,7 @@
         foreach $children do
             <entry>
                <title>@title</title>
-               <link rel="alternate" type="text/html" href="http://@base_url/@permalink/" />
+               <link rel="alternate" type="text/html" href="http://@base_url/@permalink" />
                <updated>@updated</updated>
                <published>@iso8601time</published>
                <author>
