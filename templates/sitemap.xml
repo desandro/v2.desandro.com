@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://@base_url/</loc>
+        <lastmod>@updated</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    foreach $root do
+        <url>
+            <loc>http://@base_url/@permalink</loc>
+            <lastmod>@updated</lastmod>
+        </url>
+    endforeach
+
+    get "/articles" do
+        foreach $children do
+            <url>
+                <loc>http://@base_url/@permalink</loc>
+                <lastmod>@updated</lastmod>
+            </url>
+        endforeach
+    end
+
+    get "/resources" do
+        foreach $children do
+            <url>
+                <loc>http://@base_url/@permalink</loc>
+                <lastmod>@updated</lastmod>
+            </url>
+        endforeach
+    end
+    
+</urlset>
