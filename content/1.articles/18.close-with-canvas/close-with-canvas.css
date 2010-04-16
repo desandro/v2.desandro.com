@@ -1,0 +1,63 @@
+body.articles {
+    background: #000;
+}
+
+#content {
+    overflow: hidden;
+    color: #DDD;
+}
+
+#content a:hover { color: #FFF;}
+
+h1 { text-align: center;}
+
+#copy {
+    width: 790px;
+    margin: 0 auto 60px;
+    font-size: 15px;
+    line-height: 1.5em;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
+}
+
+figure {
+    width: 1200px;
+    text-align: center;
+    position: relative;
+    left: -130px;
+    margin-bottom: 160px;
+}
+
+figure img {
+/*    display: block;
+    margin: 0 auto;
+*/}
+
+/**************************
+**  Site Header
+**************************/
+
+#site-header #branding {
+    background: #FFF;
+    color: #222;
+}
+
+#site-header #branding p a {
+    color: #222;
+}
+
+#site-header ol a {
+    color: #FFF;
+}
+body.articles #site-header ol .articles,
+body.articles #site-header ol .articles a { 
+    color: #222; 
+}
+
+.rss a { background: #FFF; border-color: #FFF; }
+.rss a .dot { background: #222; }
+.rss a .ring { border-color: #222; }

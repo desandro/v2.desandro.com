@@ -1,0 +1,67 @@
+title: Close with canvas
+-
+date: 15 Apr 2010
+-
+iso8601time: 2010-04-13T20:00:00-05:00
+-
+article: yes
+-
+newest_article: yes
+-
+content:
+
+<div class="wrap12 tk_proxima_nova">
+
+    <h1>@title</h1>
+
+    <div id="copy">
+        <p>
+            If it weren&rsquo;t for <a href="http://rawkes.com/blog/2010/04/11/barcamp-bournemouth-and-html5-canvas">Rob Hawkes&rsquo; well-illustrated presentation on the canvas element</a>, I might have never started playing around with the <a href="https://developer.mozilla.org/En/HTML/Canvas/Pixel_manipulation_with_canvas">imageData</a> feature. As Hawkes illustrates, to retrieve pixel values, it&rsquo;s as easy as defining the area that you want to examine, much like rendering a rectangle. The more abstract part is parsing the data object that gets returned. I could get into the nitty gritty, but it's probably a better idea to <a href="/demo/getdata.html">check out this basic demo</a> and get your hands dirty for yourself.
+        </p>
+
+        <p>
+            Now enlightened, I was able rediscover a favorite motif of mine: pixel manipulated portraits. The concept comes from <a href="http://en.wikipedia.org/wiki/Chuck_close">Chuck Close</a>. I have been to the MoMA and seen Mark and Lucas in person. The portraits are enormous. Up close, you only see the rings and diamonds, a hundred fish-eyes staring back at you. As you pace back, the grander image becomes visible. You forget that the details that make up hair strands and wrinkles are somehow an array of rings and dots. I love the contrast of the simple and the complex, how an image so detailed and intricate can be composed of such rudimentary components.
+
+        </p>
+
+        <p>
+            The images below are basic exercises with of that paradigm (just foolin&rsquo; around stuff). I wanted to deconstruct each portrait to the point where your eye can&rsquo;t decide whether to look at the basic shapes or the person&rsquo;s face. I used this technique to generate the portrait for <a href="http://flavors.me/desandro">my flavors.me page</a>. I thought it fit nicely with the flavors.me brand of pixelation. The original images were licensed under Creative Commons and are appropriately credited to the original creators.
+        </p>
+
+
+    </div>
+
+
+
+    <figure class="portrait">
+        <a href="http://www.flickr.com/photos/nemoorange/4524494696/" title="officer manip by Dave DeSandro, on Flickr"><img src="http://farm5.static.flickr.com/4046/4524494696_6b6c2673a7_o.jpg" width="773" height="1068" alt="officer manip" /></a>
+        <p class="caption">Manipulation of <a href="http://www.flickr.com/photos/madciapka/4521134773/">Chinese officer @ Shanghai downtown market by Dusan Simonovic</a>.</p>
+    </figure>
+
+
+    <figure class="portrait">
+        <a href="http://www.flickr.com/photos/nemoorange/4524494580/" title="albanchez manip by Dave DeSandro, on Flickr"><img src="http://farm5.static.flickr.com/4030/4524494580_74c139d5c3_o.jpg" width="900" height="1187" alt="albanchez manip" /></a>
+        <p>Manipulation of <a href="http://www.flickr.com/photos/mait/4520336531/"><em>Albanchez / Spain</em> by Mait Jüriado</a>.</p>
+    </figure>
+
+
+
+    <figure class="portrait">
+        <a href="http://www.flickr.com/photos/nemoorange/4523864043/" title="sammie manip by Dave DeSandro, on Flickr"><img src="http://farm5.static.flickr.com/4039/4523864043_be5e683273_o.jpg" width="812" height="1094" alt="sammie manip" /></a>
+        <p>Manipulation of <a href="http://www.flickr.com/photos/pdbratcher/4512809954/"><em>Sammie 'oil of ulay'</em>  by ZalUk</a>.</p>
+    </figure>
+
+
+
+    <figure class="portrait">
+        <a href="http://www.flickr.com/photos/nemoorange/4524494632/" title="tony manip by Dave DeSandro, on Flickr"><img src="http://farm5.static.flickr.com/4031/4524494632_dc3197607e_o.jpg" width="1172" height="827" alt="tony manip" /></a>
+        <p>Manipulation of <a href="http://www.flickr.com/photos/jon-luke/4512534558/"><em>Tony deep in thought (B&amp;W)</em> by Jon-Luke</a>.</p>
+    </figure>
+
+
+    <figure class="portrait">
+        <a href="http://www.flickr.com/photos/nemoorange/4523864273/" title="kendra1 manip by Dave DeSandro, on Flickr"><img src="http://farm5.static.flickr.com/4009/4523864273_fff3467671_o.jpg" width="1085" height="1175" alt="kendra1 manip" /></a>
+        <p class="caption">Manipulation of <a href="http://www.flickr.com/photos/kreslava/4518179955/"><em>Kendra</em> by kreslava</a>.</p>
+    </figure>
+
+</div> <!-- .wrap12 -->

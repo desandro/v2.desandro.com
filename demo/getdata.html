@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>getdata</title>
+<style type="text/css" media="screen">
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+canvas {
+    border: 1px solid #CCC;
+}
+</style>
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function(){
+            
+            var canvas = $("#cnvs")[0];
+            if (canvas.getContext) {
+                
+                
+                var 
+                    ctx = canvas.getContext("2d"),
+                    w = $("#cnvs").width(),             // canvas width
+                    h = $("#cnvs").height()             // canvas height
+                ;
+                // begin canvas code
+                
+
+                // render the squares
+                ctx.fillStyle = "rgb(200,0,56)";
+                ctx.fillRect (0, 0, 100, 100);
+
+                ctx.fillStyle = "rgba(0,200,100,.5)";
+                ctx.fillRect (100, 0, 100, 100);
+
+                ctx.fillStyle = "rgba(120,60,233,.8)";
+                ctx.fillRect (0, 100, 100, 100);
+
+                ctx.fillStyle = "rgba(240,220,30,.8)";
+                ctx.fillRect (100, 100, 100, 100);
+
+                // define the area that we want to get pixel values for
+                var imgData = ctx.getImageData(0, 0, 200, 200);
+                
+
+                // shift everything over 200px to the right
+                ctx.translate(200,0);
+                        
+                for (i=0; i<4; i++) {
+                    for (j=0; j<4; j++) {
+                        var
+                            // get pixel values from the array
+                            r = imgData.data[ ( (i*50+25) + (j*50+25)*imgData.width)*4 + 0 ],
+                            g = imgData.data[ ( (i*50+25) + (j*50+25)*imgData.width)*4 + 1 ],
+                            b = imgData.data[ ( (i*50+25) + (j*50+25)*imgData.width)*4 + 2 ]
+                        ;
+                        
+                        ctx.fillStyle= 'rgb('+r+','+g+','+b+')';
+
+                        // render a circle
+                        ctx.beginPath();
+                            ctx.arc ( (i*50+25), (j*50+25), 25, 0, Math.PI*2, true);
+                            ctx.fill();
+                        ctx.closePath();
+                    }
+                }
+            }   
+        });
+    </script>
+</head>
+<body>
+    <h1>getdata</h1>
+    
+    
+    <canvas id="cnvs" width="400" height="200"></canvas>
+    
+    <p><a href="/articles/close-with-canvas/">See original article.</a></p>
+    
+</body>
+</html>
