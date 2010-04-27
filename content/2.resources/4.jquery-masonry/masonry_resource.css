@@ -230,7 +230,11 @@ pre .comment { color: #888;}
 /**** In the wild examples ****/
 
 
-#content ul#inthewild { margin: 0; padding: 0;}
+#content ul#inthewild { 
+    margin: 0; 
+    padding: 0;
+    width: 920px;
+}
 
 #content #inthewild li {
     width: 300px;

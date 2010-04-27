@@ -47,8 +47,7 @@ content:
         <p><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://desandro.com/files/jquery.masonry.js" class="button">Download jquery.masonry.js</a></p>
         <p><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://desandro.com/files/jquery.masonry.min.js" class="button">Download jquery.masonry.min.js</a></p>
 
-        <p>The entire project including primer, demos and scripts is  <a href="http://github.com/desandro/masonry">available for download on Github.</a></p>
-        <p>Report bugs and request new features at <a href="http://plugins.jquery.com/project/masonry">jQuery Plugins</a></p>
+        <p>The entire project including primer, demos and scripts is  <a href="http://github.com/desandro/masonry">available for download on Github.</a> You can <a href="http://github.com/desandro/masonry/issues">report bugs and request new features</a> there as well.</p>
 
     </div>
 
@@ -211,38 +210,38 @@ content:
 
     <pre><code><span class="keyword">$</span>(<span class="string">'#wrapper'</span>).masonry({
 
-        singleMode: <span class="constant">false</span>,
-        <span class="comment">// Disables measuring the width of each floated element.
-        // Set to true if floated elements have the same width.
-        // default: false</span>
+    singleMode: <span class="constant">false</span>,
+    <span class="comment">// Disables measuring the width of each floated element.
+    // Set to true if floated elements have the same width.
+    // default: false</span>
 
-        columnWidth: <span class="constant">240</span>,
-        <span class="comment">// Width in pixels of 1 column of your grid.
-        // default: outer width of the first floated element.</span>
+    columnWidth: <span class="constant">240</span>,
+    <span class="comment">// Width in pixels of 1 column of your grid.
+    // default: outer width of the first floated element.</span>
 
-        itemSelector: <span class="string">'.box:visible'</span>,
-        <span class="comment">// Additional selector to specify which elements inside
-        // the wrapping element will be rearranged.
-        // Required for Infinite Scroll with window resizing.</span>
+    itemSelector: <span class="string">'.box:visible'</span>,
+    <span class="comment">// Additional selector to specify which elements inside
+    // the wrapping element will be rearranged.
+    // Required for Infinite Scroll with window resizing.</span>
 
-        resizeable: <span class="constant">true</span>,
-        <span class="comment">// Binds a Masonry call to window resizes.
-        // default: true</span>
+    resizeable: <span class="constant">true</span>,
+    <span class="comment">// Binds a Masonry call to window resizes.
+    // default: true</span>
 
-        appendedContent: <span class="keyword">$</span>(<span class="string">'.new_content'</span>),
-        <span class="comment">// Additional container element for appended content.
-        // Useful for Infinite Scroll integration.</span>
+    appendedContent: <span class="keyword">$</span>(<span class="string">'.new_content'</span>),
+    <span class="comment">// Additional container element for appended content.
+    // Useful for Infinite Scroll integration.</span>
 
-        saveOptions: <span class="constant">true</span>,
-        <span class="comment">// Masonry will use the options from previous Masonry
-        // calls by default, so you only have to enter in options once
-        // default: true</span>
+    saveOptions: <span class="constant">true</span>,
+    <span class="comment">// Masonry will use the options from previous Masonry
+    // calls by default, so you only have to enter in options once
+    // default: true</span>
 
-    },  <span class="storage">function</span>() {}
-        <span class="comment">// Optional callback.
-        // 'this' will refer to the applicable elements Masonry just rearranged</span>
+},  <span class="storage">function</span>() {}
+    <span class="comment">// Optional callback.
+    // 'this' will refer to the applicable elements Masonry just rearranged</span>
 
-    );</code></pre>
+);</code></pre>
 
 
             <h2>Handling Images</h2>
@@ -256,42 +255,62 @@ content:
             <p>If this is not possible, another option is to call Masonry after all the images have loaded.  This is done by calling the function inside of <code>$(window).load()</code> instead of <code>$(document).ready()</code>.</p>
 
             <pre><code><span class="keyword">$</span>(<span class="string">'window'</span>).<span class="keyword">load</span>(<span class="storage">function</span>(){
-        <span class="keyword">$</span>(<span class="string">'#wrapper'</span>).masonry({ columnWidth: <span class="constant">200</span> });
-    });</code></pre>
+    <span class="keyword">$</span>(<span class="string">'#wrapper'</span>).masonry({ columnWidth: <span class="constant">200</span> });
+});</code></pre>
 
             <h2>Resolving Anchor Links</h2>
 
             <p>Since Masonry relies on absolute positioning, any anchor links that occur within or after the wrapping element will not work when the page first loads.  The following script is one solution.</p>
 
             <pre><code><span class="keyword">$</span>(<span class="string">'window'</span>).<span class="keyword">load</span>(<span class="storage">function</span>(){
-        <span class="keyword">if</span> ( <span class="keyword">window</span>.<span class="keyword">location</span>.<span class="keyword">hash</span> ) {
-            <span class="storage">var</span> destination = <span class="keyword">$</span>( <span class="keyword">window</span>.<span class="keyword">location</span>.<span class="keyword">hash</span> ).offset().<span class="keyword">top</span>;
-            <span class="keyword">$</span>(<span class="string">'html:not(:animated),body:not(:animated)'</span>).scrollTop( destination );
-        }
-    });</code></pre>
+    <span class="keyword">if</span> ( <span class="keyword">window</span>.<span class="keyword">location</span>.<span class="keyword">hash</span> ) {
+        <span class="storage">var</span> destination = <span class="keyword">$</span>( <span class="keyword">window</span>.<span class="keyword">location</span>.<span class="keyword">hash</span> ).offset().<span class="keyword">top</span>;
+        <span class="keyword">$</span>(<span class="string">'html:not(:animated),body:not(:animated)'</span>).scrollTop( destination );
+    }
+});</code></pre>
 
             <p>This will set the window of the document to the appropriate place.  These couple lines were taken from <a href="http://blog.position-absolute.com/javascript-jquery/the-end-of-the-html-anchor-scroll-the-scroll/">Cedric Dugas’s anchorAnything.</a></p>
 
             <h2>Examples in the Wild</h2>
 
+            
+            
+            <p>In addition to the examples below, see <a href="http://delicious.com/desandro/jquerymasonry">delicious links tagged with jquerymasonry</a> and <a href="http://emberapp.com/desandro/collections/jquery-masonry">jQuery Masonry Collection on Ember for screenshots</a>.</p>
+
             <ul id="inthewild">
-
-
+                <li><a href="http://thomasmatthews.com/index.php/portfolio/print/">
+                    Portfolio - thomas.matthews
+                    <img src="@paththomasmatthews.jpg" alt="Portfolio - thomas.matthews" width="280" height="300" />
+                </a></li>
+                <li><a href="http://bygonebureau.com/">
+                    The Bygone Bureau
+                    <img src="@pathbygone.jpg" alt="The Bygone Bureau" width="280" height="463" />
+                </a></li>
+                <li><a href="http://iamdarrenjohn.com/">
+                    Darren John
+                    <img src="@pathdarrenjohn.jpg" alt="Darren John" width="280" height="771" />
+                </a></li>
+                <li><a href="http://photography.iamkoa.net/">
+                    Photography by Koa Metter
+                    <img src="@pathkoa.jpg" alt="Photography by Koa Metter" width="280" height="347" />
+                </a></li>
+                <li><a href="http://matthewanderson.cc/">
+                    Matthew Anderson
+                    <img src="@pathmatthewanderson.jpg" alt="Matthew Anderson" width="280" height="336" />
+                </a></li>
+                <li><a href="http://scaffold.tumblr.com/">
+                    Scaffold Tumblr Theme
+                    <img src="@pathscaffold.jpg" alt="Scaffold Tumblr Theme" width="280" height="345" />
+                </a></li>
                 <li><a href="http://www.tumblr.com/theme/3531">
                     Astronaut Tumblr Theme  
-                    <img src="@pathpeter_vidani.jpg" alt="Astronaut Tumblr Theme" width="280" height="492" />
-
-                </a></li>
-                <li><a href="http://www.woothemes.com/demo/?t=41">
-                    Mortar 
-                    <img src="@pathmortar.jpg" alt="Mortar"  width="280" height="705" />
+                    <img src="@pathpeter_vidani.jpg" alt="Astronaut Tumblr Theme" width="279" height="492" />
                 </a></li>
                 <li><a href="http://rathersplendid.net/">
                     Rather Splendid    
                     <img src="@pathrather-splendid.jpg" alt="Maxvoltar"  width="280" height="517" />
                 </a></li>
                 <li><a href="http://www.mrbridge.co.nz/fluidadvert.html">
-
                     Andy Bridge    
                     <img src="@pathandy.jpg" alt="Andy Bridge" width="280" height="508" />
                 </a></li>
@@ -299,12 +318,6 @@ content:
                     Chromeography    
                     <img src="@pathchromeography.jpg" alt="Chromeography" width="280" height="523" />
                 </a></li>
-                <li><a href="http://jquerystyle.com">
-                    jQuery Style    
-                    <img src="@pathjquery_style.jpg" alt="jQuery Style" width="280" height="631" />
-
-                </a></li>
-
             </ul>
 
             <h2>Changelog</h2>
