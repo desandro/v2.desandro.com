@@ -36,7 +36,7 @@ content:
         <li><a href="../../demo/masonry/basic.html">Basic Examples</a></li>
         <li><a href="../../demo/masonry/tumblelog.html">Tumblelog Example</a></li>
         <li><a href="../../demo/masonry/infinite-scroll.html">Infinite Scroll Example</a></li>
-        <li><a href="../../demo/masonry/animated.html">Infinite Scroll Example</a></li>
+        <li><a href="../../demo/masonry/animated.html">Animated Example</a></li>
     </ol>
 
     <div class="col6">
