@@ -36,6 +36,7 @@ content:
         <li><a href="../../demo/masonry/basic.html">Basic Examples</a></li>
         <li><a href="../../demo/masonry/tumblelog.html">Tumblelog Example</a></li>
         <li><a href="../../demo/masonry/infinite-scroll.html">Infinite Scroll Example</a></li>
+        <li><a href="../../demo/masonry/animated.html">Infinite Scroll Example</a></li>
     </ol>
 
     <div class="col6">
@@ -228,6 +229,18 @@ content:
     <span class="comment">// Binds a Masonry call to window resizes.
     // default: true</span>
 
+    animate: <span class="constant">true</span>,
+    <span class="comment">// Animates layout rearrangements.
+    // default: false</span>
+
+    duration: <span class="constant">1500</span>,
+    <span class="comment">// If animated, speed of animation.
+    // default: 'normal'</span>
+
+    easing: <span class="string">'linear'</span>,
+    <span class="comment">// If animated, the easing function of the animation.
+    // default: 'swing'</span>
+
     appendedContent: <span class="keyword">$</span>(<span class="string">'.new_content'</span>),
     <span class="comment">// Additional container element for appended content.
     // Useful for Infinite Scroll integration.</span>
@@ -269,7 +282,7 @@ content:
     }
 });</code></pre>
 
-            <p>This will set the window of the document to the appropriate place.  These couple lines were taken from <a href="http://blog.position-absolute.com/javascript-jquery/the-end-of-the-html-anchor-scroll-the-scroll/">Cedric Dugas’s anchorAnything.</a></p>
+            <p>This will set the window of the document to the appropriate place.  These couple lines were taken from <a href="http://www.position-absolute.com/articles/better-html-anchor-a-jquery-script-to-slide-the-scrollbar/">Cedric Dugas’s anchorAnything.</a></p>
 
             <h2>Examples in the Wild</h2>
 
@@ -323,6 +336,9 @@ content:
             <h2>Changelog</h2>
 
             <dl>
+                <dt>v1.1.0: 29 Apr 2010</dt>
+                <dd>Add animation</dd>
+                
                 <dt>v1.0.1: 19 Dec 2009</dt>
                 <dd>Bug fix, checks that container element exists and has children before running the script.</dd>
 
