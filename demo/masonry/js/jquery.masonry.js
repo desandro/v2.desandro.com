@@ -1,10 +1,53 @@
 /*************************************************
-**  jQuery Masonry version 1.0.1
+**  jQuery Masonry version 1.1.0 beta
 **  copyright David DeSandro, licensed GPL & MIT
 **  http://desandro.com/resources/jquery-masonry
 **************************************************/
 ;(function($){  
 
+
+    /*!
+     * smartresize: debounced resize event for jQuery
+     * http://github.com/lrbabe/jquery-smartresize
+     *
+     * Copyright (c) 2009 Louis-Rémi Babé
+     * Licensed under the GPL license.
+     * http://docs.jquery.com/License
+     *
+     */
+    var event = $.event,
+    	resizeTimeout;
+
+    event.special[ "smartresize" ] = {
+    	setup: function() {
+    		$( this ).bind( "resize", event.special.smartresize.handler );
+    	},
+    	teardown: function() {
+    		$( this ).unbind( "resize", event.special.smartresize.handler );
+    	},
+    	handler: function( event, execAsap ) {
+    		// Save the context
+    		var context = this,
+    			args = arguments;
+
+    		// set correct event type
+            event.type = "smartresize";
+
+    		if(resizeTimeout)
+    			clearTimeout(resizeTimeout);
+    		resizeTimeout = setTimeout(function() {
+    			jQuery.event.handle.apply( context, args );
+    		}, execAsap === "execAsap"? 0 : 100);
+    	}
+    }
+
+    $.fn.smartresize = function( fn ) {
+    	return fn ? this.bind( "smartresize", fn ) : this.trigger( "smartresize", ["execAsap"] );
+    };
+
+
+
+    // masonry code begin
     $.fn.masonry = function(options, callback) { 
 
         function placeBrick($brick, setCount, setY, setSpan, props) {
@@ -13,11 +56,18 @@
             for ( i=0; i < setCount; i++ ) {
                 if ( setY[i] < setY[ shortCol ] ) shortCol = i;
             }
+            
+            var position = {
+                left: props.colW * shortCol + props.posLeft,
+                top: setY[ shortCol ]
+            }
 
-            $brick.css({
-                top: setY[ shortCol ],
-                left: props.colW * shortCol + props.posLeft
-            });
+
+            if( props.masoned && props.options.animate ) {
+                $brick.animate( position, props.options.duration, props.options.easing );
+            } else {
+                $brick.css(position);
+            }
 
             for ( i=0; i < setSpan; i++ ) {
                 props.colY[ shortCol + i ] = setY[ shortCol ] + $brick.outerHeight(true) ;
@@ -79,6 +129,9 @@
                     props.colY[i] = props.posTop;
                 }    
             }
+            
+            
+            var aniOpts = opts.animationOptions;
 
             // layout logic
             if ( opts.singleMode ) {
@@ -94,6 +147,7 @@
                     var colSpan = Math.ceil( $brick.outerWidth(true) / props.colW);
                     colSpan = Math.min( colSpan, props.colCount );
 
+                    
                     if ( colSpan == 1 ) {
                         // if brick spans only one column, just like singleMode
                         placeBrick($brick, props.colCount, props.colY, 1, props);
@@ -123,7 +177,14 @@
             for ( i=0; i < props.colCount; i++ ) {
                 props.wallH = Math.max( props.wallH, props.colY[i] );
             }
-            $wall.height( props.wallH - props.posTop );
+            var wallCSS = { height: props.wallH - props.posTop };
+            // $wall.height( props.wallH - props.posTop );
+            if ( props.masoned && opts.animate ) {
+                $wall.animate(wallCSS, opts.duration, opts.easing);
+            } else {
+                $wall.css(wallCSS);
+                
+            }
 
             // provide props.bricks as context for the callback
             callback.call( props.$bricks );
@@ -137,6 +198,7 @@
 
 
         function masonryResize($wall, opts, props) {
+            props.masoned = $wall.data('masonry') != undefined;
             var prevColCount = $wall.data('masonry').colCount;
             masonrySetup($wall, opts, props);
             if ( props.colCount != prevColCount ) masonryArrange($wall, opts, props); 
@@ -156,6 +218,7 @@
             // checks if masonry has been called before on this object
             props.masoned = $wall.data('masonry') != undefined;
         
+    
             var previousOptions = props.masoned ? $wall.data('masonry').options : {};
 
             var opts =  $.extend(
@@ -186,9 +249,9 @@
                 // binding window resizing
                 var resizeOn = previousOptions.resizeable;
                 if ( !resizeOn && opts.resizeable ) {
-                    $(window).bind('resize.masonry', function() { masonryResize($wall, opts, props); } );
+                    $(window).bind('smartresize.masonry', function() { masonryResize($wall, opts, props); } );
                 }
-                if ( resizeOn && !opts.resizeable ) $(window).unbind('resize.masonry');
+                if ( resizeOn && !opts.resizeable ) $(window).unbind('smartresize.masonry');
             } else {
                 // brickParent is empty, do nothing, go back home and eat chips
                 return this;
@@ -206,7 +269,10 @@
             itemSelector: undefined,
             appendedContent: undefined,
             saveOptions: true,
-            resizeable: true
+            resizeable: true,
+            animate: false,
+            duration: 'normal',
+            easing: 'swing'
         },
         colW: undefined,
         colCount: undefined,

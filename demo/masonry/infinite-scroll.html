@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/masonry-example.css" media="screen" charset="utf-8"  />    
 
-    <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.masonry.js"></script>
     <script type="text/javascript" src="js/jquery.infinitescroll.js"></script>
 
@@ -18,10 +18,11 @@
     
     <ol id="nav">
         <li><strong>jQuery Masonry &rsaquo;</strong></li>
-        <li><a href="../../resources/jquery-masonry/">Primer</a></li>
+        <li><a href="/resources/jquery-masonry/">Primer</a></li>
         <li><a href="basic.html">Basic Examples</a></li>
         <li><a href="tumblelog.html">Tumblelog Example</a></li>
         <li class="selected"><a href="infinite-scroll.html">Infinite Scroll Example</a></li>
+        <li><a href="animated.html">Animated Example</a></li>
     </ol>
 
 
@@ -67,7 +68,7 @@
        setTimeout(<span class="storage">function</span>() {
            <span class="keyword">$</span>(<span class="string">'#primary'</span>).masonry({ appendedContent: newStuff });
        }, <span class="constant">1000</span>);
-    }</code></pre>
+    }</code></pre>        
         
     </div> <!-- /.copy -->
 
@@ -329,6 +330,8 @@
                 // call masonry as a callback.
                 function() { $('#primary').masonry({ appendedContent: $(this) }); }
             );
+
+
 
         });
     </script>
