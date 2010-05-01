@@ -1,0 +1,44 @@
+title: BeerCamp at SXSW 2010
+-
+portfolio_piece: yes
+-
+skills: HTML / CSS / Wufoo API
+-
+link_text: Behold sxsw.beercamp.com
+-
+link_url: http://sxsw.beercamp.com
+-
+header_deet:
+The nclud gang was throwing a killer party at SXSW 2010, and we needed a event page to help spread the word. As the conference and this party is about the interactive community, the page was designed just with web designers in mind. I wanted a page that would delight my peers, so I designed the entire site using HTML elements in lieu of images. The response was incredible. This silly little site was mentioned in several panels at the conference, which led to a tremendous turnout at the event.
+-
+canvas_h: 970
+-
+addl_deets:
+<details class="deet1 note-bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        The faux 3D block lettering effect seen here is rendered entirely with text-shadow.
+    </dd>
+</details>
+<details class="deet2 note-bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        Leveraging <a href="http://typekit.com">Typekit</a>, I was able to deliver a rich typographic experience. Working solely with the <a href="http://typekit.com/fonts/576">FF Enzo Web</a> typeface, I mixed weights and styles to give the site a personality that couldn&rsquo;t otherwise be achieved  with standard webfonts.
+    </dd>
+</details>
+<details class="deet3 note-top">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        This illustration &mdash; every window, door, and panel &mdash; is rendered purely with HTML elements, no images involved.
+    </dd>
+</details>
+<details class="deet4 note-bottom">
+    <dt></dt>
+    <dd>
+        <span class="point"></span>
+        To create a dynamic list of the teams participating in the beerpong tournament, I implemented a simple sign-up form with <a href="http://wufoo.com">Wufoo</a>, that pulled in Twitter avatars.
+    </dd>
+</details>

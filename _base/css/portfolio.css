@@ -410,6 +410,15 @@ article details dd a:hover {
 **  Portfolio Pieces
 **************************/
 
+/**** Beercamp SXSW 2010 ****/
+#beercamp-sxsw-2010 .beercamp3 { background: #FFB url(../img/beercamp-bg.png) top center; }
+#beercamp-sxsw-2010 .beercamp2 { background: #FFD; }
+#beercamp-sxsw-2010 header { left: 40px; top: 150px;}
+#beercamp-sxsw-2010 .deet1 { right: 270px; top: 140px; }
+#beercamp-sxsw-2010 .deet2 { right: 170px; top: 350px; }
+#beercamp-sxsw-2010 .deet3 { left: 460px; top: 520px; }
+#beercamp-sxsw-2010 .deet4 { left: 200px; top: 700px; }
+
 /**** Mashable ****/
 #mashable { background: #FFF; }
 #mashable header { right: 100px; top: 30px;}
