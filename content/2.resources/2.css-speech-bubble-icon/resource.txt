@@ -2,6 +2,8 @@ title: CSS Speech Bubble
 -
 resource: yes
 -
+short_url: spchbub
+-
 preview:
 <div class="col8">
     <h2><span class="c">CSS Speech</span> <span class="b">Bubble</span></h2>

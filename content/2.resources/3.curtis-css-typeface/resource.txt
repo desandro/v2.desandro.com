@@ -2,6 +2,8 @@ title: Curtis CSS Typeface
 -
 resource: yes
 -
+short_url: curtis
+-
 preview:
 <figure class="col4">
     <span class="size56">

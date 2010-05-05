@@ -1,5 +1,5 @@
 
-input[type="text"] { font: inherit; width: 100px; font-size: 16px; margin-right: 40px; }
+#content input[type="text"] { font: inherit; width: 100px; font-size: 16px; margin-right: 40px; }
 input[type="button"] { font: inherit; }
 
 #text-and-canvas {
@@ -63,7 +63,7 @@ legend {
   font-weight: bold;
   padding: 0 0.5em;
 }
-label {margin-right: 16px;}
+#content label {margin-right: 16px;}
 
 /* taken from learning jquery.com */
 .ui-resizable-handle { position: absolute; display: none; font-size: 0.1px; }

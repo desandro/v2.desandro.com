@@ -2,6 +2,8 @@ title: Quickie Canvas
 -
 resource: yes
 -
+short_url: qkcnvs
+-
 preview:
 <figure class="col4">
     <span class="circle"></span>

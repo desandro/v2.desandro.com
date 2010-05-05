@@ -6,6 +6,8 @@ iso8601time: 2010-03-04T20:00:00-05:00
 -
 article: yes
 -
+short_url: oplo
+-
 content:
 <h1>@title</h1>
 

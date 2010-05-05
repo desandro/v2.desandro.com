@@ -121,7 +121,7 @@ body.about #site-header ol .about a:hover { color: #58E; }
 }
 
 #site-header ol time {
-    margin: 0 0.8em;
+    margin-left: 0.8em;
     font-weight: 200;
     font-size: 14px;
     line-height: 22px;
@@ -159,6 +159,7 @@ body.about #site-header ol .about a:hover { color: #58E; }
     height: 20px;
     text-align: center;
     margin-top: 1px;
+    margin-left: 0.5em;
     line-height: 20px;
     -webkit-border-radius: 10px;
        -moz-border-radius: 10px;
