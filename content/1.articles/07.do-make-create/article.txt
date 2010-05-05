@@ -6,6 +6,8 @@ iso8601time: 2009-04-02T12:00:00-05:00
 -
 article: yup
 -
+body_class: dark
+-
 content:
 <h1>@title</h1>
 <div id="do-images">

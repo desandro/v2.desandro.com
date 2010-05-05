@@ -23,28 +23,3 @@ body.articles {  background: #432 url(domake12.png) top center no-repeat; }
   background: #432;
   color: #210;  
 }
-
-/**************************
-**  Site Header
-**************************/
-
-#site-header #branding {
-    background: #FFF;
-    color: #222;
-}
-
-#site-header #branding p a {
-    color: #222;
-}
-
-#site-header ol a {
-    color: #FFF;
-}
-body.articles #site-header ol .articles,
-body.articles #site-header ol .articles a { 
-    color: #222; 
-}
-
-.rss a { background: #FFF; border-color: #FFF; }
-.rss a .dot { background: #222; }
-.rss a .ring { border-color: #222; }

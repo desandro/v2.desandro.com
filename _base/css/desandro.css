@@ -211,8 +211,48 @@ body.about #site-header ol .about a:hover { color: #58E; }
 .rss a { background: #222; border-color: #222; }
 
 #site-header .rss a:hover { background: #F90; border-color: #F90; }
-.rss a:hover .dot { background: #FFF; }
-.rss a:hover .ring { border-color: #FFF; }
+#site-header .rss a:hover .dot { background: #FFF; }
+#site-header .rss a:hover .ring { border-color: #FFF; }
+
+/**************************
+**  Dark version of Site Header
+**************************/
+
+body.dark #site-header #branding {
+    background: #FFF;
+    color: #222;
+}
+
+body.dark #site-header #branding p a {
+    color: #222;
+}
+
+body.dark #site-header ol a {
+    color: #FFF;
+}
+body.dark  #site-header ol .articles,
+body.dark  #site-header ol .articles a { 
+    color: #222; 
+}
+
+body.dark .rss a { background: #FFF; border-color: #FFF; }
+body.dark .rss a .dot { background: #222; }
+body.dark .rss a .ring { border-color: #222; }
+
+
+body.dark #site-header .short-url:hover {
+    background: #222;
+    color: #FFF;
+}
+
+body.dark #site-header .short-url details {
+    background: #FFF;
+    color: #444;
+}
+
+body.dark #site-header .short-url input {
+    color: #222;
+}
 
 /**************************
 **  Basic styles

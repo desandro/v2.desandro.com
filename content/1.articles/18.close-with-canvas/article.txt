@@ -6,6 +6,8 @@ iso8601time: 2010-04-13T20:00:00-05:00
 -
 article: yes
 -
+body_class: dark
+-
 content:
 
 <div class="wrap12 tk_proxima_nova">

@@ -6,6 +6,8 @@ iso8601time: 2009-08-13T12:00:00-05:00
 -
 article: yes
 -
+body_class: dark
+-
 content:
 <div class="wrap12">
     <h1>@title</h1>
