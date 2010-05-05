@@ -2,6 +2,8 @@ title: jQuery Masonry
 -
 resource: yes
 -
+short_url: masonry
+-
 preview:
 <div class="col8">
     <h2><span class="j">jQuery</span> <span class="M">Masonry</span></h2>

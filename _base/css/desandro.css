@@ -121,7 +121,7 @@ body.about #site-header ol .about a:hover { color: #58E; }
 }
 
 #site-header ol time {
-    margin-left: 10px;
+    margin: 0 0.8em;
     font-weight: 200;
     font-size: 14px;
     line-height: 22px;
@@ -138,6 +138,128 @@ body.about #site-header ol .about a:hover { color: #58E; }
 }
 
 #site-header .older-newer a { margin-left: 10px; }
+
+/**** Short URL ****/
+
+.short-url {
+    position: relative;
+}
+
+.short-url{
+    -webkit-transition: all 0.2s ease-out;
+       -moz-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+}
+
+#site-header .short-url {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 1px;
+    line-height: 20px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+
+#site-header .short-url:hover {
+    background: #FFF;
+    color: #222;
+}
+
+#site-footer .short-url {
+    top: -30px;
+    color: #EEE;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.short-url details {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 20px;
+    top: 0;
+    height: 22px;
+    background: #222;
+    color: #EEE;
+}
+
+#site-header .short-url:hover { cursor: pointer; }
+
+
+
+.short-url input {
+    background: none;
+    width: 200px;
+    border: none;
+    font-family: inherit;
+    font-style: italic;
+    color: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFF;
+    padding-left: 0.2em;
+}
+
+/* no Webkit bluish outline when focused. Grifted from dribbble's css.  Thanks Dan! */
+.short-url input:focus { outline-width: 0; }
+
+
+#site-header .short-url,
+#site-header .short-url details,
+#site-header .short-url input,
+#site-footer .short-url,
+#site-footer .short-url details,
+#site-footer .short-url input {
+    
+    -webkit-transition: all 0.2s ease-out;
+       -moz-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+
+}
+
+#site-header .short-url details {
+    opacity: 0;
+    width: 0;
+    top: -1px;
+    line-height: 22px;
+    z-index: 100;
+}
+
+#site-header .short-url:hover details {
+    opacity: 1;
+    width: 300px;
+}
+
+#site-footer .short-url,
+#site-footer .short-url details {
+    color: #666;
+}
+
+
+#site-footer .short-url:hover,
+#site-footer .short-url:hover details {
+    color: #EEE;
+}
+
+#site-footer .short-url input {
+    color: #888;
+}
+
+#site-footer .short-url:hover input {
+    color: #FFF;
+}
+
+
 
 /**** RSS Icon ****/
 
@@ -498,16 +620,19 @@ pre {
 #site-footer .where-what .living,
 #site-footer .where-what .working,
 #site-footer .where-what .happy { 
-color: #555;
-	display: block; 
+    color: #555;
 	line-height: 1.05em;
+    text-shadow: 0 0px 1px #222;
+    width: 360px;
+	display: block; 
+	position: relative;
+	left: -30px;
     -webkit-transform-origin: center bottom;
        -moz-transform-origin: center bottom;
          -o-transform-origin: center bottom;
     -webkit-transition: all 0.2s ease-out;
        -moz-transition: all 0.2s ease-out;
          -o-transition: all 0.2s ease-out;
-    text-shadow: 0 0px 1px #222;
 }
 #site-footer .where-what .heisa:hover,
 #site-footer .where-what .designer:hover,

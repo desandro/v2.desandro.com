@@ -4,6 +4,8 @@ date: 3 May 2010
 -
 iso8601time: 2010-05-03T08:00:00-05:00
 -
+short_url: frust
+-
 article: yes
 -
 newest_article: yes

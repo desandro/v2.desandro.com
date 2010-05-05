@@ -6,6 +6,8 @@ iso8601time: 2009-06-26T12:00:00-05:00
 -
 article: yes
 -
+short_url: gmailvit
+-
 html_header:
 <link rel="stylesheet" href="@root_path/_base/css/v1.css" type="text/css" media="screen" />
 -
