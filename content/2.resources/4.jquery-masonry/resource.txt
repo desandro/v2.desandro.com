@@ -47,8 +47,8 @@ content:
     </div>
 
     <div class="col6">
-        <p><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://desandro.com/files/jquery.masonry.js" class="button">Download jquery.masonry.js</a></p>
-        <p><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://desandro.com/files/jquery.masonry.min.js" class="button">Download jquery.masonry.min.js</a></p>
+        <p><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://github.com/desandro/masonry/raw/master/js/jquery.masonry.js&remote" class="button">Download jquery.masonry.js</a></p>
+        <p><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://github.com/desandro/masonry/raw/master/js/jquery.masonry.min.js&remote" class="button">Download jquery.masonry.min.js</a></p>
 
         <p>The entire project including primer, demos and scripts is  <a href="http://github.com/desandro/masonry">available for download on Github.</a> You can <a href="http://github.com/desandro/masonry/issues">report bugs and request new features</a> there as well.</p>
 
