@@ -1,8 +1,11 @@
 body {
-    font-family:  'Lucida Grande', 'Verdana', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 13px;
-    background: #F3F3F3;
-    color: #222;
+    font-family: Georgia;
+    font-size: 14px;
+    background: #222;
+    color: #EEE;
+    background-image: -moz-radial-gradient(center top, circle cover, #363636 0%, #202020 100%);
+    background-image: -webkit-gradient(radial, center top, 0,  center top, 800, from(#363636), to(#202020) ); 
+    background-repeat: no-repeat;
 }
 
 #wrap {
@@ -11,24 +14,16 @@ body {
 }
 
 #dirlist {
-    background: white;
-    padding: 20px;
     margin-bottom: 40px;
-    -webkit-border-radius: 10px;
-       -moz-border-radius: 10px;
-            border-radius: 10px;
-    -webkit-box-shadow: 0 5px 8px hsla(0,0%,0%,.2);
-       -moz-box-shadow: 0 5px 8px hsla(0,0%,0%,.2);
-            box-shadow: 0 5px 8px hsla(0,0%,0%,.2);
 }
 
 a {
     text-decoration:none;
-    color: #26D;
+    color: #EC8;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #E31;
 }
 
 img {
@@ -42,24 +37,28 @@ img {
 .header {
 }
 
-h1#page-title {
-    font-family:  'Helvetica Neue', Arial, sans-serif;
-    font-weight: 100;
-    font-size: 22px;
-    margin-top: 0;
+h1, h2, h3 {
+    font-family: 'Futura Std', Futura, 'Century Gothic', sans-serif;
 }
 
-h1#page-title strong { font-weight: 500;}
+h1#page-title {
+    font-size: 22px;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+h1#page-title strong { 
+    font-weight: 500;
+}
 
 h1#page-title a {
-    color: #222;
+    color: #C31;
     border-bottom: 2px solid transparent;
 }
 
 h1#page-title a:hover {
-    color: #16C;
+    color: #EC3;
     text-decoration: none;
-    border-color: #16C;
 }
 
 .readme {
@@ -82,21 +81,28 @@ td,th {
     padding: 3px 10px 3px 0;
 }
 
+td {
+    border-top: 1px dotted #444;
+}
+
 td a {
 }
 
 td a:hover {
-    color: #222;
 }
 
 
 th {
-    border-bottom: 1px solid #e0e0e0;
     text-align: right;
+    font-family: Futura;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.1em;
 }
 
 th a {
-    color: #333333;
+    color: #666;
 }
 
 /* Name column header */
@@ -108,23 +114,22 @@ th:nth-child(2) {
 /* directory links */
 td a[href*="/"] {
     font-weight: bold;
-    color: #333;
+    color: #EEE;
     padding-right: 22px;
 
 }
 td a[href*="/"]:hover {
-    color: #16C;
-    background: url(/demo/windex/icons/pointer-small.png) right center no-repeat;;
+    color: #C31;
 }
 
 /* Parent Directory link  */
 td a[href^="/"] {
-    color: #16C;
+    color: #EC8;
     font-weight: normal;
 }
 td a[href^="/"],
-td a[href^="/"]:hover { background: url(/demo/windex/icons/up-arrow.png) right center no-repeat; }
-td a[href^="/"]:hover { color: #222;}
+td a[href^="/"]:hover { background: url(/windex/icons/up-arrow.png) right center no-repeat; }
+td a[href^="/"]:hover { color: #C31;}
 
 /* all cells in ICON column */
 tr td:nth-child(1) {
@@ -147,7 +152,9 @@ tr td:nth-child(3),
 tr td:nth-child(4) {
     text-align: right;
     padding-left: 10px;
-    font-size: 11px;
+    font-size: 12px;
+    color: #BBB;
+    letter-spacing: 0.05em;
 }
 
 /* Hide Description column*/
@@ -162,6 +169,7 @@ img[src^="/icons"] {
 
 #readme {
     line-height: 1.45em;
+    font-size: 14px;
 }
 
 h2.readme-title {
@@ -169,12 +177,12 @@ h2.readme-title {
     padding-bottom: 0.4em;
     border-bottom: 1px solid #DDD;
 }
-h2.readme-title a { color: #222; }
-h2.readme-title a:hover { color: #26D; }
+h2.readme-title a { color: #888; }
+h2.readme-title a:hover { color: #E31; }
 
 #readme pre {
-    border: 1px solid #CCC;
+    border: 1px solid #333;
     padding: 10px;
     overflow-x: scroll;
-    background: #FFF;
+    background: #1D1D1D;
 }
