@@ -722,3 +722,12 @@ pre {
     left: -3px;
     text-shadow: 1px 1px #D47, 2px 2px #D47, 3px 3px #D47, 4px 4px #D47, 5px 5px #D47, 6px 6px #D47;
 }
+
+/**************************
+**  Web Fonts
+**************************/
+
+.tk_proxima_nova { visibility: hidden; }
+.no-js .tk_proxima_nova { visibility: visible; }
+.js.wf-active .tk_proxima_nova { visibility: visible;  }
+.js.wf-inactive .tk_proxima_nova { visibility: visible;  }
