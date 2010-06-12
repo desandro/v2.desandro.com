@@ -4,7 +4,12 @@
 :masonry_js
 <script>
     $(function(){
-        $('#content .articles').masonry({singleMode: true})
+        $articlesWrap = $('#content .articles');
+        $articlesWrap.masonry({singleMode: true}, function(){
+            if ( !$articlesWrap.hasClass('masoned') ) {
+                $articlesWrap.addClass('masoned');
+            }
+        });
     });
 </script>
 

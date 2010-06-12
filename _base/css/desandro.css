@@ -220,7 +220,6 @@ body.about #site-header ol .about a:hover { color: #58E; }
 #site-footer .short-url,
 #site-footer .short-url details,
 #site-footer .short-url input {
-    
     -webkit-transition: all 0.2s ease-out;
        -moz-transition: all 0.2s ease-out;
          -o-transition: all 0.2s ease-out;
@@ -466,6 +465,14 @@ pre {
     margin-bottom: 40px;
 }
 
+#content.article-list .masoned article {
+    -webkit-transition: all 0.35s ease-out;
+       -moz-transition: all 0.35s ease-out;
+         -o-transition: all 0.35s ease-out;
+            transition: all 0.35s ease-out;
+    
+}
+
 #content.article-list article a {
     display: block;
     position: relative;
@@ -476,6 +483,7 @@ pre {
     -webkit-transition: all 0.12s ease-out;
        -moz-transition: all 0.12s ease-out;
          -o-transition: all 0.12s ease-out;
+            transition: all 0.12s ease-out;
 }
 
 #content.article-list article a:hover {
@@ -485,6 +493,7 @@ pre {
     -webkit-transform: scale(1.1);
        -moz-transform: scale(1.1);
          -o-transform: scale(1.1);
+            transform: scale(1.1);
     -webkit-box-shadow: 0 3px 6px hsla(0,0%,0%,0.2);
        -moz-box-shadow: 0 3px 6px hsla(0,0%,0%,0.2);
             box-shadow: 0 3px 6px hsla(0,0%,0%,0.2);
@@ -532,6 +541,7 @@ pre {
     -webkit-transition: all 0.12s ease-out;
        -moz-transition: all 0.12s ease-out;
          -o-transition: all 0.12s ease-out;
+            transition: all 0.12s ease-out;
 }
 
 #site-footer .made-this a {
@@ -545,6 +555,7 @@ pre {
     -webkit-transition: all 0.12s ease-out;
        -moz-transition: all 0.12s ease-out;
          -o-transition: all 0.12s ease-out;
+            transition: all 0.12s ease-out;
 }
 #site-footer .made-this a strong { font-weight: 800;}
 
@@ -558,6 +569,7 @@ pre {
     -webkit-transition: all 0.12s ease-out;
        -moz-transition: all 0.12s ease-out;
          -o-transition: all 0.12s ease-out;
+            transition: all 0.12s ease-out;
     
 }
 
@@ -604,6 +616,7 @@ pre {
     -webkit-transition: all 0.12s ease-out;
        -moz-transition: all 0.12s ease-out;
          -o-transition: all 0.12s ease-out;
+            transition: all 0.12s ease-out;
 }
 
 
@@ -631,9 +644,11 @@ pre {
     -webkit-transform-origin: center bottom;
        -moz-transform-origin: center bottom;
          -o-transform-origin: center bottom;
+            transform-origin: center bottom;
     -webkit-transition: all 0.2s ease-out;
        -moz-transition: all 0.2s ease-out;
          -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
 }
 #site-footer .where-what .heisa:hover,
 #site-footer .where-what .designer:hover,
@@ -645,6 +660,7 @@ pre {
     -webkit-transform: scale(1.25);
        -moz-transform: scale(1.25);
          -o-transform: scale(1.25);
+            transform: scale(1.25);
 }
 #site-footer .where-what span:hover a { color: #E58; }
 
@@ -659,6 +675,7 @@ pre {
     -webkit-transform: scale(1.4);
        -moz-transform: scale(1.4);
          -o-transform: scale(1.4);
+            transform: scale(1.4);
 
 }
 
@@ -697,6 +714,7 @@ pre {
     -webkit-transition: all 0.12s ease-out;
        -moz-transition: all 0.12s ease-out;
          -o-transition: all 0.12s ease-out;
+            transition: all 0.12s ease-out;
 }
 .also-made a:hover {
     color: #FFF;
