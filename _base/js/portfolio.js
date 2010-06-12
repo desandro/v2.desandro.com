@@ -5,67 +5,81 @@ $(function(){
 	    window.console && console.log.call(console,arguments);
 	}
 
+    function drawBeziers() {
+        $('article').each(function(){
+            var $canvas = $(this).find('canvas');
+    		if ( $canvas.length != 0 ) {
+        
+                debug( $(this).attr('id') );
+    	        var $header = $(this).find('.copy header');
+        
+    	        var points = [];
+        
+    	        $(this).find('.copy details').each(function(i){
+    	            points[i] = {
+    	                x: ($(this).offset().left - $canvas.offset().left) + $(this).outerWidth(false)/2,
+    	                y: ($(this).offset().top - $canvas.offset().top)  + $(this).outerHeight(false)/2
+    	            };
+    	        });
 
-    $('article').each(function(){
-        var $canvas = $(this).find('canvas');
-		if ( $canvas.length != 0 ) {
         
-            debug( $(this).attr('id') );
-	        var $header = $(this).find('.copy header');
-        
-	        var points = [];
-        
-	        $(this).find('.copy details').each(function(i){
-	            points[i] = {
-	                x: ($(this).offset().left - $canvas.offset().left) + $(this).outerWidth(false)/2,
-	                y: ($(this).offset().top - $canvas.offset().top)  + $(this).outerHeight(false)/2
-	            };
-	        });
+    	        var canvas = $canvas[0];
+    			if (canvas.getContext) {
+    				var ctx = canvas.getContext("2d");
 
-        
-	        var canvas = $canvas[0];
-			if (canvas.getContext) {
-				var ctx = canvas.getContext("2d");
-
-				// begin canvas code
+    				// begin canvas code
 			
-				function deetLine() {
-	    			ctx.beginPath();
+    				function deetLine() {
+    	    			ctx.beginPath();
 
-	    			    ctx.moveTo(points[0].x, points[0].y);
+    	    			    ctx.moveTo(points[0].x, points[0].y);
 
-	    			    for (var i=1; i < points.length; i++) {
-	    			        var p1, cp1, p2, cp2, handleD;
+    	    			    for (var i=1; i < points.length; i++) {
+    	    			        var p1, cp1, p2, cp2, handleD;
 
-	                        p1 = points[i-1];
-	                        p2 = points[i];
+    	                        p1 = points[i-1];
+    	                        p2 = points[i];
 
-	                        handleD = Math.sqrt( Math.pow(p2.x-p1.x ,2 ) + Math.pow(p2.y-p1.y ,2 ) ) * .35;
-	                        handleD = parseInt(handleD);
+    	                        handleD = Math.sqrt( Math.pow(p2.x-p1.x ,2 ) + Math.pow(p2.y-p1.y ,2 ) ) * .35;
+    	                        handleD = parseInt(handleD);
 
-	                        cp1 = {
-	                            x: p1.x,
-	                            y: p1.y + handleD
-	                        }
-	                        cp2 = {
-	                            x: p2.x,
-	                            y: p2.y - handleD
-	                        }
+    	                        cp1 = {
+    	                            x: p1.x,
+    	                            y: p1.y + handleD
+    	                        }
+    	                        cp2 = {
+    	                            x: p2.x,
+    	                            y: p2.y - handleD
+    	                        }
 
-	                        ctx.bezierCurveTo(cp1.x, cp1.y, cp2.x, cp2.y, p2.x, p2.y);
-	    			    };
+    	                        ctx.bezierCurveTo(cp1.x, cp1.y, cp2.x, cp2.y, p2.x, p2.y);
+    	    			    };
 
-	    			    ctx.stroke();
-	    			ctx.closePath();			    
-				}
+    	    			    ctx.stroke();
+    	    			ctx.closePath();			    
+    				}
 
-	            ctx.strokeStyle = '#222';
-				ctx.lineWidth = 2;
-				deetLine();
+    	            ctx.strokeStyle = '#222';
+    				ctx.lineWidth = 2;
+    				deetLine();
 			
-	        } // close (canvas.getContext)
-		} // close if ( $(this).find('.copy details').length > 0 )
+    	        } // close (canvas.getContext)
+    		} // close if ( $(this).find('.copy details').length > 0 )
         
+        });
+    };
+    
+    // draw Bezier curves when Typekit has loaded fonts
+    Typekit.load({
+      active: function() {
+        // fonts have loaded!
+        drawBeziers();
+      },
+      inactive: function() {
+        // this browser doesn't support fonts
+        drawBeziers();
+      }
+
     });
 
     function getCurrentI(maxCount, items) {
@@ -80,7 +94,7 @@ $(function(){
             }
         }
         return currentI;        
-    }
+    };
 
     // Repurposed Anchor Anything script from Cedric Dugas 
     // http://www.position-absolute.com/articles/better-html-anchor-a-jquery-script-to-slide-the-scrollbar/
@@ -88,7 +102,7 @@ $(function(){
         $("html:not(:animated),body:not(:animated)").animate({ scrollTop: y}, 1200, 'easeInOutQuart', function(){
             if (article ) { window.location.hash = article.attr('id'); }
         });
-    }
+    };
    
     var 
         articleY = [],
@@ -145,7 +159,7 @@ $(function(){
         ;
         if ( target.index() != firstImage.index() ) { article = undefined; }
         scrollTo(y, article);
-    }
+    };
 
     // prev & next buttons
     $('#port-nav .previous a').click(function(){
