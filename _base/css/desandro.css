@@ -348,6 +348,7 @@ body.dark #site-header #branding {
 body.dark #site-header #branding p a {
     color: #222;
 }
+body.dark #site-header #branding p a:hover { color: #E58; }
 
 body.dark #site-header ol a {
     color: #FFF;
