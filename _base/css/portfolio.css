@@ -25,6 +25,7 @@ article {
     -webkit-transition: all .12s ease-out;
        -moz-transition: all .12s ease-out;
          -o-transition: all .12s ease-out;
+            transition: all .12s ease-out;
 }
 #port-nav:hover {
     background: hsla(0,0%,100%,.6);
@@ -39,6 +40,7 @@ article {
     -webkit-transition: all .12s ease-out;
        -moz-transition: all .12s ease-out;
          -o-transition: all .12s ease-out;
+            transition: all .12s ease-out;
 }
 #port-nav:hover li { opacity: 1.0; }
 #port-nav li a { display: block; }
@@ -103,6 +105,7 @@ article {
     -webkit-transition: all 0.2s ease-out;
        -moz-transition: all 0.2s ease-out;
          -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
 }
 
 #port-nav .nav-article a:hover { background: none;}
@@ -112,6 +115,7 @@ article {
     -webkit-transform: rotate(180deg);
        -moz-transform: rotate(180deg);
          -o-transform: rotate(180deg);
+            transform: rotate(180deg);
 }
 
 #port-nav .nav-article.current a .dot {
@@ -258,6 +262,7 @@ article .visit a {
     -webkit-transition: all 0.2s ease-out;
        -moz-transition: all 0.2s ease-out;
          -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
 }
 
 article .visit a span {
@@ -273,6 +278,7 @@ article .visit a .arrow-bar {
     -webkit-transition: all 0.2s ease-out;
        -moz-transition: all 0.2s ease-out;
          -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
 }
 article .visit a .arrow-point {
     border: 6px solid;
@@ -283,6 +289,7 @@ article .visit a .arrow-point {
     -webkit-transition: all 0.2s ease-out;
        -moz-transition: all 0.2s ease-out;
          -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
 }
 
 article .visit a:hover { 
@@ -316,9 +323,11 @@ article details dt {
             border-radius: 8px;
     -webkit-box-shadow: 0 2px 5px hsla(0,0%,0%,.4);
        -moz-box-shadow: 0 2px 5px hsla(0,0%,0%,.4);
-/*    -webkit-transition: all .2s ease-out;*/
-    -moz-transition: all .2s ease-out;
-      -o-transition: all .2s ease-out;
+            box-shadow: 0 2px 5px hsla(0,0%,0%,.4);
+/*    -webkit-transition: all .2s ease-out;*/ 
+       -moz-transition: all .2s ease-out;
+         -o-transition: all .2s ease-out;
+            transition: all .2s ease-out;
 }
 article header details dt {
     width: 14px;
@@ -352,6 +361,7 @@ article details dd {
     -webkit-transition: all .2s ease-out;
        -moz-transition: all .2s ease-out;
          -o-transition: all .2s ease-out;
+            transition: all .2s ease-out;
     
 }
 article header details dd { left: -144px; }
