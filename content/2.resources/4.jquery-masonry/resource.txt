@@ -213,43 +213,47 @@ content:
             <ul id="inthewild">
                 <li><a href="http://thomasmatthews.com/index.php/portfolio/print/">
                     Portfolio - thomas.matthews
-                    <img src="@paththomasmatthews.jpg" alt="Portfolio - thomas.matthews" width="280" height="300" />
+                    <img src="@pathimg/thomasmatthews.jpg" alt="Portfolio - thomas.matthews" width="280" height="300" />
                 </a></li>
                 <li><a href="http://bygonebureau.com/">
                     The Bygone Bureau
-                    <img src="@pathbygone.jpg" alt="The Bygone Bureau" width="280" height="463" />
+                    <img src="@pathimg/bygone.jpg" alt="The Bygone Bureau" width="280" height="463" />
                 </a></li>
                 <li><a href="http://iamdarrenjohn.com/">
                     Darren John
-                    <img src="@pathdarrenjohn.jpg" alt="Darren John" width="280" height="771" />
+                    <img src="@pathimg/darrenjohn.jpg" alt="Darren John" width="280" height="771" />
+                </a></li>
+                <li><a href="http://www.puma.com/running/media">
+                    PUMA Running Media
+                    <img src="@pathimg/puma-running.jpg" alt="PUMA Running Media" width="280" height="496" />
                 </a></li>
                 <li><a href="http://photography.iamkoa.net/">
                     Photography by Koa Metter
-                    <img src="@pathkoa.jpg" alt="Photography by Koa Metter" width="280" height="347" />
+                    <img src="@pathimg/koa.jpg" alt="Photography by Koa Metter" width="280" height="347" />
+                </a></li>
+                <li><a href="http://thoughtandtheory.com/collection/">
+                    Thought &amp; Theory: Collection
+                    <img src="@pathimg/thought-theory.jpg" alt="Thought &amp; Theory: Collection" width="280" height="581" />
+                </a></li>
+                <li><a href="http://veerle.duoh.com/inspiration">
+                    The Inspiration Stream | Veerle's blog 3.0
+                    <img src="@pathimg/veerle-inspir.jpg" alt="The Inspiration Stream | Veerle's blog 3.0" width="280" height="496" />
                 </a></li>
                 <li><a href="http://matthewanderson.cc/">
                     Matthew Anderson
-                    <img src="@pathmatthewanderson.jpg" alt="Matthew Anderson" width="280" height="336" />
+                    <img src="@pathimg/matthewanderson.jpg" alt="Matthew Anderson" width="280" height="336" />
                 </a></li>
                 <li><a href="http://scaffold.tumblr.com/">
                     Scaffold Tumblr Theme
-                    <img src="@pathscaffold.jpg" alt="Scaffold Tumblr Theme" width="280" height="345" />
-                </a></li>
-                <li><a href="http://www.tumblr.com/theme/3531">
-                    Astronaut Tumblr Theme  
-                    <img src="@pathpeter_vidani.jpg" alt="Astronaut Tumblr Theme" width="279" height="492" />
+                    <img src="@pathimg/scaffold.jpg" alt="Scaffold Tumblr Theme" width="280" height="345" />
                 </a></li>
                 <li><a href="http://rathersplendid.net/">
                     Rather Splendid    
-                    <img src="@pathrather-splendid.jpg" alt="Maxvoltar"  width="280" height="517" />
-                </a></li>
-                <li><a href="http://www.mrbridge.co.nz/fluidadvert.html">
-                    Andy Bridge    
-                    <img src="@pathandy.jpg" alt="Andy Bridge" width="280" height="508" />
+                    <img src="@pathimg/rather-splendid.jpg" alt="Maxvoltar"  width="280" height="517" />
                 </a></li>
                 <li><a href="http://chromeography.com">
                     Chromeography    
-                    <img src="@pathchromeography.jpg" alt="Chromeography" width="280" height="523" />
+                    <img src="@pathimg/chromeography.jpg" alt="Chromeography" width="280" height="523" />
                 </a></li>
             </ul>
 
