@@ -217,7 +217,7 @@ content:
                 </a></li>
                 <li><a href="http://bygonebureau.com/">
                     The Bygone Bureau
-                    <img src="@pathimg/bygone.jpg" alt="The Bygone Bureau" width="280" height="463" />
+                    <img src="@pathimg/bygone-bureau.jpg" alt="The Bygone Bureau" width="280" height="451" />
                 </a></li>
                 <li><a href="http://iamdarrenjohn.com/">
                     Darren John
