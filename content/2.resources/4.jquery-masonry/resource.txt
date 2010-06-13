@@ -34,23 +34,30 @@ content:
 <div class="wrap12">
     <h1 class="col12">jQuery Masonry</h1>
     <ol id="msnry_nav" class="col12">
-        <li class="selected"><span>Primer</span></li>
+        <li><strong>Documentation &rsaquo;</strong></li>
+        <li><a href="../../demo/masonry">Primer</a></li>
         <li><a href="../../demo/masonry/basic.html">Basic Examples</a></li>
-        <li><a href="../../demo/masonry/tumblelog.html">Tumblelog Example</a></li>
-        <li><a href="../../demo/masonry/infinite-scroll.html">Infinite Scroll Example</a></li>
-        <li><a href="../../demo/masonry/animated.html">Animated Example</a></li>
+        <li><a href="../../demo/masonry/tumblelog.html">Tumblelog</a></li>
+        <li><a href="../../demo/masonry/infinite-scroll.html">Infinite Scroll</a></li>
+        <li><a href="../../demo/masonry/animated.html">Animated</a></li>
+        <li><a href="../../demo/masonry/filtering.html">Filtering</a></li>
     </ol>
 
     <div class="col6">
         <p>Masonry is a layout plugin for jQuery. Think of it as the flip side of CSS floats. Whereas floating arranges elements horizontally then vertically, Masonry arranges elements vertically then horizontally according to a grid. The result minimizes vertical gaps between elements of varying height, just like a mason fitting stones in a wall.</p>
-
+        
+        <p><a href="../../demo/masonry" class="button">View Demos and Docs</a></p>
     </div>
+    
+        
 
     <div class="col6">
         <p><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://github.com/desandro/masonry/raw/master/js/jquery.masonry.js&remote" class="button">Download jquery.masonry.js</a></p>
         <p><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://github.com/desandro/masonry/raw/master/js/jquery.masonry.min.js&remote" class="button">Download jquery.masonry.min.js</a></p>
 
-        <p>The entire project including primer, demos and scripts is  <a href="http://github.com/desandro/masonry">available for download on Github.</a> You can <a href="http://github.com/desandro/masonry/issues">report bugs and request new features</a> there as well.</p>
+        <p>This project lives on GitHub at <a href="http://github.com/desandro/masonry">github.com/desandro/masonry</a>, where you can follow progress and download all these demos and documentation, and grab the latest version of the script.</p>
+        
+        <p>There you can find an <a href="http://github.com/desandro/masonry/issues">issue tracker</a> where you can look through other people's <a href="http://github.com/desandro/masonry/issues/closed">resolved issues</a> or submit a new one for yourself. If you're still having trouble, try <a href="http://wiki.github.com/desandro/masonry/">looking over the FAQ</a>.</p>
 
     </div>
 
@@ -196,95 +203,6 @@ content:
 
     	<div class="copy">
 
-            <h2>Minimum recommended configuration</h2>
-
-            <p>Configuring Masonry is fairly easy. Simply attach the <code>.masonry()</code> method to the wrapping container element in your jQuery script. Depending on the layout, you&rsquo;ll most likely need to specify one option.</p>
-
-            <p>For layouts with elements that span multiple widths:</p>
-
-            <pre><code><span class="keyword">$</span>(<span class="string">'#wrapper'</span>).masonry({ columnWidth: <span class="constant">200</span> });</code></pre>
-
-            <p>For layouts with elements that span the same width:</p>
-
-            <pre><code><span class="keyword">$</span>(<span class="string">'#wrapper'</span>).masonry({ singleMode: <span class="constant">true</span> });</code></pre>
-
-
-            <h2>All options</h2>
-
-    <pre><code><span class="keyword">$</span>(<span class="string">'#wrapper'</span>).masonry({
-
-    singleMode: <span class="constant">false</span>,
-    <span class="comment">// Disables measuring the width of each floated element.
-    // Set to true if floated elements have the same width.
-    // default: false</span>
-
-    columnWidth: <span class="constant">240</span>,
-    <span class="comment">// Width in pixels of 1 column of your grid.
-    // default: outer width of the first floated element.</span>
-
-    itemSelector: <span class="string">'.box:visible'</span>,
-    <span class="comment">// Additional selector to specify which elements inside
-    // the wrapping element will be rearranged.
-    // Required for Infinite Scroll with window resizing.</span>
-
-    resizeable: <span class="constant">true</span>,
-    <span class="comment">// Binds a Masonry call to window resizes.
-    // default: true</span>
-
-    animate: <span class="constant">true</span>,
-    <span class="comment">// Animates layout rearrangements.
-    // default: false</span>
-
-    duration: <span class="constant">1500</span>,
-    <span class="comment">// If animated, speed of animation.
-    // default: 'normal'</span>
-
-    easing: <span class="string">'linear'</span>,
-    <span class="comment">// If animated, the easing function of the animation.
-    // default: 'swing'</span>
-
-    appendedContent: <span class="keyword">$</span>(<span class="string">'.new_content'</span>),
-    <span class="comment">// Additional container element for appended content.
-    // Useful for Infinite Scroll integration.</span>
-
-    saveOptions: <span class="constant">true</span>,
-    <span class="comment">// Masonry will use the options from previous Masonry
-    // calls by default, so you only have to enter in options once
-    // default: true</span>
-
-},  <span class="storage">function</span>() {}
-    <span class="comment">// Optional callback.
-    // 'this' will refer to the applicable elements Masonry just rearranged</span>
-
-);</code></pre>
-
-
-            <h2>Handling Images</h2>
-
-            <p>Since Masonry measures the height of the elements when placing them, you will need to account for images that haven't loaded.  The best method is to specify the width and height of images inline.</p>
-
-            <pre><code><span class="storage">&lt;img src=<span class="string">"img_file.jpg"</span> <span class="string">width="280"</span> <span class="string">height="160"</span> /&gt;</span></code></pre>
-
-            <p>If you&rsquo;re using a PHP-based CMS, you can use the <a href="http://php.net/manual/en/function.getimagesize.php">getimagesize</a> function.</p>
-
-            <p>If this is not possible, another option is to call Masonry after all the images have loaded.  This is done by calling the function inside of <code>$(window).load()</code> instead of <code>$(document).ready()</code>.</p>
-
-            <pre><code><span class="keyword">$</span>(<span class="string">'window'</span>).<span class="keyword">load</span>(<span class="storage">function</span>(){
-    <span class="keyword">$</span>(<span class="string">'#wrapper'</span>).masonry({ columnWidth: <span class="constant">200</span> });
-});</code></pre>
-
-            <h2>Resolving Anchor Links</h2>
-
-            <p>Since Masonry relies on absolute positioning, any anchor links that occur within or after the wrapping element will not work when the page first loads.  The following script is one solution.</p>
-
-            <pre><code><span class="keyword">$</span>(<span class="string">'window'</span>).<span class="keyword">load</span>(<span class="storage">function</span>(){
-    <span class="keyword">if</span> ( <span class="keyword">window</span>.<span class="keyword">location</span>.<span class="keyword">hash</span> ) {
-        <span class="storage">var</span> destination = <span class="keyword">$</span>( <span class="keyword">window</span>.<span class="keyword">location</span>.<span class="keyword">hash</span> ).offset().<span class="keyword">top</span>;
-        <span class="keyword">$</span>(<span class="string">'html:not(:animated),body:not(:animated)'</span>).scrollTop( destination );
-    }
-});</code></pre>
-
-            <p>This will set the window of the document to the appropriate place.  These couple lines were taken from <a href="http://www.position-absolute.com/articles/better-html-anchor-a-jquery-script-to-slide-the-scrollbar/">Cedric Dugas’s anchorAnything.</a></p>
 
             <h2>Examples in the Wild</h2>
 
@@ -334,29 +252,6 @@ content:
                     <img src="@pathchromeography.jpg" alt="Chromeography" width="280" height="523" />
                 </a></li>
             </ul>
-
-            <h2>Changelog</h2>
-
-            <dl>
-                <dt>v1.1.0: 29 Apr 2010</dt>
-                <dd>Add animation</dd>
-                
-                <dt>v1.0.1: 19 Dec 2009</dt>
-                <dd>Bug fix, checks that container element exists and has children before running the script.</dd>
-
-                <dt>v1.0: 6 Dec 2009</dt>
-                <dd>Multi-column width support</dd>
-                <dd>Appending elements and Infinite Scroll support</dd>
-                <dd>Less obstrusive layout. No inserting additional markup.</dd>
-                <dd>Automatically binds event to window resizing</dd>
-
-                <dt>v0.4: 14 Jun 2009</dt>
-                <dd>Proper fluid resizing support</dd>
-
-                <dt>v0.1: Feb 2009</dt>
-                <dd>Original release</dd>
-
-            </dl>
 
             <h2>License</h2>
 
