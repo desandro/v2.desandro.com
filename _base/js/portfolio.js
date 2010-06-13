@@ -98,10 +98,16 @@ $(function(){
 
     // Repurposed Anchor Anything script from Cedric Dugas 
     // http://www.position-absolute.com/articles/better-html-anchor-a-jquery-script-to-slide-the-scrollbar/
+    // revised with the help of Sam Gentle
     function scrollTo(y, article) {
-        $("html:not(:animated),body:not(:animated)").animate({ scrollTop: y}, 1200, 'easeInOutQuart', function(){
-            if (article ) { window.location.hash = article.attr('id'); }
-        });
+       $("html,body").animate({scrollTop: y}, {
+           duration: 1200,
+           easing: 'easeInOutQuart',
+           queue: false,
+           complete: function(){
+               if (article) window.location.hash = article.attr('id');
+           }
+       });
     };
    
     var 
