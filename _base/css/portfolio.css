@@ -46,40 +46,41 @@ article {
 #port-nav li a { display: block; }
 #port-nav li span { display: block; position: absolute;}
 
-/*#port-nav .updown {overflow: hidden;}*/
-
-#port-nav .updown a {  width: 100%; height: 100%; background: #FFF; }
+#port-nav .updown a { 
+    width: 100%; 
+    height: 100%; 
+    background: #FFF; 
+}
 
 #port-nav .updown .text { text-indent: -9999px; }
 
-#port-nav .updown .pos { border: 11px solid; border-color: #222 #FFF; }
-#port-nav .updown.previous .pos {  top: 5px; border-top-width: 0; }
-#port-nav .updown.next .pos { bottom: 5px; border-bottom-width: 0; }
-
 #port-nav .updown a:hover  { background: #222; }
-#port-nav .updown a:hover .pos { border-color: #FFF #222; }
-#port-nav .updown a:hover .neg.outside { border-color: transparent #222; }
-#port-nav .updown a:hover .neg.inside { border-color: #222 transparent; }
+#port-nav .updown a:hover .arrow { border-color: #FFF; }
 
-
-#port-nav .updown .neg.outside {
-    border: 11px solid;
-    border-color: #222 #FFF ;
-    border-color: transparent #FFF;
-    left: 0;
-}
-#port-nav .updown.previous .neg.outside { bottom: 0px; border-bottom-width: 0; }
-#port-nav .updown.next .neg.outside { top: 0px; border-top-width: 0; }
-
-#port-nav .updown .neg.inside {
-    border: 8px solid;
-    border-color: #FFF #222;
-    border-color: #FFF transparent;
+#port-nav .updown .arrow {
+    width: 9px;
+    height: 9px;
+    border-style: solid;
+    border-color: #222;
+    top: 3px;
     left: 3px;
 }
 
-#port-nav .updown.previous .neg.inside { bottom: 3px; border-top-width: 0; }
-#port-nav .updown.next .neg.inside { top: 3px; border-bottom-width: 0; }
+#port-nav .updown.previous .arrow {
+    border-width: 4px 4px 0 0;
+    -webkit-transform: rotate(-45deg) translate(-1px, 3px); 
+       -moz-transform: rotate(-45deg) translate(-1px, 3px); 
+         -o-transform: rotate(-45deg) translate(-1px, 3px); 
+            transform: rotate(-45deg) translate(-1px, 3px); 
+}
+
+#port-nav .updown.next .arrow {
+    border-width: 0 0 4px 4px;
+    -webkit-transform: rotate(-45deg) translate(2px, 0px); 
+       -moz-transform: rotate(-45deg) translate(2px, 0px); 
+         -o-transform: rotate(-45deg) translate(2px, 0px); 
+            transform: rotate(-45deg) translate(2px, 0px); 
+}
 
 
 #port-nav .nav-article {
