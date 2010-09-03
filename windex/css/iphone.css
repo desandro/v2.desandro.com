@@ -1,10 +1,12 @@
+html {
+  -webkit-text-size-adjust: none;
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
-    -webkit-text-size-adjust: none;
     margin: 0; padding: 0;
 }
-
 table{
     border-collapse:collapse;
     border-spacing:0;
@@ -50,8 +52,31 @@ td a:hover {
 }
 
 /* directory links*/
-td a[href*="/"] { background: url(/windex/icons/pointer-gray.png) right center no-repeat; }
-td a[href*="/"]:hover { background-image: url(/windex/icons/pointer-white.png); }
+td a[href*="/"] { 
+    position: relative;
+}
+
+/* Pointer arrow */
+td a[href*="/"]:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-style: solid;
+    border-color: #7F7F7F;
+    border-width: 0 3px 3px 0;
+    top: 16px;
+    right: 13px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+td a[href*="/"]:hover:after {
+    border-color: #FFF;
+}
 
 
 tr td:first-child,
@@ -126,10 +151,10 @@ td a[href^="/"] {
     border-color: #727D85;
     margin-top: 7px;
     margin-right: 0;
+    text-shadow: 0 -1px hsla(0,0%,0%,.4);
     -webkit-box-shadow: 0 1px hsla(0,0%,100%,.3);
        -moz-box-shadow: 0 1px hsla(0,0%,100%,.3);
             box-shadow: 0 1px hsla(0,0%,100%,.3);
-    text-shadow: 0 -1px hsla(0,0%,0%,.4);
 }
 
 th a,
@@ -172,25 +197,19 @@ td a[href^="/"] {
     color: transparent;
     text-shadow: none;
     width: 42px;
-    overflow: visible;
+    overflow: hidden;
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
+    -webkit-border-top-left-radius: 28px 16px;
+        -moz-border-radius-topleft: 28px 16px;
+            border-top-left-radius: 28px 16px;
+    -webkit-border-bottom-left-radius: 28px 16px;
+        -moz-border-radius-bottomleft: 28px 16px;
+            border-bottom-left-radius: 28px 16px;
 }
 td a[href^="/"]:hover {
     color: transparent;
-}
-
-td a[href^="/"]:before {
-    content: '';
-    display: block;
-    border-style: solid;
-    position: absolute;
-    width: 20px;
-    background: url(/windex/icons/pointer-left-mask3.png) no-repeat;
-    height: 32px;
-    top: -4px;
-    left: -4px;
 }
 
 td a[href^="/"]:after {
@@ -200,7 +219,12 @@ td a[href^="/"]:after {
     left: 14px;
     content: 'Parent';
     color: white;
-    text-shadow: 0 -1px hsla(0,0%,0%,.7);
+    border: none;
+    text-shadow: 0 -1px hsla(0,0%,0%,.4);
+    -webkit-transform: none;
+       -moz-transform: none;
+         -o-transform: none;
+            transform: none;
 }
 
 th a:hover,
