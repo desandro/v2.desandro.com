@@ -7,8 +7,11 @@
   <link rel="stylesheet" href="@root_path_base/css/desandro.css" media="screen" />
   <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <script src="http://use.typekit.com/bqa1ehi.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-  <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
-  <script src="/mint/?js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script>
+    try{Typekit.load();}catch(e){}
+    !window.jQuery && document.write('<script src="@root_path_base/js/jquery-1.4.2.min.js"><\/script>')
+  </script>
   <script src="@root_path/_base/js/application.js"></script>
+  <script src="/mint/?js"></script>
 
