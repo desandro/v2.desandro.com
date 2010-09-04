@@ -33,31 +33,22 @@ html_header:
 content:
 <div class="wrap12">
     <h1 class="col12">jQuery Masonry</h1>
-    <ol id="msnry_nav" class="col12">
-        <li><strong>Documentation &rsaquo;</strong></li>
-        <li><a href="../../demo/masonry">Primer</a></li>
-        <li><a href="../../demo/masonry/basic.html">Basic Examples</a></li>
-        <li><a href="../../demo/masonry/tumblelog.html">Tumblelog</a></li>
-        <li><a href="../../demo/masonry/infinite-scroll.html">Infinite Scroll</a></li>
-        <li><a href="../../demo/masonry/animated.html">Animated</a></li>
-        <li><a href="../../demo/masonry/filtering.html">Filtering</a></li>
-    </ol>
 
     <div class="col6">
         <p>Masonry is a layout plugin for jQuery. Think of it as the flip side of CSS floats. Whereas floating arranges elements horizontally then vertically, Masonry arranges elements vertically then horizontally according to a grid. The result minimizes vertical gaps between elements of varying height, just like a mason fitting stones in a wall.</p>
         
-        <p><a href="../../demo/masonry" class="button">View Demos and Docs</a></p>
+        <p><a href="../../demo/masonry/docs/" class="button">View Demos and Docs</a></p>
     </div>
     
         
 
     <div class="col6">
-        <p><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://github.com/desandro/masonry/raw/master/js/jquery.masonry.js&remote" class="button">Download jquery.masonry.js</a></p>
-        <p><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://github.com/desandro/masonry/raw/master/js/jquery.masonry.min.js&remote" class="button">Download jquery.masonry.min.js</a></p>
+        <p><a href="http://github.com/desandro/masonry/raw/master/jquery.masonry.min.js" class="button">Download jquery.masonry.min.js</a> production-ready</p>
+        <p><a href="http://github.com/desandro/masonry/raw/master/jquery.masonry.js" class="button">Download jquery.masonry.js</a> for development</p>
 
-        <p>This project lives on GitHub at <a href="http://github.com/desandro/masonry">github.com/desandro/masonry</a>, where you can follow progress and download all these demos and documentation, and grab the latest version of the script.</p>
-        
-        <p>There you can find an <a href="http://github.com/desandro/masonry/issues">issue tracker</a> where you can look through other people's <a href="http://github.com/desandro/masonry/issues/closed">resolved issues</a> or submit a new one for yourself. If you're still having trouble, try <a href="http://wiki.github.com/desandro/masonry/">looking over the FAQ</a>.</p>
+        <p>This project lives on GitHub at <a href="http://github.com/desandro/masonry">github.com/desandro/masonry</a>, where you can follow progress, download all this documentation, grab the latest version of the script, or fork this project and make it better yourself.</p>
+
+        <p>There you can find an <a href="http://github.com/desandro/masonry/issues">issue tracker</a> where you can look through other people&rsquo;s <a href="http://github.com/desandro/masonry/issues/closed">resolved issues</a> or submit a new one for yourself. If you&rsquo;re still having trouble, try <a href="http://wiki.github.com/desandro/masonry/">looking over the FAQ</a>.</p>
 
     </div>
 
