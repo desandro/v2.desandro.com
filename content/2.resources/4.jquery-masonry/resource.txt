@@ -240,7 +240,7 @@ content:
                 </a></li>
                 <li><a href="http://rathersplendid.net/">
                     Rather Splendid    
-                    <img src="@pathimg/rather-splendid.jpg" alt="Maxvoltar"  width="280" height="517" />
+                    <img src="@pathimg/rather-splendid.jpg" alt="Rather Splendid"  width="280" height="517" />
                 </a></li>
                 <li><a href="http://chromeography.com">
                     Chromeography    
@@ -250,7 +250,7 @@ content:
 
             <h2>License</h2>
 
-            <p>jQuery Masonry is dual-licensed under <a href="http://www.gnu.org/licenses/gpl.html">GPL</a> and <a href="http://en.wikipedia.org/wiki/MIT_License">MIT</a>, just like <a href="http://docs.jquery.com/License">jQuery itself.</a> You can use it for both personal and commercial applications.</p>
+            <p>jQuery Masonry is licensed under the MIT license, just like <a href="http://jquery.org/license">jQuery itself.</a> It may be used for personal and commercial applications.</p>
 
     	</div>
 
