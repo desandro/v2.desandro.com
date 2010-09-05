@@ -911,8 +911,9 @@ pre {
 /**************************
 **  Web Fonts
 **************************/
-
+/*
 .tk_proxima_nova { visibility: hidden; }
 .no-js .tk_proxima_nova { visibility: visible; }
 .js.wf-active .tk_proxima_nova { visibility: visible;  }
 .js.wf-inactive .tk_proxima_nova { visibility: visible;  }
+*/
