@@ -4,9 +4,9 @@
 
 :masonry_js
 <script>
-    $(function(){
-        $('#jquery-masonry figure').masonry({columnWidth: 75})
-    });
+  $(function(){
+    $('#jquery-masonry').find('figure').masonry({columnWidth: 75})
+  });
 </script>
 
 </head>
@@ -20,35 +20,152 @@
 
 
 <section id="content" class="wrap12">
-    foreach $children do
-    <article id="@slug">
-        <a href="@url" class="clearfix">
-            @preview
-        </a>
-    </article>    
-    endforeach
+  <article id="jquery-masonry"> 
+    <a href="jquery-masonry/" class="clearfix"> 
+      <div class="col8"> 
+        <h2><span class="j">jQuery</span> <span class="M">Masonry</span></h2> 
+        <p>jQuery Plugin.  The flip-side of CSS floats.</p> 
+      </div> 
+      <figure class="col4"> 
+        <span class="w1 h2"></span> 
+        <span class="w1 h1"></span> 
+        <span class="w2 h1"></span> 
+        <span class="w1 h1"></span> 
+        <span class="w1 h2"></span> 
+        <span class="w2 h2"></span> 
+        <span class="w1 h1"></span> 
+        <span class="w1 h2"></span> 
+        <span class="w1 h1"></span> 
+      </figure> 
+    </a> 
+  </article>
     
+  <article id="windex">
+    <a href="@root_path/demo/of-windex" class="clearfix">
+      <figure class="col4">
+        <header>
+          <span class="parent">Parent</span>
+          <span class="name">Name</span>
+          <span class="last">Last Modified</span>
+          <span class="size">Size</span>
+        </header>
+        <span class="row">file-name.txt</span>
+        <span class="row">file-name.txt</span>
+        <span class="row">file-name.txt</span>
+      </figure>
+      <div class="col8">
+        <h2>Windex</h2>
+        <p>Style default directory listing index pages.</p>
+      </div>
+    </a>
+  </article>
 
-    <article id="txp_admin">
-        <a href="http://txpadminthemes.desandro.com" class="clearfix">
-            <div class="col8">
-                <h2><span class="t">Textpattern</span> <span class="a">Admin Themes</span></h2>
-                <p>Custom themes for the Textpattern backend.</p>
-            </div>
-            <figure class="col4">
-                <span class="top_row">
-                    <span class="selected">Content</span>
-                    <span>Presentation</span>
-                    <span>Admin</span>
-                </span>
-                <span class="bottom_row">
-                    <span>Categories</span>
-                    <span class="selected">Write</span>
-                    <span>Articles</span>
-                </span>
-            </figure>
-        </a>
-    </article>
+    <article id="curtis-css-typeface"> 
+      <a href="curtis-css-typeface/" class="clearfix"> 
+        <div class="col8"  class="clearfix"> 
+          <h2><span class="c">Curtis CSS</span> <span class="t">Typeface</span></h2> 
+          <p>Typographic HTML &amp; CSS Experiment. Letterforms rendered purely with CSS.</p> 
+        </div>
+        <figure class="col4"> 
+          <span class="size56"> 
+            <span class="css_char c"> 
+    			    C
+        			<span class="stroke"></span> 
+        			<span class="neg"></span> 
+        		</span> 
+        		<span class="css_char u"> 
+        			U
+        			<span class="stroke"></span> 
+        		</span> 
+        		<span class="css_char r"> 
+        			R
+        			<span class="inside split_vert"></span> 
+        			<span class="outside split_vert"></span> 
+        			<span class="stroke"></span> 
+        			<span class="fill"></span> 
+        		</span> 
+        		<span class="css_char t"> 
+        			T
+        			<span class="stem fill"></span> 
+        			<span class="cross fill"></span> 
+        		</span> 
+        		<span class="css_char i"> 
+        			I
+        			<span class="fill"></span> 
+        		</span> 
+        		<span class="css_char s"> 
+        			S
+        			<span class="bottom_circle stroke"></span> 
+        			<span class="left neg"></span> 
+        			<span class="top_circle stroke"></span> 
+        			<span class="right neg"> 
+        				<span class="stroke"></span> 
+        			</span> 
+        		</span> 
+        	</span> 
+        <span class="size140"> 
+          <span class="css_char c"> 
+      			C
+      			<span class="stroke"></span> 
+      			<span class="neg"></span> 
+      		</span> 
+      		<span class="css_char u"> 
+      			U
+      			<span class="stroke"></span> 
+      		</span> 
+      	</span> 
+      </figure> 
+    </a> 
+  </article>    
+
+  <article id="css-speech-bubble-icon"> 
+    <a href="css-speech-bubble-icon/" class="clearfix"> 
+      <figure class="col4"> 
+        <span class="bubble"></span> 
+        <span class="point"></span> 
+      </figure> 
+      <div class="col8"> 
+        <h2><span class="c">CSS Speech</span> <span class="b">Bubble</span></h2> 
+        <p>Render a comment icon without any images.</p> 
+      </div>
+    </a> 
+  </article>    
+
+  <article id="quickie-canvas"> 
+    <a href="quickie-canvas/" class="clearfix"> 
+      <div class="col8"> 
+          <h2><span class="q">Quickie</span> <span class="c">Canvas</span></h2> 
+          <p>Generate images with the HTML5 canvas tag without touching any markup.</p> 
+      </div>
+      <figure class="col4"> 
+        <span class="circle"></span> 
+        <span class="triangle"></span> 
+        <span class="square"></span> 
+      </figure> 
+      </a> 
+  </article>    
+
+
+  <article id="txp_admin">
+    <a href="http://txpadminthemes.desandro.com" class="clearfix">
+      <figure class="col4">
+        <span class="top_row">
+          <span class="selected">Content</span>
+          <span>Presentation</span>
+          <span>Admin</span>
+        </span>
+        <span class="bottom_row">
+          <span>Categories</span>
+          <span class="selected">Write</span>
+          <span>Articles</span>
+        </span>
+      </figure>
+      <div class="col8">
+        <h2><span class="t">Textpattern</span> <span class="a">Admin Themes</span></h2>
+        <p>Custom themes for the Textpattern backend.</p>
+      </div>
+    </a>
+  </article>
 
 
 </section>

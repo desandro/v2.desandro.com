@@ -62,6 +62,100 @@ article {
 #jquery-masonry figure .w2 { width: 146px; }
 #jquery-masonry figure .h2 { height: 146px; }
 
+
+/**** Windex ****/
+
+#windex h2 { font-size: 152px; }
+#windex .col8 p { font-size: 35px; }
+
+
+#windex figure {
+  line-height: 44px;
+}
+
+#windex a figure {
+  color: #58E;
+}
+#windex a:hover figure { color: #E58; }
+
+#windex figure header,
+#windex figure .row {
+  display: block;
+  height: 43px;
+  border-bottom: 1px solid #58E;
+}
+
+#windex a:hover figure header,
+#windex a:hover figure .row { border-color: #E58;}
+
+#windex a figure header {
+  background: #58E;
+}
+
+#windex a:hover figure header { background: #E58;}
+
+#windex figure header span {
+  display: block;
+  float: left;
+  height: 26px;
+  background: #EEE;
+  margin-top: 9px;
+  line-height: 26px;
+  font-weight: bold;
+  padding: 0 10px;
+  margin-right: 1px;
+}
+
+#windex a:hover figure header span { background: white;}
+
+#windex figure header .parent {
+  -webkit-border-radius: 13px 5px 5px 13px;
+     -moz-border-radius: 13px 5px 5px 13px;
+          border-radius: 13px 5px 5px 13px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+#windex figure header .name {
+  -webkit-border-radius: 5px 0 0 5px;
+     -moz-border-radius: 5px 0 0 5px;
+          border-radius: 5px 0 0 5px;
+}
+
+#windex figure header .size {
+  -webkit-border-radius: 0 5px 5px 0;
+     -moz-border-radius: 0 5px 5px 0;
+          border-radius: 0 5px 5px 0;
+}
+
+#windex figure .row {
+  padding-left: 0.5em;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+}
+
+#windex figure .row:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-style: solid;
+  border-color: #58E;
+  border-width: 0 3px 3px 0;
+  top: 16px;
+  right: 13px;
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+#windex a:hover figure .row:after { border-color: #E58;}
+
+/**** Curtis Typeface ****/
+
 #curtis-css-typeface h2 { font-size: 106px; }
 #curtis-css-typeface h2 .t { font-size: 122px; }
 #curtis-css-typeface p { font-size: 18px; }
