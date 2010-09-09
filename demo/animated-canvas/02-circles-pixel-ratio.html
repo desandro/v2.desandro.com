@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>animated canvas</title>
+  <meta name="viewport" content="width=device-width" />
+
+  <style media="screen">
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    #container {
+      overflow: hidden;
+    }
+    
+    canvas {
+      display: block;
+      -webkit-transform-origin: 0 0;
+/*      border: 1px solid #F00;*/
+    }
+  </style>
+
+</head>
+<body>
+
+  <div id="container">
+    <canvas id="canvas"></canvas>
+  </div>
+  
+  <script>
+    var
+      // vars I'll need all over
+      cavnas,
+      container,
+      ctx,
+      resizeTimeout,
+      t = 0,
+      icons = [],
+      canvasSize,
+      pixelRatio = window.devicePixelRatio,
+
+
+      draw = function() {
+        ctx.clearRect(0,0, canvasSize.width, canvasSize.height);
+
+        for (var i=0, len = icons.length; i < len; i++) {
+          icon = icons[i];
+          icon.draw();
+        }
+        
+      },
+
+      resizeCanvas = function() {
+
+        canvasSize = {
+          width : window.innerWidth,
+          height : window.innerHeight
+        };
+        canvas.width = canvasSize.width * pixelRatio;
+        canvas.height = canvasSize.height * pixelRatio;
+
+        var scaleRatio = 1 / pixelRatio;
+        canvas.style.webkitTransform = 'scale('+scaleRatio+')';
+        
+        ctx.scale(  pixelRatio,  pixelRatio);
+      },
+
+
+
+      windowResize = function() {
+        resizeCanvas();
+        draw();
+      },
+
+      windowSmartResize = function() {
+        // use setTimeout so resizes don't fire every millisecond of resizing
+        if ( resizeTimeout ) {
+          clearTimeout(resizeTimeout);
+        }
+        resizeTimeout = setTimeout( windowResize, 200);
+      },
+
+      update = function() {
+        t++; 
+      },
+
+
+      animate = function() {
+        draw();
+        update();
+      },
+
+
+      Icon = function() {
+        this.x = ~~(Math.random()*(canvasSize.width-100));
+        this.y = ~~(Math.random()*(canvasSize.height-100));
+        this.size = Math.random()*0.9+0.1;
+        this.speed = Math.random()*0.1+0.05;
+
+        this.draw = function() {
+          var time = t*this.speed,
+              x = Math.sin(time)*50+50 + this.x,
+              y = Math.cos(time)*50+50 + this.y,
+              radius = this.size*50;
+          ctx.strokeStyle = "rgba(0, 0, 200, 0.5)";
+          ctx.beginPath();
+            ctx.arc ( x, y, radius, 0, Math.PI*2, true);
+            ctx.stroke();
+          ctx.closePath();
+        };
+      },
+
+      init = function() {
+        for (var i=0; i<20; i++) {
+          var icon = new Icon();
+          icons.push(icon);
+        }
+
+        setInterval(animate, 30);
+      },
+
+      docReady = function() {
+        canvas = document.getElementById('canvas');
+        container = document.getElementById('container');
+        container.width = window.innerWidth;
+        container.height = window.innerHeight;
+
+        // back out if browser does not support canvas
+        if ( !canvas.getContext ) { return; }
+
+        ctx = canvas.getContext('2d');
+
+        resizeCanvas();
+
+        init();
+
+      }
+    ;
+
+    window.addEventListener( 'DOMContentLoaded', docReady, false);
+    window.addEventListener( 'resize', windowSmartResize, false);
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+Tests to compare the observable difference between iPhone devices rendering an animated HTML5 canvas.
+
+It appears that iPhone 4's have _slower_ frame rates than iPhone 3's.
+
+I conjectured that this might be due to iPhone 4 having to 'scale' the canvas up to meet its high resolution, so the [pixel-ratio demo](02-circles-pixel-ratio.html) was developed to observe if the iPhone 4's framerate would increase.
