@@ -1,0 +1,29 @@
+title: Behold dropshado.ws
+-
+date: 13 Sep 2010
+-
+iso8601time: 2010-09-13T08:00:00-05:00
+-
+article: yes
+-
+newest_article: yes
+-
+content:
+
+<div id="posters">
+  <div id="behold">
+    <span class="behold">Behold!</span>
+    <span class="dropshadows">dropshado.ws</span>
+    <span class="web-logue">A web&ndash;logue</span>
+    <span class="minutia">of front&ndash;end dævelopment minutia<span class="comma">,</span></span>
+    <span class="fashioned">fashioned from the</span>
+    <span class="phantastickal">phantastickal threads</span>
+    <span class="www">of the World Wide Web<span class="comma">,</span></span>
+    <span class="cataloguing">cataloguing the</span>
+    <span class="astonishing">astonishing</span>
+    <span class="discoveries">discoveries</span>
+    <span class="worlds">of the world&rsquo;s</span>
+    <span class="riveting">most riveting </span>
+    <span class="web-dev">web&ndash;dævelopeur</span>
+  </div>
+</div>

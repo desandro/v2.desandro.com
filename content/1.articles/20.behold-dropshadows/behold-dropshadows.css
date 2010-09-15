@@ -1,0 +1,77 @@
+html, body {
+  background-color: #ECC;
+}
+
+#content {
+-webkit-perspective: 1200;
+  
+}
+
+#posters {
+  width: 620px;
+  height: 840px;
+  position: relative;
+  margin: 60px auto;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+/*  background: hsla(0,0%,0%,.05);*/
+  cursor: move;
+/*  -webkit-transition: -webkit-transform .5s;*/
+  -webkit-transform-style: preserve-3d;
+/*  -webkit-animation: spin 24s linear 0 infinite normal;*/
+  -webkit-transform: translateZ(-200px)
+}
+
+#posters > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform-style: preserve-3d;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: translateZ(-200px)  rotateY(0) rotateX(0); }
+  100% { -webkit-transform: translateZ(-200px)  rotateY(360deg) rotateX(720deg); }
+}
+
+#posters span {
+  display: block;
+  line-height: 0.9em;
+  position: relative;
+}
+
+#posters span.comma {
+  display: inline-block;
+  position: absolute;
+  right: -0.1em;
+  top: 0;
+}
+
+#posters .behold { font-size: 138px; }
+#posters .dropshadows { font-size: 72px; }
+#posters .web-logue { font-size: 83px;}
+#posters .minutia { font-size: 29px; }
+#posters .fashioned { font-size: 53px; }
+#posters .phantastickal { font-size: 45px; }
+#posters .www { font-size: 47px; }
+#posters .cataloguing { font-size: 64px; }
+#posters .astonishing { font-size: 86px; }
+#posters .discoveries { font-size: 90px; }
+#posters .worlds { font-size: 72px; }
+#posters .riveting { font-size: 77px; }
+#posters .web-dev { font-size: 61px; }
+
+
+#behold {
+  color: #FFF;
+/*  color: hsla(0,0%,100%,.8);*/
+  z-index: 200;
+  -webkit-transform-origin-z: -200px;
+}
+
+#shadow {
+  color: transparent;
+  text-shadow: 0 0 30px hsla(0,0%,0%,.2);
+  -webkit-transform-origin-z: 200px;
+}
