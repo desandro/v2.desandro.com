@@ -13,44 +13,30 @@ var
     var dx = ( b.x - a.x ),
         dy = ( b.y - a.y );
     return Math.sqrt( dx*dx + dy*dy);
-  }
-  
-  handleCursorStart = function( event ) {
-    
-    console.log('cursor start');
-    posters.className = 'rotating';
-    
-    window.addEventListener( cursorEvents.move, handleCursorMove, false );
-    window.addEventListener( cursorEvents.end, handleCursorEnd, false );
-    
-    startVector = {
-      x : event.pageX,
-      y : event.pageY
-    };
-    
-    event.preventDefault();
-    
   },
+  
+
   
   handleCursorMove = function( event ) {
     
-    var moveVector = {
-          x : event.pageX,
-          y : event.pageY
+    
+    
+    var cursor = supportTouches ? event.changedTouches[0] : event,
+        moveVector = {
+          x : cursor.pageX,
+          y : cursor.pageY
         },
-        ratio = .25,
         pitch = (startVector.y - moveVector.y),
         yaw = (startVector.x - moveVector.x)*-1,
         pitchSign = pitch < 0 ? -1 : 1,
         yawSign = yaw < 0 ? -1 : 1,
-        factor = 2.2
-    ;
+        factor = 2.2;
 
 
     pitch =  Math.sqrt( pitch * pitchSign ) * pitchSign * factor;
-    yaw =  Math.sqrt( yaw * yawSign ) * yawSign * factor
+    yaw =  Math.sqrt( yaw * yawSign ) * yawSign * factor;
 
-    console.log('yaw', yaw, 'pitch', pitch);
+    // console.log('yaw', yaw, 'pitch', pitch);
 
     posters.style.webkitTransform = 'translateZ(-200px)  rotateX('+pitch+'deg) rotateY('+yaw+'deg)';
     
@@ -60,13 +46,13 @@ var
 
   handleTransitionEnd = function( event ) {
     posters.className = '';
-    console.log('transition ended');
+    // console.log('transition ended');
     posters.removeEventListener( 'webkitTransitionEnd', handleTransitionEnd, false);
   },
 
   handleCursorEnd = function ( event ) {
     
-    console.log('cursor end');
+    // console.log('cursor end');
     
     posters.className = 'reset';
     posters.addEventListener( 'webkitTransitionEnd', handleTransitionEnd, false);
@@ -76,6 +62,28 @@ var
     
     
     posters.style.webkitTransform = 'translateZ(-200px)  rotateX(0deg) rotateY(0deg)';
+    
+  },
+
+  handleCursorStart = function( event ) {
+    // do nothing if clicked on link
+    if (supportTouches && ( event.target.localName == 'a' || event.target.parentNode.localName == 'a') ) {
+      return;
+    }
+    
+    // console.log('cursor start');
+    posters.className = 'rotating';
+    
+    window.addEventListener( cursorEvents.move, handleCursorMove, false );
+    window.addEventListener( cursorEvents.end, handleCursorEnd, false );
+    
+    var cursor = supportTouches ? event.changedTouches[0] : event;
+    startVector = {
+      x : cursor.pageX,
+      y : cursor.pageY
+    };
+    
+    event.preventDefault();
     
   },
 
