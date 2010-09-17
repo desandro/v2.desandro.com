@@ -3,75 +3,88 @@ html, body {
 }
 
 #content {
--webkit-perspective: 1200;
-  
+  -webkit-perspective: 1200;
+  width: 100%;
+  overflow: hidden;
+}
+
+#content a:hover {
+  background: transparent;
 }
 
 #posters {
   width: 620px;
-  height: 840px;
+  height: 960px;
   position: relative;
   margin: 60px auto;
-  font-weight: 800;
+  font-weight: 900;
+  font-size: 62px;
   text-transform: uppercase;
-  text-align: center;
-/*  background: hsla(0,0%,0%,.05);*/
-  cursor: move;
-/*  -webkit-transition: -webkit-transform .5s;*/
   -webkit-transform-style: preserve-3d;
-/*  -webkit-animation: spin 24s linear 0 infinite normal;*/
   -webkit-transform: translateZ(-200px)
 }
 
+.csstransforms3d #posters.reset {
+  -webkit-transition: -webkit-transform .5s;
+}
+
+.csstransforms3d #posters:hover {
+  cursor: move;
+}
+
+
 #posters > div {
   position: absolute;
-  left: 0;
+  left: -200px;
   top: 0;
   -webkit-transform-style: preserve-3d;
 }
 
-@-webkit-keyframes spin {
-    0% { -webkit-transform: translateZ(-200px)  rotateY(0) rotateX(0); }
-  100% { -webkit-transform: translateZ(-200px)  rotateY(360deg) rotateX(720deg); }
-}
 
 #posters span {
   display: block;
   line-height: 0.9em;
   position: relative;
+  white-space: nowrap;
 }
 
-#posters span.comma {
-  display: inline-block;
-  position: absolute;
-  right: -0.1em;
-  top: 0;
-}
+#posters span:nth-of-type(1)  { left: 8.8em; }
+#posters span:nth-of-type(2)  { left: 7.9em; }
+#posters span:nth-of-type(3)  { left: 7em; }
+#posters span:nth-of-type(4)  { left: 6.1em; }
+#posters span:nth-of-type(5)  { left: 5.2em; }
+#posters span:nth-of-type(6)  { left: 4.3em; }
+#posters span:nth-of-type(7)  { left: 3.4em; }
+#posters span:nth-of-type(8)  { left: 2.4em; }
+#posters span:nth-of-type(9)  { left: 1.5em; }
+#posters span:nth-of-type(10) { left: 0.6em; }
+#posters span:nth-of-type(11) { left: 0.0em; }
+#posters span:nth-of-type(12) { left: 1.0em; }
+#posters span:nth-of-type(13) { left: 2.0em; }
+#posters span:nth-of-type(14) { left: 3.0em; }
+#posters span:nth-of-type(15) { left: 3.9em; }
+#posters span:nth-of-type(16) { left: 4.8em; }
+#posters span:nth-of-type(17) { left: 5.8em; }
 
-#posters .behold { font-size: 138px; }
-#posters .dropshadows { font-size: 72px; }
-#posters .web-logue { font-size: 83px;}
-#posters .minutia { font-size: 29px; }
-#posters .fashioned { font-size: 53px; }
-#posters .phantastickal { font-size: 45px; }
-#posters .www { font-size: 47px; }
-#posters .cataloguing { font-size: 64px; }
-#posters .astonishing { font-size: 86px; }
-#posters .discoveries { font-size: 90px; }
-#posters .worlds { font-size: 72px; }
-#posters .riveting { font-size: 77px; }
-#posters .web-dev { font-size: 61px; }
+
+#posters .rotor-z {
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
 
 
 #behold {
   color: #FFF;
-/*  color: hsla(0,0%,100%,.8);*/
-  z-index: 200;
-  -webkit-transform-origin-z: -200px;
+  -webkit-transform: translate3d( 0, 0, 200px);
 }
 
 #shadow {
-  color: transparent;
-  text-shadow: 0 0 30px hsla(0,0%,0%,.2);
-  -webkit-transform-origin-z: 200px;
+  color: hsla(0,0%,0%,0);
+  text-shadow: 0 5px 10px hsla(0,0%,0%,.2);
+  -webkit-transform: translate3d( 0, 0, -200px);
 }
+#shadow a { color: transparent; }
+
+.csstransforms3d #shadow    { text-shadow: 0 0px 30px hsla(0,0%,0%,.15); }

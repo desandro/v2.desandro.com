@@ -1,8 +1,10 @@
 title: Behold dropshado.ws
 -
-date: 13 Sep 2010
+date: 17 Sep 2010
 -
-iso8601time: 2010-09-13T08:00:00-05:00
+iso8601time: 2010-09-17T08:00:00-05:00
+-
+short_url: bedrop
 -
 article: yes
 -
@@ -12,18 +14,19 @@ content:
 
 <div id="posters">
   <div id="behold">
-    <span class="behold">Behold!</span>
-    <span class="dropshadows">dropshado.ws</span>
-    <span class="web-logue">A web&ndash;logue</span>
-    <span class="minutia">of front&ndash;end dævelopment minutia<span class="comma">,</span></span>
-    <span class="fashioned">fashioned from the</span>
-    <span class="phantastickal">phantastickal threads</span>
-    <span class="www">of the World Wide Web<span class="comma">,</span></span>
-    <span class="cataloguing">cataloguing the</span>
-    <span class="astonishing">astonishing</span>
-    <span class="discoveries">discoveries</span>
-    <span class="worlds">of the world&rsquo;s</span>
-    <span class="riveting">most riveting </span>
-    <span class="web-dev">web&ndash;dævelopeur</span>
+    <div class="rotor-z">
+        <span>Be</span>
+        <span>hold!</span>
+        <span><a href="http://dropshado.ws">dropsha</a></span><span><a href="http://dropshado.ws">do.ws</a>, 
+        A web&ndash;</span><span>logue
+        of front&ndash;</span><span>end dævelopment</span> <span>minutia, 
+        fashioned fr</span><span>om the phantastickal th</span><span>reads
+        of the World Wide</span>
+        <span>Web, cataloguing the ast</span><span>onishing
+        discoveries &amp; ad</span><span>vancements of 
+        a tru</span><span>ly courageous or</span>
+        <span>perhaps fool</span><span>hardy web</span>
+        <span>dævelop</span><span>eur.</span>
+      </div>
   </div>
 </div>

@@ -8,8 +8,6 @@ short_url: frust
 -
 article: yes
 -
-newest_article: yes
--
 content:
 
 
