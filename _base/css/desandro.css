@@ -276,11 +276,16 @@ body.about #site-header ol .about a {
 
 
 #site-header ol .articles a:hover,
-body.articles #site-header ol .articles a:hover { color: #3C7; }
+body.articles #site-header ol .articles a:hover,
+body.articles.dark #site-header ol .articles a:hover { color: #3C7; }
+
 #site-header ol .resources a:hover,
-body.resources #site-header ol .resources a:hover { color: #F90; }
+body.resources #site-header ol .resources a:hover,
+body.dark.resources #site-header ol .resources a:hover { color: #F90; }
+
 #site-header ol .portfolio a:hover,
 body.portfolio #site-header ol .portfolio a:hover { color: #85E; }
+
 #site-header ol .about a:hover,
 body.about #site-header ol .about a:hover { color: #58E; }
 
@@ -521,8 +526,10 @@ body.dark #site-header #branding p a:hover { color: #E58; }
 body.dark #site-header ol a {
     color: #FFF;
 }
-body.dark  #site-header ol .articles,
-body.dark  #site-header ol .articles a { 
+body.articles.dark  #site-header ol .articles,
+body.articles.dark  #site-header ol .articles a,
+body.resources.dark  #site-header ol .resources,
+body.resources.dark  #site-header ol .resources a { 
     color: #222; 
 }
 
