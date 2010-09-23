@@ -1,0 +1,83 @@
+body {
+  background: #111;
+  color: #DDD;
+}
+
+/**** copy ****/
+
+#content .wrap12 {
+  margin-bottom: 0.0em;
+}
+
+.copy {
+  font-size: 15px;
+}
+
+.copy h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.copy ul {
+  margin-bottom: 0.8em;
+  margin-left: 1.4em;
+}
+
+.copy ul li {
+  list-style: disc;
+}
+
+
+
+#content .col4 {
+  position: relative;
+  top: -220px;
+}
+
+/**** Portraits ****/
+
+#overflow {
+  overflow-x: hidden;
+}
+
+#portraits-wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#portraits {
+  position: relative;
+  width: 1600px;
+  left: -320px;
+}
+
+a { color: #E58;  text-decoration: none; }
+a:hover { color: #58E; }
+a.button:hover { color: #FFF;}
+
+article {
+  display: block;
+  margin-bottom: 8.0em;
+}
+
+figure { display: block; }
+
+figcaption {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.0em;
+  font-size: 14px;
+}
+
+.portrait {
+  background-color: black;
+  display: block;
+  margin: 0 auto 1.0em;
+}
+
+#portraits pre {
+  width: 600px;
+  padding: 1.0em;
+  margin: 0 auto;
+  border: 1px solid #222;
+}

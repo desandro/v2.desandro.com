@@ -16,19 +16,37 @@ h1 { text-align: center;}
     margin: 0 auto 60px;
     font-size: 15px;
     line-height: 1.5em;
-    -webkit-column-count: 2;
-       -moz-column-count: 2;
-            column-count: 2;
-    -webkit-column-gap: 40px;
-       -moz-column-gap: 40px;
-            column-gap: 40px;
+}
+
+#copy h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#copy section {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+}
+
+#copy section:nth-of-type(1) {
+  padding-bottom: 1.0em;
+  border-bottom: 1px solid #222;
+  margin-bottom: 2.0em;
 }
 
 figure {
-    width: 1200px;
+  display: block;
+    width: 1300px;
     text-align: center;
     position: relative;
-    left: -130px;
+    left: -180px;
     margin-bottom: 160px;
 }
 
+figcaption {
+  display: block;
+}

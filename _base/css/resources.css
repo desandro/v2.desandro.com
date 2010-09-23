@@ -154,6 +154,15 @@ article {
 
 #windex a:hover figure .row:after { border-color: #E58;}
 
+/**** Close Pixelate ****/
+
+#close-pixelate h2 .close { font-size: 190px; }
+#close-pixelate h2 .pixelate { font-size: 130px; }
+#close-pixelate .col8 p { font-size: 22.5px; }
+
+#close-pixelate a .col4 { color: #58E; }
+#close-pixelate a:hover .col4 { color: #E58; }
+
 /**** Curtis Typeface ****/
 
 #curtis-css-typeface h2 { font-size: 106px; }
