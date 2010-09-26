@@ -19,7 +19,7 @@ content:
     <p class="box1 infinite"><em><strong>Infinite</strong> Scroll support</em></p>
     <p class="box2 mcolumn"><span><strong>Multi width</strong> <em>column</em> support</span></p>
     <p class="box1 primer"><a href="/resources/jquery-masonry"><em>View</em> <strong>Primer and Demos</strong></a></p>
-    <p class="box2 download"><a href="/mint/pepper/tillkruess/downloads/tracker.php?url=http://github.com/desandro/masonry/raw/master/js/jquery.masonry.js&remote"><em>Down load</em> jquery.masonry.js</a></p>
+    <p class="box2 download"><a href="http://github.com/desandro/masonry/raw/master/jquery.masonry.js"><em>Down load</em> jquery.masonry.js</a></p>
     <p class="box1 github"><a href="http://github.com/desandro/masonry"><span>Project</span> available on <em>Git hub</em></a></p>
     <p class="box2 fluid"><em>Automatic</em>  <strong>fluid</strong> <span>rearrangement</span></p>
     <p class="box4 markup"><em>No</em> <span>extra markup inserted</span></p>

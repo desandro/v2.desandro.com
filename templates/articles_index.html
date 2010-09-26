@@ -2,14 +2,9 @@
 
 :masonry_js
 <script>
-    $(function(){
-        $articlesWrap = $('#content .articles');
-        $articlesWrap.masonry({singleMode: true}, function(){
-            if ( !$articlesWrap.hasClass('masoned') ) {
-                $articlesWrap.addClass('masoned');
-            }
-        });
-    });
+  $(function(){
+    $('#content').find('.articles').masonry({ singleMode: true });
+  });
 </script>
 
 </head>

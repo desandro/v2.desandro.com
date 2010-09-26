@@ -25,9 +25,9 @@ html_header:
 :masonry_js
 <script> 
 	$(function(){
-		$('#secondary').masonry({columnWidth: 100});
-		$('#inthewild').masonry({singleMode: true});
-	})
+		$('#secondary').masonry({ columnWidth: 100 });
+		$('#inthewild').masonry({ singleMode: true });
+	});
 </script>
 -
 content:
