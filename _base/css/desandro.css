@@ -819,18 +819,14 @@ pre {
     color: #555;
 
 }
-#site-footer .where-what .heisa,
-#site-footer .where-what .designer,
-#site-footer .where-what .living,
-#site-footer .where-what .working,
-#site-footer .where-what .happy { 
-    color: #555;
-	line-height: 1.05em;
-    text-shadow: 0 0px 1px #222;
-    width: 360px;
-	display: block; 
-	position: relative;
-	left: -30px;
+#site-footer .where-what > span { 
+  color: #555;
+  line-height: 1.05em;
+  text-shadow: 0 0px 1px #222;
+  width: 360px;
+  display: block; 
+  position: relative;
+  left: -30px;
     -webkit-transform-origin: center bottom;
        -moz-transform-origin: center bottom;
          -o-transform-origin: center bottom;
@@ -840,11 +836,7 @@ pre {
          -o-transition: all 0.2s ease-out;
             transition: all 0.2s ease-out;
 }
-#site-footer .where-what .heisa:hover,
-#site-footer .where-what .designer:hover,
-#site-footer .where-what .living:hover,
-#site-footer .where-what .working:hover,
-#site-footer .where-what .happy:hover {
+#site-footer .where-what > span:hover {
     color: #666;
     text-shadow: 0 4px 1px #000;
     -webkit-transform: scale(1.25);
@@ -852,24 +844,15 @@ pre {
          -o-transform: scale(1.25);
             transform: scale(1.25);
 }
-#site-footer .where-what span:hover a { color: #E58; }
 
-#site-footer .where-what .heisa { font-size: 32px; }
-#site-footer .where-what .designer { font-size: 40px; }
-#site-footer .where-what .living { font-size: 22px; }
+#site-footer .where-what .being { font-size: 36px; }
+#site-footer .where-what .making { font-size: 22px; letter-spacing: 0.22em; word-spacing: 0.1em; }
+#site-footer .where-what .happy { font-size: 30px; }
+#site-footer .where-what .designer { font-size: 22px; letter-spacing: 0.15em; word-spacing: 0.15em;}
+#site-footer .where-what .living { font-size: 21px; }
 #site-footer .where-what .working { font-size: 12px; letter-spacing: 0.15em; line-height: 2.0em; font-weight: 500; }
-#site-footer .where-what .happy { font-size: 9px; letter-spacing: 0.15em; line-height: 1.2em; font-weight: 500; }
 
-#site-footer .where-what .working:hover,
-#site-footer .where-what .happy:hover { 
-    -webkit-transform: scale(1.4);
-       -moz-transform: scale(1.4);
-         -o-transform: scale(1.4);
-            transform: scale(1.4);
-
-}
-
-#site-footer .where-what a:hover { color: #FFF; }
+#site-footer .where-what a:hover { color: #FFF;  }
 
 #site-footer .also-made {
     text-align: right;
@@ -889,7 +872,7 @@ pre {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 26px;
-    line-height: 1.6em;
+    line-height: 1.5em;
 }
 #site-footer .also-made li.jqmsnry{ font-size: 27px;}
 #site-footer .also-made li.curtis{ font-size: 22.5px;}
