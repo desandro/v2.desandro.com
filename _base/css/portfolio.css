@@ -422,8 +422,8 @@ article details dd a:hover {
 **************************/
 
 /**** Beercamp SXSW 2010 ****/
-#beercamp-sxsw-2010 .beercamp02 { background: #FFB url(../img/beercamp-bg.png) top center; }
-#beercamp-sxsw-2010 .beercamp01 { background: #FFD; }
+#beercamp-sxsw-2010 .beercamp-b { background: #FFB url(../img/beercamp-bg.png) top center; }
+#beercamp-sxsw-2010 .beercamp-a { background: #FFD; }
 #beercamp-sxsw-2010 header { left: 40px; top: 150px;}
 #beercamp-sxsw-2010 .deet1 { right: 270px; top: 140px; }
 #beercamp-sxsw-2010 .deet2 { right: 170px; top: 350px; }
