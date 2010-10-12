@@ -422,8 +422,8 @@ article details dd a:hover {
 **************************/
 
 /**** Beercamp SXSW 2010 ****/
-#beercamp-sxsw-2010 .beercamp3 { background: #FFB url(../img/beercamp-bg.png) top center; }
-#beercamp-sxsw-2010 .beercamp2 { background: #FFD; }
+#beercamp-sxsw-2010 .beercamp02 { background: #FFB url(../img/beercamp-bg.png) top center; }
+#beercamp-sxsw-2010 .beercamp01 { background: #FFD; }
 #beercamp-sxsw-2010 header { left: 40px; top: 150px;}
 #beercamp-sxsw-2010 .deet1 { right: 270px; top: 140px; }
 #beercamp-sxsw-2010 .deet2 { right: 170px; top: 350px; }
@@ -486,7 +486,7 @@ article details dd a:hover {
 
 /**** Craigslist CLean Up ****/
 #craigslist { background: #FFF }
-#craigslist .craigslist6 { background: #F4F4F4; }
+#craigslist .craigslist03 { background: #F4F4F4; }
 #craigslist header { top: 100px; right: 100px; }
 #craigslist .deet1 { left: 430px; top: 390px; } 
 #craigslist .deet2 { left: 250px; top: 1190px; }
@@ -503,8 +503,8 @@ article details dd a:hover {
 
 /**** TXP Admin Themes ****/
 #txp-admin { background: #FFF; }
-#txp-admin .txp_admin2 { background: url(../img/txp_admin_theme_bg01.png) repeat-x; }
-#txp-admin .txp_admin1 { background: url(../img/txp_admin_theme_bg02.png) repeat-x; }
+#txp-admin .txp_admin02 { background: url(../img/txp_admin_theme_bg01.png) repeat-x; }
+#txp-admin .txp_admin01 { background: url(../img/txp_admin_theme_bg02.png) repeat-x; }
 #txp-admin header { right: 20px; top: 100px;}
 #txp-admin .deet1 { right: 225px; top: 653px;}
 #txp-admin .deet2 { left: 360px; top: 775px;}
