@@ -19,14 +19,14 @@ content:
         <span>hold!</span>
         <span><a href="http://dropshado.ws">dropsha</a></span><span><a href="http://dropshado.ws">do.ws</a>, 
         A web&ndash;</span><span>logue
-        of front&ndash;</span><span>end dævelopment</span> <span>minutia, 
+        of front&ndash;</span><span>end d&aelig;velopment</span> <span>minuti&aelig;, 
         fashioned fr</span><span>om the phantastickal th</span><span>reads
         of the World Wide</span>
         <span>Web, cataloguing the ast</span><span>onishing
         discoveries &amp; ad</span><span>vancements of 
         a tru</span><span>ly courageous or</span>
         <span>perhaps fool</span><span>hardy web</span>
-        <span>dævelop</span><span>eur.</span>
+        <span>d&aelig;velop</span><span>eur.</span>
       </div>
   </div>
 </div>
