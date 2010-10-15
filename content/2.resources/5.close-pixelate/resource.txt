@@ -6,10 +6,6 @@ short_url: closepxl8
 -
 body_class: dark
 -
-html_header: 
-<script src="http://github.com/desandro/close-pixelate/raw/master/close-pixelate.js"></script>
-<script src="@pathjs/close-pixelate-resource.js"></script>
--
 content:
 <div class="wrap12 clearfix">
 
