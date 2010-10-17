@@ -18,6 +18,13 @@ content:
 
     <p><a class="button" href="http://github.com/desandro/close-pixelate">View Close Pixelate on GitHub</a></p>
 
+    <h2>Contributors</h2>
+
+    <ul>
+    <li><a href="http://desandro.com">David DeSandro</a></li>
+    <li><a href="http://twitter.com/jfsiii">John Schulz</a></li>
+    </ul>
+
     <h2>Options</h2>
 
     <p>The function accepts an array of objects. Each object holds a set of options.</p>
@@ -26,15 +33,15 @@ content:
       <li><code>resolution</code> : The distance in pixels between rendered pixels. Required.</li>
       <li><code>shape</code> : The shape of the pixel. Accepts <code>square</code>, <code>circle</code>, and <code>diamond</code>. Optional. Defaults to <code>square</code>.</li>
       <li><code>size</code> : The size in pixels of the rendered pixel. Optional. Defaults to value of <code>resolution</code>.</li>
-      <li><code>offset</code> : A diagonal offset in pixels. Optional. Defaults to <code>0</code>.</li>
+      <li><code>offset</code> : Offset in pixels. Optional. Defaults to <code>0</code>. Can be a single value <code>15</code> for a diagonal offset, or an array or object for X/Y pairs: <code>[ 15, 5 ]</code> or <code>{ x: 15, y: 5 }</code>.</li>
       <li><code>alpha</code> : A decimal value for the opacity of the rendering. Optional. Defaults to <code>1</code>.</li>
     </ul>
 
     <h2>Example Code</h2>
 
-    <p>This script works on any <strong>locally hosted</strong> image. <a href="http://dev.w3.org/html5/spec/the-canvas-element.html#security-with-canvas-elements">According to the HTML5 spec</a>, browsers prevent the usage of <code>getImageData()</code> on any externally hosted image.</p>
+    <p>This script works on any image. <a href="http://dev.w3.org/html5/spec/the-canvas-element.html#security-with-canvas-elements">According to the HTML5 spec</a>, browsers prevent the usage of <code>getImageData()</code> on any externally hosted image, but (largely thanks to the contributions of John Schulz) Close Pixelate has built-in methods to get around this security feature.</p>
 
-    <pre><code>&lt;img src="portrait-image" src="img/portrait.jpg" /&gt;</code></pre>
+    <pre><code>&lt;img src="img/portrait.jpg" /&gt;</code></pre>
 
     <p>Use the <code>closePixelate</code> method on the image in your script. You can control the output of the rendering by passing in an array of options.</p>
 
@@ -46,7 +53,7 @@ content:
 };
 window.addEventListener( 'DOMContentLoaded', docReady, false);</code></pre>
 
-    <p>Each set of options is an object representing one re-rendering the original image. </p>
+    <p>Each set of options is an object representing one re-rendering the original image.</p>
 
     <p>The first set of options, <code>{ resolution : 24 }</code> directs the script to render a big square pixel every 24 actual pixels. The script uses the exact color value of the one single actual pixel in the center of the big square pixel. </p>
 
@@ -78,7 +85,7 @@ window.addEventListener( 'DOMContentLoaded', docReady, false);</code></pre>
 
     <article>
       <figure>
-        <img id="stanley" class="portrait" src="@pathimg/stanley.jpg" alt="$2 Portrait Project: Stanley by Troy Holden" />
+        <img id="stanley" class="portrait" src="http://farm5.static.flickr.com/4017/4528382432_454051eaaa_b.jpg" alt="$2 Portrait Project: Stanley by Troy Holden" />
         <figcaption>Original photo: <a href="http://www.flickr.com/photos/troyholden/4528382432/"><em>$2 Portrait Project: Stanley</em> by Troy Holden</a></figcaption>
       </figure>
       <pre><code>{ resolution: 32 },
@@ -126,7 +133,7 @@ window.addEventListener( 'DOMContentLoaded', docReady, false);</code></pre>
 
     <article>
       <figure>
-        <img id="anita" class="portrait" src="@pathimg/anita.jpg" alt="anita shlosse 04 c studio.es by Vincent Boiteau" />
+        <img id="anita" class="portrait" src="http://farm3.static.flickr.com/2045/1708261749_bed1631d31_b.jpg" alt="anita shlosse 04 c studio.es by Vincent Boiteau" />
         <figcaption>Original photo: <a href="http://www.flickr.com/photos/2dogs_productions/1708261749/"><em>anita shlosse 04 &copy; studio.es</em> by Vincent Boiteau</a></figcaption>
       </figure>
       <pre><code>{ shape: 'square', resolution: 32 },
@@ -137,7 +144,7 @@ window.addEventListener( 'DOMContentLoaded', docReady, false);</code></pre>
 
     <article>
       <figure>
-        <img id="giraffe" class="portrait" src="@pathimg/giraffe.jpg" alt="Giraffe Portrait - Woburn Safari Park - Monday August 27th 2007 by Keven Law" />
+        <img id="giraffe" class="portrait" src="http://farm2.static.flickr.com/1226/1300905195_1bd8f2fac0_b.jpg" alt="Giraffe Portrait - Woburn Safari Park - Monday August 27th 2007 by Keven Law" />
         <figcaption>Original photo: <a href="http://www.flickr.com/photos/kevenlaw/1300905195/"><em>Giraffe Portrait - Woburn Safari Park - Monday August 27th 2007</em> by Keven Law</a></figcaption>
       </figure>
       <pre><code>{ shape : 'circle', resolution : 24 },
@@ -157,7 +164,7 @@ window.addEventListener( 'DOMContentLoaded', docReady, false);</code></pre>
     
     <article>
       <figure>
-        <img id="gavin" class="portrait" src="@pathimg/gavin.jpg" alt="Portrait Of A Mayor by Troy Holden" />
+        <img id="gavin" class="remote portrait" src="http://farm3.static.flickr.com/2754/4294580760_99624fea6f_b.jpg" alt="Portrait Of A Mayor by Troy Holden" />
         <figcaption>Original photo: <a href="http://www.flickr.com/photos/troyholden/4294580760/"><em>Portrait Of A Mayor</em> by Troy Holden</a></figcaption>
       </figure>
       <pre><code>{ shape : 'square', resolution : 48 },
