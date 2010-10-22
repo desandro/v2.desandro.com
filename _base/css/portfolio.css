@@ -247,8 +247,9 @@ article .visit {
     font-style: italic;
     text-transform: uppercase;
     float: right;
-    margin-bottom: 0;
     margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 3px;
 }
 
 article .visit a {
@@ -486,7 +487,7 @@ article details dd a:hover {
 
 /**** Craigslist CLean Up ****/
 #craigslist { background: #FFF }
-#craigslist .craigslist03 { background: #F4F4F4; }
+#craigslist .craigslist-a { background: #F4F4F4; }
 #craigslist header { top: 100px; right: 100px; }
 #craigslist .deet1 { left: 430px; top: 390px; } 
 #craigslist .deet2 { left: 250px; top: 1190px; }
