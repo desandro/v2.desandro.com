@@ -54,14 +54,14 @@ form span.req { display: none; }
 
 input.text, input.search, textarea.textarea {
     background: #59A;
-	background: -webkit-gradient(linear, left top, left bottom, from(#478), to(#59A), color-stop(0.2, #589));
     border: none;
     margin: 1px 0;
     width: 332px;
     font-family: inherit;
     padding: 4px;
-    -moz-box-shadow: inset 0 2px 5px hsla(0,0%,0%,.3);
-         box-shadow: inset 0 2px 5px hsla(0,0%,0%,.3);
+    -webkit-box-shadow: inset 0 2px 5px hsla(0,0%,0%,.3);
+       -moz-box-shadow: inset 0 2px 5px hsla(0,0%,0%,.3);
+            box-shadow: inset 0 2px 5px hsla(0,0%,0%,.3);
 }
 
 .wufoo input.text, .wufoo input.file, .wufoo select.select {
@@ -90,7 +90,9 @@ input.text, input.search, textarea.textarea {
 
 .wufoo input.submit {
     background: #CCC;
-    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC), color-stop(0.2, #F5F5F5), color-stop(0.8, #D5D5D5));
+    background-image: -moz-linear-gradient(-90deg, #FFF, #F5F5F5 20%, #D5D5D5 80%, 
+        #CCC);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC), color-stop(0.2, #F5F5F5), color-stop(0.8, #D5D5D5));
     border: 1px solid #999;
     font-family: inherit;
     font-size: 16px;
@@ -100,20 +102,10 @@ input.text, input.search, textarea.textarea {
     margin-bottom: 1.0em;
     -webkit-border-radius: 16px;
        -moz-border-radius: 16px;
-         -o-border-radius: 16px;
+            border-radius: 16px;
     -webkit-box-shadow: 0 2px 2px hsla(0,0%,0%,.1);
-    -moz-box-shadow:
-        0 2px 2px hsla(0,0%,0%,.1),
-        inset 0 40px 32px -16px hsla(0,0%,100%,.7),
-        inset 0 -5px 5px hsla(0,0%,0%,.05),
-        inset 0 5px 5px hsla(0,0%,100%,.8)
-    ;
-    box-shadow:
-        0 2px 2px hsla(0,0%,0%,.1),
-        inset 0 40px 32px -16px hsla(0,0%,100%,.7),
-        inset 0 -5px 5px hsla(0,0%,0%,.05),
-        inset 0 5px 5px hsla(0,0%,100%,.8)
-    ;
+       -moz-box-shadow: 0 2px 2px hsla(0,0%,0%,.1);
+            box-shadow: 0 2px 2px hsla(0,0%,0%,.1);
     text-shadow: 0 1px 0 hsla(0,0%,100%,.7);
 }
 
@@ -125,9 +117,13 @@ input.text, input.search, textarea.textarea {
 
 .wufoo input.submit:active  {
     background: #999;
-    background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#CCC));
+    background-color: -webkit-gradient(linear, left top, left bottom, from(#888), to(#CCC));
     border-color: #888;
-    -webkit-box-shadow: none;
+    -webkit-box-shadow:
+      inset 0 2px 15px hsla(0,0%,0%,.7),
+      inset 0 40px 32px -16px hsla(0,0%,100%,.7),
+      inset 0 -5px 5px hsla(0,0%,0%,.05)
+    ;
     -moz-box-shadow:
         inset 0 2px 15px hsla(0,0%,0%,.7),
         inset 0 40px 32px -16px hsla(0,0%,100%,.7),
