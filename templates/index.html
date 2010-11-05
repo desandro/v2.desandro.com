@@ -1,11 +1,32 @@
  :html_head
+ 
+  get "articles/behold-dropshadows" do
+    if $css do
+      foreach $css do
+        <link rel="stylesheet" href="@url" media="screen" />
+      endforeach
+    endif
+  end
 
     <meta name="google-site-verification" content="5Ih4b3U-CGqS11yHby4KdRQud9hwIdcgASYC7E80mSE" />
 
 get "articles/behold-dropshadows" do
-    :article_content
+  :article_content
 end
 
 :footer
+
+get "articles/behold-dropshadows" do
+  if $js do
+    foreach $js do
+      <script src="@url"></script>
+    endforeach
+  endif
+
+  if @scripts do
+    @scripts
+  endif
+end
+
 
 :closing
