@@ -6,7 +6,7 @@ iso8601time: 2009-12-07T12:00:00-05:00
 -
 article: yes
 -
-html_header:
+scripts:
 :masonry_js
 -
 content:

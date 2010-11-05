@@ -1,22 +1,9 @@
 :html_head
 
-:masonry_js
-<script>
-  $(function(){
-    $('#content').find('.articles').masonry({ singleMode: true });
-  });
-</script>
-
 </head>
 <body class="articles tk_proxima_nova">
 
 :header
-
-<header class="wrap12">
-    
-</header>
-
-
 
 <section id="content" class="article-list">
     <h1>@title</h1>
@@ -39,3 +26,12 @@
 
 
 :footer
+
+:masonry_js
+<script>
+  $(function(){
+    $('#content .articles').masonry({ singleMode: true });
+  });
+</script>
+
+:closing

@@ -21,7 +21,7 @@ preview:
     <span class="w1 h1"></span>
 </figure>
 -
-html_header:
+scripts:
 :masonry_js
 <script> 
 	$(function(){

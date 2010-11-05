@@ -3,12 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <title>if @title do @title &middot; endif David DeSandro</title>
+  
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/desandro" />
   <link rel="stylesheet" href="@root_path_base/css/desandro.css" media="screen" />
-  <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+  if $css do
+    foreach $css do
+      <link rel="stylesheet" href="@url" media="screen" />
+    endforeach
+  endif
 
+  <script src="@root_path/_base/js/modernizr.js"></script>
   <script src="http://use.typekit.com/bqa1ehi.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script src="@root_path/_base/js/application.js"></script>
-  <script src="/mint/?js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
 

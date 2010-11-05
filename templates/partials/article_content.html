@@ -1,16 +1,4 @@
 
-if $css do
-    foreach $css do
-        <link rel="stylesheet" href="@url" media="screen" />
-    endforeach
-endif
-
-if $js do
-    foreach $js do
-        <script src="@url"></script>
-    endforeach
-endif
-
 if @html_header do
     @html_header
 endif
