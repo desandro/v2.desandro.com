@@ -1,28 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 
 	<title>Page not found (404)</title>
-	<link rel="stylesheet" href="/_base/css/desandro.css" media="screen" /> 
-    <!--[if lte IE 7]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
-    <script src="http://use.typekit.com/bqa1ehi.js"></script> 
-    <script>try{Typekit.load();}catch(e){}</script>
-    <script src="/mint/?js"></script>
-    <script src="/_base/js/application.js"></script>
-    <style media="screen">
-        html, body { background: #EEE url(/_base/img/xx.png) center top;}
-        
+	<link rel="stylesheet" href="/_base/css/desandro.css" media="screen" />
+
+  <style media="screen">
+      html, body { background: #EEE url(/_base/img/xx.png) center top;}
+      
+  
+      #site-header #branding { background: none; }
+      
+      #site-header #branding p a { color: #222;}
+  
+      #content p {
+          font-size: 18px;
+          width: 600px;
+      }
+  </style>
+	
+
+
+  <script src="@root_path/_base/js/modernizr.js"></script>
+  <script src="http://use.typekit.com/bqa1ehi.js"></script> 
+  <script>try{Typekit.load();}catch(e){}</script>
     
-        #site-header #branding { background: none; }
-        
-        #site-header #branding p a { color: #222;}
-    
-        #content p {
-            font-size: 18px;
-            width: 600px;
-        }
-    </style>
+
     
 
 </head>
@@ -47,6 +51,22 @@
             <p><a href="/">Head back home.</a></p>
         </div>
     </section>
+    
+    
+    <script src="/_base/js/application.js"></script>
+    
+    
+    <script src="/mint/?js"></script>
+    <script>
+     var _gaq = [['_setAccount', 'UA-592624-3'], ['_trackPageview']];
+     (function(d, t) {
+      var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      g.async = true;
+      g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g, s);
+     })(document, 'script');
+    </script>
 
     
 </body>
