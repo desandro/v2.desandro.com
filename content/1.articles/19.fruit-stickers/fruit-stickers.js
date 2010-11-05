@@ -1,17 +1,4 @@
 $(function(){
-    // Dear, oh ye Gods of best practices,
-    // please forgive my soul for implementing
-    // this most-foul of browser-detection scripts
-    
-    // add class if only safari, since Chrome f's up 3D transforms but thinks acts like it doesn't
-    // WELL YOU DO CHROMIE, get your act together!
-    var userAgent = navigator.userAgent.toLowerCase();
-    if (/webkit/.test( userAgent ) && !/chrome/.test( userAgent )) {
-        $('body').addClass('three-d');
-    } else {
-        $('body').addClass('two-d');
-    }
-    
     
     // yeah, there's probably a faster way to do this...
     $('#controls .next').toggleClass('hide')

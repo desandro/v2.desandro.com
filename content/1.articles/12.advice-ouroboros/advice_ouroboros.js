@@ -1,29 +1,5 @@
-/**
- * test for CSS properties, in this case CSS Transform, taken from
- * http://thinkweb2.com/projects/prototype/feature-testing-css-properties/
- */
-var getStyleProperty = (function(){
-  var prefixes = ['Moz', 'Webkit', 'Khtml', 'O', 'Ms'];
-  function getStyleProperty(propName, element) {
-    element = element || document.documentElement;
-    var style = element.style,
-        prefixed;
-    // test standard property first
-    if (typeof style[propName] == 'string') return propName;
-    // capitalize
-    propName = propName.charAt(0).toUpperCase() + propName.slice(1);
-    // test vendor specific properties
-    for (var i=0, l=prefixes.length; i<l; i++) {
-      prefixed = prefixes[i] + propName;
-      if (typeof style[prefixed] == 'string') return prefixed;
-    }
-  }
-  return getStyleProperty;
-})();
 
-
-
-if (typeof getStyleProperty('transform') == 'string') {
+if ( Modernizr.csstransforms ) {
 
 	$(function(){
 
@@ -58,8 +34,12 @@ if (typeof getStyleProperty('transform') == 'string') {
 				top: 470,
 				left: 470,
 				cursor: 'move',
+				'transform': pTransform,
+				'-o-transform': pTransform,
 				'-moz-transform': pTransform,
 				'-webkit-transform': pTransform,
+				'transform-origin': transOrigin.str,
+				'-o-transform-origin': transOrigin.str,
 				'-moz-transform-origin': transOrigin.str,
 				'-webkit-transform-origin': transOrigin.str
 
@@ -79,6 +59,8 @@ if (typeof getStyleProperty('transform') == 'string') {
 
 				var transform = 'rotate('+ spanTheta +'rad) translate(0, ' + yPos + 'px)';
 				$(this).css({
+					'transform': transform,
+					'-o-transform': transform,
 					'-moz-transform': transform,
 					'-webkit-transform': transform
 				});						
@@ -102,6 +84,8 @@ if (typeof getStyleProperty('transform') == 'string') {
 			moveTheta = theta;
 			var transform = 'rotate('+ (theta) +'rad)';
 			ourP.css({
+				'transform': transform,
+				'-o-transform': transform,
 				'-moz-transform': transform,
 				'-webkit-transform': transform
 			});

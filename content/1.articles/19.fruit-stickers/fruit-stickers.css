@@ -26,16 +26,16 @@ h1 {
     z-index: 50;
 }
 
-.two-d #booklet,
-.three-d #booklet {
+.no-csstransforms3d #booklet,
+.csstransforms3d #booklet {
     height: 535px;
 }
 
-.two-d #booklet {
+.no-csstransforms3d #booklet {
     overflow: hidden;
 }
 
-.three-d #booklet .page {
+.csstransforms3d #booklet .page {
     position: absolute;
     left: 0;
     top: 0;
@@ -48,12 +48,12 @@ h1 {
     -webkit-transform: translate(335px, 0);
 }
 
-.two-d #booklet .page {
+.no-csstransforms3d #booklet .page {
     -webkit-transform: translate(0, 0);
 }
 
 
-.three-d #booklet img {
+.csstransforms3d #booklet img {
     display: block;
     position: absolute;
     left: 0;
@@ -61,17 +61,17 @@ h1 {
 
 }
 
-.three-d #booklet img:nth-child(2)  {
+.csstransforms3d #booklet img:nth-child(2)  {
     -webkit-transform: translateZ(-1px) rotateY(180deg);
 }
 
 
-.three-d #booklet .page.flipped { 
+.csstransforms3d #booklet .page.flipped { 
     -webkit-transform: translate(335px, 0) rotateY(-180deg); 
     z-index: 1 !important;
 }
 
-.two-d #booklet .page {
+.no-csstransforms3d #booklet .page {
     width: 670px;
     height: 535px;
     position: absolute;
@@ -79,12 +79,12 @@ h1 {
     left: 335px;
 }
 
-.two-d #booklet .page.flipped {
+.no-csstransforms3d #booklet .page.flipped {
     left: -335px;
     z-index: 10 !important;
 }
 
-.two-d #booklet .page img {
+.no-csstransforms3d #booklet .page img {
     display: block;
     float: left;
 }
@@ -171,8 +171,8 @@ h1 {
     position: relative;
 }
 
-.two-d #copy p,
-.three-d #copy p {
+.no-csstransforms3d #copy p,
+.csstransforms3d #copy p {
     opacity: 0;
     -webkit-transition: opacity 0.5s ease-out;
        -moz-transition: opacity 0.5s ease-out;
@@ -180,8 +180,8 @@ h1 {
             transition: opacity 0.5s ease-out;
 }
 
-.two-d #copy p.selected,
-.three-d #copy p.selected {
+.no-csstransforms3d #copy p.selected,
+.csstransforms3d #copy p.selected {
     opacity: 1;
     z-index: 20;
 }
