@@ -422,6 +422,33 @@ article details dd a:hover {
 **  Portfolio Pieces
 **************************/
 
+/**** Oracle Now ****/
+
+#oracle-now { 
+  background: url(../img/oracle-fabric.jpg) top center; 
+  overflow: hidden;
+}
+#oracle-now .images div { 
+  width: 960px;
+  position: relative;
+  margin: 0 auto;
+  border-top: none;
+}
+
+#oracle-now .images .oracle-now-2 img { 
+  left: -370px; 
+  position: relative;
+}
+
+
+#oracle-now .images .oracle-now-1 img { 
+  left: -175px; 
+  position: relative;
+}
+
+#oracle-now header { left: 40px; top: 300px;}
+#oracle-now .deet1 { right: 420px; top: 780px; }
+
 /**** Beercamp SXSW 2010 ****/
 #beercamp-sxsw-2010 .beercamp-b { background: #FFB url(../img/beercamp-bg.png) top center; }
 #beercamp-sxsw-2010 .beercamp-a { background: #FFD; }

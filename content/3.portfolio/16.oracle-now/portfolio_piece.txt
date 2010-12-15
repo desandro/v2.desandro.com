@@ -1,0 +1,24 @@
+title: Oracle Now iPhone App
+-
+portfolio_piece: yes
+-
+skills: Visual Design
+-
+link_text: View app details
+-
+link_url: http://itunes.apple.com/us/app/oracle-now/id392079209
+-
+header_deet:
+I delivered the visuals for Oracle's flagship iPhone app. This was an awesome project to produce designs working with a huge brand.
+-
+canvas_h: 970
+-
+addl_deets:
+<details class="deet1 note-top">
+  <dt></dt>
+  <dd>
+    <span class="point"></span>
+    The iPhone 4 was announced just a couple weeks before I started on visual design. Knowing that these comps would have to work on a Retina display, I created all designs with resolution independence in mind. Any image can scale up to whatever size you wanted. You could print a movie poster with these comps!
+  </dd>
+</details>
+
