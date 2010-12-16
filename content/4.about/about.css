@@ -60,6 +60,8 @@ body.about #site-header ol .about a {
   color: #D00;
 }
 
+#about .photo-credit { margin-top: 3.0em;}
+
 #about p { 
     margin-bottom: 0;
     font-weight: 200;
