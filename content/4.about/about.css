@@ -1,4 +1,4 @@
-html, body { background: #545649  url(about_head01.jpg) center 80px no-repeat; }
+html, body { background: #FFF  url(about-santa.jpg) center 80px no-repeat; }
 
 body {
     color: #FFF;
@@ -8,6 +8,7 @@ body {
 **  Site Header
 **************************/
 
+/*
 #site-header #branding {
     background: #FFF;
     color: #222;
@@ -27,6 +28,24 @@ body.about #site-header ol .about a {
 .rss a { background: #FFF; border-color: #FFF; }
 .rss a .dot { background: #222; }
 .rss a .ring { border-color: #222; }
+*/
+
+
+#site-header #branding {
+    background: #D00;
+}
+
+#site-header ol a {
+    color: #D00;
+}
+body.about #site-header ol .about a { 
+    color: #FFF; 
+}
+
+.rss a { background: #D00; border-color: #D00; }
+/*.rss a .dot { background: #222; }*/
+/*.rss a .ring { border-color: #222; }*/
+
 
 /**************************
 **  About content
@@ -35,6 +54,10 @@ body.about #site-header ol .about a {
 #about {
     height: 520px;
     
+}
+
+#about {
+  color: #D00;
 }
 
 #about p { 
