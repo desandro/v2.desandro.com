@@ -107,6 +107,7 @@ input.text, input.search, textarea.textarea {
        -moz-box-shadow: 0 2px 2px hsla(0,0%,0%,.1);
             box-shadow: 0 2px 2px hsla(0,0%,0%,.1);
     text-shadow: 0 1px 0 hsla(0,0%,100%,.7);
+    -webkit-background-clip: padding-box;
 }
 
 .wufoo input.submit:hover  {
