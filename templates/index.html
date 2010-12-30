@@ -1,6 +1,6 @@
  :html_head
  
-  get "articles/behold-dropshadows" do
+  get "articles/2010-projects" do
     if $css do
       foreach $css do
         <link rel="stylesheet" href="@url" media="screen" />
@@ -10,13 +10,13 @@
 
     <meta name="google-site-verification" content="5Ih4b3U-CGqS11yHby4KdRQud9hwIdcgASYC7E80mSE" />
 
-get "articles/behold-dropshadows" do
+get "articles/2010-projects" do
   :article_content
 end
 
 :footer
 
-get "articles/behold-dropshadows" do
+get "articles/2010-projects" do
   if $js do
     foreach $js do
       <script src="@url"></script>
