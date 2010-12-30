@@ -139,8 +139,8 @@ Class Stacey {
         if(file_exists('./content/404')) {
           $this->create_page('./content/404', '404');
         }
-        else if(file_exists('./public/404.html')) {
-          echo file_get_contents('./public/404.html');
+        else if(file_exists('./_base/404.html')) {
+          echo file_get_contents('./_base/404.html');
         }
         else {
           echo '<h1>404</h1><h2>Page could not be found.</h2><p>Unfortunately, the page you were looking for does not exist here.</p>';
