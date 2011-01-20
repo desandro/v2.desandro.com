@@ -230,10 +230,6 @@ content:
                     The Inspiration Stream | Veerle's blog 3.0
                     <img src="@pathimg/veerle-inspir.jpg" alt="The Inspiration Stream | Veerle's blog 3.0" width="280" height="496" />
                 </a></li>
-                <li><a href="http://matthewanderson.cc/">
-                    Matthew Anderson
-                    <img src="@pathimg/matthewanderson.jpg" alt="Matthew Anderson" width="280" height="336" />
-                </a></li>
                 <li><a href="http://scaffold.tumblr.com/">
                     Scaffold Tumblr Theme
                     <img src="@pathimg/scaffold.jpg" alt="Scaffold Tumblr Theme" width="280" height="345" />
@@ -245,6 +241,10 @@ content:
                 <li><a href="http://chromeography.com">
                     Chromeography    
                     <img src="@pathimg/chromeography.jpg" alt="Chromeography" width="280" height="523" />
+                </a></li>
+                <li><a href="http://www.dazeddigital.com/">
+                    Dazed Digital    
+                    <img src="@pathimg/dazed-digital.jpg" alt="Dazed Digital" width="280" height="468" />
                 </a></li>
             </ul>
 
