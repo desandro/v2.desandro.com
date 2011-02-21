@@ -61,8 +61,6 @@ body.about #site-header ol .about a {
     
 }
 
-
-
 #about .photo-credit { margin-top: 3.0em;}
 
 #about p { 
@@ -101,6 +99,13 @@ h1 {
     padding: 20px 0;
 }
 
+#contact .contact-note {
+  font-size: 16px;
+}
+
+#contact a {
+  color: #46E;
+}
 
 /**************************
 **  Socialize
