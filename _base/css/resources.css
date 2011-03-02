@@ -1,7 +1,4 @@
 
-#content .col8 {
-}
-
 
 article {
     margin-bottom: 40px;
@@ -40,6 +37,82 @@ article {
 #content a:hover {
     color: #E58;
     background: #FFF;
+}
+
+/**** Isotope ****/
+
+#isotope h2 { font-size: 143px; }
+#isotope p { font-size: 32px;}
+
+#isotope figure span { display: block; }
+
+#isotope .element {
+  float: left;
+  width: 90px;
+  height: 90px;
+  background: #58E;
+  color: #EEE;
+  margin: 5px;
+  position: relative;
+  border-top-right-radius: 1.2em;
+}
+
+#isotope .element span {
+  position: absolute;
+}
+
+
+#isotope .element .symbol {
+  font-size: 48px;
+  top: 6px;
+  left: 6px;
+  font-weight: bold;
+  line-height: 1.0em;
+}
+
+#isotope .element .name {
+  left: 8px;
+  bottom: 20px;
+  font-weight: bold;
+}
+
+#isotope .element .weight {
+  left: 8px;
+  bottom: 4px;
+}
+
+#isotope .element .number {
+  top: 4px;
+  right: 8px;
+  font-weight: bold;
+}
+
+#isotope .element.big {
+  width: 190px;
+  height: 190px;
+  font-size: 2.0em;
+}
+
+#isotope .element.big .symbol {
+  font-size: 110px;
+  top: 12px;
+  left: 12px;
+  line-height: 1.0em;
+}
+
+#isotope .element.big .name {
+  left: 16px;
+  bottom: 40px;
+}
+
+#isotope .element.big .weight {
+  left: 16px;
+  bottom: 8px;
+}
+
+#isotope .element.big .number {
+  top: 8px;
+  right: 16px;
 }
 
 /**** Jquery Masonry ****/
@@ -158,7 +231,7 @@ article {
 
 #close-pixelate h2 .close { font-size: 190px; }
 #close-pixelate h2 .pixelate { font-size: 130px; }
-#close-pixelate .col8 p { font-size: 22.5px; }
+#close-pixelate .col8 p { font-size: 22px; }
 
 #close-pixelate a .col4 { color: #58E; }
 #close-pixelate a:hover .col4 { color: #E58; }
