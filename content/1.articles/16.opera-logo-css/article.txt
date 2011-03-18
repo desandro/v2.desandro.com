@@ -27,7 +27,7 @@ content:
     
     <p class="centerplz"><a href="http://www.flickr.com/photos/nemoorange/4421737904/" title="Opera logo with CSS across browsers by Dave DeSandro, on Flickr"><img src="http://farm5.static.flickr.com/4014/4421737904_be9672475e.jpg" width="500" height="113" alt="Opera logo with CSS across browsers" /></a></p>
     
-    <p>Alas, best viewed in Firefox 3.6, Safari 4, or Chrome 5.</p>
+    <p>Best viewed in Firefox 3.6+, Safari 4+, Chrome 5+, <strong>[Updated 17 March 2011]</strong> and Opera 11.1+.</p>
     
     <p>Aside from another shameless plea for attention, this demonstration gives me a chance to look at some CSS3 properties across browsers.</p>
     
@@ -52,12 +52,15 @@ border-radius: 220px/235px;</code></pre>
     
     <pre><code>background: #800;
 background: -moz-linear-gradient(-90deg, #F88, #800);
+background:   -o-linear-gradient(        #F88, #800);
 background: -webkit-gradient(linear, 0 top, 0 bottom, from(#F88), to(#800));</code></pre>
     
     <p> This difference is emphasized when working with multiple colors. Take this example, from the large fill area, which has 3 additional color-stops:</p>
     
     <pre><code>background: #E71616;
 background: -moz-linear-gradient(-90deg, #FE878A, #E71616 50%, #800000 80%, 
+    #800000 85%, #b80304);
+background:   -o-linear-gradient(        #FE878A, #E71616    , #800000 80%, 
     #800000 85%, #b80304);
 background: -webkit-gradient(linear, 0 top, 0 bottom, from(#FE878A),
     color-stop(50%, #E71616), color-stop(80%, #800000), 
@@ -71,9 +74,9 @@ background: -webkit-gradient(linear, 0 top, 0 bottom, from(#FE878A),
     
     <p>Box shadow properties are consistent between browsers. Apart from the vendor prefixes, the properties are exactly the same.</p>
     
-    <pre><code>-moz-box-shadow: 0 100px 30px hsla(0,0%,0%,.2);
--webkit-box-shadow: 0 100px 30px hsla(0,0%,0%,.2);
-box-shadow: 0 100px 30px hsla(0,0%,0%,.2);</code></pre>
+    <pre><code>-webkit-box-shadow: 0 100px 30px hsla(0,0%,0%,.2);
+   -moz-box-shadow: 0 100px 30px hsla(0,0%,0%,.2);
+        box-shadow: 0 100px 30px hsla(0,0%,0%,.2);</code></pre>
 
     <p>Here I&rsquo;m using the <a href="https://developer.mozilla.org/en/CSS/color_value#HSLa_(hue-saturation-lightness-alpha)_hsla(H.2cS.2cL.2ca)">HSLa color value</a>, which I&rsquo;ve found to be easier to tweak when designing on the fly.</p>
     
