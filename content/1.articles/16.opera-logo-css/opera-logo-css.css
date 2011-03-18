@@ -18,6 +18,7 @@
     height: 470px;
     background: #800;
     background: -moz-linear-gradient(-90deg, #F88, #800);
+    background:   -o-linear-gradient(        #F88, #800);
     background: -webkit-gradient(linear, 0 top, 0 bottom, from(#F88), to(#800));
     top: 20px;
     left: 36px;
@@ -32,6 +33,7 @@
     height: 466px;
     background: #d40009;
     background: -moz-linear-gradient(-90deg, #FCC, #E71616 50%, #d40009);
+    background:   -o-linear-gradient(        #FCC, #E71616    , #d40009);
     background: -webkit-gradient(linear, 0 top, 0 bottom, from(#FCC), color-stop(50%, #E71616), to(#d40009));
     top: 22px;
     left: 38px;
@@ -45,6 +47,7 @@
     height: 456px;
     background: #E71616;
     background: -moz-linear-gradient(-90deg, #FE878A, #E71616 50%, #800000 80%, #800000 85%, #b80304);
+    background:   -o-linear-gradient(        #FE878A, #E71616 50%, #800000 80%, #800000 85%, #b80304);
     background: -webkit-gradient(linear, 0 top, 0 bottom, from(#FE878A), to(#b80304), color-stop(50%, #E71616), color-stop(80%, #800000), color-stop(85%, #800000) );
     top: 30px;
     left: 38px;
@@ -58,6 +61,7 @@
     height: 396px;
     background: #d20000;
     background: -moz-linear-gradient(-90deg, #cc3836, #d9100f 50%, #d20000);
+    background: -o-linear-gradient(          #cc3836, #d9100f    , #d20000);
     background: -webkit-gradient(linear, 0 top, 0 bottom, from(#cc3836), color-stop(50%, #d9100f), to(#d20000));
     left: 158px;
     top: 56px;
@@ -71,6 +75,7 @@
     height: 390px;
     background: #b80000;
     background: -moz-linear-gradient(-90deg, #9a0000, #b80000);
+    background:   -o-linear-gradient(        #9a0000, #b80000);
     background: -webkit-gradient(linear, 0 top, 0 bottom, from(#9a0000), to(#b80000));
     left: 161px;
     top: 59px;
