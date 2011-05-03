@@ -2,7 +2,7 @@
 
 Class Stacey {
 
-  static $version = '2.2.1';
+  static $version = '2.3.0';
 
   var $route;
 
@@ -78,8 +78,8 @@ Class Stacey {
     }
   }
 
-  function render($template_file) {
-    $cache = new Cache($template_file);
+  function render($file_path, $template_file) {
+    $cache = new Cache($file_path, $template_file);
     # set any custom headers
     $this->set_content_type($template_file);
     # if etag is still fresh, return 304 and don't render anything
@@ -114,7 +114,7 @@ Class Stacey {
       throw new Exception('A template named \''.$template_name.'\' could not be found in the \'/templates\' folder');
     }
     # render page
-    $this->render($current_page_template_file);
+    $this->render($file_path, $current_page_template_file);
   }
 
   function __construct($get) {
@@ -139,8 +139,8 @@ Class Stacey {
         if(file_exists('./content/404')) {
           $this->create_page('./content/404', '404');
         }
-        else if(file_exists('./_base/404.html')) {
-          echo file_get_contents('./_base/404.html');
+        else if(file_exists('./public/404.html')) {
+          echo file_get_contents('./public/404.html');
         }
         else {
           echo '<h1>404</h1><h2>Page could not be found.</h2><p>Unfortunately, the page you were looking for does not exist here.</p>';

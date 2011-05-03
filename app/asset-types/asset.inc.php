@@ -27,8 +27,9 @@ Class Asset {
     # set @url & @name variables
     $this->data['@url'] = $this->link_path;
     $this->data['@file_name'] = $this->file_name;
-    $this->data['@base_name'] = preg_replace(array('/\.[\w\d]+?$/', '/^\d+?\./'), array('', ''), $this->file_name);
     $this->data['@name'] = ucfirst(preg_replace(array('/[-_]/', '/\.[\w\d]+?$/', '/^\d+?\./'), array(' ', '', ''), $this->file_name));
+    # my-image.jpg >> my-image
+    $this->data['@base_name'] = preg_replace(array('/\.[\w\d]+?$/', '/^\d+?\./'), array('', ''), $this->file_name);
   }
   
 }
