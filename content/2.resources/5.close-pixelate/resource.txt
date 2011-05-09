@@ -25,6 +25,12 @@ content:
     <li><a href="http://twitter.com/jfsiii">John Schulz</a></li>
     </ul>
 
+    <h2>The Pixelator</h2>
+    
+    <p><a href="https://twitter.com/vancouverben">Ben Keen</a> took this script and built a whole UI around it, creating <a href="http://thepixelator.com">The Pixelator</a>. It&rsquo;s the easiest way to take it for a spin.</p>
+    
+    <p><a href="http://thepixelator.com"><img src="@path/img/the-pixelator.jpg" alt="The Pixelator by Ben Keen" /></a></p>
+
     <h2>Options</h2>
 
     <p>The function accepts an array of objects. Each object holds a set of options.</p>
