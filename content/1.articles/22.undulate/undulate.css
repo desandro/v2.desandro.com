@@ -1,0 +1,32 @@
+#content {
+  overflow: hidden;
+  background: #EEE;
+  
+}
+
+#lilies {
+  height: 600px;
+  margin: 120px 0 200px;
+  position: relative;
+}
+
+.lily {
+  position: absolute;
+  -webkit-user-select: none;
+  width: 1.4em;
+  height: 1.4em;
+  
+  -webkit-border-radius: 2.0em;
+     -moz-border-radius: 2.0em;
+          border-radius: 2.0em;
+}
+
+.rings .lily {
+  border: 0.3em solid #222;
+}
+
+.dots .lily {
+  border: none;
+  margin: 0.3em;
+  background-color: #222;
+}
