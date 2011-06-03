@@ -184,6 +184,8 @@
 
   LilyPond.prototype.mousedown = function( event ) {
     this.cursorStart( event );
+    event.preventDefault();
+    
   };
   
 
@@ -199,6 +201,8 @@
   // TODO - add multi-touch
   LilyPond.prototype.touchstart = function( event ) {
     this.cursorStart( event.changedTouches[0] );
+    event.preventDefault();
+    
   };
 
   LilyPond.prototype.touchend = function( event ) {
@@ -210,8 +214,6 @@
     
     document.addEventListener( cursorMoveEvent, this, false );
     document.addEventListener( cursorEndEvent, this, false );
-    
-    event.preventDefault();
     
   };
   
