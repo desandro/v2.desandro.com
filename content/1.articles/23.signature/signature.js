@@ -32,20 +32,27 @@
       this[ key ] = settings[ key ];
     }
     
-    var center = {
+    this.center = {
       x: this.element.offsetWidth / 2,
       y: this.element.offsetHeight / 2
     };
     
-    this.cursorPoint = center;
+    this.cursorPoint = this.center;
+    this.isUntouched = true;
+    this.t = 0;
     
     this.links = [];
+    
+    this.elementOffset = {
+      x : this.element.offsetLeft,
+      y : this.element.offsetTop
+    };
     
     var link,
         linkSettings = {
           rope: this,
-          x: center.x,
-          y: center.y
+          x: this.center.x,
+          y: this.center.y
         },
         fragment = document.createDocumentFragment();
     
@@ -57,7 +64,6 @@
     }
     
     this.element.appendChild( fragment );
-    this.element.className = this.className;
     
     this.element.addEventListener( cursorStartEvent, this, false);
     
@@ -67,6 +73,15 @@
   }
   
   ElasticRope.prototype.animate = function() {
+    
+    if ( this.isUntouched ) {
+      this.t += 0.001;
+      this.cursorPoint = {
+        x: Math.sin( this.t * 7  ) * 40 + this.center.x,
+        y: Math.cos( this.t * 13 ) * 40 + this.center.y
+      }
+    }
+    
     
     for (var i=0, len = this.links.length; i < len; i++) {
       this.links[i].update();
@@ -105,7 +120,7 @@
     document.addEventListener( cursorMoveEvent, this, false);
     document.addEventListener( cursorEndEvent, this, false);
     
-    this.hasFirstTouch = true;
+    this.isUntouched = false;
     this.hasActiveCursor = true;
     
   };
@@ -149,13 +164,9 @@
   
   ElasticRope.prototype.updateCursorPoint = function ( cursor ) {
     this.cursorPoint = {
-      x: cursor.pageX,
-      y: cursor.pageY
+      x: cursor.pageX - this.elementOffset.x,
+      y: cursor.pageY - this.elementOffset.y
     };
-    
-    // for ( var key in cursor ) {
-    //   console.log( key + ': ' + cursor[key] );
-    // }
   };
   
   // ======================= Link ===============================
@@ -244,8 +255,7 @@
       elasticity: 0.61,
       linkCount: isTouch ? 40 : 100,
       linkDistance: 10,
-      linkRadius: 8,
-      className: 'alpha'
+      linkRadius: 8
     });
   }
   

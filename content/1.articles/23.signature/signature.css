@@ -7,6 +7,7 @@ body {
 #elastic-rope {
   height: 600px;
   position: relative;
+  z-index: 100;
 }
 
 .elastic-rope-dot {
