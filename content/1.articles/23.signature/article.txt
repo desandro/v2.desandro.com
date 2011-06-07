@@ -1,8 +1,8 @@
 title: Signature
 -
-date: 6 Jun 2011
+date: 7 Jun 2011
 -
-iso8601time: 2011-06-03T08:00:00-05:00
+iso8601time: 2011-07-03T08:00:00-05:00
 -
 article: yes
 -
@@ -11,3 +11,9 @@ body_class: dark
 content:
 
   <div id="elastic-rope"></div>
+  
+  <div id="copy">
+    <p>This was an accident. I mistakenly reversed the incremental direction of the segments. Instead of breaking as it should have, it resulted in this organic serpentine form.</p>
+    <p>I admit this is just an experiment, but there's something especially compelling about it compared to most static informational web content. While it may lack in any substance, its ability to entertain is what keeps me on the page. Like someone else built the car, but I get to drive it.</p>
+    <p>In its most banal form, the web can be deconstructed into a library. At its best, when you leverage the qualities only </p>
+  </div>
