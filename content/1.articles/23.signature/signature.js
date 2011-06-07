@@ -39,7 +39,7 @@
     
     this.cursorPoint = this.center;
     this.isUntouched = true;
-    this.t = 0;
+    this.t = Math.random() * 100;
     
     this.links = [];
     

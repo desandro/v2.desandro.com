@@ -14,6 +14,8 @@ content:
   
   <div id="copy">
     <p>This was an accident. I mistakenly reversed the incremental direction of the segments. Instead of breaking as it should have, it resulted in this organic serpentine form.</p>
-    <p>I admit this is just an experiment, but there's something especially compelling about it compared to most static informational web content. While it may lack in any substance, its ability to entertain is what keeps me on the page. Like someone else built the car, but I get to drive it.</p>
-    <p>In its most banal form, the web can be deconstructed into a library. At its best, when you leverage the qualities only </p>
+    <p>I'm not exactly sure of the math behind its movement. Each segment is trying to catch up to the one before it, but in the opposite direction. The most interesting shapes are formed, not when you whip around the cursor as one might expect, but when you move slowly. The small differences between segments gets amplified, producing expanding curvatures.</p>
+    <p>As much as I appreciate well-structured content and finely crafted visuals, I find interactive experiments like one more compelling. While it may lack in any substance, its ability to entertain is what keeps me on the page. Like someone else built the car, but I get to drive it.</p>
+    <p>I think this element of entertainment and engagement is the key to creating the best content on the web. It's not just a gimmick. You should reward your users for using your application. Before you inform or persuade or communicate, you should delight. If the work is delightful, you can get them on your side and all other goals of communication or persuasion will fall into place.</p>
+    <p>In its most banal form, the web is a library. We should build more playgrounds.</p>
   </div>
