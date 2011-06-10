@@ -1,0 +1,56 @@
+title: Undulate Net
+-
+date: 10 Jun 2011
+-
+iso8601time: 2011-10-03T08:00:00-05:00
+-
+article: yes
+-
+newest_article: yes
+-
+content:
+
+<canvas id="canvas"></canvas>
+
+<div class="wrap12">
+  <div id="options" class="col5 space1right">
+    <ul>
+      <li>
+        <label for="elasticity">elasticity</label>
+        <input id="elasticity" type="range" min="0" max="100" value="97" data-units="%" />
+      </li>
+      <li>
+        <label for="responsiveness">responsiveness</label>
+        <input id="responsiveness" type="range" min="0" max="100" value="6" data-units="%" />
+      </li>
+      <li>
+        <label for="displacement-radius">displacement radius</label>
+        <input id="displacement-radius" type="range" min="0" max="1000" value="400" data-units="px" />
+      </li>
+      <li>
+        <label for="displacement-intensity">displacement intensity</label>
+        <input id="displacement-intensity" type="range" min="-100" max="100" value="-12" data-units="%" />
+      </li>
+      <li>
+        <label for="node-count"># of nodes (approx.)</label>
+        <input id="node-count" type="range" min="100" max="2000" value="550" />
+      </li>
+      <li>
+        <label for="render-grid">grid</label>
+        <input id="render-grid" type="checkbox" checked />
+      </li>
+      <li>
+        <label for="render-dots">dots</label>
+        <input id="render-dots" type="checkbox" />
+      </li>
+    </ul>
+  </div>
+  
+  <div id="copy" class="col6">
+    <p>Here's the canvas version of <a href="http://desandro.com/articles/undulate">Undulate</a>. The original version was realized with CSS transforms on plain ol' <code>&lt;div&gt;</code>s. This was to cater to iOS devices, which can take advantage of hardware-acceleration via 3D CSS transforms. iOS devices perform pretty poorly with animated canvas. Getting that out of the way, this canvas version performs snappily on the desktop, so it can handle more particles.</p>
+    <p>Now that I know the name for it, particle systems have been my thing for a long time. You provide a set of rules and parameters for the constructor or class, throw in some sort of variation, and the result appears complex. But it's just the forest from the trees.</p>
+  </div>
+</div>
+
+
+

@@ -1,0 +1,19 @@
+#content {
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+#options {
+  font-size: 14px;
+}
+
+#options li, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#options label {
+  display: inline-block;
+  width: 170px;
+}
