@@ -47,7 +47,7 @@ content:
   </div>
   
   <div id="copy" class="col6">
-    <p>Here's the canvas version of <a href="http://desandro.com/articles/undulate">Undulate</a>. The original version was realized with CSS transforms on plain ol' <code>&lt;div&gt;</code>s. This was to cater to iOS devices, which can take advantage of hardware-acceleration via 3D CSS transforms. iOS devices perform pretty poorly with animated canvas. Getting that out of the way, this canvas version performs snappily on the desktop, so it can handle more particles.</p>
+    <p>Here's the canvas version of <a href="http://desandro.com/articles/undulate">Undulate</a>. The original version was realized with CSS transforms on plain ol' <code>&lt;div&gt;</code>s. This approach caters to iOS devices, which can take advantage of hardware-acceleration via 3D CSS transforms. iOS devices perform pretty poorly with animated canvas. Getting that out of the way, this canvas version performs snappily on the desktop, so it can handle more particles.</p>
     <p>Now that I know the name for it, particle systems have been my thing for a long time. You provide a set of rules and parameters for the constructor or class, throw in some sort of variation, and the result appears complex. But it's just the forest from the trees.</p>
   </div>
 </div>
