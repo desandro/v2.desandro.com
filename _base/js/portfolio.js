@@ -26,7 +26,7 @@ var drawBeziers = function () {
         canvasOffsetTop = $canvas.offset().top;
     
     // get positions of details
-    $this.find('.copy details').each(function( i, el ){
+    $this.find('.copy .details').each(function( i, el ){
       var $el = $( el );
       points.push({
         x: ( $el.offset().left - canvasOffsetLeft ) + $el.outerWidth() / 2,

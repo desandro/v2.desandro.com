@@ -16,27 +16,27 @@ Although Gmail is incredibly popular, it has enough visual quirks to ensure no o
 canvas_h: 460
 -
 addl_deets:
-<details class="deet1 note-bottom">
-    <dt></dt>
-    <dd>
+<div class="details deet1 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         Removing the static underline for links reduces visual complexity, while adding functionality so they can be turned back on for hover states.<br>
 <br>
 These links also use a larger font size, to help establish visual hierarchy.
-    </dd>
-</details>
-<details class="deet2 note-bottom">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet2 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         I brought in the suggestions made by <a href="http://www.subtraction.com/2008/06/17/spacing-is-e">Khoi Vihn</a>, adding padding around all visual elements making the interface more legible.
-        </dd>
-</details>
-<details class="deet3 note-top">
-    <dt></dt>
-    <dd>
+        </div>
+</div>
+<div class="details deet3 note-top">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         Buttons now use a softer gradient and proper CSS rounded corners.
-    </dd>
-</details>
+    </div>
+</div>
 

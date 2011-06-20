@@ -2,29 +2,36 @@
 :portfolio_head
 
 <ul id="port-nav">
-    <li class="updown previous"><a href="#previous">
-		<details>
-			<dt>Previous image<span class="pointer"></span></dt>
-		</details>
-		<span class="arrow"></span>
-    </a></li>
-    <li class="updown next"><a href="#next">
-    	<details>
-    		<dt>Next image<span class="pointer"></span></dt>
-    	</details>
-    	<span class="arrow"></span>
-    </a></li>
-    foreach $children do
-        <li class="nav-article">
-            <a href="#@slug">
-                <span class="dot"></span>
-				<details>
-					<dt> @title <span class="pointer"></span></dt>
-					<dd> @skills </dd>
-				</details>
-            </a>
-        </li>
-    endforeach
+  <li class="updown previous">
+    <a href="#previous">
+      <div class="details">
+        <span class="pointer"></span>
+        <p class="title">Previous image</p>
+      </details>
+      <span class="arrow"></span>
+    </a>
+  </li>
+  <li class="updown next">
+    <a href="#next">
+      <div class="details">
+        <span class="pointer"></span>
+        <p class="title">Next image</p>
+      </div>
+      <span class="arrow"></span>
+    </a>
+  </li>
+  foreach $children do
+    <li class="nav-article">
+      <a href="#@slug">
+        <span class="dot"></span>
+        <div class="details">
+          <span class="pointer"></span>
+          <p class="title">@title</p>
+          <p class="skills">@skills</p>
+        </div>
+      </a>
+    </li>
+  endforeach
 </ul>
 
 foreach $children do

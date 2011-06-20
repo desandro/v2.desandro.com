@@ -14,31 +14,31 @@ The nclud gang was throwing a killer party at SXSW 2010, and we needed a event p
 canvas_h: 970
 -
 addl_deets:
-<details class="deet1 note-bottom">
-    <dt></dt>
-    <dd>
+<div class="details deet1 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         The faux 3D block lettering effect seen here is rendered entirely with text-shadow.
-    </dd>
-</details>
-<details class="deet2 note-bottom">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet2 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         Leveraging <a href="http://typekit.com">Typekit</a>, I was able to deliver a rich typographic experience. Working solely with the <a href="http://typekit.com/fonts/576">FF Enzo Web</a> typeface, I mixed weights and styles to give the site a personality that couldn&rsquo;t otherwise be achieved  with standard webfonts.
-    </dd>
-</details>
-<details class="deet3 note-top">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet3 note-top">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         This illustration &mdash; every window, door, and panel &mdash; is rendered purely with HTML elements, no images involved.
-    </dd>
-</details>
-<details class="deet4 note-bottom">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet4 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         To create a dynamic list of the teams participating in the beerpong tournament, I implemented a simple sign-up form with <a href="http://wufoo.com">Wufoo</a>, that pulled in Twitter avatars.
-    </dd>
-</details>
+    </div>
+</div>

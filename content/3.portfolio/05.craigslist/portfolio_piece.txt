@@ -14,17 +14,17 @@ Poor ol&rsquo; Craigslist. Everyone picks on it for being ugly, but no one is wi
 canvas_h: 1600
 -
 addl_deets:
-<details class="deet1 note-top">
-    <dt></dt>
-    <dd>
+<div class="details deet1 note-top">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         Look familiar? The userstyle adheres to the current Craigslist visual brand (or lack there of). My goal was not to completely overhaul the interface, but to enhance and address every detail in order to provide a more legible and aesthetically pleasing website.                           
-    </dd>
-</details>
-<details class="deet2 note-top">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet2 note-top">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         By setting the total width of the content fairly thin, lines of text are kept to appropriate length, thus improving legibility.                          
-    </dd>
-</details>
+    </div>
+</div>

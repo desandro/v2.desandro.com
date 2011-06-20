@@ -14,19 +14,19 @@ Once we branded the nclud Tweetie/Flickr script as GDZLLA, it was obvious that w
 canvas_h: 480
 -
 addl_deets:
-<details class="deet1 note-bottom">
-    <dt></dt>
-    <dd>
+<div class="details deet1 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         Just like the application of GDZLLA itself, the illustration was created organically rapidly. Given a tight deadline, I relied on simple shapes as the foundational forms that make up Smash the mascot.  His head, body, and all the parts of his eyes are comprised of circles.<br /> 
         <br />
         <a href="http://nclud.com/sketchbook/illustrating-smash-the-gdzlla-mascot/">Read more about the illustrative process behind Smash.</a>                          
-    </dd>
-</details>
-<details class="deet2 note-top">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet2 note-top">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         Smash takes center stage on the <a href="http://gdzl.la/404">GDZLLA 404 page</a>. Infusing the illustration with jQuery animation brought the mascot to life.                        
-    </dd>
-</details>
+    </div>
+</div>

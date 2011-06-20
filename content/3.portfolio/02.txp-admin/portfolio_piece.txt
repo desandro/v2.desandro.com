@@ -14,24 +14,24 @@ Textpattern is a flexible, elegant and easy-to-use CMS. I love the product and i
 canvas_h: 1178
 -
 addl_deets:
-<details class="deet1 note-bottom">
-    <dt></dt>
-    <dd>
+<div class="details deet1 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         Prior to version 4.2.0 there was no accessible way to implement custom themes. So in addition to the CSS themes, I developed a plugin to allow users to select and edit the admin themes from within the Textpattern back-end.                            
-    </dd>
-</details>
-<details class="deet2 note-bottom">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet2 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         Images like the gradients in these buttons were inserted directly into CSS through data URI encoding. This allowed me to use simple imagery in the CSS without having to link to an external resource. In turn, users only have to worry about the CSS file, no fussing with images.                            
-    </dd>
-</details>
-<details class="deet3 note-top">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet3 note-top">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         So many flavors to chose from! In attempting to create the ideal one-to-rule-them-all theme, I pursue several different directions. The result was 11 distinct themes, each with its own personality.                            
-    </dd>
-</details>
+    </div>
+</div>

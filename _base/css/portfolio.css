@@ -138,7 +138,7 @@ article {
          -o-transform: rotate(270deg); 
 }
 
-#port-nav a details {
+#port-nav a .details {
     display: block;
 	position: absolute;
     top: -9px;
@@ -158,18 +158,24 @@ article {
        -moz-transition: all 0.25s ease-out;
          -o-transition: all 0.25s ease-out;
 }
-#port-nav .updown a details { top: -2px;}
+#port-nav .updown a .details { top: -2px;}
 
-#port-nav a:hover details {
+#port-nav a:hover .details {
     width: 230px;
     padding: 5px 10px 5px 5px;    
     overflow: visible;
     opacity: 1;
 }
 
-#port-nav details * { display: block; line-height: 1.2em; width: 230px; }
+#port-nav .details .title,
+#port-nav .details .skills {
+  display: block;
+  line-height: 1.2em;
+  width: 230px;
+  margin: 0;
+}
 
-#port-nav details .pointer {
+#port-nav .details .pointer {
     display: block;
     position: absolute;
     border: 8px solid;
@@ -181,8 +187,8 @@ article {
 }
 #port-nav .updown .pointer { top: 5px;}
 
-#port-nav details dt { font-weight: 600; text-transform: uppercase;  }
-#port-nav details dd { font-weight: 500; font-size: 11.5px;}
+#port-nav .details .title { font-weight: 600; text-transform: uppercase;  }
+#port-nav .details .skills { font-weight: 500; font-size: 11.5px;}
 
 /**************************
 **  Articles
@@ -302,18 +308,18 @@ article .visit a:hover .arrow-bar { background: #FFF; right: 10px; }
 article .visit a:hover .arrow-point { border-color: transparent #FFF; right: 4px; }
 
 
-article details {
+article .details {
     height: 16px;
     width: 16px;
     position: absolute;
 }
-article header details {
+article header .details {
     left: 45%;
     bottom: -4px;
     text-align: left;
 }
 
-article details dt {
+article .details .dot {
     height: 8px;
     width: 8px;
     border: 4px solid #222;
@@ -331,14 +337,14 @@ article details dt {
          -o-transition: all .2s ease-out;
             transition: all .2s ease-out;
 }
-article header details dt {
+article header .details .dot {
     width: 14px;
     height: 14px;
     -webkit-border-radius: 12px;
        -moz-border-radius: 12px;
             border-radius: 12px;
 }
-article details:hover dt {
+article .details:hover .dot {
     background: #FFF;
     -webkit-transform: scale(1.5);
        -moz-transform: scale(1.5);
@@ -346,7 +352,7 @@ article details:hover dt {
 }
 
 
-article details dd {
+article .details .deet {
     position: absolute;
     width: 300px;
     left: -146px;
@@ -366,17 +372,17 @@ article details dd {
             transition: all .2s ease-out;
     
 }
-article header details dd { left: -144px; }
+article header .details .deet { left: -144px; }
 
-article details:hover dd {
+article .details:hover .deet {
     height: auto;
     padding: 10px;
     overflow: visible;
 }
 
-article details dd p:last-child { margin-bottom: 0;}
+article .details .deet p:last-child { margin-bottom: 0;}
 
-article details dd .point {
+article .details .deet .point {
     position: absolute;
     border-style: solid;    
     border-width: 10px;
@@ -384,35 +390,35 @@ article details dd .point {
     left: 144px;
 }
 
-article details.note-top .point,
-article details.note-bottom .point {
+article .details.note-top .point,
+article .details.note-bottom .point {
     border-color: #222 transparent;
 }
 
 
-article details.note-bottom dd {
+article .details.note-bottom .deet {
     top: 34px;
 }
-article header details.note-bottom dd {
+article header .details.note-bottom .deet {
     top: 40px;
 }
 
 
-article details.note-bottom .point {
+article .details.note-bottom .point {
     top: -20px;
     border-top-width: 0;
 }
 
-article details.note-top dd {
+article .details.note-top .deet {
     bottom: 34px;
 }
 
-article details.note-top .point {
+article .details.note-top .point {
     bottom: -20px;
     border-bottom-width: 0;
 }
 
-article details dd a:hover {
+article .details .deet a:hover {
     background: #E58;
     color: #FFF;
 }
@@ -475,13 +481,13 @@ article details dd a:hover {
 /**** Curtis CSS Typeface ****/
 #curtis-css-typeface .images div { background: #FFF url(../img/curtis_bg.png) center top; }
 #curtis-css-typeface header { top: 30px; left: 10px; }
-#curtis-css-typeface details.deet1 { left: 400px; top: 180px;}
+#curtis-css-typeface .details.deet1 { left: 400px; top: 180px;}
 
 /**** GDZLLA ****/
 #gdzlla { background: #D1771F url(../img/gdzlla_bg.jpg) top center repeat-x; }
 #gdzlla header { top: 40px; right: 140px; }
-#gdzlla details.deet1 { left: 320px; top: 220px;}
-#gdzlla details.deet2 { right: 340px; top: 300px;}
+#gdzlla .details.deet1 { left: 320px; top: 220px;}
+#gdzlla .details.deet2 { right: 340px; top: 300px;}
 
 /**** Masonry ****/
 #jquery-masonry { background: #D9D6D3; }

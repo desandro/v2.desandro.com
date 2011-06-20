@@ -14,34 +14,34 @@ This proposal project was a visual design and information architecture migration
 canvas_h: 1700
 -
 addl_deets:
-<details class="deet1 note-bottom">
-    <dt></dt>
-    <dd>
+<div class="details deet1 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         One of the primary goals for this redesign was to condense the content structure. Whereas the site had six different content types, moving forward, Textpattern Resources would be focused only on cataloging plugins. The main navigation is now just the primary filters that organize the plugins.<br />
 <br />
 Older content and sections of lesser importance can still be access through the secondary nav on the top left.                            
-    </dd>
-</details>
-<details class="deet2 note-bottom">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet2 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         To reflect the minimal and lightweight nature of Textpattern, I avoided using heavy amounts of imagery and instead focused on the typography. As this site’s primary purpose to organize and present plugins, by keeping it simple, users can better scan and consume the content of each page.                            
-    </dd>
-</details>
-<details class="deet3 note-bottom">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet3 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         Focusing on usability, a large portion of this project was aimed at simplifying functionality and removing excess content areas. The home page reflects this paradigm, offering a simple welcome blurb that directs new users to jump right in.
-    </dd>
-</details>
-<details class="deet4 note-bottom">
-    <dt></dt>
-    <dd>
+    </div>
+</div>
+<div class="details deet4 note-bottom">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         The typical tag cloud is actually counter-productive. By making the most popular tags visually larger, it over-emphasizes the content that is already popular. In the case of a library or directory like Textpattern.org, the less popular tags deserve just as much attention. To visualize the popularity of each tag, a simple bar graph is employed.
-    </dd>
-</details>
+    </div>
+</div>
 

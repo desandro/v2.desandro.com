@@ -14,11 +14,11 @@ I delivered the visuals for Oracle's flagship iPhone app. This was an awesome pr
 canvas_h: 970
 -
 addl_deets:
-<details class="deet1 note-top">
-  <dt></dt>
-  <dd>
+<div class="details deet1 note-top">
+  <div class="dot"></div>
+  <div class="deet">
     <span class="point"></span>
     The iPhone 4 was announced just a couple weeks before I started on visual design. Knowing that these comps would have to work on a Retina display, I created all designs with resolution independence in mind. Any image can scale up to whatever size you wanted. You could print a movie poster with these comps!
-  </dd>
-</details>
+  </div>
+</div>
 

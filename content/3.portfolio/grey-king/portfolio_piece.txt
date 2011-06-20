@@ -10,10 +10,10 @@ header_deet:
 canvas_h: 649
 -
 addl_deets:
-<details class="deet1 note-top">
-    <dt></dt>
-    <dd>
+<div class="details deet1 note-top">
+    <div class="dot"></div>
+    <div class="deet">
         <span class="point"></span>
         As a winner of the Newberry Award, this book is a classic, so I chose iconic imagery that would stand the test of time.
-    </dd>
-</details>
+    </div>
+</div>
