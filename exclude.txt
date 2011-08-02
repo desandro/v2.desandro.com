@@ -1,6 +1,6 @@
 exclude.txt
 .git
 .gitignore
-app/cache
+app/_cache
 *.sh
 .DS_Store
