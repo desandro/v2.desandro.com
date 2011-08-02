@@ -1,0 +1,6 @@
+exclude.txt
+.git
+.gitignore
+app/cache
+*.sh
+.DS_Store
