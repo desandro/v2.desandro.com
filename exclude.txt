@@ -1,4 +1,5 @@
 exclude.txt
+.htaccess
 .git
 .gitignore
 app/_cache
