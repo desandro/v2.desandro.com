@@ -6,8 +6,6 @@ iso8601time: 2011-06-10
 -
 article: yes
 -
-newest_article: yes
--
 content:
 
 <canvas id="canvas"></canvas>

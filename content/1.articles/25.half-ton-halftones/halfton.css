@@ -1,0 +1,39 @@
+body.articles {
+  background: black;
+}
+
+#outer-hull {
+  overflow: hidden;
+  height: 4300px;
+}
+
+#insulation {
+  left: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#inner-hull {
+  width: 1400px;
+  left: -700px;
+  position: absolute;
+}
+
+#content img {
+  display: block;
+  margin: 0 auto;
+}
+
+#content {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+#content a:hover {
+  color: #15F;
+}
+
+#content p {
+  margin-bottom: 60px;
+}
