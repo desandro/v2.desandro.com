@@ -2,7 +2,7 @@ title: Undulate Net
 -
 date: 10 Jun 2011
 -
-iso8601time: 2011-10-03T08:00:00-05:00
+iso8601time: 2011-06-10
 -
 article: yes
 -
