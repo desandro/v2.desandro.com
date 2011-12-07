@@ -1,0 +1,91 @@
+body.articles {
+  background: white;
+}
+
+#content {
+  font-family: 'Lora', Cambria, Georgia, serif;
+}
+
+#content h1 {
+  font-size: 90px;
+  position: relative;
+  height: 2.0em;
+  margin-left: 0.15em;
+}
+
+#content h1 b,
+#content h1 i {
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+}
+
+#content h1 b {
+  display: inline-block;
+  padding: 0 0.5em;
+  line-height: 1.0em;
+  background: hsla( 0, 0%, 0%, 0.0);
+  overflow: hidden;
+  position: absolute;
+
+}
+
+#content h1 b.mason {
+  -webkit-transform: rotate(-4deg);
+  left: -40px;
+}
+
+#content h1 b.mason i {
+  display: inline-block;
+  -webkit-transform-origin: top left;
+  -webkit-transform: translateY(0.1em) rotate(4deg);
+}
+
+#content h1 b.ident {
+  color: #D80;
+  left: 0.5em;
+  top: 0.98em;
+  -webkit-transform: rotate(-4deg);
+  padding-bottom: 0.5em;
+}
+
+#content h1 b.ident i {
+   display: inline-block;
+  
+  -webkit-transform-origin: right top;
+  -webkit-transform: translateY(-0.10em) rotate(4deg);
+}
+
+#content h1 span {
+  display: inline-block;
+  text-indent: -999em;
+}
+
+#copy {
+  width: 540px;
+  margin: 60px auto 160px;;
+  font-size: 14px;
+  line-height: 1.7em;
+}
+
+#copy p {
+  margin-bottom: 1.5em;
+}
+
+#copy a {
+  font-style: italic;
+  font-weight: bold;
+  color: #238
+}
+
+#copy a:hover {
+  background: none;
+  color: #D80;
+  border-bottom: 1px dotted;
+}
+
+#copy hr {
+  border: none;
+  border-bottom: 1px solid #DDD;
+  margin: 3.0em;
+}
