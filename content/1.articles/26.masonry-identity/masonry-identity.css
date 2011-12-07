@@ -7,6 +7,11 @@ body.articles {
 }
 
 #content h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.csstransforms #content h1 {
   font-size: 90px;
   position: relative;
   height: 2.0em;
@@ -20,43 +25,66 @@ body.articles {
   letter-spacing: -0.02em;
 }
 
-#content h1 b {
+.csstransforms #content h1 b {
   display: inline-block;
   padding: 0 0.5em;
   line-height: 1.0em;
   background: hsla( 0, 0%, 0%, 0.0);
   overflow: hidden;
   position: absolute;
-
 }
 
-#content h1 b.mason {
-  -webkit-transform: rotate(-4deg);
+.csstransforms #content h1 b.mason {
   left: -40px;
+  -webkit-transform: rotate(-4deg);
+     -moz-transform: rotate(-4deg);
+      -ms-transform: rotate(-4deg);
+       -o-transform: rotate(-4deg);
+          transform: rotate(-4deg);
 }
 
-#content h1 b.mason i {
+.csstransforms #content h1 b.mason i {
   display: inline-block;
-  -webkit-transform-origin: top left;
+  -webkit-transform-origin: left top;
+     -moz-transform-origin: left top;
+      -ms-transform-origin: left top;
+       -o-transform-origin: left top;
+          transform-origin: left top;
   -webkit-transform: translateY(0.1em) rotate(4deg);
+     -moz-transform: translateY(0.1em) rotate(4deg);
+      -ms-transform: translateY(0.1em) rotate(4deg);
+       -o-transform: translateY(0.1em) rotate(4deg);
+          transform: translateY(0.1em) rotate(4deg);
 }
 
-#content h1 b.ident {
-  color: #D80;
+#content h1 b.ident { color: #D80; }
+
+.csstransforms #content h1 b.ident {
   left: 0.5em;
   top: 0.98em;
-  -webkit-transform: rotate(-4deg);
   padding-bottom: 0.5em;
+  -webkit-transform: rotate(-4deg);
+     -moz-transform: rotate(-4deg);
+      -ms-transform: rotate(-4deg);
+       -o-transform: rotate(-4deg);
+          transform: rotate(-4deg);
 }
 
-#content h1 b.ident i {
+.csstransforms #content h1 b.ident i {
    display: inline-block;
-  
   -webkit-transform-origin: right top;
+     -moz-transform-origin: right top;
+      -ms-transform-origin: right top;
+       -o-transform-origin: right top;
+          transform-origin: right top;
   -webkit-transform: translateY(-0.10em) rotate(4deg);
+     -moz-transform: translateY(-0.10em) rotate(4deg);
+      -ms-transform: translateY(-0.10em) rotate(4deg);
+       -o-transform: translateY(-0.10em) rotate(4deg);
+          transform: translateY(-0.10em) rotate(4deg);
 }
 
-#content h1 span {
+.csstransforms #content h1 span {
   display: inline-block;
   text-indent: -999em;
 }
