@@ -14,7 +14,7 @@
     <title><?=$titletext?></title>
 
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-    <meta name="viewport" content=" initial-scale=1.0, user-scalable=0;"/>
+    <meta name="viewport" content=" initial-scale=1.0, user-scalable=0"/>
 
     <link rel="stylesheet" media="screen and (max-width: 480px)" href="<?= $windexPath ?>/css/iphone.css" />
     <link rel="stylesheet" media="screen and (min-width: 481px)" href="<?= $windexPath ?>/css/screen-foxy.css" />
