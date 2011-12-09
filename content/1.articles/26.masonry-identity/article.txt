@@ -1,0 +1,45 @@
+title: Masonry/Identity
+-
+date: 7 Dec 2011
+-
+iso8601time: 2011-12-07
+-
+article: yes
+-
+newest_article: yes
+-
+html_header: <link href="http://fonts.googleapis.com/css?family=Lora:400,700italic" rel="stylesheet">
+
+-
+content:
+
+<div id="copy">
+  
+  <h1>
+    <b class="mason"><i>Masonry</i></b><span>/</span><b class="ident"><i>Identity</i></b>
+  </h1>
+  
+  <p>It&rsquo;s October. I am standing in the beer line at Brooklyn Beta. Around my neck hangs my conference badge. Under my name, my description explains the reasoning why I belong there, and why my acquaintance is possibly worth making. Along with boastful exaggerations of my coding prowess, it details that I developed Masonry. I recognize this snippet as my go-to factoid when introducing myself.</p>
+
+  <p>&ldquo;Ever heard of jQuery Masonry? Yeah, I made that.&rdquo;</p>
+
+  <p>True to the badge description, it honestly is the reason why I am there. Brooklyn Beta Conference co-organizer Cameron Koczon runs Gimme Bar. As <a href="https://gimmebar.com/loves/cameron">Gimme Bar makes use of Masonry</a>, Cameron was kind enough to invite me to the conference.</p>
+
+  <p>Gimme Bar uses Masonry. <a href="http://pinterest.com">Pinterest</a> uses (their own version of) Masonry. <a href="http://delicious.com/stacks/view/Ol9zBW#m=grid">Delicious</a> uses Masonry.</p>
+
+  <p>With these high-visibility web properties making use of my work, it&rsquo;s now a part of my identity that I can share with people outside of the web profession. To my wife, Masonry was long regarded as the mysterious &lsquo;boxes&rdquo; project that her beau was constantly tinkering with. No longer. Now that she&rsquo;s a Pinterest user, Masonry layouts are a familiar concept to her.</p>
+
+  <hr />
+
+  <p>It is at this time in Brooklyn, I realize that Masonry has out-grown my authorship. It shares a place among other simple JavaScript resources now commonplace across the web, like <a href="http://lokeshdhakar.com/projects/lightbox/">Lightbox</a> or <a href="http://www.cabel.name/2008/02/fancyzoom-10.html">FancyZoom</a>. It&rsquo;s another tool web developers have at the ready. Masonry belongs to everyone.</p>
+
+  <hr />
+
+  <p>In the spirit of democratizing Masonry, I have developed <a href="http://vanilla-masonry.desandro.com">Vanilla Masonry</a>. Vanilla Masonry is the pure-JavaScript flavor of Masonry. It shares the majority of features with it&rsquo;s jQuery counterpart, all without the <a href="http://awardwinningfjords.com/2011/05/09/javascript-microframeworks-and-the-future.html">filesize bloat of a full-scale library</a>. From it&rsquo;s foundation-level base, you can develop a custom fork to suit your own motives, <a href="https://twitter.com/ded/status/114389279270109184">as some have considered</a>. Now Masonry can go anywhere.</p>
+
+  <hr />
+
+  <p>I've been working on Masonry for about as long as I've known I wanted to be working in the web, nearly three years now. Today marks two years since the <a href="/articles/jquery-masonry-v10-released/">version 1.0 release of jQuery Masonry</a>. I'd like to think that after all this time, all the hours spent coding, across three versions, I can dust off my hands and close the book on Masonry. But as I consider it's place, I see it's an integral part of who I am as a developer. As I grow in my profession, so does the project. So in a way, I hope Masonry never is completed.</p>
+  
+  
+</div>

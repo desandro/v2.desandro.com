@@ -8,8 +8,6 @@ article: yes
 -
 body_class: dark
 -
-newest_article: yes
--
 content:
 
 
