@@ -1,16 +1,17 @@
-;$(function(){
-    if( $('.csstransforms').length ) {
-        var liCount = $('#socialize li').length;
+$(function(){
 
-		$('#socialize li').each(function(i){
-			var theta = (360/liCount)*i;
-			var transformation = 'rotate(' + theta + 'deg)';
-			$(this).css({
-				'-webkit-transform': transformation,
-                   '-moz-transform': transformation,
-				     '-o-transform': transformation
-			});
-		});
-        
-    }
+  // position tranform links in pinwheel
+  if ( Modernizr.csstransforms ) {
+    var $socializeItems = $('#socialize li')
+    var liCount = $socializeItems.length
+    var transformProp = Modernizr.prefixed('transform')
+
+    var theta;
+
+    $socializeItems.each( function( i ) {
+      theta = ( 360 / liCount ) * i
+      this.style[ transformProp ] = 'rotate(' + theta + 'deg)'
+    })
+  }
+
 });

@@ -115,8 +115,8 @@ h1 {
     position: relative;
 }
 .csstransforms #socialize {
-	margin-top: 40px;
-	height: 400px;
+  margin-top: 80px;
+  height: 400px;
 }
 
 #socialize h2 {
