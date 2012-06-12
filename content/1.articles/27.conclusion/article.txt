@@ -6,6 +6,8 @@ iso8601time: 2012-06-12T12:00:00-05:00
 -
 article: yes
 -
+newest_article: yes
+-
 body_class: dark
 -
 content:
