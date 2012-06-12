@@ -1,0 +1,43 @@
+title: conclusion
+-
+date: 12 Jun 2012
+-
+iso8601time: 2012-06-12T12:00:00-05:00
+-
+article: yes
+-
+body_class: dark
+-
+content:
+<div class="wrap12">
+    <h1>@title</h1>
+    <div id="nclusion">
+
+      <p>Next week I start a new chapter, working for Twitter. As such, I'd like to say a couple things about my current employer for the next 4 days, <a href="http://nclud.com">nclud</a>. As I am still in the infantile age of my professional career as a web designer, I feel ever so grateful to have been a part of this team for the past three formative years.</p>
+
+      <hr />
+
+      <p>I was hired by <a href="http://twitter.com/martymadrid">Martin</a> and <a href="http://twitter.com/alexgiron">Alex</a> back in August 2009. I was surprised when they first reached out. At the time, my only professional experiences was at the internship I was currently attending. My body of work comprised mostly of side- and student projects. Somehow, they saw potential in me. I am certainly lucky that they saw anything at all.</p>
+
+      <p>Over an introductory lunch, Alex and Martin succintly communicated that nclud was a sort of lifestyle company. They were small for a reason. They were in DC for a reason. They fervently played Mario Kart every afternoon for a reason. nclud had a clearly defined identity and culture. One that I identified with.</p>
+
+      <p><a href="/articles/nclusion/">I was entralled to be a part of the team.</a> For years, I had been outside of the professional web community, and now here I was, getting a chair at the table, rubbing elbows with the same people I so strongly admired. Joining nclud made me the sixth full-time employee. I went from intern to 17% of a company.</p>
+
+      <p>Since that summer 3 years ago, the job has been everything I could have hoped for.  I have worked for the best clients, creating the most exciting work, and enjoying all the fun in between.</p>
+
+      <p>It all worked together. Because nclud respected the creative endeavors of its employees, we were able to indulge in side projects. It was these side projects that got the attention of some high-profile clients &mdash; clients that cared about the craft of web design, that were excited by the same concepts we tinkered with. The culture facilitated a healthy self-sustaining feedback loop of experimentation and recognition.</p>
+
+      <p>Alex and Martin supported my decision to start my <a href="http://metafizzy.co">side-business</a>. They didn't see it as distracting from my work at the day-job. They trusted that any success I would achieve on my own would eventually translate into success at nclud. They were right.</p>
+
+      <hr />
+
+      <p>In 2007, when nclud was first founded, the web design community still had the impression of a small, tightly-knit group of hackers and typography geeks. Now SXSWi has an attendence of tens of thousands and the evening news leads with announcements from the latest Apple event. Web design is ever-present. It has ascended so far into the mainstream, we can forget that every byte and every pixel must have been crafted by an individual constiuent of the web design profession.</p>
+
+      <p>The amount of bytes and pixels nclud has contributed to the Web is infinitesimally small. But I envision its spirit in the community as inversely enormous. I hope others recognize the small sliver of success we carved out and subsequently identify a part of themselves that matches that same ambition.</p>
+
+      <p>nclud started out as two guys who thought they could do the job better on their own terms. Not only did they do the job better, but they made the job itself better. I'll always have that lesson, where-ever my path leads.</p>
+      
+
+    </div>    
+</div><!-- .wrap12 -->
+
