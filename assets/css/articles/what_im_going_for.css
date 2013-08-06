@@ -1,0 +1,18 @@
+body.articles { 
+  background: #FFF url(what_im_going_for05.png) top center repeat-y fixed;
+}
+
+.ex {
+  background: rgba(255,128,0,.08);
+  margin: 80px 0;
+}
+
+#content h3.col2 { 
+  margin-right: 0; 
+  margin-top: 40px;
+  font: bold 28px/30px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+#comments { background-color: #CA8; }
+
