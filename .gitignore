@@ -2,3 +2,4 @@ app/_cache/
 .DS_Store
 .htaccess
 demo/
+_site/
