@@ -1,0 +1,194 @@
+---
+layout: null
+---
+
+{% include html_head.html %}
+ 
+    <meta name="google-site-verification" content="5Ih4b3U-CGqS11yHby4KdRQud9hwIdcgASYC7E80mSE" />
+    
+    <style media="screen">
+      #bento {
+        width: 940px;
+        border: 10px solid;
+        border-bottom: none;
+        margin: 40px auto 80px;
+        text-align: center;
+        
+      }
+      
+      #bento section {
+        border-bottom: 10px solid;
+        overflow: auto;
+      }
+
+      #bento h1 {
+        font-size: 100px;
+        letter-spacing: -2px;
+        line-height: 1.0em;
+      }
+      
+      
+      #bento .name-title {
+        padding: 60px 0;
+      }
+      #bento .name-title p {
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 200;
+        letter-spacing: 0.35em;
+        margin-bottom: 0.4em;
+      }
+      
+      #bento h2 {
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.35em;
+        padding: 10px 0   ;
+        border-bottom: 10px solid;
+        margin-bottom: 0;
+/*        background: #222;
+        color: #EEE;
+        border-color: #222;*/
+      }
+      
+      #bento h2:before { content: '· '; }
+      #bento h2:after  { content: ' ·'; }
+      
+      #bento .blogging div {
+        float: left;
+        width: 465px;
+        padding: 80px 0;
+        border-right: 10px solid;
+      }
+      
+/*        #bento .blogging .dropshadows {  }*/
+      
+      #bento .blogging h3 {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: 800;
+        line-height: 0.8em;
+        margin-bottom: 10px;
+      }
+      
+      #bento p {
+        margin-bottom: 0;
+        font-size: 16px;
+      }
+      
+      #bento .projects div {
+        width: 286px;
+        float: left;
+        padding: 70px 10px;
+        height: 80px;
+        border-right: 10px solid;
+      }
+      
+      
+      #bento .projects h3 {
+        text-transform: uppercase;
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 0.2em;
+      }
+      
+      #bento .projects .intro3d h3 {
+        margin-top: -0.5em;
+      }
+      
+      #bento .presence li {
+        width: 227px;
+        border-right: 10px solid;
+        float: left;
+        font-size: 40px;
+        padding: 80px 0;
+        text-transform: uppercase;
+        font-weight: 800;
+      }
+      
+      
+      
+      #bento section .omega {
+        border-right: none;
+      }
+      
+
+    </style>
+
+  </head>
+  <body class="articles">
+
+    {% include header.html %}
+
+  <section id="content">
+
+    <div id="bento">
+
+      <section class="name-title">
+        <h1>David DeSandro</h1>
+        <p>Web designer &amp; front&ndash;end developer</p>
+      </section>
+
+      <section class="projects">
+        <h2>Speaking</h2>
+        <div class="project">
+          <h3><a href="http://2012.front-trends.com/speakers/#david-desandro">Front-Trends</a></h3>
+          <p>April 26-27 / Warsaw, Poland</p>
+        </div>
+        <div class="project">
+          <h3><a href="http://futureinsightslive.com/schedule">Future Of Web&nbsp;Design
+</a></h3>
+          <p>May 2nd / Las Vegas</p>
+        </div>
+        <div class="project omega">
+          <h3><a href="http://valiocon.com/#david">Valio Con</a></h3>
+          <p>June 7-10 / San Diego</p>
+        </div>
+      </section>
+
+
+      <section class="blogging">
+        <h2>Blogs</h2>
+        <div class="dropshadows blog">
+          <h3><a href="http://dropshado.ws"><span>dropsh</span><span>ado.ws</span></a></h3>
+          <p>Front-end development minuti&aelig;</p>
+        </div>
+        <div class="metafizzy omega">
+          <h3><a href="http://metafizzy.co/blog"><span>Meta</span><span>fizzy</span></a></h3>
+          <p>Delightful web resources like Isotope and Masonry</p>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2>Recent Projects</h2>
+        <div class="project">
+          <h3><a href="http://nclud.com/">nclud.com v3</a></h3>
+          <p>HTML5 CSS3 WTF</p>
+        </div>
+        <div class="project vanilla-masonry">
+          <h3><a href="http://vanilla-masonry.desandro.com">Vanilla Masonry</a></h3>
+          <p>Masonry layouts without any frameworks</p>
+        </div>
+        <div class="project isotope omega">
+          <h3><a href="http://isotope.metafizzy.co">Isotope</a></h3>
+          <p>An exquisite jQuery Plugin for magical&nbsp;layouts</p>
+        </div>
+      </section>
+      
+      <section class="presence">
+        <h2>Web presence</h2>
+        <ul>
+          <li><a href="http://github.com/desandro">GitHub</a></li>
+          <li><a href="http://twitter.com/desandro">Twitter</a></li>
+          <li><a href="http://jsfiddle.net/user/desandro">jsFiddle</a></li>
+          <li class="omega"><a href="http://flickr.com/photos/nemoorange">Flickr</a></li>
+        </ul>
+      </section>
+    </div>
+
+  </section>
+
+{% include footer.html %}
+
+{% include closing.html %}
