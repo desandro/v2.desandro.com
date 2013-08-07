@@ -17,9 +17,7 @@ layout: null
                 <a href="{{ article.url }}" class="clearfix">
                     <h2>{{ article.title }}</h2>
                     <time datetime="{{ article.iso8601time }}">{{ article.date | date:'%d %b %Y' }}</time>
-                    <!-- foreach $_preview do
-                        <img src="@url" width="@width" height="@height" />
-                    endforeach -->
+                    <img src="/assets/img/articles/{{article.preview_img}}" />
                 </a>
             </article>
       {% endfor %}
@@ -29,10 +27,13 @@ layout: null
 
 {% include footer.html %}
 
+<script src="/assets/js/imagesloaded.pkgd.min.js"></script>
 <script src="/assets/js/jquery.masonry.min.js"></script>
 <script>
   $(function(){
-    $('#content .articles').masonry();
+    var $articles = $('#content .articles').imagesLoaded( function() {
+      $articles.masonry();
+    });
   });
 </script>
 
