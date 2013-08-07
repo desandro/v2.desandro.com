@@ -1,0 +1,25 @@
+body.articles {  background: #432 url(domake12.png) top center no-repeat; }
+
+#content h1 { 
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+
+#do-images img {
+  position: absolute;
+}
+
+
+#do-images {
+  width: 661px;
+  height: 446px;
+  margin: 500px auto;
+  padding: 1px;
+}
+
+#comments { 
+  background: #432;
+  color: #210;  
+}
