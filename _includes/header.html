@@ -1,0 +1,17 @@
+<section id="site-header" class="tk_proxima_nova">
+  <div id="branding">
+    <p><a href="/"><span>David</span> DeSandro</a>  / </p>
+  </div>
+  <ol>
+    <li class="articles"><a href="/articles">Articles</a>
+      {% if page.categories == 'articles' %}
+        / <em><a href="{{ page.url }}">{{ page.title }}</a></em>
+        <time datetime="{{ page.iso8601time }}">{{ page.date }}</time>
+      {% endif %}
+    </li>
+    <!-- <li class="portfolio"><a href="/portfolio">Portfolio</a>
+      if @portfolio_piece do / <a href="@url">@title</a> endif
+    </li> -->
+    <li class="about"><a href="/about">About</a></li>
+  </ol>
+</section>
