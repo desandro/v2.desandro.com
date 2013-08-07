@@ -1,5 +1,5 @@
 body.articles { 
-  background: #FFF url(what_im_going_for05.png) top center repeat-y fixed;
+  background: #FFF url(/assets/img/articles/what_im_going_for05.png) top center repeat-y fixed;
 }
 
 .ex {
@@ -15,4 +15,3 @@ body.articles {
 }
 
 #comments { background-color: #CA8; }
-

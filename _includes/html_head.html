@@ -7,11 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <link rel="stylesheet" href="/assets/css/desandro.css" media="screen" />
 
-  <!-- if $css do
-    foreach $css do
-      <link rel="stylesheet" href="@url" media="screen" />
-    endforeach
-  endif -->
+  {% if page.css %}
+    <link rel="stylesheet" href="/assets/css/articles/{{ page.css}}" media="screen" />
+  {% endif %}
 
   <script src="/assets/js/modernizr.js"></script>
   <script src="http://use.typekit.com/bqa1ehi.js"></script>
