@@ -1,0 +1,52 @@
+
+/***** nclusion post *****/
+
+body.articles {
+  background: #00384c url(/assets/img/articles/nclusion_bg_repeat03.png) center -44px repeat-x;
+  padding-top: 0;
+}
+
+body.articles #content .wrap12 {
+  background: url(/assets/img/articles/nclusion_bg_center02.png) center -20px no-repeat;
+  padding-top: 40px;
+  position: relative;
+}
+
+#masthead nav a.selected { z-index: 100; }
+
+h1 {
+  border: none;
+  text-indent: -9999px;
+  background: url(/assets/img/articles/nclusion_title01.png) top center no-repeat;
+  height: 80px;
+}
+
+#content {
+  padding-bottom: 40px;
+}
+
+#nclusion {
+  color: #A9C9D5;
+  font-family:"lucida grande","lucida sans unicode","lucida sans",arial,sans-serif;
+  clear: both;
+  width: 550px;
+  margin: 0 auto 0;
+  padding-top: 20px;
+  
+  font-size: 13px;
+}
+
+#nclusion a {
+  color: #FFF
+}
+#nclusion a:hover {
+  text-decoration: underline;
+  background: hsla(0,0%,100%,.1);
+}
+
+
+#nclusion .example {
+  background: url(/assets/img/articles/nclusion_p01.png) top center no-repeat;
+  text-indent: -9999px;
+  height: 150px;
+}
