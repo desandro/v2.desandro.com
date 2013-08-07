@@ -4,9 +4,9 @@
   </div>
   <ol>
     <li class="articles"><a href="/articles">Articles</a>
-      {% if page.categories == 'articles' %}
+      {% if page.layout == 'article' %}
         / <em><a href="{{ page.url }}">{{ page.title }}</a></em>
-        <time datetime="{{ page.iso8601time }}">{{ page.date }}</time>
+        <time datetime="{{ page.iso8601time }}">{{ page.date | date:'%d %b %Y' }}</time>
       {% endif %}
     </li>
     <!-- <li class="portfolio"><a href="/portfolio">Portfolio</a>
