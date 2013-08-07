@@ -48,13 +48,10 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
   <script src="/assets/js/application.js"></script>
 
-  <!-- if $js do
-    foreach $js do
-      <script src="@url"></script>
-    endforeach
-  endif -->
+  {% if page.js %}
+    <script src="/assets/js/{{ page.js }}"></script>
+  {% endif %}
 
   <!-- if @scripts do
     @scripts
   endif -->
-
