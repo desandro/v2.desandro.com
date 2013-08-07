@@ -1,0 +1,39 @@
+---
+layout: null
+---
+{% include html_head.html %}
+
+</head>
+<body class="articles tk_proxima_nova">
+
+{% include header.html %}
+
+<section id="content" class="article-list">
+    <h1>Articles</h1>
+
+    <div class="articles">
+      {% for article in site.categories.articles %}
+            <article>
+                <a href="{{ article.url }}" class="clearfix">
+                    <h2>{{ article.title }}</h2>
+                    <time datetime="{{ article.iso8601time }}">{{ article.date | date:'%d %b %Y' }}</time>
+                    <!-- foreach $_preview do
+                        <img src="@url" width="@width" height="@height" />
+                    endforeach -->
+                </a>
+            </article>
+      {% endfor %}
+    </div><!-- #article_list -->
+
+</section>
+
+{% include footer.html %}
+
+<script src="/assets/js/jquery.masonry.min.js"></script>
+<script>
+  $(function(){
+    $('#content .articles').masonry();
+  });
+</script>
+
+{% include closing.html %}
