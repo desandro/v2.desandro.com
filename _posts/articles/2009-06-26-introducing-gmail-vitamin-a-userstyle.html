@@ -1,0 +1,62 @@
+---
+title: 'Introducing Gmail Vitamin: a&nbsp;userstyle'
+layout: article
+categories: articles
+date:  26 Jun 2009
+iso8601time: 2009-06-26T12:00:00-05:00
+short_url: gmailvit
+html_header: <link rel="stylesheet" href="/assets/css/v1.css" type="text/css" media="screen" />
+css: articles/intro_gmail_vitamin.css
+preview_img: gmail_vitamin04.png
+---
+<div class="wrap12">
+    <h1>{{ page.title }}</h1>
+    <div class="col7 space2left">
+
+    	<p class="deck">Jon Hicks aptly identifies Gmail as the <a href="http://24ways.org/2008/user-styling">Holy Grail of userstyles.</a> And rightly so&mdash;it is incredibly popular, yet it has enough visual quirks to ensure that absolutely no one is happy with its appearance.  As such, there are <a href="http://userstyles.org/styles/search/gmail">hundreds of Gmail userstyles</a> available.  For a while, I held off on attacking the project.  But after months of clicking those buttons encased in that awkward thick border, I had enough.  Something had to be done.</p>
+
+    	<p class="col12 pull2left"><img height="586" width="938" alt="Gmail vitamin screenshot" title="Gmail vitamin screenshot" src="/assets/img/articles/gmail_vitamin06.png" /></p>
+
+    	<p><a href="http://userstyles.org/styles/19022" class="button">Download Gmail Vitamin</a></p>
+
+    	<p>As you can see, I didn’t want to completely overhaul the interface.  Google apps are generally innocuous, an aesthetic I appreciate as the design facilitates the functionality fairly well.  All the tweaks I put in place are concerned with resolving some specific quirks that I just couldn’t stand anymore. The buttons are now softened and the 4px border around the main content has been reduced to 1px.  I also took consideration to add more padding around most items, <a href="http://www.subtraction.com/2008/06/17/spacing-is-e">as advocated by Khoi Vinh.</a>  For a full feature set, you can read all of them on the <a href="http://userstyles.org/styles/19022">userstyle page.</a>  </p>
+
+    <aside class="caption col3 pull3right"> I do realize that the Gmail team makes frequent revision to the markup, and I hope to keep this userstyle up to date.</aside>
+
+    	<p>While I tweaked the design with either the Classic Gmail theme in mind, the userstyle is compatible with all other themes.  In the likely case that you’re not 100% happy with my fixes, I added enough comments so that any user can go in and remove certain styles line-by-line.  I, for one, like having no underline for my links until I roll-over them. But I could imagine that others might need those links always underlined, especially when using the other themes.</p>
+
+    	<p>As with <a href="http://txpadminthemes.desandro.com">previous <span class="caps">CSS</span> themes,</a> all the gradients were generated with the <a href="/resources/quickie-canvas">Quickie Canvas.</a>  Here’s the script for the glossy buttons:</p>
+
+    <pre><code>var grad = ctx.createLinearGradient(0,0,0,h);
+grad.addColorStop(0, '#FFF');
+grad.addColorStop(.5, '#E8E8E8');
+grad.addColorStop(.5, '#DADADA');
+grad.addColorStop(1, '#F5F5F5');
+ctx.fillStyle = grad;
+ctx.fillRect( 0, 0, w, h);</code></pre>
+
+    	<h2> Now about those buttons…</h2>
+
+    	<p>If you’ve never looked under the hood of Gmail, I recommend giving it a try.  Open up Firebug and see if you can properly overwrite the background color of any element.  The markup is incredibly deep and intricate.  It’s mind-boggling at first, un-collapsing an <code>nH</code> div only discover that there are no less than four more <code>nH</code> divs contained within it.  And the epitome of this byzantine markup is the Gmail button.</p>
+
+    	<p>In February, then-Google-lead-designer Douglas Bowman <a href="http://stopdesign.com/archive/2009/02/04/recreating-the-button.html">unveiled the new multi-function buttons</a> for Gmail.  I do have to tip my hat: it was a tremendous achievement that Bowmen was able to create a pseudo-rounded-corner box with pseudo-shading and make it all work even in IE6.  But in order do so the markup for just one button is the following:</p>
+
+    <pre class="col12 pull2left"><code>&lt;div id="" class="goog-imageless-button goog-inline-block goog-imageless-button goog-imageless-button-collapse-right goog-imageless-button-primary"&gt;
+    &lt;div class="goog-inline-block goog-imageless-button-outer-box"&gt;
+        &lt;div class="goog-inline-block goog-imageless-button-inner-box"&gt;
+            &lt;div class="goog-imageless-button-pos"&gt;
+                &lt;div class="goog-imageless-button-top-shadow"&gt; &lt;/div&gt;
+                &lt;div class="goog-imageless-button-content"&gt;
+                    &lt;b&gt;Button text&lt;/b&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+    	<p>I bother bringing this up because I can think of no better example for the case of progressive enhancement.  Hacking seven elements to get a faux version of rounded corners and gradient shading seems to be like throwing the baby out with the bath-water, especially considering that the same effect could be better achieved solely in <span class="caps">CSS</span>.  If Google embraced progressive enhancement, they wouldn’t have to go to such lengths, producing a monstrosity of markup all for a single button.  IE6 users would be still get buttons, theirs just wouldn’t be as pretty.  </p>
+
+    	<p>The Gmail buttons are a bit of a Rube Goldberg contraption. But with options like userstyles and Greasemonkey scripts available, I guess I can’t complain.  All I’m asking is they make it a little easier next time.</p>
+
+    </div>
+</div><!-- .wrap12 -->
