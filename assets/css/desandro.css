@@ -218,9 +218,10 @@ a:hover {
 }
 
 body.articles #site-header #branding { top: 0;}
-body.resources #site-header #branding { top: 22px;}
+/*body.resources #site-header #branding { top: 22px;}
 body.portfolio #site-header #branding { top: 44px;}
-body.about #site-header #branding { top: 66px;}
+body.about #site-header #branding { top: 66px;}*/
+body.about #site-header #branding { top: 22px; }
 
 #site-header #branding p {
     width: 940px;
