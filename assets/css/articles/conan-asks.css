@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'BodoniFLF Italic';
+  src: url(/assets/fonts/BodoniFLF-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BodoniFLF Bold';
+  src: url(/assets/fonts/BodoniFLF-Bold.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'BodoniFLF Bold Italic';
+  src: url(/assets/fonts/BodoniFLF-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BodoniUltraFLF';
+  src: url(/assets/fonts/BodoniUltraFLF.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BodoniUltraFLF Italic';
+  src: url(/assets/fonts/BodoniUltraFLF-Italic.ttf) format('truetype');
+}
+
+body.articles {
+    background: #FFF;
+}
+
+#content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'BodoniFLF Bold', 'Bodoni Std', Bodoni, serif;
+    color: #494643;
+}
+
+#content h1 {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+#content blockquote {
+    font-size: 30px;
+    text-align: center;
+}
+
+#content blockquote span {
+    display: block;
+    line-height: 1.7em;
+}
+
+#content .ask {
+    font-size: 20px;
+    font-family: 'BodoniFLF Bold';
+    text-transform: uppercase;
+    letter-spacing: 0.85em;
+    word-spacing: 0.8em;
+}
+
+#content .young-people {
+    font-size: 30px;
+    font-family: 'BodoniFLF Italic';
+    margin-bottom: 100px;
+}
+
+
+#content .young-people em {
+    font-family: 'BodoniFLF Bold';
+    font-style: normal;
+}
+
+#content .please { 
+    font-size: 70px; 
+    line-height: 1.4em;
+}
+
+#content .cynicism {
+
+    line-height: 2.3em;
+    font-size: 17px;
+    font-family: 'BodoniUltraFLF';
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    word-spacing: 0.3em;
+    margin-bottom: 100px;
+
+}
+
+#content .cynicism em {
+    font-style: normal;
+}
+
+#content .nobody {
+    font-size: 54px;
+    line-height: 1.2em;
+}
+
+#content .thought {
+    font-size: 49px;
+    margin-bottom: 100px;
+    line-height: 1.2em;
+}
+
+#content .work,
+#content .kind {
+    font-family: 'BodoniFLF Bold';
+}
+
+#content .work em, 
+#content .kind em {
+    font-family: 'BodoniUltraFLF';
+    font-variant: small-caps;
+    font-style: normal;
+}
+
+#content .work {
+    font-size: 54px;
+    line-height: 1.3em;
+}
+
+#content .kind {
+    font-size: 86px;
+    line-height: 1.1em;
+    margin-bottom: 100px;
+}
+
+#content .amazing {
+    font-family: 'BodoniUltraFLF Italic';
+    font-size: 76px;
+    letter-spacing: -0.02em;
+    line-height: 1.2em;
+}
+
+#content .happen {
+    font-family: 'BodoniUltraFLF Italic';
+    font-size: 100px;
+    letter-spacing: -0.02em;
+    line-height: 1.2em;
+}
+
+#content .attribution {
+    width: 680px;
+    border-top: 1px solid;
+    margin: 0 auto;
+    font-size: 32px;
+    padding-top: 1.0em;
+    text-align: center;
+}
+
+/**************************
+**  Site Header
+**************************/
+
+#site-header {
+    opacity: 0.2;
+    -webkit-transition: all 0.2s ease-out;
+}
+
+#site-header:hover {
+    opacity: 1.0;
+}
