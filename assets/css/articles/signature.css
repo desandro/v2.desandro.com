@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #222;
+}
+
+#elastic-rope {
+  height: 600px;
+  position: relative;
+  z-index: 100;
+}
+
+.elastic-rope-dot {
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.elastic-rope-link {
+  width: 10px;
+  height: 100%;
+  background: white;
+  position: absolute;
+  left: 8px;
+  top: 0px;
+  -webkit-transform-origin: left center;
+     -moz-transform-origin: left center;
+       -o-transform-origin: left center;
+          transform-origin: left center;
+}
+
+#copy {
+  color: white;
+  font-size: 14px;
+  width: 540px;
+  padding: 0 10px;
+  margin: 0 auto 40px;
+}
